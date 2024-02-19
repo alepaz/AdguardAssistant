@@ -1,20 +1,20 @@
-@bg-color: #323232;
+@bg-color: #fff;
 @bg-hover: #555555;
 @bg-active: #4d4d4d;
 @bg-grey: #666666;
 @border-color: #444;
-@text-main-color: #ccc;
-@text-body-color: #ddd;
+@text-main-color: #007DBA;
+@text-body-color: #535353;
 
-@light-green: #67B279;
-@basic-green: #4D995F;
-@dark-green: #39774C;
+@light-green: #2196f3;
+@basic-green: #0781da;
+@dark-green: #006ebf;
 
 @light-red: #BF4829;
 @basic-red: #8E2C13;
 @dark-red: #732613;
 
-@advanced-settings-bg: #555;
+@advanced-settings-bg: #fff;
 @input-border: #666;
 
 
@@ -149,40 +149,29 @@ input[type="checkbox"] {
 }
 
 .btn-primary {
-  border-color: @basic-green;
-  background: @basic-green;
+  border: none;
+  background: #2196F3;
   color: #fff;
+  border-radius: 8px;
+  transition: background-color .3s ease;
   &:hover{
-    border-color: @dark-green;
-    background: @dark-green;
     color: #fff;
-  }
-  &.active, &:active{
-    border-color: @dark-green;
-    background: @dark-green;
+    opacity: .85;
   }
   &.disabled, &[disabled]{
-    border-color: @dark-green;
-    background: @dark-green;
+    border: none;
+    background: @secondary-color;
   }
 }
 
 .btn-cancel {
-  border-color: @basic-red;
-  background: @basic-red;
-  color: #fff;
+  background: transparent;
+  color: #525765;
+  border-radius: 8px;
+  transition: background-color .3s ease;
+  box-shadow: inset 0 0 0 1px #979797;
   &:hover{
-    border-color: @dark-red;
-    background: @dark-red;
-    color: #fff;
-  }
-  &.active, &:active{
-    border-color: @dark-red;
-    background: @dark-red;
-  }
-  &.disabled, &[disabled]{
-    border-color: @dark-red;
-    background: @dark-red;
+    opacity: .85;
   }
 }
 

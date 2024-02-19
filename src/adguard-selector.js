@@ -200,7 +200,7 @@ function AdguardSelector(api = {}) {
             float: 'none',
             border: '0',
             outline: '0',
-            'background-color': '#13a35e',
+            'background-color': '#0781da',
             'font-style': 'normal',
             'vertical-align': 'baseline',
             'text-align': 'left',

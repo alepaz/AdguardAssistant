@@ -194,7 +194,7 @@ function UIButton() {
         button = buttonElement.firstChild;
         let adgStylesButton;
         if (protectedApi.checkShadowDomSupport()) {
-            const shadowbuttonElement = buttonElement.attachShadow({ mode: 'closed' });
+            const shadowbuttonElement = buttonElement.attachShadow({ mode: 'open' });
             adgStylesButton = protectedApi.createStylesElement(
                 CSS.common + CSS.button,
                 getStyleNonce(),

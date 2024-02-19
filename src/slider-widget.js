@@ -1,9 +1,9 @@
 import { addStyle, addClass } from './utils/dom-utils';
 import protectedApi from './protectedApi';
 
-const BASIC_GREEN_COLOR = '#36BA53';
-const DARK_GREEN_COLOR = '#4D995F';
-const TICK_RIGHT_COLOR = '#E0DFDB';
+const BASIC_GREEN_COLOR = '#0781da';
+const DARK_GREEN_COLOR = '#006ebf';
+const TICK_RIGHT_COLOR = '#d0d0d0';
 
 /**
  * Slider widget

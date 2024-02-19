@@ -40,20 +40,17 @@
 // --------------------------------------------------
 
 .btn-default {
-    border-color: @secondary-color;
-    background: @secondary-color;
+    border: none;
+    background: #2196F3;
     color: #fff;
+    transition: background-color .3s ease;
+    border-radius: 8px;
     &:hover{
-        border-color: lighten(@secondary-color, 10%);
-        background: lighten(@secondary-color, 10%);
+        opacity: .85;
         color: #fff;
     }
-    &.active, &:active{
-        border-color: lighten(@secondary-color, 10%);
-        background: lighten(@secondary-color, 10%);
-    }
     &.disabled, &[disabled]{
-        border-color: @secondary-color;
+        border: none;
         background: @secondary-color;
     }
 }

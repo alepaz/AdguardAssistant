@@ -3,8 +3,8 @@
 @bg-active: #f3f3f3;
 @bg-grey: #dfdfdf;
 @border-color: #e0dfdb;
-@text-main-color: #343434;
-@text-body-color: #282828;
+@text-main-color: #007DBA;
+@text-body-color: #535353;
 
 @basic-green: #36ba53;
 @dark-green: darken(@basic-green, 5%);
@@ -146,40 +146,29 @@ input[type="checkbox"] {
 }
 
 .btn-primary {
-  border-color: @basic-green;
-  background: @basic-green;
+  border: none;
+  background: #2196F3;
   color: #fff;
+  border-radius: 8px;
+  transition: background-color .3s ease;
   &:hover{
-    border-color: @dark-green;
-    background: @dark-green;
     color: #fff;
-  }
-  &.active, &:active{
-    border-color: @dark-green;
-    background: @dark-green;
+    opacity: .85;
   }
   &.disabled, &[disabled]{
-    border-color: @dark-green;
-    background: @dark-green;
+    border: none;
+    background: @secondary-color;
   }
 }
 
 .btn-cancel {
-  border-color: @basic-red;
-  background: @basic-red;
-  color: #fff;
+  background: transparent;
+  color: #525765;
+  border-radius: 8px;
+  transition: background-color .3s ease;
+  box-shadow: inset 0 0 0 1px #979797;
   &:hover{
-    border-color: @dark-red;
-    background: @dark-red;
-    color: #fff;
-  }
-  &.active, &:active{
-    border-color: @dark-red;
-    background: @dark-red;
-  }
-  &.disabled, &[disabled]{
-    border-color: @dark-red;
-    background: @dark-red;
+    opacity: .85;
   }
 }
 

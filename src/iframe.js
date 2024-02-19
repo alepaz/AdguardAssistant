@@ -70,7 +70,7 @@ function IframeController() {
     };
 
     const createShadowRootElement = (iframeAnc) => {
-        const shadowiframeAnchor = iframeAnc.attachShadow({ mode: 'closed' });
+        const shadowiframeAnchor = iframeAnc.attachShadow({ mode: 'open' });
         const stylesElement = protectedApi.createStylesElement(
             CSS.common + CSS.iframe,
             getStyleNonce(),
