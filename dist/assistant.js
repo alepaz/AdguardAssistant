@@ -1,7 +1,7 @@
 /*!
- * AdGuard Assistant - v4.3.71 - Mon Feb 19 2024
- * https://github.com/AdguardTeam/AdguardAssistant#adguard-assistant
- * Copyright (c) 2024 AdGuard. Licensed GPL-3.0
+ * AdGuard Assistant - v1.0.0 - Mon Feb 19 2024
+ *
+ * Copyright (c) 2024 asurvio. Licensed GPL-3.0
  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
@@ -5180,7 +5180,7 @@ function UIButton() {
 
     if (src_protectedApi.checkShadowDomSupport()) {
       var shadowbuttonElement = buttonElement.attachShadow({
-        mode: 'closed'
+        mode: 'open'
       });
       adgStylesButton = src_protectedApi.createStylesElement(CSS.common + CSS.button, getStyleNonce());
       shadowbuttonElement.appendChild(adgStylesButton);
@@ -5417,7 +5417,7 @@ function IframeController() {
 
   var createShadowRootElement = function createShadowRootElement(iframeAnc) {
     var shadowiframeAnchor = iframeAnc.attachShadow({
-      mode: 'closed'
+      mode: 'open'
     });
     var stylesElement = src_protectedApi.createStylesElement(CSS.common + CSS.iframe, getStyleNonce());
     shadowiframeAnchor.appendChild(stylesElement);
@@ -5962,7 +5962,7 @@ function SliderMenuControllerMobile(addRule, iframe) {
   };
 }
 ;// CONCATENATED MODULE: ./package.json
-const package_namespaceObject = {"i8":"4.3.71"};
+const package_namespaceObject = {"i8":"1.0.0"};
 ;// CONCATENATED MODULE: ./src/iframe.mobile.js
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 

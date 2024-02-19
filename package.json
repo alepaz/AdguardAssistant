@@ -1,6 +1,6 @@
 {
     "name": "asurvio-assistant-fork",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Asurvio's fork of AdGuard Assistant helps you manage filtering right from the browser",
     "main": "dist/assistant.js",
     "types": "dist/assistant.d.ts",

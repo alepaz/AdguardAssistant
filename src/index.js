@@ -1,6 +1,6 @@
 import { adguardAssistantMini, adguardAssistantExtended } from './embedded';
 import { isMobile } from './helpers';
 
-export const adguardAssistant = isMobile(navigator.userAgent)
+export const dsOneAssistant = isMobile(navigator.userAgent)
     ? adguardAssistantMini
     : adguardAssistantExtended;
