@@ -1,7 +1,7 @@
 {
-    "name": "@adguard/assistant",
-    "version": "4.3.71",
-    "description": "AdGuard Assistant helps you manage filtering right from the browser",
+    "name": "asurvio-assistant-fork",
+    "version": "1.0.0",
+    "description": "Asurvio's fork of AdGuard Assistant helps you manage filtering right from the browser",
     "main": "dist/assistant.js",
     "types": "dist/assistant.d.ts",
     "scripts": {
@@ -18,17 +18,9 @@
         "increment": "yarn version --patch --no-git-tag-version",
         "prepublishOnly": "yarn release"
     },
-    "author": "AdGuard",
+    "author": "asurvio",
     "license": "GPL-3.0",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/AdguardTeam/AdguardAssistant.git"
-    },
-    "bugs": {
-        "url": "https://github.com/AdguardTeam/AdguardAssistant/issues"
-    },
-    "homepage": "https://github.com/AdguardTeam/AdguardAssistant#adguard-assistant",
-    "devDependencies": {
+      "devDependencies": {
         "@babel/core": "^7.9.0",
         "@babel/preset-env": "^7.9.0",
         "axios": "^0.19.2",
