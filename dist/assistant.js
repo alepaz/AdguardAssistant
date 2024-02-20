@@ -1,5 +1,5 @@
 /*!
- * AdGuard Assistant - v1.0.2 - Mon Feb 19 2024
+ * AdGuard Assistant - v1.0.3 - Mon Feb 19 2024
  *
  * Copyright (c) 2024 asurvio. Licensed GPL-3.0
  */
@@ -16,47 +16,47 @@
 return /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 1503:
+/***/ 6822:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var map = {
-	"./ar/messages.json": 5443,
-	"./be/messages.json": 24,
-	"./cs/messages.json": 3337,
-	"./da/messages.json": 7691,
-	"./de/messages.json": 9947,
-	"./el/messages.json": 1773,
-	"./en/messages.json": 1272,
-	"./es/messages.json": 8194,
-	"./fa/messages.json": 5455,
-	"./fi/messages.json": 6183,
-	"./fr/messages.json": 4652,
-	"./he/messages.json": 6514,
-	"./hi/messages.json": 1996,
-	"./hr/messages.json": 2178,
-	"./hu/messages.json": 2698,
-	"./id/messages.json": 710,
-	"./it/messages.json": 7294,
-	"./ja/messages.json": 9265,
-	"./ko/messages.json": 1474,
-	"./lt/messages.json": 8612,
-	"./nl/messages.json": 8967,
-	"./no/messages.json": 6251,
-	"./pl/messages.json": 1549,
-	"./pt-PT/messages.json": 1902,
-	"./pt/messages.json": 9274,
-	"./ro/messages.json": 6090,
-	"./ru/messages.json": 3999,
-	"./sk/messages.json": 89,
-	"./sl/messages.json": 6058,
-	"./sr/messages.json": 9177,
-	"./sv/messages.json": 6105,
-	"./tr/messages.json": 147,
-	"./uk/messages.json": 1249,
-	"./vi/messages.json": 4534,
-	"./zh-HK/messages.json": 3476,
-	"./zh-TW/messages.json": 5480,
-	"./zh/messages.json": 8868
+	"./ar/messages.json": 2066,
+	"./be/messages.json": 7500,
+	"./cs/messages.json": 3753,
+	"./da/messages.json": 8626,
+	"./de/messages.json": 5278,
+	"./el/messages.json": 2360,
+	"./en/messages.json": 6642,
+	"./es/messages.json": 2271,
+	"./fa/messages.json": 356,
+	"./fi/messages.json": 7804,
+	"./fr/messages.json": 9335,
+	"./he/messages.json": 4314,
+	"./hi/messages.json": 8158,
+	"./hr/messages.json": 1733,
+	"./hu/messages.json": 4890,
+	"./id/messages.json": 940,
+	"./it/messages.json": 5468,
+	"./ja/messages.json": 1080,
+	"./ko/messages.json": 1973,
+	"./lt/messages.json": 1295,
+	"./nl/messages.json": 9841,
+	"./no/messages.json": 370,
+	"./pl/messages.json": 4067,
+	"./pt-PT/messages.json": 6254,
+	"./pt/messages.json": 7435,
+	"./ro/messages.json": 7150,
+	"./ru/messages.json": 1468,
+	"./sk/messages.json": 3377,
+	"./sl/messages.json": 9422,
+	"./sr/messages.json": 8896,
+	"./sv/messages.json": 6428,
+	"./tr/messages.json": 1777,
+	"./uk/messages.json": 7415,
+	"./vi/messages.json": 9692,
+	"./zh-HK/messages.json": 6359,
+	"./zh-TW/messages.json": 6543,
+	"./zh/messages.json": 9161
 };
 
 
@@ -77,38 +77,31 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 1503;
+webpackContext.id = 6822;
 
 /***/ }),
 
-/***/ 14:
+/***/ 5079:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
-
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+var _require = __webpack_require__(6539),
+  _require2 = _slicedToArray(_require, 1),
+  _require2$ = _require2[0],
+  BASE_LOCALE = _require2$.base_locale,
+  PROJECT_ID = _require2$.project_id,
+  LANGUAGES = _require2$.languages,
+  LOCALIZABLE_FILES = _require2$.localizable_files;
 
-var _require = __webpack_require__(897),
-    _require2 = _slicedToArray(_require, 1),
-    _require2$ = _require2[0],
-    BASE_LOCALE = _require2$.base_locale,
-    PROJECT_ID = _require2$.project_id,
-    LANGUAGES = _require2$.languages,
-    LOCALIZABLE_FILES = _require2$.localizable_files;
 /**
  * Users locale may be defined with only two chars (language code)
  * Here we provide a map of equivalent translation for such locales
  */
-
-
 var LOCALES_EQUIVALENTS_MAP = {
   'pt-BR': 'pt',
   'zh-CN': 'zh'
@@ -123,14 +116,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4123:
+/***/ 6584:
 /***/ ((module, exports, __webpack_require__) => {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(3645);
-var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(1667);
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(2668);
-var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(1823);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(6314);
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(4417);
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(5269);
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(7001);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
@@ -142,13 +135,13 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 2571:
+/***/ 2711:
 /***/ ((module, exports, __webpack_require__) => {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(3645);
-var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(1667);
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(9053);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(6314);
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(4417);
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(6746);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
@@ -159,28 +152,28 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 6469:
+/***/ 5876:
 /***/ ((module, exports, __webpack_require__) => {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(3645);
-var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(1667);
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(8115);
-var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(1660);
-var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(1372);
-var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(6112);
-var ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(9919);
-var ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(9023);
-var ___CSS_LOADER_URL_IMPORT_6___ = __webpack_require__(6810);
-var ___CSS_LOADER_URL_IMPORT_7___ = __webpack_require__(2307);
-var ___CSS_LOADER_URL_IMPORT_8___ = __webpack_require__(7062);
-var ___CSS_LOADER_URL_IMPORT_9___ = __webpack_require__(6255);
-var ___CSS_LOADER_URL_IMPORT_10___ = __webpack_require__(9385);
-var ___CSS_LOADER_URL_IMPORT_11___ = __webpack_require__(8225);
-var ___CSS_LOADER_URL_IMPORT_12___ = __webpack_require__(6523);
-var ___CSS_LOADER_URL_IMPORT_13___ = __webpack_require__(2286);
-var ___CSS_LOADER_URL_IMPORT_14___ = __webpack_require__(2668);
-var ___CSS_LOADER_URL_IMPORT_15___ = __webpack_require__(1823);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(6314);
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(4417);
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(8833);
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(5547);
+var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(282);
+var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(2217);
+var ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(6712);
+var ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(1783);
+var ___CSS_LOADER_URL_IMPORT_6___ = __webpack_require__(8982);
+var ___CSS_LOADER_URL_IMPORT_7___ = __webpack_require__(9625);
+var ___CSS_LOADER_URL_IMPORT_8___ = __webpack_require__(5299);
+var ___CSS_LOADER_URL_IMPORT_9___ = __webpack_require__(3946);
+var ___CSS_LOADER_URL_IMPORT_10___ = __webpack_require__(4277);
+var ___CSS_LOADER_URL_IMPORT_11___ = __webpack_require__(6037);
+var ___CSS_LOADER_URL_IMPORT_12___ = __webpack_require__(6845);
+var ___CSS_LOADER_URL_IMPORT_13___ = __webpack_require__(9540);
+var ___CSS_LOADER_URL_IMPORT_14___ = __webpack_require__(5269);
+var ___CSS_LOADER_URL_IMPORT_15___ = __webpack_require__(7001);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
@@ -206,21 +199,21 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 817:
+/***/ 3605:
 /***/ ((module, exports, __webpack_require__) => {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(3645);
-var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(1667);
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(2668);
-var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(1823);
-var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(9053);
-var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(8269);
-var ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(2834);
-var ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(9713);
-var ___CSS_LOADER_URL_IMPORT_6___ = __webpack_require__(7693);
-var ___CSS_LOADER_URL_IMPORT_7___ = __webpack_require__(6265);
-var ___CSS_LOADER_URL_IMPORT_8___ = __webpack_require__(1109);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(6314);
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(4417);
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(5269);
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(7001);
+var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(6746);
+var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(649);
+var ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(1732);
+var ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(4811);
+var ___CSS_LOADER_URL_IMPORT_6___ = __webpack_require__(2835);
+var ___CSS_LOADER_URL_IMPORT_7___ = __webpack_require__(1953);
+var ___CSS_LOADER_URL_IMPORT_8___ = __webpack_require__(429);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
@@ -239,11 +232,11 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 3596:
+/***/ 9794:
 /***/ ((module, exports, __webpack_require__) => {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(3645);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(6314);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 exports.push([module.id, "iframe#adguard-assistant-dialog {\n  position: fixed;\n  clip: auto;\n  border-radius: 3px;\n  box-shadow: 0 0 10px 3px rgba(162, 161, 161, 0.3);\n  z-index: 2147483647;\n  display: block!important;\n}\n.sg_hide_element {\n  display: none!important;\n}\nimg.adguard_sg_selected {\n  border: 5px solid #0F0 !important;\n}\n#_sg_div.sg_top {\n  top: 5px !important;\n}\n#_sg_div.sg_bottom {\n  bottom: 5px !important;\n}\n#_sg_div input {\n  margin-right: 10px !important;\n  font-size: 15px !important;\n}\n#_sg_path_field {\n  width: 400px !important;\n}\n#_sg_div .sg_new_line {\n  clear: both !important;\n}\n#_sg_div .sg_option {\n  float: left !important;\n}\n#_sg_div .adguard_sg_selected_option {\n  text-decoration: underline;\n}\n.adguard-placeholder {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAMAAAAMCGV4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo1OUM5OUE4MEZEQzUxMUUyOTAzM0EyODQyRjc5QjI2QyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo1OUM5OUE4MUZEQzUxMUUyOTAzM0EyODQyRjc5QjI2QyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjU5Qzk5QTdFRkRDNTExRTI5MDMzQTI4NDJGNzlCMjZDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU5Qzk5QTdGRkRDNTExRTI5MDMzQTI4NDJGNzlCMjZDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+9rJm9wAAAAZQTFRF2+7g1OfZ+LX/EgAAACtJREFUeNpiYIQABhhA5TIyoHIhfCS1DKhcEB/FJAZG7AYzoNlLLy5AgAEAMigAar6TcqkAAAAASUVORK5CYII=);\n}\n.adguard-placeholder-icon {\n  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAwCAYAAAB9sggoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpENkNBQTNGMkZEQzUxMUUyQjVFMkZEMUFFRjlGOEQyMyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpENkNBQTNGM0ZEQzUxMUUyQjVFMkZEMUFFRjlGOEQyMyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkQ2Q0FBM0YwRkRDNTExRTJCNUUyRkQxQUVGOUY4RDIzIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkQ2Q0FBM0YxRkRDNTExRTJCNUUyRkQxQUVGOUY4RDIzIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+49sbDwAAAl9JREFUeNrMmE0o5VEYxq9vJmpI2SBZjCSNKKGwkDE0m8mg2QwzEtkNCeUjGyVhYTbTUIZEMWmkbCVlw9QkG4mammbK5zAWuLqek3ch3W7v+Z8P/7d+u/cczz3neM7zP0Htg12eR6wUkA+eg2yQDOLAYegjiIkEr0AjyAPRfnp8toW9Be20QoHKa0tYEhgCVdwBNoQVgCmQKjPItLAKMAtiZAeaFFYM5sATJ4ODDYl6BuadijIlLAJMgHiFOWJMbGUfmaZsHYN98Bvs6haWA1olx2yCMfAd/DF1+Psl5rwGPWAYXJn8r3wNXjB7L0ENrZLRwy/m6ZDorw8kSqewUpDL7P0Epm3YRRBoYfbugW5bPpZDK8apTnBqS9h7WjWOLXyz5fxPQSWjz0dWcmPrEhdJNIEprIlW198Z7aUV1SasQWJnAp3Dzw+FqWxlOmV2HeXVecbegHBTYS5YYVy1yejrVJhIpxluFPaB6V1WhSWQTXjcJqyKjFVnhagabBhFFk7tgnPmlp+oChNbmMXM70XgL3Nen6qwj8y+xfv53fQZKweFzN5xW4c/Cgwwe9fAui1hIuBlMntHZOKNirAyiQ+NLbBkw8fEE9IM2QSnBv19I+oWVguWQSxzrnX6EVrqoV2I15kS0AxeSszjo+326hQm3hoSQRqR6mCeL2BV5x0VSjYQojDHNmgzcYn/Uxj/H9SBM7fkMQ951Tuw4aageEMpY8FUHnPy+XZECXbRTUFxhezEqCiZFfsFRnXdg1xhgcT9BF/BJG2htRKiDjx376EX9Md36HoR/NDp5jJ1K8AAcQBmooZhTgQAAAAASUVORK5CYII=);\n  background-position: center center;\n  background-repeat: no-repeat;\n  height: 100%;\n}\n.adguard-placeholder-domain {\n  background: #778b7c;\n  color: #ffffff;\n  left: 0;\n  top: 0;\n  padding: 2px 4px;\n  position: relative;\n}\n@media print {\n  .adguard-alert,\n  #adguard-assistant-dialog {\n    display: none!important;\n    opacity: 0!important;\n    visibility: hidden!important;\n  }\n}\n", ""]);
@@ -253,7 +246,7 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ 3645:
+/***/ 6314:
 /***/ ((module) => {
 
 "use strict";
@@ -354,7 +347,7 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ 1667:
+/***/ 4417:
 /***/ ((module) => {
 
 "use strict";
@@ -395,7 +388,7 @@ module.exports = function (url, options) {
 
 /***/ }),
 
-/***/ 5688:
+/***/ 927:
 /***/ ((module) => {
 
 // Module
@@ -405,7 +398,7 @@ module.exports = code;
 
 /***/ }),
 
-/***/ 6696:
+/***/ 8968:
 /***/ ((module) => {
 
 // Module
@@ -415,7 +408,7 @@ module.exports = code;
 
 /***/ }),
 
-/***/ 3317:
+/***/ 8362:
 /***/ ((module) => {
 
 // Module
@@ -425,7 +418,7 @@ module.exports = code;
 
 /***/ }),
 
-/***/ 4825:
+/***/ 9821:
 /***/ ((module) => {
 
 // Module
@@ -435,7 +428,7 @@ module.exports = code;
 
 /***/ }),
 
-/***/ 2115:
+/***/ 4674:
 /***/ ((module) => {
 
 // Module
@@ -445,7 +438,7 @@ module.exports = code;
 
 /***/ }),
 
-/***/ 8514:
+/***/ 4494:
 /***/ ((module) => {
 
 // Module
@@ -455,7 +448,7 @@ module.exports = code;
 
 /***/ }),
 
-/***/ 4693:
+/***/ 8634:
 /***/ ((module) => {
 
 // Module
@@ -465,7 +458,7 @@ module.exports = code;
 
 /***/ }),
 
-/***/ 7726:
+/***/ 8638:
 /***/ ((module) => {
 
 // Module
@@ -475,11 +468,15 @@ module.exports = code;
 
 /***/ }),
 
-/***/ 1403:
+/***/ 3700:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
-        var result = __webpack_require__(4123);
+        var result = __webpack_require__(6584);
+
+        if (result && result.__esModule) {
+            result = result.default;
+        }
 
         if (typeof result === "string") {
             module.exports = result;
@@ -490,11 +487,15 @@ module.exports = code;
 
 /***/ }),
 
-/***/ 5487:
+/***/ 643:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
-        var result = __webpack_require__(2571);
+        var result = __webpack_require__(2711);
+
+        if (result && result.__esModule) {
+            result = result.default;
+        }
 
         if (typeof result === "string") {
             module.exports = result;
@@ -505,11 +506,15 @@ module.exports = code;
 
 /***/ }),
 
-/***/ 3228:
+/***/ 7000:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
-        var result = __webpack_require__(6469);
+        var result = __webpack_require__(5876);
+
+        if (result && result.__esModule) {
+            result = result.default;
+        }
 
         if (typeof result === "string") {
             module.exports = result;
@@ -520,11 +525,15 @@ module.exports = code;
 
 /***/ }),
 
-/***/ 1953:
+/***/ 169:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
-        var result = __webpack_require__(817);
+        var result = __webpack_require__(3605);
+
+        if (result && result.__esModule) {
+            result = result.default;
+        }
 
         if (typeof result === "string") {
             module.exports = result;
@@ -535,11 +544,15 @@ module.exports = code;
 
 /***/ }),
 
-/***/ 5317:
+/***/ 9870:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
-        var result = __webpack_require__(3596);
+        var result = __webpack_require__(9794);
+
+        if (result && result.__esModule) {
+            result = result.default;
+        }
 
         if (typeof result === "string") {
             module.exports = result;
@@ -550,7 +563,7 @@ module.exports = code;
 
 /***/ }),
 
-/***/ 8269:
+/***/ 649:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -562,7 +575,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 7062:
+/***/ 5299:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -574,7 +587,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 1823:
+/***/ 7001:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -586,7 +599,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 2668:
+/***/ 5269:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -598,7 +611,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 1109:
+/***/ 429:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -610,7 +623,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6523:
+/***/ 6845:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -622,7 +635,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 9713:
+/***/ 4811:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -634,7 +647,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 2834:
+/***/ 1732:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -646,7 +659,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6255:
+/***/ 3946:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -658,7 +671,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 9053:
+/***/ 6746:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -670,7 +683,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6265:
+/***/ 1953:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -682,7 +695,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 7693:
+/***/ 2835:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -694,7 +707,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 8115:
+/***/ 8833:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -706,7 +719,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 9385:
+/***/ 4277:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -718,7 +731,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 8225:
+/***/ 6037:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -730,7 +743,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 2286:
+/***/ 9540:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -742,7 +755,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 1660:
+/***/ 5547:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -754,7 +767,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 1372:
+/***/ 282:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -766,7 +779,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6112:
+/***/ 2217:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -778,7 +791,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 9919:
+/***/ 6712:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -790,7 +803,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 9023:
+/***/ 1783:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -802,7 +815,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6810:
+/***/ 8982:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -814,7 +827,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 2307:
+/***/ 9625:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -826,307 +839,307 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 897:
+/***/ 6539:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('[{"project_id":"adguard-assistant","base_locale":"en","languages":{"en":"English","ar":"Arabic","be":"Belarusian","cs":"Czech","da":"Danish","de":"German","el":"Greek","es":"Spanish","fa":"Persian","fi":"Finnish","fr":"French","he":"Hebrew","hu":"Hungarian","id":"Indonesian","it":"Italian","ja":"Japanese","ko":"Korean","lt":"Lithuanian","no":"Norwegian","nl":"Dutch","pl":"Polish","pt-BR":"Portuguese (Brazil)","pt-PT":"Portuguese","ro":"Romanian","ru":"Russian","sk":"Slovak","sl":"Slovenian","sr":"Serbian (latin)","sv":"Swedish","tr":"Turkish","uk":"Ukrainian","vi":"Vietnamese","zh-CN":"Chinese Simplified (mainland China)","zh-HK":"Chinese Traditional (Hong Kong)","zh-TW":"Chinese Traditional (Taiwan)","hi":"Hindi","hr":"Croatian"},"localizable_files":["locales/en/messages.json","locales/en/messages.meta.json"]}]');
+module.exports = /*#__PURE__*/JSON.parse('[{"project_id":"adguard-assistant","base_locale":"en","languages":{"en":"English","ar":"Arabic","be":"Belarusian","cs":"Czech","da":"Danish","de":"German","el":"Greek","es":"Spanish","fa":"Persian","fi":"Finnish","fr":"French","he":"Hebrew","hu":"Hungarian","id":"Indonesian","it":"Italian","ja":"Japanese","ko":"Korean","lt":"Lithuanian","no":"Norwegian","nl":"Dutch","pl":"Polish","pt-BR":"Portuguese (Brazil)","pt-PT":"Portuguese","ro":"Romanian","ru":"Russian","sk":"Slovak","sl":"Slovenian","sr":"Serbian (latin)","sv":"Swedish","tr":"Turkish","uk":"Ukrainian","vi":"Vietnamese","zh-CN":"Chinese Simplified (mainland China)","zh-HK":"Chinese Traditional (Hong Kong)","zh-TW":"Chinese Traditional (Taiwan)","hi":"Hindi","hr":"Croatian"},"localizable_files":["locales/en/messages.json","locales/en/messages.meta.json"]}]');
 
 /***/ }),
 
-/***/ 5443:
+/***/ 2066:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"مواقع الويب","settings_position_save_all":"كافة مواقع الويب","settings_position_save_this":"هذا الموقع","assistant_select_element_start":"بدء","assistant_select_element_text":"اختر عنصرا في الصفحة للحظرقم بتحديث الصفحة لالغاء وضع حظر العنصر","menu_filtration_status":{"message":"تفعيل الفلترةعلى هذا الموقع"},"menu_do_not_filter_30_sec":{"message":"عدم الفلترة لمده 30 ثانيه"},"menu_block_ad_on_site":{"message":"منع الإعلان على هذا الموقع"},"menu_report_abuse":{"message":"الإبلاغ عن هذا الموقع"},"menu_site_report":{"message":"تقرير أمن الموقع"},"menu_settings":{"message":"إعدادات المساعد"},"menu_wot_reputation_indicator":{"message":"مؤشر سمعة الموقع"},"menu_wot_reputation_confidence_level":{"message":"مستوى الثقة في السمعة"},"assistant_select_element":{"message":"حظر العنصر"},"assistant_select_element_ext":{"message":"اختر عنصرا في الصفحة للحظر"},"assistant_select_element_cancel":{"message":"الغاء"},"assistant_block_element":{"message":"حظر العنصر"},"assistant_block_element_explain":{"message":"ضبط قاعدة حظر العنصر"},"assistant_slider_explain":{"message":"حرك شريط التمرير لتغيير حجم الإطار الذي ستعمل عليه القاعدة الجديدة:"},"assistant_extended_settings":{"message":"إعدادات متقدمة"},"assistant_apply_rule_to_all_sites":{"message":"تطبيق القاعدة علي كافة مواقع الويب"},"assistant_block_by_reference":{"message":"حظر حسب الارتباط المرجعي"},"assistant_block_similar":{"message":"حظر عنصر مما ثل"},"assistant_another_element":{"message":"حدد عنصرًا مختلفًا"},"assistant_preview":{"message":"المعاينه"},"assistant_block":{"message":"حظر"},"assistant_settings":{"message":"إعدادات المساعد"},"assistant_preview_header":{"message":"حجب عنصر--معاينه"},"assistant_preview_header_info":{"message":"تاكد من حظر هذا العنصر كما هو مقصود"},"assistant_preview_end":{"message":"إنهاء المعاينة"},"wot_unknown_description":{"message":"$1 لم يتم تعريف سمعه هذا الموقع من قبل"},"wot_bad_description":{"message":"$1هذا الموقع لديه سمعة سيئة للغاية \\nوفقاً لـ"},"wot_poor_description":{"message":"$1 هذا الموقع له سمعة سيئة \\nوفقا لـ"},"wot_unsatisfactory_description":{"message":"$1هذا الموقع له سمعة سيئة\\nوفقا لـ"},"wot_good_description":{"message":"$1يتمتع هذا الموقع بسمعة طيبة\\nوفقا لـ"},"wot_excellent_description":{"message":"هذا الموقع يتمتع بسمعة ممتازة\\nوفقاً لـ $1"},"settings_choose_size_and_position":{"message":"وموضعه AdGuard ضبط حجم مساعد"},"settings_icon_size":{"message":":حجم الرمز"},"settings_small":{"message":"صغير"},"settings_big":{"message":"كبير"},"settings_position":{"message":"وضع"},"settings_left_top":{"message":"اعلي اليسار"},"settings_right_top":{"message":"اعلي اليمين"},"settings_left_bottom":{"message":"أسفل لليسار"},"settings_right_bottom":{"message":"أسفل لليمين"},"settings_cancel":{"message":"الغاء"},"settings_save":{"message":"حفظ التغييرات"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"مواقع الويب","settings_position_save_all":"كافة مواقع الويب","settings_position_save_this":"هذا الموقع","assistant_select_element_start":"بدء","assistant_select_element_text":"اختر عنصرا في الصفحة للحظرقم بتحديث الصفحة لالغاء وضع حظر العنصر","menu_filtration_status":{"message":"تفعيل الفلترةعلى هذا الموقع"},"menu_do_not_filter_30_sec":{"message":"عدم الفلترة لمده 30 ثانيه"},"menu_block_ad_on_site":{"message":"منع الإعلان على هذا الموقع"},"menu_report_abuse":{"message":"الإبلاغ عن هذا الموقع"},"menu_site_report":{"message":"تقرير أمن الموقع"},"menu_settings":{"message":"إعدادات المساعد"},"menu_wot_reputation_indicator":{"message":"مؤشر سمعة الموقع"},"menu_wot_reputation_confidence_level":{"message":"مستوى الثقة في السمعة"},"assistant_select_element":{"message":"حظر العنصر"},"assistant_select_element_ext":{"message":"اختر عنصرا في الصفحة للحظر"},"assistant_select_element_cancel":{"message":"الغاء"},"assistant_block_element":{"message":"حظر العنصر"},"assistant_block_element_explain":{"message":"ضبط قاعدة حظر العنصر"},"assistant_slider_explain":{"message":"حرك شريط التمرير لتغيير حجم الإطار الذي ستعمل عليه القاعدة الجديدة:"},"assistant_extended_settings":{"message":"إعدادات متقدمة"},"assistant_apply_rule_to_all_sites":{"message":"تطبيق القاعدة علي كافة مواقع الويب"},"assistant_block_by_reference":{"message":"حظر حسب الارتباط المرجعي"},"assistant_block_similar":{"message":"حظر عنصر مما ثل"},"assistant_another_element":{"message":"حدد عنصرًا مختلفًا"},"assistant_preview":{"message":"المعاينه"},"assistant_block":{"message":"حظر"},"assistant_settings":{"message":"إعدادات المساعد"},"assistant_preview_header":{"message":"حجب عنصر--معاينه"},"assistant_preview_header_info":{"message":"تاكد من حظر هذا العنصر كما هو مقصود"},"assistant_preview_end":{"message":"إنهاء المعاينة"},"wot_unknown_description":{"message":"$1 لم يتم تعريف سمعه هذا الموقع من قبل"},"wot_bad_description":{"message":"$1هذا الموقع لديه سمعة سيئة للغاية \\nوفقاً لـ"},"wot_poor_description":{"message":"$1 هذا الموقع له سمعة سيئة \\nوفقا لـ"},"wot_unsatisfactory_description":{"message":"$1هذا الموقع له سمعة سيئة\\nوفقا لـ"},"wot_good_description":{"message":"$1يتمتع هذا الموقع بسمعة طيبة\\nوفقا لـ"},"wot_excellent_description":{"message":"هذا الموقع يتمتع بسمعة ممتازة\\nوفقاً لـ $1"},"settings_choose_size_and_position":{"message":"وموضعه AdGuard ضبط حجم مساعد"},"settings_icon_size":{"message":":حجم الرمز"},"settings_small":{"message":"صغير"},"settings_big":{"message":"كبير"},"settings_position":{"message":"وضع"},"settings_left_top":{"message":"اعلي اليسار"},"settings_right_top":{"message":"اعلي اليمين"},"settings_left_bottom":{"message":"أسفل لليسار"},"settings_right_bottom":{"message":"أسفل لليمين"},"settings_cancel":{"message":"الغاء"},"settings_save":{"message":"حفظ التغييرات"}}');
 
 /***/ }),
 
-/***/ 24:
+/***/ 7500:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Сайты","settings_position_save_all":"На ўсіх","settings_position_save_this":"Толькі на гэтым","assistant_select_element_start":"Пачаць","assistant_select_element_text":"Абярыце на старонцы элемент для блакавання. Абнавіце старонку, каб скасаваць рэжым блакавання элементаў.","menu_filtration_status":{"message":"Фільтрацыя на гэтым сайце"},"menu_do_not_filter_30_sec":{"message":"Не фільтраваць 30 секундаў"},"menu_block_ad_on_site":{"message":"Заблакаваць рэкламу на сайце"},"menu_report_abuse":{"message":"Паскардзіцца на сайт"},"menu_site_report":{"message":"Справаздача пра бяспеку сайта"},"menu_settings":{"message":"Наладзіць памочнік"},"menu_wot_reputation_indicator":{"message":"Індыкатар рэпутацыі сайта"},"menu_wot_reputation_confidence_level":{"message":"Узровень верагоднасці рэпутацыі"},"assistant_select_element":{"message":"Блакаванне элемента"},"assistant_select_element_ext":{"message":"Абярыце на старонцы элемент, які трэба заблакаваць"},"assistant_select_element_cancel":{"message":"Скасаванне"},"assistant_block_element":{"message":"Блакаванне элемента"},"assistant_block_element_explain":{"message":"Наладзьце правіла блакавання элемента"},"assistant_slider_explain":{"message":"Перасоўвайце бегунок, каб змяніць памер блока, для якога будзе дзейнічаць правіла:"},"assistant_extended_settings":{"message":"Пашыраныя налады"},"assistant_apply_rule_to_all_sites":{"message":"Ужыць правіла для ўсіх сайтаў"},"assistant_block_by_reference":{"message":"Блакаваць па спасылцы"},"assistant_block_similar":{"message":"Блакаваць падобныя"},"assistant_another_element":{"message":"Абраць іншы элемент"},"assistant_preview":{"message":"Перадпрагляд"},"assistant_block":{"message":"Заблакаваць"},"assistant_settings":{"message":"Налада памочніка"},"assistant_preview_header":{"message":"Блакаванне элемента - перадпрагляд"},"assistant_preview_header_info":{"message":"Пераканаецеся, што элемент заблакаваны як задумана"},"assistant_preview_end":{"message":"Скончыць перадпрагляд"},"wot_unknown_description":{"message":"Рэпутацыя не вызначана"},"wot_bad_description":{"message":"У сайта вельмі дрэнная рэпутацыя па дадзеных $1"},"wot_poor_description":{"message":"У сайта дрэнная рэпутацыя па дадзеных $1"},"wot_unsatisfactory_description":{"message":"У сайта нездавальняльная рэпутацыя па дадзеных $1"},"wot_good_description":{"message":"У сайта добрая рэпутацыя па дадзеных $1"},"wot_excellent_description":{"message":"У сайта выдатная рэпутацыя па дадзеных $1"},"settings_choose_size_and_position":{"message":"Наладзьце памер і становішча памочніка AdGuard"},"settings_icon_size":{"message":"Памер іконкі:"},"settings_small":{"message":"Маленькая"},"settings_big":{"message":"Вялікая"},"settings_position":{"message":"Месцаванне:"},"settings_left_top":{"message":"Уверсе злева"},"settings_right_top":{"message":"Уверсе справа"},"settings_left_bottom":{"message":"Унізе злева"},"settings_right_bottom":{"message":"Унізе справа"},"settings_cancel":{"message":"Скасаваць"},"settings_save":{"message":"Захаваць налады"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Сайты","settings_position_save_all":"На ўсіх","settings_position_save_this":"Толькі на гэтым","assistant_select_element_start":"Пачаць","assistant_select_element_text":"Абярыце на старонцы элемент для блакавання. Абнавіце старонку, каб скасаваць рэжым блакавання элементаў.","menu_filtration_status":{"message":"Фільтрацыя на гэтым сайце"},"menu_do_not_filter_30_sec":{"message":"Не фільтраваць 30 секундаў"},"menu_block_ad_on_site":{"message":"Заблакаваць рэкламу на сайце"},"menu_report_abuse":{"message":"Паскардзіцца на сайт"},"menu_site_report":{"message":"Справаздача пра бяспеку сайта"},"menu_settings":{"message":"Наладзіць памочнік"},"menu_wot_reputation_indicator":{"message":"Індыкатар рэпутацыі сайта"},"menu_wot_reputation_confidence_level":{"message":"Узровень верагоднасці рэпутацыі"},"assistant_select_element":{"message":"Блакаванне элемента"},"assistant_select_element_ext":{"message":"Абярыце на старонцы элемент, які трэба заблакаваць"},"assistant_select_element_cancel":{"message":"Скасаванне"},"assistant_block_element":{"message":"Блакаванне элемента"},"assistant_block_element_explain":{"message":"Наладзьце правіла блакавання элемента"},"assistant_slider_explain":{"message":"Перасоўвайце бегунок, каб змяніць памер блока, для якога будзе дзейнічаць правіла:"},"assistant_extended_settings":{"message":"Пашыраныя налады"},"assistant_apply_rule_to_all_sites":{"message":"Ужыць правіла для ўсіх сайтаў"},"assistant_block_by_reference":{"message":"Блакаваць па спасылцы"},"assistant_block_similar":{"message":"Блакаваць падобныя"},"assistant_another_element":{"message":"Абраць іншы элемент"},"assistant_preview":{"message":"Перадпрагляд"},"assistant_block":{"message":"Заблакаваць"},"assistant_settings":{"message":"Налада памочніка"},"assistant_preview_header":{"message":"Блакаванне элемента - перадпрагляд"},"assistant_preview_header_info":{"message":"Пераканаецеся, што элемент заблакаваны як задумана"},"assistant_preview_end":{"message":"Скончыць перадпрагляд"},"wot_unknown_description":{"message":"Рэпутацыя не вызначана"},"wot_bad_description":{"message":"У сайта вельмі дрэнная рэпутацыя па дадзеных $1"},"wot_poor_description":{"message":"У сайта дрэнная рэпутацыя па дадзеных $1"},"wot_unsatisfactory_description":{"message":"У сайта нездавальняльная рэпутацыя па дадзеных $1"},"wot_good_description":{"message":"У сайта добрая рэпутацыя па дадзеных $1"},"wot_excellent_description":{"message":"У сайта выдатная рэпутацыя па дадзеных $1"},"settings_choose_size_and_position":{"message":"Наладзьце памер і становішча памочніка AdGuard"},"settings_icon_size":{"message":"Памер іконкі:"},"settings_small":{"message":"Маленькая"},"settings_big":{"message":"Вялікая"},"settings_position":{"message":"Месцаванне:"},"settings_left_top":{"message":"Уверсе злева"},"settings_right_top":{"message":"Уверсе справа"},"settings_left_bottom":{"message":"Унізе злева"},"settings_right_bottom":{"message":"Унізе справа"},"settings_cancel":{"message":"Скасаваць"},"settings_save":{"message":"Захаваць налады"}}');
 
 /***/ }),
 
-/***/ 3337:
+/***/ 3753:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Webové stránky","settings_position_save_all":"Všechny webové stránky","settings_position_save_this":"Tato webová stránka","assistant_select_element_start":"Spustit","assistant_select_element_text":"Vyberte prvek na stránce, který chcete zablokovat. Obnovte stránku pro zrušení režimu blokování prvků.","menu_filtration_status":{"message":"Filtrování na těchto webových stránkách"},"menu_do_not_filter_30_sec":{"message":"Nefiltrovat po dobu 30 sekund"},"menu_block_ad_on_site":{"message":"Blokovat reklamy na této webové stránce"},"menu_report_abuse":{"message":"Nahlásit webovou stránku"},"menu_site_report":{"message":"Zpráva o bezpečnosti webové stránky"},"menu_settings":{"message":"Nastavení asistenta"},"menu_wot_reputation_indicator":{"message":"Indikátor reputace webu"},"menu_wot_reputation_confidence_level":{"message":"Úroveň důvěryhodnosti reputace"},"assistant_select_element":{"message":"Blokování prvku"},"assistant_select_element_ext":{"message":"Vyberte prvek na stránce, který chcete zablokovat"},"assistant_select_element_cancel":{"message":"Zrušit"},"assistant_block_element":{"message":"Blokování prvku"},"assistant_block_element_explain":{"message":"Upravit pravidlo blokování prvku"},"assistant_slider_explain":{"message":"Přesunutím posuvníku změňte velikost rámce, pro který bude nové pravidlo fungovat:"},"assistant_extended_settings":{"message":"Pokročilá nastavení"},"assistant_apply_rule_to_all_sites":{"message":"Použít pravidlo pro všechny webové stránky"},"assistant_block_by_reference":{"message":"Blokovat referenčním odkazem"},"assistant_block_similar":{"message":"Blokovat podobné"},"assistant_another_element":{"message":"Vyber jiný prvek"},"assistant_preview":{"message":"Náhled"},"assistant_block":{"message":"Blokovat"},"assistant_settings":{"message":"Nastavení asistenta"},"assistant_preview_header":{"message":"Blokování prvku - náhled"},"assistant_preview_header_info":{"message":"Ujistěte se, že je prvek zablokován podle určení"},"assistant_preview_end":{"message":"Ukončit náhled"},"wot_unknown_description":{"message":"Pověst této webové stránky není definována podle $1"},"wot_bad_description":{"message":"Tato webová stránka má velmi špatnou pověst \\npodle $1"},"wot_poor_description":{"message":"Tato webová stránka má špatnou pověst \\npodle $1"},"wot_unsatisfactory_description":{"message":"Tato webová stránka má špatnou pověst \\npodle $1"},"wot_good_description":{"message":"Tato webová stránka má dobrou pověst \\npodle $1"},"wot_excellent_description":{"message":"Tato webová stránka má výbornou pověst \\npodle $1"},"settings_choose_size_and_position":{"message":"Upravit velikost a pozici AdGuard Asistenta"},"settings_icon_size":{"message":"Velikost ikony:"},"settings_small":{"message":"Malá"},"settings_big":{"message":"Velká"},"settings_position":{"message":"Pozice:"},"settings_left_top":{"message":"Vlevo nahoře"},"settings_right_top":{"message":"Vpravo nahoře"},"settings_left_bottom":{"message":"Vlevo dole"},"settings_right_bottom":{"message":"Vpravo dole"},"settings_cancel":{"message":"Zrušit"},"settings_save":{"message":"Uložit změny"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Webové stránky","settings_position_save_all":"Všechny webové stránky","settings_position_save_this":"Tato webová stránka","assistant_select_element_start":"Spustit","assistant_select_element_text":"Vyberte prvek na stránce, který chcete zablokovat. Obnovte stránku pro zrušení režimu blokování prvků.","menu_filtration_status":{"message":"Filtrování na těchto webových stránkách"},"menu_do_not_filter_30_sec":{"message":"Nefiltrovat po dobu 30 sekund"},"menu_block_ad_on_site":{"message":"Blokovat reklamy na této webové stránce"},"menu_report_abuse":{"message":"Nahlásit webovou stránku"},"menu_site_report":{"message":"Zpráva o bezpečnosti webové stránky"},"menu_settings":{"message":"Nastavení asistenta"},"menu_wot_reputation_indicator":{"message":"Indikátor reputace webu"},"menu_wot_reputation_confidence_level":{"message":"Úroveň důvěryhodnosti reputace"},"assistant_select_element":{"message":"Blokování prvku"},"assistant_select_element_ext":{"message":"Vyberte prvek na stránce, který chcete zablokovat"},"assistant_select_element_cancel":{"message":"Zrušit"},"assistant_block_element":{"message":"Blokování prvku"},"assistant_block_element_explain":{"message":"Upravit pravidlo blokování prvku"},"assistant_slider_explain":{"message":"Přesunutím posuvníku změňte velikost rámce, pro který bude nové pravidlo fungovat:"},"assistant_extended_settings":{"message":"Pokročilá nastavení"},"assistant_apply_rule_to_all_sites":{"message":"Použít pravidlo pro všechny webové stránky"},"assistant_block_by_reference":{"message":"Blokovat referenčním odkazem"},"assistant_block_similar":{"message":"Blokovat podobné"},"assistant_another_element":{"message":"Vyber jiný prvek"},"assistant_preview":{"message":"Náhled"},"assistant_block":{"message":"Blokovat"},"assistant_settings":{"message":"Nastavení asistenta"},"assistant_preview_header":{"message":"Blokování prvku - náhled"},"assistant_preview_header_info":{"message":"Ujistěte se, že je prvek zablokován podle určení"},"assistant_preview_end":{"message":"Ukončit náhled"},"wot_unknown_description":{"message":"Pověst této webové stránky není definována podle $1"},"wot_bad_description":{"message":"Tato webová stránka má velmi špatnou pověst \\npodle $1"},"wot_poor_description":{"message":"Tato webová stránka má špatnou pověst \\npodle $1"},"wot_unsatisfactory_description":{"message":"Tato webová stránka má špatnou pověst \\npodle $1"},"wot_good_description":{"message":"Tato webová stránka má dobrou pověst \\npodle $1"},"wot_excellent_description":{"message":"Tato webová stránka má výbornou pověst \\npodle $1"},"settings_choose_size_and_position":{"message":"Upravit velikost a pozici AdGuard Asistenta"},"settings_icon_size":{"message":"Velikost ikony:"},"settings_small":{"message":"Malá"},"settings_big":{"message":"Velká"},"settings_position":{"message":"Pozice:"},"settings_left_top":{"message":"Vlevo nahoře"},"settings_right_top":{"message":"Vpravo nahoře"},"settings_left_bottom":{"message":"Vlevo dole"},"settings_right_bottom":{"message":"Vpravo dole"},"settings_cancel":{"message":"Zrušit"},"settings_save":{"message":"Uložit změny"}}');
 
 /***/ }),
 
-/***/ 7691:
+/***/ 8626:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Websteder","settings_position_save_all":"Alle websteder","settings_position_save_this":"Dette websted","assistant_select_element_start":"Start","assistant_select_element_text":"Vælg et element på denne side, der skal blokeres. Opfrisk siden for at afbryde elementblokeringstilstanden.","menu_filtration_status":{"message":"Filtrering på dette websted"},"menu_do_not_filter_30_sec":{"message":"Filtrér ikke i 30 sekunder"},"menu_block_ad_on_site":{"message":"Blokér annoncer på dette websted"},"menu_report_abuse":{"message":"Anmeld dette websted"},"menu_site_report":{"message":"Webstedssikkerhedsrapport"},"menu_settings":{"message":"Assistent-indstillinger"},"menu_wot_reputation_indicator":{"message":"Webstedsomdømmeindikator"},"menu_wot_reputation_confidence_level":{"message":"Omdømmetillidsniveau"},"assistant_select_element":{"message":"Elementblokering"},"assistant_select_element_ext":{"message":"Vælg et element på siden, der skal blokeres"},"assistant_select_element_cancel":{"message":"Afbryd"},"assistant_block_element":{"message":"Elementblokering"},"assistant_block_element_explain":{"message":"Justér regel for elementblokering"},"assistant_slider_explain":{"message":"Flyt skyderen for at ændre størrelsen på den ramme, den nye regel vil fungere for:"},"assistant_extended_settings":{"message":"Avancerede indstillinger"},"assistant_apply_rule_to_all_sites":{"message":"Anvend reglen på alle websteder"},"assistant_block_by_reference":{"message":"Blokér efter referencelink"},"assistant_block_similar":{"message":"Blokér lignende"},"assistant_another_element":{"message":"Vælg et andet element"},"assistant_preview":{"message":"Forhåndsvisning"},"assistant_block":{"message":"Blokér"},"assistant_settings":{"message":"Assistent-indstillinger"},"assistant_preview_header":{"message":"Elementblokering - forhåndsvisning"},"assistant_preview_header_info":{"message":"Sørg for, at elementet er blokeret som tilsigtet"},"assistant_preview_end":{"message":"Afslut forhåndsvisning"},"wot_unknown_description":{"message":"Dette websteds omdømme er ikke defineret af $1"},"wot_bad_description":{"message":"Dette websted har et meget dårligt omdømme jf. $1"},"wot_poor_description":{"message":"Dette websted har et dårligt omdømme jf. $1"},"wot_unsatisfactory_description":{"message":"Dette websted har et ringe omdømme jf. $1"},"wot_good_description":{"message":"Dette websted har et godt omdømme jf. $1"},"wot_excellent_description":{"message":"Dette websted har et fremragende omdømme \\njf. $1"},"settings_choose_size_and_position":{"message":"Justér størrelse og position for AdGuard Assistent"},"settings_icon_size":{"message":"Ikonstørrelse:"},"settings_small":{"message":"Lille"},"settings_big":{"message":"Stor"},"settings_position":{"message":"Position:"},"settings_left_top":{"message":"Øverst til venstre"},"settings_right_top":{"message":"Øverst til højre"},"settings_left_bottom":{"message":"Nederst til venstre"},"settings_right_bottom":{"message":"Nederst til højre"},"settings_cancel":{"message":"Afbryd"},"settings_save":{"message":"Gem ændringer"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Websteder","settings_position_save_all":"Alle websteder","settings_position_save_this":"Dette websted","assistant_select_element_start":"Start","assistant_select_element_text":"Vælg et element på denne side, der skal blokeres. Opfrisk siden for at afbryde elementblokeringstilstanden.","menu_filtration_status":{"message":"Filtrering på dette websted"},"menu_do_not_filter_30_sec":{"message":"Filtrér ikke i 30 sekunder"},"menu_block_ad_on_site":{"message":"Blokér annoncer på dette websted"},"menu_report_abuse":{"message":"Anmeld dette websted"},"menu_site_report":{"message":"Webstedssikkerhedsrapport"},"menu_settings":{"message":"Assistent-indstillinger"},"menu_wot_reputation_indicator":{"message":"Webstedsomdømmeindikator"},"menu_wot_reputation_confidence_level":{"message":"Omdømmetillidsniveau"},"assistant_select_element":{"message":"Elementblokering"},"assistant_select_element_ext":{"message":"Vælg et element på siden, der skal blokeres"},"assistant_select_element_cancel":{"message":"Afbryd"},"assistant_block_element":{"message":"Elementblokering"},"assistant_block_element_explain":{"message":"Justér regel for elementblokering"},"assistant_slider_explain":{"message":"Flyt skyderen for at ændre størrelsen på den ramme, den nye regel vil fungere for:"},"assistant_extended_settings":{"message":"Avancerede indstillinger"},"assistant_apply_rule_to_all_sites":{"message":"Anvend reglen på alle websteder"},"assistant_block_by_reference":{"message":"Blokér efter referencelink"},"assistant_block_similar":{"message":"Blokér lignende"},"assistant_another_element":{"message":"Vælg et andet element"},"assistant_preview":{"message":"Forhåndsvisning"},"assistant_block":{"message":"Blokér"},"assistant_settings":{"message":"Assistent-indstillinger"},"assistant_preview_header":{"message":"Elementblokering - forhåndsvisning"},"assistant_preview_header_info":{"message":"Sørg for, at elementet er blokeret som tilsigtet"},"assistant_preview_end":{"message":"Afslut forhåndsvisning"},"wot_unknown_description":{"message":"Dette websteds omdømme er ikke defineret af $1"},"wot_bad_description":{"message":"Dette websted har et meget dårligt omdømme jf. $1"},"wot_poor_description":{"message":"Dette websted har et dårligt omdømme jf. $1"},"wot_unsatisfactory_description":{"message":"Dette websted har et ringe omdømme jf. $1"},"wot_good_description":{"message":"Dette websted har et godt omdømme jf. $1"},"wot_excellent_description":{"message":"Dette websted har et fremragende omdømme \\njf. $1"},"settings_choose_size_and_position":{"message":"Justér størrelse og position for AdGuard Assistent"},"settings_icon_size":{"message":"Ikonstørrelse:"},"settings_small":{"message":"Lille"},"settings_big":{"message":"Stor"},"settings_position":{"message":"Position:"},"settings_left_top":{"message":"Øverst til venstre"},"settings_right_top":{"message":"Øverst til højre"},"settings_left_bottom":{"message":"Nederst til venstre"},"settings_right_bottom":{"message":"Nederst til højre"},"settings_cancel":{"message":"Afbryd"},"settings_save":{"message":"Gem ændringer"}}');
 
 /***/ }),
 
-/***/ 9947:
+/***/ 5278:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Webseiten","settings_position_save_all":"Alle Webseiten","settings_position_save_this":"Diese Webseite","assistant_select_element_start":"Starten","assistant_select_element_text":"Wählen Sie ein zu sperrenden Element auf der Seite aus. Laden Sie die Seite neu, um den Sperrmodus zu verlassen.","menu_filtration_status":{"message":"Diese Webseite filtern"},"menu_do_not_filter_30_sec":{"message":"Schutz für 30 Sekunden deaktivieren"},"menu_block_ad_on_site":{"message":"Werbung auf dieser Seite sperren"},"menu_report_abuse":{"message":"Diese Webseite melden"},"menu_site_report":{"message":"Sicherheitsbericht dieser Webseite"},"menu_settings":{"message":"Assistent-Einstellungen"},"menu_wot_reputation_indicator":{"message":"Website-Reputations-Indikator"},"menu_wot_reputation_confidence_level":{"message":"Reputationsvertrauensgrad"},"assistant_select_element":{"message":"Element sperren"},"assistant_select_element_ext":{"message":"Zu sperrendes Element auf der Seite auswählen"},"assistant_select_element_cancel":{"message":"Abbrechen"},"assistant_block_element":{"message":"Element sperren"},"assistant_block_element_explain":{"message":"Regel zum Sperren von Elementen anpassen"},"assistant_slider_explain":{"message":"Bewegen Sie den Schieberegler, um die Ausmaßgröße der neuen Regeln zu ändern:"},"assistant_extended_settings":{"message":"Erweiterte Einstellungen"},"assistant_apply_rule_to_all_sites":{"message":"Regel auf alle Webseiten anwenden"},"assistant_block_by_reference":{"message":"Durch Referenzlink sperren"},"assistant_block_similar":{"message":"Ähnliche Elemente sperren"},"assistant_another_element":{"message":"Ein anderes Element wählen"},"assistant_preview":{"message":"Vorschau"},"assistant_block":{"message":"Sperren"},"assistant_settings":{"message":"Assistent-Einstellungen"},"assistant_preview_header":{"message":"Vorschau der zu sperrenden Elemente"},"assistant_preview_header_info":{"message":"Prüfen Sie, ob das Element wie vorgesehen gesperrt wurde."},"assistant_preview_end":{"message":"Vorschau beenden"},"wot_unknown_description":{"message":"Der Ruf dieser Webseite wird nicht durch $1 festgelegt"},"wot_bad_description":{"message":"Diese Webseite hat einen sehr schlechten Ruf laut $1"},"wot_poor_description":{"message":"Diese Webseite hat einen schlechten Ruf laut $1"},"wot_unsatisfactory_description":{"message":"Diese Webseite hat einen schlechten Ruf laut $1"},"wot_good_description":{"message":"Diese Webseite hat einen guten Ruf laut $1"},"wot_excellent_description":{"message":"Diese Webseite hat einen exzellenten Ruf laut $1"},"settings_choose_size_and_position":{"message":"Anpassen der Größe und Position des AdGuard-Assistent"},"settings_icon_size":{"message":"Symbol-Größe:"},"settings_small":{"message":"Klein"},"settings_big":{"message":"Groß"},"settings_position":{"message":"Position:"},"settings_left_top":{"message":"Oben links"},"settings_right_top":{"message":"Oben rechts"},"settings_left_bottom":{"message":"Unten links"},"settings_right_bottom":{"message":"Unten rechts"},"settings_cancel":{"message":"Abbrechen"},"settings_save":{"message":"Änderungen speichern"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Webseiten","settings_position_save_all":"Alle Webseiten","settings_position_save_this":"Diese Webseite","assistant_select_element_start":"Starten","assistant_select_element_text":"Wählen Sie ein zu sperrenden Element auf der Seite aus. Laden Sie die Seite neu, um den Sperrmodus zu verlassen.","menu_filtration_status":{"message":"Diese Webseite filtern"},"menu_do_not_filter_30_sec":{"message":"Schutz für 30 Sekunden deaktivieren"},"menu_block_ad_on_site":{"message":"Werbung auf dieser Seite sperren"},"menu_report_abuse":{"message":"Diese Webseite melden"},"menu_site_report":{"message":"Sicherheitsbericht dieser Webseite"},"menu_settings":{"message":"Assistent-Einstellungen"},"menu_wot_reputation_indicator":{"message":"Website-Reputations-Indikator"},"menu_wot_reputation_confidence_level":{"message":"Reputationsvertrauensgrad"},"assistant_select_element":{"message":"Element sperren"},"assistant_select_element_ext":{"message":"Zu sperrendes Element auf der Seite auswählen"},"assistant_select_element_cancel":{"message":"Abbrechen"},"assistant_block_element":{"message":"Element sperren"},"assistant_block_element_explain":{"message":"Regel zum Sperren von Elementen anpassen"},"assistant_slider_explain":{"message":"Bewegen Sie den Schieberegler, um die Ausmaßgröße der neuen Regeln zu ändern:"},"assistant_extended_settings":{"message":"Erweiterte Einstellungen"},"assistant_apply_rule_to_all_sites":{"message":"Regel auf alle Webseiten anwenden"},"assistant_block_by_reference":{"message":"Durch Referenzlink sperren"},"assistant_block_similar":{"message":"Ähnliche Elemente sperren"},"assistant_another_element":{"message":"Ein anderes Element wählen"},"assistant_preview":{"message":"Vorschau"},"assistant_block":{"message":"Sperren"},"assistant_settings":{"message":"Assistent-Einstellungen"},"assistant_preview_header":{"message":"Vorschau der zu sperrenden Elemente"},"assistant_preview_header_info":{"message":"Prüfen Sie, ob das Element wie vorgesehen gesperrt wurde."},"assistant_preview_end":{"message":"Vorschau beenden"},"wot_unknown_description":{"message":"Der Ruf dieser Webseite wird nicht durch $1 festgelegt"},"wot_bad_description":{"message":"Diese Webseite hat einen sehr schlechten Ruf laut $1"},"wot_poor_description":{"message":"Diese Webseite hat einen schlechten Ruf laut $1"},"wot_unsatisfactory_description":{"message":"Diese Webseite hat einen schlechten Ruf laut $1"},"wot_good_description":{"message":"Diese Webseite hat einen guten Ruf laut $1"},"wot_excellent_description":{"message":"Diese Webseite hat einen exzellenten Ruf laut $1"},"settings_choose_size_and_position":{"message":"Anpassen der Größe und Position des AdGuard-Assistent"},"settings_icon_size":{"message":"Symbol-Größe:"},"settings_small":{"message":"Klein"},"settings_big":{"message":"Groß"},"settings_position":{"message":"Position:"},"settings_left_top":{"message":"Oben links"},"settings_right_top":{"message":"Oben rechts"},"settings_left_bottom":{"message":"Unten links"},"settings_right_bottom":{"message":"Unten rechts"},"settings_cancel":{"message":"Abbrechen"},"settings_save":{"message":"Änderungen speichern"}}');
 
 /***/ }),
 
-/***/ 1773:
+/***/ 2360:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Ιστοσελίδες","settings_position_save_all":"Όλοι οι ιστότοποι","settings_position_save_this":"Αυτός ο ιστότοπος","assistant_select_element_start":"Εκκίνηση","assistant_select_element_text":"Επιλέξτε ένα στοιχείο στη σελίδα για αποκλεισμό. Ανανεώστε τη σελίδα για να ακυρώσετε τη λειτουργία αποκλεισμού στοιχείων.","menu_filtration_status":{"message":"Φιλτράρισμα σε αυτόν τον ιστότοπο"},"menu_do_not_filter_30_sec":{"message":"Παύση φιλτραρίσματος για 30 δευτερόλεπτα"},"menu_block_ad_on_site":{"message":"Αποκλεισμός διαφήμισης σε αυτόν τον ιστότοπο"},"menu_report_abuse":{"message":"Αναφέρετε αυτόν τον ιστότοπο"},"menu_site_report":{"message":"Αναφορά ασφάλειας ιστότοπου"},"menu_settings":{"message":"Ρυθμίσεις βοηθού"},"menu_wot_reputation_indicator":{"message":"Δείκτης φήμης ιστότοπου"},"menu_wot_reputation_confidence_level":{"message":"Επίπεδο εμπιστοσύνης φήμης"},"assistant_select_element":{"message":"Αποκλεισμός στοιχείου"},"assistant_select_element_ext":{"message":"Επιλέξτε ένα στοιχείο στη σελίδα για αποκλεισμό"},"assistant_select_element_cancel":{"message":"Άκυρο"},"assistant_block_element":{"message":"Αποκλεισμός στοιχείου"},"assistant_block_element_explain":{"message":"Προσαρμόστε τον κανόνα αποκλεισμού στοιχείου"},"assistant_slider_explain":{"message":"Μετακινήστε το ρυθμιστικό για να αλλάξετε το μέγεθος του πλαισίου για τον οποίο θα λειτουργεί ο νέος κανόνας:"},"assistant_extended_settings":{"message":"Προηγμένες ρυθμίσεις"},"assistant_apply_rule_to_all_sites":{"message":"Εφαρμογή του κανόνα σε όλες τις ιστοσελίδες"},"assistant_block_by_reference":{"message":"Αποκλεισμός μέσω συνδέσμου αναφοράς"},"assistant_block_similar":{"message":"Αποκλεισμός παρόμοιου"},"assistant_another_element":{"message":"Επιλέξτε ένα διαφορετικό στοιχείο"},"assistant_preview":{"message":"Προεπισκόπηση"},"assistant_block":{"message":"Αποκλεισμός"},"assistant_settings":{"message":"Ρυθμίσεις βοηθού"},"assistant_preview_header":{"message":"Αποκλεισμός στοιχείου - προεπισκόπηση"},"assistant_preview_header_info":{"message":"Βεβαιωθείτε ότι το στοιχείο είναι μπλοκαρισμένο όπως προορίζεται"},"assistant_preview_end":{"message":"Έξοδος προεπισκόπησης"},"wot_unknown_description":{"message":"Η φήμη αυτού του ιστότοπου δεν έχει καθοριστεί από το $1"},"wot_bad_description":{"message":"Αυτός ο ιστότοπος έχει πολύ κακή φήμη\\nσύμφωνα με το $1"},"wot_poor_description":{"message":"Αυτός ο ιστότοπος έχει κακή φήμη\\nσύμφωνα με το $1"},"wot_unsatisfactory_description":{"message":"Αυτός ο ιστότοπος έχει κακή φήμη\\nσύμφωνα με το $1"},"wot_good_description":{"message":"Αυτός ο ιστότοπος έχει καλή φήμη\\nσύμφωνα με το $1"},"wot_excellent_description":{"message":"Αυτός ο ιστότοπος έχει εξαιρετική φήμη\\nσύμφωνα με το $1"},"settings_choose_size_and_position":{"message":"Προσαρμόστε το μέγεθος και τη θέση του Βοηθού AdGuard"},"settings_icon_size":{"message":"Μέγεθος εικονιδίου:"},"settings_small":{"message":"Μικρό"},"settings_big":{"message":"Μεγάλο"},"settings_position":{"message":"Θέση:"},"settings_left_top":{"message":"Πάνω αριστερά"},"settings_right_top":{"message":"Πάνω δεξιά"},"settings_left_bottom":{"message":"Κάτω αριστερά"},"settings_right_bottom":{"message":"Κάτω δεξιά"},"settings_cancel":{"message":"Άκυρο"},"settings_save":{"message":"Αποθήκευση αλλαγών"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Ιστοσελίδες","settings_position_save_all":"Όλοι οι ιστότοποι","settings_position_save_this":"Αυτός ο ιστότοπος","assistant_select_element_start":"Εκκίνηση","assistant_select_element_text":"Επιλέξτε ένα στοιχείο στη σελίδα για αποκλεισμό. Ανανεώστε τη σελίδα για να ακυρώσετε τη λειτουργία αποκλεισμού στοιχείων.","menu_filtration_status":{"message":"Φιλτράρισμα σε αυτόν τον ιστότοπο"},"menu_do_not_filter_30_sec":{"message":"Παύση φιλτραρίσματος για 30 δευτερόλεπτα"},"menu_block_ad_on_site":{"message":"Αποκλεισμός διαφήμισης σε αυτόν τον ιστότοπο"},"menu_report_abuse":{"message":"Αναφέρετε αυτόν τον ιστότοπο"},"menu_site_report":{"message":"Αναφορά ασφάλειας ιστότοπου"},"menu_settings":{"message":"Ρυθμίσεις βοηθού"},"menu_wot_reputation_indicator":{"message":"Δείκτης φήμης ιστότοπου"},"menu_wot_reputation_confidence_level":{"message":"Επίπεδο εμπιστοσύνης φήμης"},"assistant_select_element":{"message":"Αποκλεισμός στοιχείου"},"assistant_select_element_ext":{"message":"Επιλέξτε ένα στοιχείο στη σελίδα για αποκλεισμό"},"assistant_select_element_cancel":{"message":"Άκυρο"},"assistant_block_element":{"message":"Αποκλεισμός στοιχείου"},"assistant_block_element_explain":{"message":"Προσαρμόστε τον κανόνα αποκλεισμού στοιχείου"},"assistant_slider_explain":{"message":"Μετακινήστε το ρυθμιστικό για να αλλάξετε το μέγεθος του πλαισίου για τον οποίο θα λειτουργεί ο νέος κανόνας:"},"assistant_extended_settings":{"message":"Προηγμένες ρυθμίσεις"},"assistant_apply_rule_to_all_sites":{"message":"Εφαρμογή του κανόνα σε όλες τις ιστοσελίδες"},"assistant_block_by_reference":{"message":"Αποκλεισμός μέσω συνδέσμου αναφοράς"},"assistant_block_similar":{"message":"Αποκλεισμός παρόμοιου"},"assistant_another_element":{"message":"Επιλέξτε ένα διαφορετικό στοιχείο"},"assistant_preview":{"message":"Προεπισκόπηση"},"assistant_block":{"message":"Αποκλεισμός"},"assistant_settings":{"message":"Ρυθμίσεις βοηθού"},"assistant_preview_header":{"message":"Αποκλεισμός στοιχείου - προεπισκόπηση"},"assistant_preview_header_info":{"message":"Βεβαιωθείτε ότι το στοιχείο είναι μπλοκαρισμένο όπως προορίζεται"},"assistant_preview_end":{"message":"Έξοδος προεπισκόπησης"},"wot_unknown_description":{"message":"Η φήμη αυτού του ιστότοπου δεν έχει καθοριστεί από το $1"},"wot_bad_description":{"message":"Αυτός ο ιστότοπος έχει πολύ κακή φήμη\\nσύμφωνα με το $1"},"wot_poor_description":{"message":"Αυτός ο ιστότοπος έχει κακή φήμη\\nσύμφωνα με το $1"},"wot_unsatisfactory_description":{"message":"Αυτός ο ιστότοπος έχει κακή φήμη\\nσύμφωνα με το $1"},"wot_good_description":{"message":"Αυτός ο ιστότοπος έχει καλή φήμη\\nσύμφωνα με το $1"},"wot_excellent_description":{"message":"Αυτός ο ιστότοπος έχει εξαιρετική φήμη\\nσύμφωνα με το $1"},"settings_choose_size_and_position":{"message":"Προσαρμόστε το μέγεθος και τη θέση του Βοηθού AdGuard"},"settings_icon_size":{"message":"Μέγεθος εικονιδίου:"},"settings_small":{"message":"Μικρό"},"settings_big":{"message":"Μεγάλο"},"settings_position":{"message":"Θέση:"},"settings_left_top":{"message":"Πάνω αριστερά"},"settings_right_top":{"message":"Πάνω δεξιά"},"settings_left_bottom":{"message":"Κάτω αριστερά"},"settings_right_bottom":{"message":"Κάτω δεξιά"},"settings_cancel":{"message":"Άκυρο"},"settings_save":{"message":"Αποθήκευση αλλαγών"}}');
 
 /***/ }),
 
-/***/ 1272:
+/***/ 6642:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Websites","settings_position_save_all":"All websites","settings_position_save_this":"This website","assistant_select_element_start":"Start","assistant_select_element_text":"Choose an element on the page to block. Refresh the page to cancel the element blocking mode.","menu_filtration_status":{"message":"Filtering on this website"},"menu_do_not_filter_30_sec":{"message":"Do not filter for 30 seconds"},"menu_block_ad_on_site":{"message":"Block ad on this website"},"menu_report_abuse":{"message":"Report the website"},"menu_site_report":{"message":"Website security report"},"menu_settings":{"message":"Assistant settings"},"menu_wot_reputation_indicator":{"message":"Site reputation indicator"},"menu_wot_reputation_confidence_level":{"message":"Reputation Confidence Level"},"assistant_select_element":{"message":"Element blocking"},"assistant_select_element_ext":{"message":"Choose an element on the page to block"},"assistant_select_element_cancel":{"message":"Cancel"},"assistant_block_element":{"message":"Element blocking"},"assistant_block_element_explain":{"message":"Adjust element blocking rule"},"assistant_slider_explain":{"message":"Move the slider to change the size of the frame the new rule will work for:"},"assistant_extended_settings":{"message":"Advanced settings"},"assistant_apply_rule_to_all_sites":{"message":"Apply the rule to all websites"},"assistant_block_by_reference":{"message":"Block by reference link"},"assistant_block_similar":{"message":"Block similar"},"assistant_another_element":{"message":"Select a different element"},"assistant_preview":{"message":"Preview"},"assistant_block":{"message":"Block"},"assistant_settings":{"message":"Assistant settings"},"assistant_preview_header":{"message":"Element blocking - preview"},"assistant_preview_header_info":{"message":"Make sure that element is blocked as intended"},"assistant_preview_end":{"message":"Exit preview"},"wot_unknown_description":{"message":"This website\'s reputation is not defined by $1"},"wot_bad_description":{"message":"This website has a very bad reputation\\naccording to $1"},"wot_poor_description":{"message":"This website has a bad reputation \\naccording to $1"},"wot_unsatisfactory_description":{"message":"This website has a poor reputation\\naccording to $1"},"wot_good_description":{"message":"This website has a good reputation\\naccording to $1"},"wot_excellent_description":{"message":"This website has an excellent reputation\\naccording to $1"},"settings_choose_size_and_position":{"message":"Adjust AdGuard Assistant size and position"},"settings_icon_size":{"message":"Icon size:"},"settings_small":{"message":"Small"},"settings_big":{"message":"Large"},"settings_position":{"message":"Position:"},"settings_left_top":{"message":"Top left"},"settings_right_top":{"message":"Top right"},"settings_left_bottom":{"message":"Bottom left"},"settings_right_bottom":{"message":"Bottom right"},"settings_cancel":{"message":"Cancel"},"settings_save":{"message":"Save changes"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Websites","settings_position_save_all":"All websites","settings_position_save_this":"This website","assistant_select_element_start":"Start","assistant_select_element_text":"Choose an element on the page to block. Refresh the page to cancel the element blocking mode.","menu_filtration_status":{"message":"Filtering on this website"},"menu_do_not_filter_30_sec":{"message":"Do not filter for 30 seconds"},"menu_block_ad_on_site":{"message":"Block ad on this website"},"menu_report_abuse":{"message":"Report the website"},"menu_site_report":{"message":"Website security report"},"menu_settings":{"message":"Assistant settings"},"menu_wot_reputation_indicator":{"message":"Site reputation indicator"},"menu_wot_reputation_confidence_level":{"message":"Reputation Confidence Level"},"assistant_select_element":{"message":"Element blocking"},"assistant_select_element_ext":{"message":"Choose an element on the page to block"},"assistant_select_element_cancel":{"message":"Cancel"},"assistant_block_element":{"message":"Element blocking"},"assistant_block_element_explain":{"message":"Adjust element blocking rule"},"assistant_slider_explain":{"message":"Move the slider to change the size of the frame the new rule will work for:"},"assistant_extended_settings":{"message":"Advanced settings"},"assistant_apply_rule_to_all_sites":{"message":"Apply the rule to all websites"},"assistant_block_by_reference":{"message":"Block by reference link"},"assistant_block_similar":{"message":"Block similar"},"assistant_another_element":{"message":"Select a different element"},"assistant_preview":{"message":"Preview"},"assistant_block":{"message":"Block"},"assistant_settings":{"message":"Assistant settings"},"assistant_preview_header":{"message":"Element blocking - preview"},"assistant_preview_header_info":{"message":"Make sure that element is blocked as intended"},"assistant_preview_end":{"message":"Exit preview"},"wot_unknown_description":{"message":"This website\'s reputation is not defined by $1"},"wot_bad_description":{"message":"This website has a very bad reputation\\naccording to $1"},"wot_poor_description":{"message":"This website has a bad reputation \\naccording to $1"},"wot_unsatisfactory_description":{"message":"This website has a poor reputation\\naccording to $1"},"wot_good_description":{"message":"This website has a good reputation\\naccording to $1"},"wot_excellent_description":{"message":"This website has an excellent reputation\\naccording to $1"},"settings_choose_size_and_position":{"message":"Adjust AdGuard Assistant size and position"},"settings_icon_size":{"message":"Icon size:"},"settings_small":{"message":"Small"},"settings_big":{"message":"Large"},"settings_position":{"message":"Position:"},"settings_left_top":{"message":"Top left"},"settings_right_top":{"message":"Top right"},"settings_left_bottom":{"message":"Bottom left"},"settings_right_bottom":{"message":"Bottom right"},"settings_cancel":{"message":"Cancel"},"settings_save":{"message":"Save changes"}}');
 
 /***/ }),
 
-/***/ 8194:
+/***/ 2271:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Sitios web","settings_position_save_all":"Todos los sitios web","settings_position_save_this":"Este sitio web","assistant_select_element_start":"Comenzar","assistant_select_element_text":"Elige un elemento en la página para bloquear. Actualiza la página para cancelar el bloqueo de elementos.","menu_filtration_status":{"message":"Filtrado en este sitio web"},"menu_do_not_filter_30_sec":{"message":"No filtrar durante 30 segundos"},"menu_block_ad_on_site":{"message":"Bloquear anuncios en este sitio web"},"menu_report_abuse":{"message":"Reportar el sitio web"},"menu_site_report":{"message":"Informe de seguridad del sitio web"},"menu_settings":{"message":"Configuración del asistente"},"menu_wot_reputation_indicator":{"message":"Indicador de reputación del sitio"},"menu_wot_reputation_confidence_level":{"message":"Nivel de confianza de reputación"},"assistant_select_element":{"message":"Bloqueo de elementos"},"assistant_select_element_ext":{"message":"Elige un elemento en la página para bloquear"},"assistant_select_element_cancel":{"message":"Cancelar"},"assistant_block_element":{"message":"Bloqueo de elementos"},"assistant_block_element_explain":{"message":"Ajustar la regla de bloqueo del elemento"},"assistant_slider_explain":{"message":"Mueve el control deslizante para cambiar el tamaño del marco para el que funcionará la nueva regla:"},"assistant_extended_settings":{"message":"Configuración avanzada"},"assistant_apply_rule_to_all_sites":{"message":"Aplicar la regla a todos los sitios web"},"assistant_block_by_reference":{"message":"Bloquear por enlace de referencia"},"assistant_block_similar":{"message":"Bloquear elemento similar"},"assistant_another_element":{"message":"Seleccionar otro elemento"},"assistant_preview":{"message":"Vista previa"},"assistant_block":{"message":"Bloquear"},"assistant_settings":{"message":"Configuración del asistente"},"assistant_preview_header":{"message":"Bloqueo de elementos - vista previa"},"assistant_preview_header_info":{"message":"Asegúrate de que el elemento esté bloqueado como se deseaba"},"assistant_preview_end":{"message":"Salir de vista previa"},"wot_unknown_description":{"message":"La reputación de este sitio web no está definida por $1"},"wot_bad_description":{"message":"Este sitio web tiene muy mala reputación\\nde acuerdo a $1"},"wot_poor_description":{"message":"Este sitio web tiene mala reputación\\nde acuerdo a $1"},"wot_unsatisfactory_description":{"message":"Este sitio web tiene pobre reputación\\nde acuerdo a $1"},"wot_good_description":{"message":"Este sitio web tiene buena reputación\\nde acuerdo a $1"},"wot_excellent_description":{"message":"Este sitio web tiene excelente reputación\\nde acuerdo a $1"},"settings_choose_size_and_position":{"message":"Ajustar el tamaño y la posición del Asistente de AdGuard"},"settings_icon_size":{"message":"Tamaño del icono:"},"settings_small":{"message":"Pequeño"},"settings_big":{"message":"Grande"},"settings_position":{"message":"Posición:"},"settings_left_top":{"message":"Arriba a la izquierda"},"settings_right_top":{"message":"Arriba a la derecha"},"settings_left_bottom":{"message":"Abajo a la izquierda"},"settings_right_bottom":{"message":"Abajo a la derecha"},"settings_cancel":{"message":"Cancelar"},"settings_save":{"message":"Guardar cambios"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Sitios web","settings_position_save_all":"Todos los sitios web","settings_position_save_this":"Este sitio web","assistant_select_element_start":"Comenzar","assistant_select_element_text":"Elige un elemento en la página para bloquear. Actualiza la página para cancelar el bloqueo de elementos.","menu_filtration_status":{"message":"Filtrado en este sitio web"},"menu_do_not_filter_30_sec":{"message":"No filtrar durante 30 segundos"},"menu_block_ad_on_site":{"message":"Bloquear anuncios en este sitio web"},"menu_report_abuse":{"message":"Reportar el sitio web"},"menu_site_report":{"message":"Informe de seguridad del sitio web"},"menu_settings":{"message":"Configuración del asistente"},"menu_wot_reputation_indicator":{"message":"Indicador de reputación del sitio"},"menu_wot_reputation_confidence_level":{"message":"Nivel de confianza de reputación"},"assistant_select_element":{"message":"Bloqueo de elementos"},"assistant_select_element_ext":{"message":"Elige un elemento en la página para bloquear"},"assistant_select_element_cancel":{"message":"Cancelar"},"assistant_block_element":{"message":"Bloqueo de elementos"},"assistant_block_element_explain":{"message":"Ajustar la regla de bloqueo del elemento"},"assistant_slider_explain":{"message":"Mueve el control deslizante para cambiar el tamaño del marco para el que funcionará la nueva regla:"},"assistant_extended_settings":{"message":"Configuración avanzada"},"assistant_apply_rule_to_all_sites":{"message":"Aplicar la regla a todos los sitios web"},"assistant_block_by_reference":{"message":"Bloquear por enlace de referencia"},"assistant_block_similar":{"message":"Bloquear elemento similar"},"assistant_another_element":{"message":"Seleccionar otro elemento"},"assistant_preview":{"message":"Vista previa"},"assistant_block":{"message":"Bloquear"},"assistant_settings":{"message":"Configuración del asistente"},"assistant_preview_header":{"message":"Bloqueo de elementos - vista previa"},"assistant_preview_header_info":{"message":"Asegúrate de que el elemento esté bloqueado como se deseaba"},"assistant_preview_end":{"message":"Salir de vista previa"},"wot_unknown_description":{"message":"La reputación de este sitio web no está definida por $1"},"wot_bad_description":{"message":"Este sitio web tiene muy mala reputación\\nde acuerdo a $1"},"wot_poor_description":{"message":"Este sitio web tiene mala reputación\\nde acuerdo a $1"},"wot_unsatisfactory_description":{"message":"Este sitio web tiene pobre reputación\\nde acuerdo a $1"},"wot_good_description":{"message":"Este sitio web tiene buena reputación\\nde acuerdo a $1"},"wot_excellent_description":{"message":"Este sitio web tiene excelente reputación\\nde acuerdo a $1"},"settings_choose_size_and_position":{"message":"Ajustar el tamaño y la posición del Asistente de AdGuard"},"settings_icon_size":{"message":"Tamaño del icono:"},"settings_small":{"message":"Pequeño"},"settings_big":{"message":"Grande"},"settings_position":{"message":"Posición:"},"settings_left_top":{"message":"Arriba a la izquierda"},"settings_right_top":{"message":"Arriba a la derecha"},"settings_left_bottom":{"message":"Abajo a la izquierda"},"settings_right_bottom":{"message":"Abajo a la derecha"},"settings_cancel":{"message":"Cancelar"},"settings_save":{"message":"Guardar cambios"}}');
 
 /***/ }),
 
-/***/ 5455:
+/***/ 356:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"وبسایت","settings_position_save_all":"همه وبسایت ها","settings_position_save_this":"این وبسایت","assistant_select_element_start":"شروع","assistant_select_element_text":"عنصری در صفحه برای مسدودسازی انتخاب کنید. برای لغو،صفحه را رفرش کنید.","menu_filtration_status":{"message":"فیلترینگ در این وبسایت"},"menu_do_not_filter_30_sec":{"message":"به مدت 30 ثانیه فیلتر نکن"},"menu_block_ad_on_site":{"message":"مسدودسازی تبلیغ در این وبسایت"},"menu_report_abuse":{"message":"گزارش وبسایت"},"menu_site_report":{"message":"گزارش امنیتی وبسایت"},"menu_settings":{"message":"تنظیمات دستیار"},"menu_wot_reputation_indicator":{"message":"نشانگر اعتبار سایت"},"menu_wot_reputation_confidence_level":{"message":"سطح اعتبار"},"assistant_select_element":{"message":"مسدودسازی عنصر"},"assistant_select_element_ext":{"message":"عنصری در صفحه برای مسدودسازی انتخاب کنید"},"assistant_select_element_cancel":{"message":"لغو"},"assistant_block_element":{"message":"مسدودسازی عنصر"},"assistant_block_element_explain":{"message":"تنظیم دستور مسدودسازی عنصر"},"assistant_slider_explain":{"message":"جابجایی لغزنده برای تغییر اندازه فریم که دستور جدیدی کار خواهد کرد:"},"assistant_extended_settings":{"message":"تنظیمات پیشرفته"},"assistant_apply_rule_to_all_sites":{"message":"اِعمال دستور در همه وبسایت ها"},"assistant_block_by_reference":{"message":"مسدودسازی با لینک مرجع"},"assistant_block_similar":{"message":"مسدودسازی مشابه"},"assistant_another_element":{"message":"عنصر دیگری انتخاب کنید"},"assistant_preview":{"message":"پیشنمایش"},"assistant_block":{"message":"مسدود"},"assistant_settings":{"message":"تنظیمات دستیار"},"assistant_preview_header":{"message":"مسدودسازی عنصر - پیشنمایش"},"assistant_preview_header_info":{"message":"مطمئن شوید عنصر به شکل دلخواه مسدود شود"},"assistant_preview_end":{"message":"خروج از پیشنمایش"},"wot_unknown_description":{"message":"اعتبار تعریف نشده است"},"wot_bad_description":{"message":"این وبسایت اعتبار خیلی بدی دارد\\nبر طبق "},"wot_poor_description":{"message":"این وبسایت اعتبار بدی دارد\\nبر طبق "},"wot_unsatisfactory_description":{"message":"این وبسایت اعتبار کمی دارد\\nبر طبق "},"wot_good_description":{"message":"این وبسایت اعتبار خوبی دارد\\nبر طبق "},"wot_excellent_description":{"message":"این وبسایت اعتبار عالی دارد\\nبر طبق "},"settings_choose_size_and_position":{"message":"تنظیم اندازه و موقعیت دستیار AdGuard"},"settings_icon_size":{"message":"اندازه آیکون:"},"settings_small":{"message":"کوچک"},"settings_big":{"message":"بزرگ"},"settings_position":{"message":"موقعیت:"},"settings_left_top":{"message":"بالا سمت چپ"},"settings_right_top":{"message":"بالا سمت راست"},"settings_left_bottom":{"message":"پایین سمت چپ"},"settings_right_bottom":{"message":"پایین سمت راست"},"settings_cancel":{"message":"لغو"},"settings_save":{"message":"ذخیره تغییرات"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"وبسایت","settings_position_save_all":"همه وبسایت ها","settings_position_save_this":"این وبسایت","assistant_select_element_start":"شروع","assistant_select_element_text":"عنصری در صفحه برای مسدودسازی انتخاب کنید. برای لغو،صفحه را رفرش کنید.","menu_filtration_status":{"message":"فیلترینگ در این وبسایت"},"menu_do_not_filter_30_sec":{"message":"به مدت 30 ثانیه فیلتر نکن"},"menu_block_ad_on_site":{"message":"مسدودسازی تبلیغ در این وبسایت"},"menu_report_abuse":{"message":"گزارش وبسایت"},"menu_site_report":{"message":"گزارش امنیتی وبسایت"},"menu_settings":{"message":"تنظیمات دستیار"},"menu_wot_reputation_indicator":{"message":"نشانگر اعتبار سایت"},"menu_wot_reputation_confidence_level":{"message":"سطح اعتبار"},"assistant_select_element":{"message":"مسدودسازی عنصر"},"assistant_select_element_ext":{"message":"عنصری در صفحه برای مسدودسازی انتخاب کنید"},"assistant_select_element_cancel":{"message":"لغو"},"assistant_block_element":{"message":"مسدودسازی عنصر"},"assistant_block_element_explain":{"message":"تنظیم دستور مسدودسازی عنصر"},"assistant_slider_explain":{"message":"جابجایی لغزنده برای تغییر اندازه فریم که دستور جدیدی کار خواهد کرد:"},"assistant_extended_settings":{"message":"تنظیمات پیشرفته"},"assistant_apply_rule_to_all_sites":{"message":"اِعمال دستور در همه وبسایت ها"},"assistant_block_by_reference":{"message":"مسدودسازی با لینک مرجع"},"assistant_block_similar":{"message":"مسدودسازی مشابه"},"assistant_another_element":{"message":"عنصر دیگری انتخاب کنید"},"assistant_preview":{"message":"پیشنمایش"},"assistant_block":{"message":"مسدود"},"assistant_settings":{"message":"تنظیمات دستیار"},"assistant_preview_header":{"message":"مسدودسازی عنصر - پیشنمایش"},"assistant_preview_header_info":{"message":"مطمئن شوید عنصر به شکل دلخواه مسدود شود"},"assistant_preview_end":{"message":"خروج از پیشنمایش"},"wot_unknown_description":{"message":"اعتبار تعریف نشده است"},"wot_bad_description":{"message":"این وبسایت اعتبار خیلی بدی دارد\\nبر طبق "},"wot_poor_description":{"message":"این وبسایت اعتبار بدی دارد\\nبر طبق "},"wot_unsatisfactory_description":{"message":"این وبسایت اعتبار کمی دارد\\nبر طبق "},"wot_good_description":{"message":"این وبسایت اعتبار خوبی دارد\\nبر طبق "},"wot_excellent_description":{"message":"این وبسایت اعتبار عالی دارد\\nبر طبق "},"settings_choose_size_and_position":{"message":"تنظیم اندازه و موقعیت دستیار AdGuard"},"settings_icon_size":{"message":"اندازه آیکون:"},"settings_small":{"message":"کوچک"},"settings_big":{"message":"بزرگ"},"settings_position":{"message":"موقعیت:"},"settings_left_top":{"message":"بالا سمت چپ"},"settings_right_top":{"message":"بالا سمت راست"},"settings_left_bottom":{"message":"پایین سمت چپ"},"settings_right_bottom":{"message":"پایین سمت راست"},"settings_cancel":{"message":"لغو"},"settings_save":{"message":"ذخیره تغییرات"}}');
 
 /***/ }),
 
-/***/ 6183:
+/***/ 7804:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Verkkosivustot","settings_position_save_all":"Kaikki sivustot","settings_position_save_this":"Tämä sivusto","assistant_select_element_start":"Aloita","assistant_select_element_text":"Valitse sivulta estettävä elementti. Päivitä sivu poistuaksesi elementtien estotilasta.","menu_filtration_status":{"message":"Tämän sivuston suodatus"},"menu_do_not_filter_30_sec":{"message":"Pysäytä suodatus 30 sekunnin ajaksi"},"menu_block_ad_on_site":{"message":"Estä mainos tältä sivustolta"},"menu_report_abuse":{"message":"Ilmoita ongelmasta"},"menu_site_report":{"message":"Sivuston suojausraportti"},"menu_settings":{"message":"Apurin asetukset"},"menu_wot_reputation_indicator":{"message":"Sivuston maine"},"menu_wot_reputation_confidence_level":{"message":"Mainearvion luotettavuus"},"assistant_select_element":{"message":"Elementin esto"},"assistant_select_element_ext":{"message":"Valitse sivulta estettävä elementti"},"assistant_select_element_cancel":{"message":"Peruuta"},"assistant_block_element":{"message":"Elementin esto"},"assistant_block_element_explain":{"message":"Muokkaa elementinestosääntöä"},"assistant_slider_explain":{"message":"Siirrä liukukytkintä muuttaaksesi sen kehyksen kokoa, johon tämä sääntö vaikuttaa:"},"assistant_extended_settings":{"message":"Edistyneet lisäasetukset"},"assistant_apply_rule_to_all_sites":{"message":"Käytä kaikilla sivustoilla"},"assistant_block_by_reference":{"message":"Estä viitelinkillä"},"assistant_block_similar":{"message":"Estä samankaltaiset"},"assistant_another_element":{"message":"Valitse eri elementti"},"assistant_preview":{"message":"Esikatsele"},"assistant_block":{"message":"Estä"},"assistant_settings":{"message":"Apurin asetukset"},"assistant_preview_header":{"message":"Elementin estosäännön esikatselu"},"assistant_preview_header_info":{"message":"Varmista, että elementti estetään tarkoituksenmukaisesti"},"assistant_preview_end":{"message":"Sulje esikatselu"},"wot_unknown_description":{"message":"$1 ei tarjoa sivustolle mainearviointia"},"wot_bad_description":{"message":"$1 arvioinnin mukaan sivustolla on erittäin huono maine"},"wot_poor_description":{"message":"$1 arvioinnin mukaan sivustolla on huono maine"},"wot_unsatisfactory_description":{"message":"$1 arvioinnin mukaan sivustolla on heikko maine"},"wot_good_description":{"message":"$1 arvioinnin mukaan sivustolla on hyvä maine"},"wot_excellent_description":{"message":"$1 arvioinnin mukaan sivustolla on erinomainen maine"},"settings_choose_size_and_position":{"message":"Säädä AdGuard Avustajan kokoa ja sijaintia"},"settings_icon_size":{"message":"Kuvakkeen koko:"},"settings_small":{"message":"Pieni"},"settings_big":{"message":"Suuri"},"settings_position":{"message":"Sijainti:"},"settings_left_top":{"message":"Ylhäällä vasemmalla"},"settings_right_top":{"message":"Ylhäällä oikealla"},"settings_left_bottom":{"message":"Alhaalla vasemmalla"},"settings_right_bottom":{"message":"Alhaalla oikealla"},"settings_cancel":{"message":"Peruuta"},"settings_save":{"message":"Tallenna muutokset"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Verkkosivustot","settings_position_save_all":"Kaikki sivustot","settings_position_save_this":"Tämä sivusto","assistant_select_element_start":"Aloita","assistant_select_element_text":"Valitse sivulta estettävä elementti. Päivitä sivu poistuaksesi elementtien estotilasta.","menu_filtration_status":{"message":"Tämän sivuston suodatus"},"menu_do_not_filter_30_sec":{"message":"Pysäytä suodatus 30 sekunnin ajaksi"},"menu_block_ad_on_site":{"message":"Estä mainos tältä sivustolta"},"menu_report_abuse":{"message":"Ilmoita ongelmasta"},"menu_site_report":{"message":"Sivuston suojausraportti"},"menu_settings":{"message":"Apurin asetukset"},"menu_wot_reputation_indicator":{"message":"Sivuston maine"},"menu_wot_reputation_confidence_level":{"message":"Mainearvion luotettavuus"},"assistant_select_element":{"message":"Elementin esto"},"assistant_select_element_ext":{"message":"Valitse sivulta estettävä elementti"},"assistant_select_element_cancel":{"message":"Peruuta"},"assistant_block_element":{"message":"Elementin esto"},"assistant_block_element_explain":{"message":"Muokkaa elementinestosääntöä"},"assistant_slider_explain":{"message":"Siirrä liukukytkintä muuttaaksesi sen kehyksen kokoa, johon tämä sääntö vaikuttaa:"},"assistant_extended_settings":{"message":"Edistyneet lisäasetukset"},"assistant_apply_rule_to_all_sites":{"message":"Käytä kaikilla sivustoilla"},"assistant_block_by_reference":{"message":"Estä viitelinkillä"},"assistant_block_similar":{"message":"Estä samankaltaiset"},"assistant_another_element":{"message":"Valitse eri elementti"},"assistant_preview":{"message":"Esikatsele"},"assistant_block":{"message":"Estä"},"assistant_settings":{"message":"Apurin asetukset"},"assistant_preview_header":{"message":"Elementin estosäännön esikatselu"},"assistant_preview_header_info":{"message":"Varmista, että elementti estetään tarkoituksenmukaisesti"},"assistant_preview_end":{"message":"Sulje esikatselu"},"wot_unknown_description":{"message":"$1 ei tarjoa sivustolle mainearviointia"},"wot_bad_description":{"message":"$1 arvioinnin mukaan sivustolla on erittäin huono maine"},"wot_poor_description":{"message":"$1 arvioinnin mukaan sivustolla on huono maine"},"wot_unsatisfactory_description":{"message":"$1 arvioinnin mukaan sivustolla on heikko maine"},"wot_good_description":{"message":"$1 arvioinnin mukaan sivustolla on hyvä maine"},"wot_excellent_description":{"message":"$1 arvioinnin mukaan sivustolla on erinomainen maine"},"settings_choose_size_and_position":{"message":"Säädä AdGuard Avustajan kokoa ja sijaintia"},"settings_icon_size":{"message":"Kuvakkeen koko:"},"settings_small":{"message":"Pieni"},"settings_big":{"message":"Suuri"},"settings_position":{"message":"Sijainti:"},"settings_left_top":{"message":"Ylhäällä vasemmalla"},"settings_right_top":{"message":"Ylhäällä oikealla"},"settings_left_bottom":{"message":"Alhaalla vasemmalla"},"settings_right_bottom":{"message":"Alhaalla oikealla"},"settings_cancel":{"message":"Peruuta"},"settings_save":{"message":"Tallenna muutokset"}}');
 
 /***/ }),
 
-/***/ 4652:
+/***/ 9335:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Sites web","settings_position_save_all":"Tous les sites web","settings_position_save_this":"Ce site web","assistant_select_element_start":"Démarrer","assistant_select_element_text":"Choisissez un élément de la page à bloquer. Pour afficher l\'élément de nouveau, rafraîchissez la page.","menu_filtration_status":{"message":"Filtrages sur ce site"},"menu_do_not_filter_30_sec":{"message":"Ne pas filtrer pendant 30 secondes "},"menu_block_ad_on_site":{"message":"Blocage des annonces sur ce site "},"menu_report_abuse":{"message":"Signaler le site"},"menu_site_report":{"message":"Rapport de sécurité du site"},"menu_settings":{"message":"Réglages de l\'Assistant AdGuard"},"menu_wot_reputation_indicator":{"message":"Indice de réputation du site"},"menu_wot_reputation_confidence_level":{"message":"Niveau de confiance"},"assistant_select_element":{"message":"Blocage d\'éléments "},"assistant_select_element_ext":{"message":"Choisir un élément de la page à bloquer "},"assistant_select_element_cancel":{"message":"Annuler"},"assistant_block_element":{"message":"Blocage d\'éléments "},"assistant_block_element_explain":{"message":"Affiner la règle de blocage d\'elements"},"assistant_slider_explain":{"message":"Déplacez le curseur pour modifier la taille du cadre de travail de la nouvelle règle"},"assistant_extended_settings":{"message":"Paramétrages avancés "},"assistant_apply_rule_to_all_sites":{"message":"Appliquer la règle à tous les sites"},"assistant_block_by_reference":{"message":"Blocage par liens de reference"},"assistant_block_similar":{"message":"Blocage des objets similaires "},"assistant_another_element":{"message":"Sélectionner un élément différent"},"assistant_preview":{"message":"Previsualisation "},"assistant_block":{"message":"Blocage "},"assistant_settings":{"message":"Réglages de l\'Assistant AdGuard"},"assistant_preview_header":{"message":"Blocage d\'éléments - Previsualisation "},"assistant_preview_header_info":{"message":"Assurez-vous que l\'élément est bloqué comme prévu"},"assistant_preview_end":{"message":"Sortir de la previsualisation "},"wot_unknown_description":{"message":"La définition de la réputation de ce site web n\'est pas définie par $1"},"wot_bad_description":{"message":"Ce site web a très mauvaise réputation selon $1"},"wot_poor_description":{"message":"Ce site web a mauvaise réputation selon $1"},"wot_unsatisfactory_description":{"message":"Ce site web a une reputation médiocre selon $1"},"wot_good_description":{"message":"Ce site a bonne réputation selon $1"},"wot_excellent_description":{"message":"Ce site a une réputation excellente selon $1"},"settings_choose_size_and_position":{"message":"Affiner la taille et la position de l\'assistant AdGuard "},"settings_icon_size":{"message":"Taille de l\'icone"},"settings_small":{"message":"Petite"},"settings_big":{"message":"Grande"},"settings_position":{"message":"Positionnement"},"settings_left_top":{"message":"En haut à gauche"},"settings_right_top":{"message":"En haut à droite"},"settings_left_bottom":{"message":"En bas à gauche"},"settings_right_bottom":{"message":"En bas à droite "},"settings_cancel":{"message":"Annuler"},"settings_save":{"message":"Sauvegarder les modifications "}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Sites web","settings_position_save_all":"Tous les sites web","settings_position_save_this":"Ce site web","assistant_select_element_start":"Démarrer","assistant_select_element_text":"Choisissez un élément de la page à bloquer. Pour afficher l\'élément de nouveau, rafraîchissez la page.","menu_filtration_status":{"message":"Filtrages sur ce site"},"menu_do_not_filter_30_sec":{"message":"Ne pas filtrer pendant 30 secondes "},"menu_block_ad_on_site":{"message":"Blocage des annonces sur ce site "},"menu_report_abuse":{"message":"Signaler le site"},"menu_site_report":{"message":"Rapport de sécurité du site"},"menu_settings":{"message":"Réglages de l\'Assistant AdGuard"},"menu_wot_reputation_indicator":{"message":"Indice de réputation du site"},"menu_wot_reputation_confidence_level":{"message":"Niveau de confiance"},"assistant_select_element":{"message":"Blocage d\'éléments "},"assistant_select_element_ext":{"message":"Choisir un élément de la page à bloquer "},"assistant_select_element_cancel":{"message":"Annuler"},"assistant_block_element":{"message":"Blocage d\'éléments "},"assistant_block_element_explain":{"message":"Affiner la règle de blocage d\'elements"},"assistant_slider_explain":{"message":"Déplacez le curseur pour modifier la taille du cadre de travail de la nouvelle règle"},"assistant_extended_settings":{"message":"Paramétrages avancés "},"assistant_apply_rule_to_all_sites":{"message":"Appliquer la règle à tous les sites"},"assistant_block_by_reference":{"message":"Blocage par liens de reference"},"assistant_block_similar":{"message":"Blocage des objets similaires "},"assistant_another_element":{"message":"Sélectionner un élément différent"},"assistant_preview":{"message":"Previsualisation "},"assistant_block":{"message":"Blocage "},"assistant_settings":{"message":"Réglages de l\'Assistant AdGuard"},"assistant_preview_header":{"message":"Blocage d\'éléments - Previsualisation "},"assistant_preview_header_info":{"message":"Assurez-vous que l\'élément est bloqué comme prévu"},"assistant_preview_end":{"message":"Sortir de la previsualisation "},"wot_unknown_description":{"message":"La définition de la réputation de ce site web n\'est pas définie par $1"},"wot_bad_description":{"message":"Ce site web a très mauvaise réputation selon $1"},"wot_poor_description":{"message":"Ce site web a mauvaise réputation selon $1"},"wot_unsatisfactory_description":{"message":"Ce site web a une reputation médiocre selon $1"},"wot_good_description":{"message":"Ce site a bonne réputation selon $1"},"wot_excellent_description":{"message":"Ce site a une réputation excellente selon $1"},"settings_choose_size_and_position":{"message":"Affiner la taille et la position de l\'assistant AdGuard "},"settings_icon_size":{"message":"Taille de l\'icone"},"settings_small":{"message":"Petite"},"settings_big":{"message":"Grande"},"settings_position":{"message":"Positionnement"},"settings_left_top":{"message":"En haut à gauche"},"settings_right_top":{"message":"En haut à droite"},"settings_left_bottom":{"message":"En bas à gauche"},"settings_right_bottom":{"message":"En bas à droite "},"settings_cancel":{"message":"Annuler"},"settings_save":{"message":"Sauvegarder les modifications "}}');
 
 /***/ }),
 
-/***/ 6514:
+/***/ 4314:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"אתרים","settings_position_save_all":"כל האתרים","settings_position_save_this":"האתר הזה","assistant_select_element_start":"התחל","assistant_select_element_text":".בחר אלמנט בדף לחסימה .רענן את הדף כדי לבטל את מצב חסימת האלמנטים","menu_filtration_status":{"message":"סינון באתר זה"},"menu_do_not_filter_30_sec":{"message":"אל תסנן למשך 30 שניות"},"menu_block_ad_on_site":{"message":"חסום פרסומת באתר זה"},"menu_report_abuse":{"message":"דווח על האתר"},"menu_site_report":{"message":"דוח אבטחת אתר"},"menu_settings":{"message":"הגדרות המסייע"},"menu_wot_reputation_indicator":{"message":"מד של מוניטין אתרים"},"menu_wot_reputation_confidence_level":{"message":"רמת אמון מוניטין"},"assistant_select_element":{"message":"חסימת אלמנט"},"assistant_select_element_ext":{"message":"בחר אלמנט בדף לחסימה"},"assistant_select_element_cancel":{"message":"בטל"},"assistant_block_element":{"message":"חסימת אלמנט"},"assistant_block_element_explain":{"message":"התאם כלל של חסימת אלמנט"},"assistant_slider_explain":{"message":"הזז את המַחְלֵק כדי לשנות את גודל המסגרת שבה הכלל החדש יעבוד:"},"assistant_extended_settings":{"message":"הגדרות מתקדמות"},"assistant_apply_rule_to_all_sites":{"message":"החל את הכלל בכל האתרים"},"assistant_block_by_reference":{"message":"חסום לפי קישור הפניה"},"assistant_block_similar":{"message":"חסום דומה"},"assistant_another_element":{"message":"בחר אלמנט אחר"},"assistant_preview":{"message":"הצג מראש"},"assistant_block":{"message":"חסום"},"assistant_settings":{"message":"הגדרות המסייע"},"assistant_preview_header":{"message":"חסימת אלמנט - תצוגה מקדימה"},"assistant_preview_header_info":{"message":"ודא כי אלמנט זה חסום כמתוכנן"},"assistant_preview_end":{"message":"צא מתצוגה מקדימה"},"wot_unknown_description":{"message":"המוניטין של אתר זה אינו מוגדר על ידי $1"},"wot_bad_description":{"message":"לאתר זה יש מוניטין רע מאוד\\nעל פי $1"},"wot_poor_description":{"message":"לאתר זה יש מוניטין רע \\nעל פי $1"},"wot_unsatisfactory_description":{"message":"לאתר זה יש מוניטין ירוד\\nעל פי $1"},"wot_good_description":{"message":"לאתר זה יש מוניטין טוב\\nעל פי $1"},"wot_excellent_description":{"message":"לאתר זה יש מוניטין מצויין\\nעל פי $1"},"settings_choose_size_and_position":{"message":"התאם גודל ומיקום של מסייע AdGuard"},"settings_icon_size":{"message":"גודל איקון:"},"settings_small":{"message":"קטן"},"settings_big":{"message":"גדול"},"settings_position":{"message":"מיקום:"},"settings_left_top":{"message":"בחלק העליון משמאל"},"settings_right_top":{"message":"בחלק העליון מימין"},"settings_left_bottom":{"message":"צד שמאל למטה"},"settings_right_bottom":{"message":"צד ימין למטה"},"settings_cancel":{"message":"בטל"},"settings_save":{"message":"שמור שינויים"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"אתרים","settings_position_save_all":"כל האתרים","settings_position_save_this":"האתר הזה","assistant_select_element_start":"התחל","assistant_select_element_text":".בחר אלמנט בדף לחסימה .רענן את הדף כדי לבטל את מצב חסימת האלמנטים","menu_filtration_status":{"message":"סינון באתר זה"},"menu_do_not_filter_30_sec":{"message":"אל תסנן למשך 30 שניות"},"menu_block_ad_on_site":{"message":"חסום פרסומת באתר זה"},"menu_report_abuse":{"message":"דווח על האתר"},"menu_site_report":{"message":"דוח אבטחת אתר"},"menu_settings":{"message":"הגדרות המסייע"},"menu_wot_reputation_indicator":{"message":"מד של מוניטין אתרים"},"menu_wot_reputation_confidence_level":{"message":"רמת אמון מוניטין"},"assistant_select_element":{"message":"חסימת אלמנט"},"assistant_select_element_ext":{"message":"בחר אלמנט בדף לחסימה"},"assistant_select_element_cancel":{"message":"בטל"},"assistant_block_element":{"message":"חסימת אלמנט"},"assistant_block_element_explain":{"message":"התאם כלל של חסימת אלמנט"},"assistant_slider_explain":{"message":"הזז את המַחְלֵק כדי לשנות את גודל המסגרת שבה הכלל החדש יעבוד:"},"assistant_extended_settings":{"message":"הגדרות מתקדמות"},"assistant_apply_rule_to_all_sites":{"message":"החל את הכלל בכל האתרים"},"assistant_block_by_reference":{"message":"חסום לפי קישור הפניה"},"assistant_block_similar":{"message":"חסום דומה"},"assistant_another_element":{"message":"בחר אלמנט אחר"},"assistant_preview":{"message":"הצג מראש"},"assistant_block":{"message":"חסום"},"assistant_settings":{"message":"הגדרות המסייע"},"assistant_preview_header":{"message":"חסימת אלמנט - תצוגה מקדימה"},"assistant_preview_header_info":{"message":"ודא כי אלמנט זה חסום כמתוכנן"},"assistant_preview_end":{"message":"צא מתצוגה מקדימה"},"wot_unknown_description":{"message":"המוניטין של אתר זה אינו מוגדר על ידי $1"},"wot_bad_description":{"message":"לאתר זה יש מוניטין רע מאוד\\nעל פי $1"},"wot_poor_description":{"message":"לאתר זה יש מוניטין רע \\nעל פי $1"},"wot_unsatisfactory_description":{"message":"לאתר זה יש מוניטין ירוד\\nעל פי $1"},"wot_good_description":{"message":"לאתר זה יש מוניטין טוב\\nעל פי $1"},"wot_excellent_description":{"message":"לאתר זה יש מוניטין מצויין\\nעל פי $1"},"settings_choose_size_and_position":{"message":"התאם גודל ומיקום של מסייע AdGuard"},"settings_icon_size":{"message":"גודל איקון:"},"settings_small":{"message":"קטן"},"settings_big":{"message":"גדול"},"settings_position":{"message":"מיקום:"},"settings_left_top":{"message":"בחלק העליון משמאל"},"settings_right_top":{"message":"בחלק העליון מימין"},"settings_left_bottom":{"message":"צד שמאל למטה"},"settings_right_bottom":{"message":"צד ימין למטה"},"settings_cancel":{"message":"בטל"},"settings_save":{"message":"שמור שינויים"}}');
 
 /***/ }),
 
-/***/ 1996:
+/***/ 8158:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"assistant_extended_settings":{"message":"उन्नत सेटिंग"},"assistant_block":{"message":"अवरुद्ध"},"settings_icon_size":{"message":"आइकन का आकार:"},"settings_small":{"message":"छोटा"},"settings_big":{"message":"बड़ा"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"assistant_extended_settings":{"message":"उन्नत सेटिंग"},"assistant_block":{"message":"अवरुद्ध"},"settings_icon_size":{"message":"आइकन का आकार:"},"settings_small":{"message":"छोटा"},"settings_big":{"message":"बड़ा"}}');
 
 /***/ }),
 
-/***/ 2178:
+/***/ 1733:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Web stranice","settings_position_save_all":"Sve web stranice","settings_position_save_this":"Ova web stranica","assistant_select_element_start":"Započni","assistant_select_element_text":"Odaberite element na stranici za blokiranje. Osvježite stranicu za izlazak iz načina blokade elemenata.","menu_filtration_status":{"message":"Filtriranje na ovoj web stranici"},"menu_do_not_filter_30_sec":{"message":"Ne filtriraj idućih 30 sekundi"},"menu_block_ad_on_site":{"message":"Blokiraj oglas na ovoj web stranici"},"menu_report_abuse":{"message":"Prijavi ovu stranicu"},"menu_site_report":{"message":"Sigurnosni izvještaj stranice"},"menu_settings":{"message":"Postavke pomoćnika"},"menu_wot_reputation_indicator":{"message":"Indikator reputacije stranice"},"menu_wot_reputation_confidence_level":{"message":"Razina povjerenja reputacije"},"assistant_select_element":{"message":"Blokiranje elementa"},"assistant_select_element_ext":{"message":"Odaberite element na stranici za blokiranje"},"assistant_select_element_cancel":{"message":"Poništi"},"assistant_block_element":{"message":"Blokiranje elementa"},"assistant_block_element_explain":{"message":"Prilagodite pravilo blokiranja elemenata"},"assistant_slider_explain":{"message":"Pomaknite klizač da biste promijenili veličinu okvira na koji će se primijeniti novo pravilo:"},"assistant_extended_settings":{"message":"Napredne postavke"},"assistant_apply_rule_to_all_sites":{"message":"Primjeni pravilo na sve web stranice"},"assistant_block_by_reference":{"message":"Blokiraj referentnom vezom"},"assistant_block_similar":{"message":"Blokiraj slične"},"assistant_another_element":{"message":"Odaberite drugi element"},"assistant_preview":{"message":"Pregled"},"assistant_block":{"message":"Blokiraj"},"assistant_settings":{"message":"Postavke pomoćnika"},"assistant_preview_header":{"message":"Pregled blokiranja elementa"},"assistant_preview_header_info":{"message":"Provjerite da je li element blokiran kako ste željeli"},"assistant_preview_end":{"message":"Izlaz iz pregleda"},"wot_unknown_description":{"message":"Reputaciju stranice nije odredio $1"},"wot_bad_description":{"message":"Web stranica ima jako lošu reputaciju \\nprema $1"},"wot_poor_description":{"message":"Web stranica ima lošu reputaciju \\nprema $1"},"wot_unsatisfactory_description":{"message":"Web stranica ima lošu reputaciju \\nprema $1"},"wot_good_description":{"message":"Web stranica ima dobru reputaciju \\nprema $1"},"wot_excellent_description":{"message":"Web stranica ima odličnu reputaciju \\nprema $1"},"settings_choose_size_and_position":{"message":"Podesite veličinu i poziciju AdGuard Pomoćnika"},"settings_icon_size":{"message":"Veličina ikone:"},"settings_small":{"message":"Malo"},"settings_big":{"message":"Veliko"},"settings_position":{"message":"Pozicija:"},"settings_left_top":{"message":"Gore lijevo"},"settings_right_top":{"message":"Gore desno"},"settings_left_bottom":{"message":"Dolje lijevo"},"settings_right_bottom":{"message":"Dolje desno"},"settings_cancel":{"message":"Poništi"},"settings_save":{"message":"Spremi promjene"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Web stranice","settings_position_save_all":"Sve web stranice","settings_position_save_this":"Ova web stranica","assistant_select_element_start":"Započni","assistant_select_element_text":"Odaberite element na stranici za blokiranje. Osvježite stranicu za izlazak iz načina blokade elemenata.","menu_filtration_status":{"message":"Filtriranje na ovoj web stranici"},"menu_do_not_filter_30_sec":{"message":"Ne filtriraj idućih 30 sekundi"},"menu_block_ad_on_site":{"message":"Blokiraj oglas na ovoj web stranici"},"menu_report_abuse":{"message":"Prijavi ovu stranicu"},"menu_site_report":{"message":"Sigurnosni izvještaj stranice"},"menu_settings":{"message":"Postavke pomoćnika"},"menu_wot_reputation_indicator":{"message":"Indikator reputacije stranice"},"menu_wot_reputation_confidence_level":{"message":"Razina povjerenja reputacije"},"assistant_select_element":{"message":"Blokiranje elementa"},"assistant_select_element_ext":{"message":"Odaberite element na stranici za blokiranje"},"assistant_select_element_cancel":{"message":"Poništi"},"assistant_block_element":{"message":"Blokiranje elementa"},"assistant_block_element_explain":{"message":"Prilagodite pravilo blokiranja elemenata"},"assistant_slider_explain":{"message":"Pomaknite klizač da biste promijenili veličinu okvira na koji će se primijeniti novo pravilo:"},"assistant_extended_settings":{"message":"Napredne postavke"},"assistant_apply_rule_to_all_sites":{"message":"Primjeni pravilo na sve web stranice"},"assistant_block_by_reference":{"message":"Blokiraj referentnom vezom"},"assistant_block_similar":{"message":"Blokiraj slične"},"assistant_another_element":{"message":"Odaberite drugi element"},"assistant_preview":{"message":"Pregled"},"assistant_block":{"message":"Blokiraj"},"assistant_settings":{"message":"Postavke pomoćnika"},"assistant_preview_header":{"message":"Pregled blokiranja elementa"},"assistant_preview_header_info":{"message":"Provjerite da je li element blokiran kako ste željeli"},"assistant_preview_end":{"message":"Izlaz iz pregleda"},"wot_unknown_description":{"message":"Reputaciju stranice nije odredio $1"},"wot_bad_description":{"message":"Web stranica ima jako lošu reputaciju \\nprema $1"},"wot_poor_description":{"message":"Web stranica ima lošu reputaciju \\nprema $1"},"wot_unsatisfactory_description":{"message":"Web stranica ima lošu reputaciju \\nprema $1"},"wot_good_description":{"message":"Web stranica ima dobru reputaciju \\nprema $1"},"wot_excellent_description":{"message":"Web stranica ima odličnu reputaciju \\nprema $1"},"settings_choose_size_and_position":{"message":"Podesite veličinu i poziciju AdGuard Pomoćnika"},"settings_icon_size":{"message":"Veličina ikone:"},"settings_small":{"message":"Malo"},"settings_big":{"message":"Veliko"},"settings_position":{"message":"Pozicija:"},"settings_left_top":{"message":"Gore lijevo"},"settings_right_top":{"message":"Gore desno"},"settings_left_bottom":{"message":"Dolje lijevo"},"settings_right_bottom":{"message":"Dolje desno"},"settings_cancel":{"message":"Poništi"},"settings_save":{"message":"Spremi promjene"}}');
 
 /***/ }),
 
-/***/ 2698:
+/***/ 4890:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Weboldalak","settings_position_save_all":"Minden weboldal","settings_position_save_this":"Ez a weboldal","assistant_select_element_start":"Indítás","assistant_select_element_text":"Válassza ki az elemet az oldalon, amit blokkolni szeretne. Frissítse az oldalt, hogy kilépjen az elemblokkoló módból.","menu_filtration_status":{"message":"Szűrés ezen a weboldalon"},"menu_do_not_filter_30_sec":{"message":"Szüneteltetés 30 másodpercig"},"menu_block_ad_on_site":{"message":"Hirdetés blokkolása ezen a weboldalon"},"menu_report_abuse":{"message":"Weboldal jelentése"},"menu_site_report":{"message":"Weboldal biztonsági jelentése"},"menu_settings":{"message":"Asszisztens beállításai"},"menu_wot_reputation_indicator":{"message":"A webhely hírnevének mutatója"},"menu_wot_reputation_confidence_level":{"message":"A hírnév bizalmi szintje"},"assistant_select_element":{"message":"Elem blokkolása"},"assistant_select_element_ext":{"message":"Válassza ki az elemet az oldalon, amit blokkolni szeretne"},"assistant_select_element_cancel":{"message":"Mégse"},"assistant_block_element":{"message":"Elem blokkolása"},"assistant_block_element_explain":{"message":"Állítsa be az elemet blokkoló szabályt"},"assistant_slider_explain":{"message":"Mozgassa a csúszkát a keret méretének megváltoztatásához, amelyre az új szabály működni fog:"},"assistant_extended_settings":{"message":"Haladó beállítások"},"assistant_apply_rule_to_all_sites":{"message":"Szabály alkalmazása az összes weboldalra"},"assistant_block_by_reference":{"message":"Blokkolás link alapján"},"assistant_block_similar":{"message":"Hasonlók blokkolása"},"assistant_another_element":{"message":"Másik elem választása"},"assistant_preview":{"message":"Előnézet"},"assistant_block":{"message":"Blokkolás"},"assistant_settings":{"message":"Asszisztens beállításai"},"assistant_preview_header":{"message":"Elem blokkolása - előnézet"},"assistant_preview_header_info":{"message":"Ellenőrizze, hogy az elem blokkolva van-e a tervezett módon"},"assistant_preview_end":{"message":"Kilépés az előnézetből"},"wot_unknown_description":{"message":"Ez a weboldal nincs nyilvántartva a $1 alapján"},"wot_bad_description":{"message":"Ennek a weboldalnak nagyon rossz a megítélése a $1 alapján"},"wot_poor_description":{"message":"Ennek a weboldalnak rossz a megítélése a $1 alapján"},"wot_unsatisfactory_description":{"message":"Ennek a weboldalnak gyenge a megítélése a $1 alapján"},"wot_good_description":{"message":"Ennek a weboldalnak jó a megítélése a $1 alapján"},"wot_excellent_description":{"message":"Ennek a weboldalnak kitűnő a megítélése a $1 alapján"},"settings_choose_size_and_position":{"message":"Állítsa be az AdGuard Assistant méretét és pozícióját"},"settings_icon_size":{"message":"Ikon mérete:"},"settings_small":{"message":"Kicsi"},"settings_big":{"message":"Nagy"},"settings_position":{"message":"Pozíció:"},"settings_left_top":{"message":"Bal felül"},"settings_right_top":{"message":"Jobb felül"},"settings_left_bottom":{"message":"Bal alul"},"settings_right_bottom":{"message":"Jobb alul"},"settings_cancel":{"message":"Mégse"},"settings_save":{"message":"Változások mentése"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Weboldalak","settings_position_save_all":"Minden weboldal","settings_position_save_this":"Ez a weboldal","assistant_select_element_start":"Indítás","assistant_select_element_text":"Válassza ki az elemet az oldalon, amit blokkolni szeretne. Frissítse az oldalt, hogy kilépjen az elemblokkoló módból.","menu_filtration_status":{"message":"Szűrés ezen a weboldalon"},"menu_do_not_filter_30_sec":{"message":"Szüneteltetés 30 másodpercig"},"menu_block_ad_on_site":{"message":"Hirdetés blokkolása ezen a weboldalon"},"menu_report_abuse":{"message":"Weboldal jelentése"},"menu_site_report":{"message":"Weboldal biztonsági jelentése"},"menu_settings":{"message":"Asszisztens beállításai"},"menu_wot_reputation_indicator":{"message":"A webhely hírnevének mutatója"},"menu_wot_reputation_confidence_level":{"message":"A hírnév bizalmi szintje"},"assistant_select_element":{"message":"Elem blokkolása"},"assistant_select_element_ext":{"message":"Válassza ki az elemet az oldalon, amit blokkolni szeretne"},"assistant_select_element_cancel":{"message":"Mégse"},"assistant_block_element":{"message":"Elem blokkolása"},"assistant_block_element_explain":{"message":"Állítsa be az elemet blokkoló szabályt"},"assistant_slider_explain":{"message":"Mozgassa a csúszkát a keret méretének megváltoztatásához, amelyre az új szabály működni fog:"},"assistant_extended_settings":{"message":"Haladó beállítások"},"assistant_apply_rule_to_all_sites":{"message":"Szabály alkalmazása az összes weboldalra"},"assistant_block_by_reference":{"message":"Blokkolás link alapján"},"assistant_block_similar":{"message":"Hasonlók blokkolása"},"assistant_another_element":{"message":"Másik elem választása"},"assistant_preview":{"message":"Előnézet"},"assistant_block":{"message":"Blokkolás"},"assistant_settings":{"message":"Asszisztens beállításai"},"assistant_preview_header":{"message":"Elem blokkolása - előnézet"},"assistant_preview_header_info":{"message":"Ellenőrizze, hogy az elem blokkolva van-e a tervezett módon"},"assistant_preview_end":{"message":"Kilépés az előnézetből"},"wot_unknown_description":{"message":"Ez a weboldal nincs nyilvántartva a $1 alapján"},"wot_bad_description":{"message":"Ennek a weboldalnak nagyon rossz a megítélése a $1 alapján"},"wot_poor_description":{"message":"Ennek a weboldalnak rossz a megítélése a $1 alapján"},"wot_unsatisfactory_description":{"message":"Ennek a weboldalnak gyenge a megítélése a $1 alapján"},"wot_good_description":{"message":"Ennek a weboldalnak jó a megítélése a $1 alapján"},"wot_excellent_description":{"message":"Ennek a weboldalnak kitűnő a megítélése a $1 alapján"},"settings_choose_size_and_position":{"message":"Állítsa be az AdGuard Assistant méretét és pozícióját"},"settings_icon_size":{"message":"Ikon mérete:"},"settings_small":{"message":"Kicsi"},"settings_big":{"message":"Nagy"},"settings_position":{"message":"Pozíció:"},"settings_left_top":{"message":"Bal felül"},"settings_right_top":{"message":"Jobb felül"},"settings_left_bottom":{"message":"Bal alul"},"settings_right_bottom":{"message":"Jobb alul"},"settings_cancel":{"message":"Mégse"},"settings_save":{"message":"Változások mentése"}}');
 
 /***/ }),
 
-/***/ 710:
+/***/ 940:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Situs web","settings_position_save_all":"Semua situs web","settings_position_save_this":"Situs web ini","assistant_select_element_start":"Mulai","assistant_select_element_text":"Pilih elemen di halaman untuk diblokir. Segarkan halaman untuk membatalkan mode pemblokiran elemen.","menu_filtration_status":{"message":"Penyaringan di situs ini"},"menu_do_not_filter_30_sec":{"message":"Nonaktifkan penyaring untuk 30 detik"},"menu_block_ad_on_site":{"message":"Blokir iklan di situs ini"},"menu_report_abuse":{"message":"Laporkan situs"},"menu_site_report":{"message":"Laporan keamanan situs"},"menu_settings":{"message":"Pengaturan Asisten"},"menu_wot_reputation_indicator":{"message":"Indikator reputasi situs"},"menu_wot_reputation_confidence_level":{"message":"Tingkat Keyakinan Reputasi"},"assistant_select_element":{"message":"Blok Elemen"},"assistant_select_element_ext":{"message":"Pilih elemen di halaman untuk diblok"},"assistant_select_element_cancel":{"message":"Batalkan"},"assistant_block_element":{"message":"Blok Elemen"},"assistant_block_element_explain":{"message":"Atur aturan blokir elemen"},"assistant_slider_explain":{"message":"Pindahkan slider untuk mengatur ukuran frame dimana aturan baru akan aktif:"},"assistant_extended_settings":{"message":"Pengaturan lanjutan"},"assistant_apply_rule_to_all_sites":{"message":"Aktifkan aturan untuk seluruh situs"},"assistant_block_by_reference":{"message":"Blok berdasarkan referensi situs"},"assistant_block_similar":{"message":"Blok semacamnya"},"assistant_another_element":{"message":"Pilih elemen lainnya"},"assistant_preview":{"message":"Pratinjau"},"assistant_block":{"message":"Blokir"},"assistant_settings":{"message":"Pengaturan Asisten"},"assistant_preview_header":{"message":"Blok elemen - pratinjau"},"assistant_preview_header_info":{"message":"Harap pastikan bahwa elemen diblok sesuai kemauan Anda"},"assistant_preview_end":{"message":"Keluar pratinjau"},"wot_unknown_description":{"message":"Reputasi tidak terdefinisi"},"wot_bad_description":{"message":"Situs ini mempunyai reputasi sangat buruk\\nberdasarkan $1"},"wot_poor_description":{"message":"Situs ini mempunyai reputasi buruk\\nberdasarkan $1"},"wot_unsatisfactory_description":{"message":"Situs ini mempunyai reputasi biasa \\nberdasarkan $1"},"wot_good_description":{"message":"Situs ini mempunyai reputasi baik \\nberdasarkan $1"},"wot_excellent_description":{"message":"Situs ini mempunyai reputasi sempurna \\nberdasarkan $1"},"settings_choose_size_and_position":{"message":"Atur ukuran dan posisi AdGuard Assistant"},"settings_icon_size":{"message":"Ukuran ikon:"},"settings_small":{"message":"Kecil"},"settings_big":{"message":"Besar"},"settings_position":{"message":"Posisi:"},"settings_left_top":{"message":"Atas kiri"},"settings_right_top":{"message":"Atas kanan"},"settings_left_bottom":{"message":"Bawah kiri"},"settings_right_bottom":{"message":"Bawah kanan"},"settings_cancel":{"message":"Batal"},"settings_save":{"message":"Simpan perubahan"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Situs web","settings_position_save_all":"Semua situs web","settings_position_save_this":"Situs web ini","assistant_select_element_start":"Mulai","assistant_select_element_text":"Pilih elemen di halaman untuk diblokir. Segarkan halaman untuk membatalkan mode pemblokiran elemen.","menu_filtration_status":{"message":"Penyaringan di situs ini"},"menu_do_not_filter_30_sec":{"message":"Nonaktifkan penyaring untuk 30 detik"},"menu_block_ad_on_site":{"message":"Blokir iklan di situs ini"},"menu_report_abuse":{"message":"Laporkan situs"},"menu_site_report":{"message":"Laporan keamanan situs"},"menu_settings":{"message":"Pengaturan Asisten"},"menu_wot_reputation_indicator":{"message":"Indikator reputasi situs"},"menu_wot_reputation_confidence_level":{"message":"Tingkat Keyakinan Reputasi"},"assistant_select_element":{"message":"Blok Elemen"},"assistant_select_element_ext":{"message":"Pilih elemen di halaman untuk diblok"},"assistant_select_element_cancel":{"message":"Batalkan"},"assistant_block_element":{"message":"Blok Elemen"},"assistant_block_element_explain":{"message":"Atur aturan blokir elemen"},"assistant_slider_explain":{"message":"Pindahkan slider untuk mengatur ukuran frame dimana aturan baru akan aktif:"},"assistant_extended_settings":{"message":"Pengaturan lanjutan"},"assistant_apply_rule_to_all_sites":{"message":"Aktifkan aturan untuk seluruh situs"},"assistant_block_by_reference":{"message":"Blok berdasarkan referensi situs"},"assistant_block_similar":{"message":"Blok semacamnya"},"assistant_another_element":{"message":"Pilih elemen lainnya"},"assistant_preview":{"message":"Pratinjau"},"assistant_block":{"message":"Blokir"},"assistant_settings":{"message":"Pengaturan Asisten"},"assistant_preview_header":{"message":"Blok elemen - pratinjau"},"assistant_preview_header_info":{"message":"Harap pastikan bahwa elemen diblok sesuai kemauan Anda"},"assistant_preview_end":{"message":"Keluar pratinjau"},"wot_unknown_description":{"message":"Reputasi tidak terdefinisi"},"wot_bad_description":{"message":"Situs ini mempunyai reputasi sangat buruk\\nberdasarkan $1"},"wot_poor_description":{"message":"Situs ini mempunyai reputasi buruk\\nberdasarkan $1"},"wot_unsatisfactory_description":{"message":"Situs ini mempunyai reputasi biasa \\nberdasarkan $1"},"wot_good_description":{"message":"Situs ini mempunyai reputasi baik \\nberdasarkan $1"},"wot_excellent_description":{"message":"Situs ini mempunyai reputasi sempurna \\nberdasarkan $1"},"settings_choose_size_and_position":{"message":"Atur ukuran dan posisi AdGuard Assistant"},"settings_icon_size":{"message":"Ukuran ikon:"},"settings_small":{"message":"Kecil"},"settings_big":{"message":"Besar"},"settings_position":{"message":"Posisi:"},"settings_left_top":{"message":"Atas kiri"},"settings_right_top":{"message":"Atas kanan"},"settings_left_bottom":{"message":"Bawah kiri"},"settings_right_bottom":{"message":"Bawah kanan"},"settings_cancel":{"message":"Batal"},"settings_save":{"message":"Simpan perubahan"}}');
 
 /***/ }),
 
-/***/ 7294:
+/***/ 5468:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Siti","settings_position_save_all":"Tutti i siti","settings_position_save_this":"Questo sito web","assistant_select_element_start":"Inizio","assistant_select_element_text":"Seleziona un elemento nella pagina per bloccarlo. Ricarica la pagina per annullare la modalità di blocco di un elemento.","menu_filtration_status":{"message":"Filtraggio su questo sito web"},"menu_do_not_filter_30_sec":{"message":"Non filtrare per 30 secondi"},"menu_block_ad_on_site":{"message":"Blocca annunci su questo sito web"},"menu_report_abuse":{"message":"Segnala il sito"},"menu_site_report":{"message":"Rapporto di sicurezza del sito"},"menu_settings":{"message":"Impostazioni di Assistant"},"menu_wot_reputation_indicator":{"message":"Indicatore reputazione sito"},"menu_wot_reputation_confidence_level":{"message":"Livello della reputazione"},"assistant_select_element":{"message":"Blocca elemento"},"assistant_select_element_ext":{"message":"Scegli un elemento da bloccare sulla pagina"},"assistant_select_element_cancel":{"message":"Annulla"},"assistant_block_element":{"message":"Blocca elemento"},"assistant_block_element_explain":{"message":"Modifica la regola di blocco di un elemento"},"assistant_slider_explain":{"message":"Muovi la barra per cambiare la grandezza del frame da per il quale la nuova regola funzionerà:"},"assistant_extended_settings":{"message":"Impostazioni avanzate"},"assistant_apply_rule_to_all_sites":{"message":"Applica la regola a tutti i siti"},"assistant_block_by_reference":{"message":"Blocco mediante indirizzo di riferimento"},"assistant_block_similar":{"message":"Blocca simile"},"assistant_another_element":{"message":"Seleziona un altro elemento"},"assistant_preview":{"message":"Anteprima"},"assistant_block":{"message":"Blocca"},"assistant_settings":{"message":"Impostazioni di Assistant"},"assistant_preview_header":{"message":"Blocco elemento - anteprima"},"assistant_preview_header_info":{"message":"Assicurati che l\'elemento è bloccato come richiesto"},"assistant_preview_end":{"message":"Esci dall\'anteprima"},"wot_unknown_description":{"message":"La reputazione di questo sito web non è definita da $1"},"wot_bad_description":{"message":"Questo sito web ha una pessima reputazione\\nsecondo $1"},"wot_poor_description":{"message":"Questo sito web ha una brutta reputazione\\nsecondo $1"},"wot_unsatisfactory_description":{"message":"Questo sito web ha una mediocre reputazione\\nsecondo $1"},"wot_good_description":{"message":"Questo sito web ha una buona reputazione\\nsecondo $1"},"wot_excellent_description":{"message":"Questo sito web ha una eccellente reputazione\\nsecondo $1"},"settings_choose_size_and_position":{"message":"Regola dimensione e posizione di AdGuard Assistant"},"settings_icon_size":{"message":"Grandezza dell\'icona:"},"settings_small":{"message":"Piccola"},"settings_big":{"message":"Grande"},"settings_position":{"message":"Posizione:"},"settings_left_top":{"message":"In alto a sinistra"},"settings_right_top":{"message":"In alto a destra"},"settings_left_bottom":{"message":"In basso a sinistra"},"settings_right_bottom":{"message":"In basso a destra"},"settings_cancel":{"message":"Annulla"},"settings_save":{"message":"Salva cambiamenti"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Siti","settings_position_save_all":"Tutti i siti","settings_position_save_this":"Questo sito web","assistant_select_element_start":"Inizio","assistant_select_element_text":"Seleziona un elemento nella pagina per bloccarlo. Ricarica la pagina per annullare la modalità di blocco di un elemento.","menu_filtration_status":{"message":"Filtraggio su questo sito web"},"menu_do_not_filter_30_sec":{"message":"Non filtrare per 30 secondi"},"menu_block_ad_on_site":{"message":"Blocca annunci su questo sito web"},"menu_report_abuse":{"message":"Segnala il sito"},"menu_site_report":{"message":"Rapporto di sicurezza del sito"},"menu_settings":{"message":"Impostazioni di Assistant"},"menu_wot_reputation_indicator":{"message":"Indicatore reputazione sito"},"menu_wot_reputation_confidence_level":{"message":"Livello della reputazione"},"assistant_select_element":{"message":"Blocca elemento"},"assistant_select_element_ext":{"message":"Scegli un elemento da bloccare sulla pagina"},"assistant_select_element_cancel":{"message":"Annulla"},"assistant_block_element":{"message":"Blocca elemento"},"assistant_block_element_explain":{"message":"Modifica la regola di blocco di un elemento"},"assistant_slider_explain":{"message":"Muovi la barra per cambiare la grandezza del frame da per il quale la nuova regola funzionerà:"},"assistant_extended_settings":{"message":"Impostazioni avanzate"},"assistant_apply_rule_to_all_sites":{"message":"Applica la regola a tutti i siti"},"assistant_block_by_reference":{"message":"Blocco mediante indirizzo di riferimento"},"assistant_block_similar":{"message":"Blocca simile"},"assistant_another_element":{"message":"Seleziona un altro elemento"},"assistant_preview":{"message":"Anteprima"},"assistant_block":{"message":"Blocca"},"assistant_settings":{"message":"Impostazioni di Assistant"},"assistant_preview_header":{"message":"Blocco elemento - anteprima"},"assistant_preview_header_info":{"message":"Assicurati che l\'elemento è bloccato come richiesto"},"assistant_preview_end":{"message":"Esci dall\'anteprima"},"wot_unknown_description":{"message":"La reputazione di questo sito web non è definita da $1"},"wot_bad_description":{"message":"Questo sito web ha una pessima reputazione\\nsecondo $1"},"wot_poor_description":{"message":"Questo sito web ha una brutta reputazione\\nsecondo $1"},"wot_unsatisfactory_description":{"message":"Questo sito web ha una mediocre reputazione\\nsecondo $1"},"wot_good_description":{"message":"Questo sito web ha una buona reputazione\\nsecondo $1"},"wot_excellent_description":{"message":"Questo sito web ha una eccellente reputazione\\nsecondo $1"},"settings_choose_size_and_position":{"message":"Regola dimensione e posizione di AdGuard Assistant"},"settings_icon_size":{"message":"Grandezza dell\'icona:"},"settings_small":{"message":"Piccola"},"settings_big":{"message":"Grande"},"settings_position":{"message":"Posizione:"},"settings_left_top":{"message":"In alto a sinistra"},"settings_right_top":{"message":"In alto a destra"},"settings_left_bottom":{"message":"In basso a sinistra"},"settings_right_bottom":{"message":"In basso a destra"},"settings_cancel":{"message":"Annulla"},"settings_save":{"message":"Salva cambiamenti"}}');
 
 /***/ }),
 
-/***/ 9265:
+/***/ 1080:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"ウェブサイト","settings_position_save_all":"すべてのウェブサイト","settings_position_save_this":"このウェブサイト","assistant_select_element_start":"開始","assistant_select_element_text":"ブロックするページ上の要素を選択してください。 ページを更新し要素のブロックモードを解除します。","menu_filtration_status":{"message":"このウェブサイトをフィルタリング"},"menu_do_not_filter_30_sec":{"message":"30秒間フィルタリングしない"},"menu_block_ad_on_site":{"message":"このサイトで広告を手動ブロックする"},"menu_report_abuse":{"message":"このサイトの問題を報告する"},"menu_site_report":{"message":"ウェブサイトのセキュリティレポート"},"menu_settings":{"message":"アシスタントの設定"},"assistant_select_element":{"message":"要素をブロック"},"assistant_select_element_ext":{"message":"ブロックする要素を選択"},"assistant_select_element_cancel":{"message":"キャンセル"},"assistant_block_element":{"message":"要素をブロック"},"assistant_block_element_explain":{"message":"要素のブロックルールを調整する"},"assistant_slider_explain":{"message":"スライダーを動かすと、ブロックするフレームのサイズを変更できます:"},"assistant_extended_settings":{"message":"高度な設定"},"assistant_apply_rule_to_all_sites":{"message":"全てのウェブサイトにこのルールを適用"},"assistant_block_by_reference":{"message":"参照リンクによるブロック"},"assistant_block_similar":{"message":"類似項目をブロック"},"assistant_another_element":{"message":"他の要素を選択"},"assistant_preview":{"message":"プレビュー"},"assistant_block":{"message":"ブロック"},"assistant_settings":{"message":"アシスタントの設定"},"assistant_preview_header":{"message":"要素のブロック - プレビュー"},"assistant_preview_header_info":{"message":"要素が意図したとおりにブロックされていることを確認します"},"assistant_preview_end":{"message":"プレビューを終了"},"wot_unknown_description":{"message":"評判が定義されていません"},"wot_bad_description":{"message":"このウェブサイトは非常に評判が悪いです: "},"wot_poor_description":{"message":"このウェブサイトは評判が悪いです: "},"wot_unsatisfactory_description":{"message":"このウェブサイトは評判がやや悪いです: "},"wot_good_description":{"message":"このウェブサイトは評判が良いです: "},"wot_excellent_description":{"message":"このウェブサイトはとても評判が良いです: "},"settings_choose_size_and_position":{"message":"AdGuardアシスタントのサイズと位置を調整する"},"settings_icon_size":{"message":"アイコンの大きさ:"},"settings_small":{"message":"小"},"settings_big":{"message":"大"},"settings_position":{"message":"位置:"},"settings_left_top":{"message":"左上"},"settings_right_top":{"message":"右上"},"settings_left_bottom":{"message":"左下"},"settings_right_bottom":{"message":"右下"},"settings_cancel":{"message":"キャンセル"},"settings_save":{"message":"設定を保存"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"ウェブサイト","settings_position_save_all":"すべてのウェブサイト","settings_position_save_this":"このウェブサイト","assistant_select_element_start":"開始","assistant_select_element_text":"ブロックするページ上の要素を選択してください。 ページを更新し要素のブロックモードを解除します。","menu_filtration_status":{"message":"このウェブサイトをフィルタリング"},"menu_do_not_filter_30_sec":{"message":"30秒間フィルタリングしない"},"menu_block_ad_on_site":{"message":"このサイトで広告を手動ブロックする"},"menu_report_abuse":{"message":"このサイトの問題を報告する"},"menu_site_report":{"message":"ウェブサイトのセキュリティレポート"},"menu_settings":{"message":"アシスタントの設定"},"assistant_select_element":{"message":"要素をブロック"},"assistant_select_element_ext":{"message":"ブロックする要素を選択"},"assistant_select_element_cancel":{"message":"キャンセル"},"assistant_block_element":{"message":"要素をブロック"},"assistant_block_element_explain":{"message":"要素のブロックルールを調整する"},"assistant_slider_explain":{"message":"スライダーを動かすと、ブロックするフレームのサイズを変更できます:"},"assistant_extended_settings":{"message":"高度な設定"},"assistant_apply_rule_to_all_sites":{"message":"全てのウェブサイトにこのルールを適用"},"assistant_block_by_reference":{"message":"参照リンクによるブロック"},"assistant_block_similar":{"message":"類似項目をブロック"},"assistant_another_element":{"message":"他の要素を選択"},"assistant_preview":{"message":"プレビュー"},"assistant_block":{"message":"ブロック"},"assistant_settings":{"message":"アシスタントの設定"},"assistant_preview_header":{"message":"要素のブロック - プレビュー"},"assistant_preview_header_info":{"message":"要素が意図したとおりにブロックされていることを確認します"},"assistant_preview_end":{"message":"プレビューを終了"},"wot_unknown_description":{"message":"評判が定義されていません"},"wot_bad_description":{"message":"このウェブサイトは非常に評判が悪いです: "},"wot_poor_description":{"message":"このウェブサイトは評判が悪いです: "},"wot_unsatisfactory_description":{"message":"このウェブサイトは評判がやや悪いです: "},"wot_good_description":{"message":"このウェブサイトは評判が良いです: "},"wot_excellent_description":{"message":"このウェブサイトはとても評判が良いです: "},"settings_choose_size_and_position":{"message":"AdGuardアシスタントのサイズと位置を調整する"},"settings_icon_size":{"message":"アイコンの大きさ:"},"settings_small":{"message":"小"},"settings_big":{"message":"大"},"settings_position":{"message":"位置:"},"settings_left_top":{"message":"左上"},"settings_right_top":{"message":"右上"},"settings_left_bottom":{"message":"左下"},"settings_right_bottom":{"message":"右下"},"settings_cancel":{"message":"キャンセル"},"settings_save":{"message":"設定を保存"}}');
 
 /***/ }),
 
-/***/ 1474:
+/***/ 1973:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"웹사이트","settings_position_save_all":"모든 웹사이트","settings_position_save_this":"이 웹사이트","assistant_select_element_start":"시작","assistant_select_element_text":"페이지에서 차단할 요소를 선택하세요. 요소 차단 모드를 취소하려면 페이지를 새로 고침하세요.","menu_filtration_status":{"message":"이 웹사이트에서의 보호"},"menu_do_not_filter_30_sec":{"message":"30초 동안 차단 일시정지"},"menu_block_ad_on_site":{"message":"이 웹사이트에서 광고 차단"},"menu_report_abuse":{"message":"이 웹사이트에 관한 불만 사항 제출"},"menu_site_report":{"message":"웹사이트 보안 보고"},"menu_settings":{"message":"어시스턴트 설정"},"menu_wot_reputation_indicator":{"message":"웹사이트 평판 표시기"},"menu_wot_reputation_confidence_level":{"message":"평판 신뢰 수준"},"assistant_select_element":{"message":"선택 모드"},"assistant_select_element_ext":{"message":"페이지에서 아무 요소나 클릭하거나"},"assistant_select_element_cancel":{"message":"선택 모드 취소"},"assistant_block_element":{"message":"요소 차단"},"assistant_block_element_explain":{"message":"요소 차단 규칙 설정"},"assistant_slider_explain":{"message":"슬라이더로 차단할 요소의 범위를 지정하세요."},"assistant_extended_settings":{"message":"고급 설정"},"assistant_apply_rule_to_all_sites":{"message":"모든 웹사이트에 이 규칙 적용"},"assistant_block_by_reference":{"message":"참조 링크가 차단"},"assistant_block_similar":{"message":"유사한 요소 차단"},"assistant_another_element":{"message":"다른 요소 선택"},"assistant_preview":{"message":"미리 보기"},"assistant_block":{"message":"차단"},"assistant_settings":{"message":"어시스턴트 설정"},"assistant_preview_header":{"message":"요소 차단 - 미리 보기"},"assistant_preview_header_info":{"message":"의도한 대로 요소가 차단되었는지 확인하세요."},"assistant_preview_end":{"message":"미리 보기 종료"},"wot_unknown_description":{"message":"평판이 등록되지 않았습니다."},"wot_bad_description":{"message":"이 웹사이트는 아주 나쁜 평판을 갖고 있습니다.\\n제공 "},"wot_poor_description":{"message":"이 웹사이트는 나쁜 평판을 갖고 있습니다.\\n제공 "},"wot_unsatisfactory_description":{"message":"이 웹사이트는 좋지 않은 평판을 갖고 있습니다.\\n제공 "},"wot_good_description":{"message":"이 웹사이트는 좋은 평판을 갖고 있습니다.\\n제공 "},"wot_excellent_description":{"message":"이 웹사이트는 아주 좋은 평판을 갖고 있습니다.\\n제공 "},"settings_choose_size_and_position":{"message":"AdGuard 어시스턴트 크기와 위치를 조정합니다"},"settings_icon_size":{"message":"아이콘 크기:"},"settings_small":{"message":"작게"},"settings_big":{"message":"크게"},"settings_position":{"message":"위치:"},"settings_left_top":{"message":"왼쪽 위"},"settings_right_top":{"message":"오른쪽 위"},"settings_left_bottom":{"message":"왼쪽 아래"},"settings_right_bottom":{"message":"오른쪽 아래"},"settings_cancel":{"message":"취소"},"settings_save":{"message":"저장"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"웹사이트","settings_position_save_all":"모든 웹사이트","settings_position_save_this":"이 웹사이트","assistant_select_element_start":"시작","assistant_select_element_text":"페이지에서 차단할 요소를 선택하세요. 요소 차단 모드를 취소하려면 페이지를 새로 고침하세요.","menu_filtration_status":{"message":"이 웹사이트에서의 보호"},"menu_do_not_filter_30_sec":{"message":"30초 동안 차단 일시정지"},"menu_block_ad_on_site":{"message":"이 웹사이트에서 광고 차단"},"menu_report_abuse":{"message":"이 웹사이트에 관한 불만 사항 제출"},"menu_site_report":{"message":"웹사이트 보안 보고"},"menu_settings":{"message":"어시스턴트 설정"},"menu_wot_reputation_indicator":{"message":"웹사이트 평판 표시기"},"menu_wot_reputation_confidence_level":{"message":"평판 신뢰 수준"},"assistant_select_element":{"message":"선택 모드"},"assistant_select_element_ext":{"message":"페이지에서 아무 요소나 클릭하거나"},"assistant_select_element_cancel":{"message":"선택 모드 취소"},"assistant_block_element":{"message":"요소 차단"},"assistant_block_element_explain":{"message":"요소 차단 규칙 설정"},"assistant_slider_explain":{"message":"슬라이더로 차단할 요소의 범위를 지정하세요."},"assistant_extended_settings":{"message":"고급 설정"},"assistant_apply_rule_to_all_sites":{"message":"모든 웹사이트에 이 규칙 적용"},"assistant_block_by_reference":{"message":"참조 링크가 차단"},"assistant_block_similar":{"message":"유사한 요소 차단"},"assistant_another_element":{"message":"다른 요소 선택"},"assistant_preview":{"message":"미리 보기"},"assistant_block":{"message":"차단"},"assistant_settings":{"message":"어시스턴트 설정"},"assistant_preview_header":{"message":"요소 차단 - 미리 보기"},"assistant_preview_header_info":{"message":"의도한 대로 요소가 차단되었는지 확인하세요."},"assistant_preview_end":{"message":"미리 보기 종료"},"wot_unknown_description":{"message":"평판이 등록되지 않았습니다."},"wot_bad_description":{"message":"이 웹사이트는 아주 나쁜 평판을 갖고 있습니다.\\n제공 "},"wot_poor_description":{"message":"이 웹사이트는 나쁜 평판을 갖고 있습니다.\\n제공 "},"wot_unsatisfactory_description":{"message":"이 웹사이트는 좋지 않은 평판을 갖고 있습니다.\\n제공 "},"wot_good_description":{"message":"이 웹사이트는 좋은 평판을 갖고 있습니다.\\n제공 "},"wot_excellent_description":{"message":"이 웹사이트는 아주 좋은 평판을 갖고 있습니다.\\n제공 "},"settings_choose_size_and_position":{"message":"AdGuard 어시스턴트 크기와 위치를 조정합니다"},"settings_icon_size":{"message":"아이콘 크기:"},"settings_small":{"message":"작게"},"settings_big":{"message":"크게"},"settings_position":{"message":"위치:"},"settings_left_top":{"message":"왼쪽 위"},"settings_right_top":{"message":"오른쪽 위"},"settings_left_bottom":{"message":"왼쪽 아래"},"settings_right_bottom":{"message":"오른쪽 아래"},"settings_cancel":{"message":"취소"},"settings_save":{"message":"저장"}}');
 
 /***/ }),
 
-/***/ 8612:
+/***/ 1295:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Interneto svetainės","settings_position_save_all":"Visos svetainės","settings_position_save_this":"Ši svetainė","assistant_select_element_start":"Pradėti","assistant_select_element_text":"Pasirinkite elementą puslapyje, kurį norite blokuoti. Atnaujinkite puslapį, kad atšauktumėte elementų blokavimo režimą.","menu_filtration_status":{"message":"Filtravimas šioje svetainėje"},"menu_do_not_filter_30_sec":{"message":"Nefiltruoti 30 sekundžių"},"menu_block_ad_on_site":{"message":"Blokuoti reklamą šioje svetainėje"},"menu_report_abuse":{"message":"Pranešti apie svetainę"},"menu_site_report":{"message":"Svetainės saugumo ataskaita"},"menu_settings":{"message":"Asistento nustatymai"},"menu_wot_reputation_indicator":{"message":"Svetainės reputacijos rodiklis"},"menu_wot_reputation_confidence_level":{"message":"Reputacijos pasitikėjimo lygis"},"assistant_select_element":{"message":"Elemento blokavimas"},"assistant_select_element_ext":{"message":"Pasirinkite elementą puslapyje, kurį norite blokuoti"},"assistant_select_element_cancel":{"message":"Atšaukti"},"assistant_block_element":{"message":"Elemento blokavimas"},"assistant_block_element_explain":{"message":"Nustatykite elemento blokavimo taisyklę"},"assistant_slider_explain":{"message":"Slankiklio pagalba, keiskite rėmelio dydį, kuriame galios nauja taisyklė:"},"assistant_extended_settings":{"message":"Išplėstiniai nustatymai"},"assistant_apply_rule_to_all_sites":{"message":"Pritaikyti taisyklę visoms svetainėms"},"assistant_block_by_reference":{"message":"Blokuoti pagal nuorodą"},"assistant_block_similar":{"message":"Blokuoti panašius"},"assistant_another_element":{"message":"Pasirinkti kitą elementą"},"assistant_preview":{"message":"Peržiūra"},"assistant_block":{"message":"Užblokuoti"},"assistant_settings":{"message":"Asistento nustatymai"},"assistant_preview_header":{"message":"Elemento blokavimas - peržiūra"},"assistant_preview_header_info":{"message":"Įsitikinkite, kad elementas yra užblokuotas kaip sumanyta"},"assistant_preview_end":{"message":"Baigti peržiūrą"},"wot_unknown_description":{"message":"Šios svetainės reputacija nėra apibrėžta $1"},"wot_bad_description":{"message":"Ši svetainė turi labai blogą reputaciją\\npagal $1"},"wot_poor_description":{"message":"Ši svetainė turi blogą reputaciją pagal $1"},"wot_unsatisfactory_description":{"message":"Ši svetainė turi prastą reputaciją pagal $1"},"wot_good_description":{"message":"Ši svetainė turi gerą reputaciją pagal $1"},"wot_excellent_description":{"message":"Ši svetainė turi puikią reputaciją pagal $1"},"settings_choose_size_and_position":{"message":"Nustatykite AdGuard Asistento dydį ir padėtį"},"settings_icon_size":{"message":"Piktogramos dydis:"},"settings_small":{"message":"Maža"},"settings_big":{"message":"Didelė"},"settings_position":{"message":"Padėtis:"},"settings_left_top":{"message":"Viršuje kairėje"},"settings_right_top":{"message":"Viršuje dešinėje"},"settings_left_bottom":{"message":"Apačioje kairėje"},"settings_right_bottom":{"message":"Apačioje dešinėje"},"settings_cancel":{"message":"Atšaukti"},"settings_save":{"message":"Išsaugoti pakeitimus"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Interneto svetainės","settings_position_save_all":"Visos svetainės","settings_position_save_this":"Ši svetainė","assistant_select_element_start":"Pradėti","assistant_select_element_text":"Pasirinkite elementą puslapyje, kurį norite blokuoti. Atnaujinkite puslapį, kad atšauktumėte elementų blokavimo režimą.","menu_filtration_status":{"message":"Filtravimas šioje svetainėje"},"menu_do_not_filter_30_sec":{"message":"Nefiltruoti 30 sekundžių"},"menu_block_ad_on_site":{"message":"Blokuoti reklamą šioje svetainėje"},"menu_report_abuse":{"message":"Pranešti apie svetainę"},"menu_site_report":{"message":"Svetainės saugumo ataskaita"},"menu_settings":{"message":"Asistento nustatymai"},"menu_wot_reputation_indicator":{"message":"Svetainės reputacijos rodiklis"},"menu_wot_reputation_confidence_level":{"message":"Reputacijos pasitikėjimo lygis"},"assistant_select_element":{"message":"Elemento blokavimas"},"assistant_select_element_ext":{"message":"Pasirinkite elementą puslapyje, kurį norite blokuoti"},"assistant_select_element_cancel":{"message":"Atšaukti"},"assistant_block_element":{"message":"Elemento blokavimas"},"assistant_block_element_explain":{"message":"Nustatykite elemento blokavimo taisyklę"},"assistant_slider_explain":{"message":"Slankiklio pagalba, keiskite rėmelio dydį, kuriame galios nauja taisyklė:"},"assistant_extended_settings":{"message":"Išplėstiniai nustatymai"},"assistant_apply_rule_to_all_sites":{"message":"Pritaikyti taisyklę visoms svetainėms"},"assistant_block_by_reference":{"message":"Blokuoti pagal nuorodą"},"assistant_block_similar":{"message":"Blokuoti panašius"},"assistant_another_element":{"message":"Pasirinkti kitą elementą"},"assistant_preview":{"message":"Peržiūra"},"assistant_block":{"message":"Užblokuoti"},"assistant_settings":{"message":"Asistento nustatymai"},"assistant_preview_header":{"message":"Elemento blokavimas - peržiūra"},"assistant_preview_header_info":{"message":"Įsitikinkite, kad elementas yra užblokuotas kaip sumanyta"},"assistant_preview_end":{"message":"Baigti peržiūrą"},"wot_unknown_description":{"message":"Šios svetainės reputacija nėra apibrėžta $1"},"wot_bad_description":{"message":"Ši svetainė turi labai blogą reputaciją\\npagal $1"},"wot_poor_description":{"message":"Ši svetainė turi blogą reputaciją pagal $1"},"wot_unsatisfactory_description":{"message":"Ši svetainė turi prastą reputaciją pagal $1"},"wot_good_description":{"message":"Ši svetainė turi gerą reputaciją pagal $1"},"wot_excellent_description":{"message":"Ši svetainė turi puikią reputaciją pagal $1"},"settings_choose_size_and_position":{"message":"Nustatykite AdGuard Asistento dydį ir padėtį"},"settings_icon_size":{"message":"Piktogramos dydis:"},"settings_small":{"message":"Maža"},"settings_big":{"message":"Didelė"},"settings_position":{"message":"Padėtis:"},"settings_left_top":{"message":"Viršuje kairėje"},"settings_right_top":{"message":"Viršuje dešinėje"},"settings_left_bottom":{"message":"Apačioje kairėje"},"settings_right_bottom":{"message":"Apačioje dešinėje"},"settings_cancel":{"message":"Atšaukti"},"settings_save":{"message":"Išsaugoti pakeitimus"}}');
 
 /***/ }),
 
-/***/ 8967:
+/***/ 9841:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Websites","settings_position_save_all":"Alle websites","settings_position_save_this":"Deze website","assistant_select_element_start":"Starten","assistant_select_element_text":"Kies een element op deze webpagina om te blokkeren. Herlaad de pagina om het blokkeren van het element te stoppen.","menu_filtration_status":{"message":"Filteren op deze website"},"menu_do_not_filter_30_sec":{"message":"Niet filtreren voor 30 seconden"},"menu_block_ad_on_site":{"message":"Blokkeer ad op deze website"},"menu_report_abuse":{"message":"Rapporteer de website"},"menu_site_report":{"message":"Beveiligingsrapport van website"},"menu_settings":{"message":"Instelling van de assistent"},"menu_wot_reputation_indicator":{"message":"Website reputatie indicator"},"menu_wot_reputation_confidence_level":{"message":"Vertrouwensniveau reputatie"},"assistant_select_element":{"message":"Element blokkeren"},"assistant_select_element_ext":{"message":"Kies een element op deze pagina dat je wil blokkeren"},"assistant_select_element_cancel":{"message":"Annuleren"},"assistant_block_element":{"message":"Element blokkeren"},"assistant_block_element_explain":{"message":"Pas de Element blokkeren regel aan"},"assistant_slider_explain":{"message":"Beweeg de schuifregelaar om de grootte van het frame te wijzigen waarvoor de nieuwe regel werkt:"},"assistant_extended_settings":{"message":"Geavanceerde instellingen"},"assistant_apply_rule_to_all_sites":{"message":"Regel toepassen op alle websites"},"assistant_block_by_reference":{"message":"Blokkeren via referentielink"},"assistant_block_similar":{"message":"Blokkeer vergelijkbare"},"assistant_another_element":{"message":"Een ander element selecteren"},"assistant_preview":{"message":"Voorbeeldweergave"},"assistant_block":{"message":"Blokkeren"},"assistant_settings":{"message":"Assistent instellingen"},"assistant_preview_header":{"message":"Elementblokkering - voorbeeld"},"assistant_preview_header_info":{"message":"Zorg ervoor dat het element wordt geblokkeerd zoals bedoeld"},"assistant_preview_end":{"message":"Voorbeeldweergave afsluiten"},"wot_unknown_description":{"message":"De reputatie van deze website wordt niet bepaald door $1"},"wot_bad_description":{"message":"Deze website heeft een zeer slechte reputatie\\nvolgens $1"},"wot_poor_description":{"message":"Deze website heeft een slechte reputatie\\nvolgens $ 1"},"wot_unsatisfactory_description":{"message":"Deze website heeft een slechte reputatie volgens $1"},"wot_good_description":{"message":"Deze website heeft een goede reputatie volgens $1"},"wot_excellent_description":{"message":"Deze website heeft een uitstekende reputatie volgens $1"},"settings_choose_size_and_position":{"message":"Grootte en positie van AdGuard Assistent aanpassen"},"settings_icon_size":{"message":"Grootte pictogram:"},"settings_small":{"message":"Klein"},"settings_big":{"message":"Groot"},"settings_position":{"message":"Positie:"},"settings_left_top":{"message":"Linksboven"},"settings_right_top":{"message":"Rechtsboven"},"settings_left_bottom":{"message":"Linksonder"},"settings_right_bottom":{"message":"Rechtsonder"},"settings_cancel":{"message":"Annuleren"},"settings_save":{"message":"Wijzigingen opslaan"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Websites","settings_position_save_all":"Alle websites","settings_position_save_this":"Deze website","assistant_select_element_start":"Starten","assistant_select_element_text":"Kies een element op deze webpagina om te blokkeren. Herlaad de pagina om het blokkeren van het element te stoppen.","menu_filtration_status":{"message":"Filteren op deze website"},"menu_do_not_filter_30_sec":{"message":"Niet filtreren voor 30 seconden"},"menu_block_ad_on_site":{"message":"Blokkeer ad op deze website"},"menu_report_abuse":{"message":"Rapporteer de website"},"menu_site_report":{"message":"Beveiligingsrapport van website"},"menu_settings":{"message":"Instelling van de assistent"},"menu_wot_reputation_indicator":{"message":"Website reputatie indicator"},"menu_wot_reputation_confidence_level":{"message":"Vertrouwensniveau reputatie"},"assistant_select_element":{"message":"Element blokkeren"},"assistant_select_element_ext":{"message":"Kies een element op deze pagina dat je wil blokkeren"},"assistant_select_element_cancel":{"message":"Annuleren"},"assistant_block_element":{"message":"Element blokkeren"},"assistant_block_element_explain":{"message":"Pas de Element blokkeren regel aan"},"assistant_slider_explain":{"message":"Beweeg de schuifregelaar om de grootte van het frame te wijzigen waarvoor de nieuwe regel werkt:"},"assistant_extended_settings":{"message":"Geavanceerde instellingen"},"assistant_apply_rule_to_all_sites":{"message":"Regel toepassen op alle websites"},"assistant_block_by_reference":{"message":"Blokkeren via referentielink"},"assistant_block_similar":{"message":"Blokkeer vergelijkbare"},"assistant_another_element":{"message":"Een ander element selecteren"},"assistant_preview":{"message":"Voorbeeldweergave"},"assistant_block":{"message":"Blokkeren"},"assistant_settings":{"message":"Assistent instellingen"},"assistant_preview_header":{"message":"Elementblokkering - voorbeeld"},"assistant_preview_header_info":{"message":"Zorg ervoor dat het element wordt geblokkeerd zoals bedoeld"},"assistant_preview_end":{"message":"Voorbeeldweergave afsluiten"},"wot_unknown_description":{"message":"De reputatie van deze website wordt niet bepaald door $1"},"wot_bad_description":{"message":"Deze website heeft een zeer slechte reputatie\\nvolgens $1"},"wot_poor_description":{"message":"Deze website heeft een slechte reputatie\\nvolgens $ 1"},"wot_unsatisfactory_description":{"message":"Deze website heeft een slechte reputatie volgens $1"},"wot_good_description":{"message":"Deze website heeft een goede reputatie volgens $1"},"wot_excellent_description":{"message":"Deze website heeft een uitstekende reputatie volgens $1"},"settings_choose_size_and_position":{"message":"Grootte en positie van AdGuard Assistent aanpassen"},"settings_icon_size":{"message":"Grootte pictogram:"},"settings_small":{"message":"Klein"},"settings_big":{"message":"Groot"},"settings_position":{"message":"Positie:"},"settings_left_top":{"message":"Linksboven"},"settings_right_top":{"message":"Rechtsboven"},"settings_left_bottom":{"message":"Linksonder"},"settings_right_bottom":{"message":"Rechtsonder"},"settings_cancel":{"message":"Annuleren"},"settings_save":{"message":"Wijzigingen opslaan"}}');
 
 /***/ }),
 
-/***/ 6251:
+/***/ 370:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Nettsider","settings_position_save_all":"Alle nettsider","settings_position_save_this":"Denne nettsiden","assistant_select_element_start":"Start","assistant_select_element_text":"Velg et element på siden som skal blokkeres. Oppdater siden for å avbryte elementblokkeringsmodusen.","menu_filtration_status":{"message":"Filtrering på denne nettsiden"},"menu_do_not_filter_30_sec":{"message":"Ikke filtrer i 30 sekunder"},"menu_block_ad_on_site":{"message":"Blokker annonse på denne nettsiden"},"menu_report_abuse":{"message":"Rapporter denne nettsiden"},"menu_site_report":{"message":"Nettsidens sikkerhetsrapport"},"menu_settings":{"message":"Assistentinnstillinger"},"menu_wot_reputation_indicator":{"message":"Nettsteds-rykteindikator"},"menu_wot_reputation_confidence_level":{"message":"Ryktepålitelighetsnivå"},"assistant_select_element":{"message":"Elementblokkering"},"assistant_select_element_ext":{"message":"Velg et element på siden som skal blokkeres"},"assistant_select_element_cancel":{"message":"Avbryt"},"assistant_block_element":{"message":"Elementblokkering"},"assistant_block_element_explain":{"message":"Juster elementblokkeringsregel"},"assistant_slider_explain":{"message":"Flytt glidebryteren for å endre størrelsen på rammen den nye regelen vil fungere for:"},"assistant_extended_settings":{"message":"Avanserte innstillinger"},"assistant_apply_rule_to_all_sites":{"message":"Bruk regelen for alle nettsider"},"assistant_block_by_reference":{"message":"Blokker med referanselenke"},"assistant_block_similar":{"message":"Blokker lignende"},"assistant_another_element":{"message":"Velg et annet element"},"assistant_preview":{"message":"Forhåndsvisning"},"assistant_block":{"message":"Blokker"},"assistant_settings":{"message":"Assistentinnstillinger"},"assistant_preview_header":{"message":"Elementblokkering - forhåndsvisning"},"assistant_preview_header_info":{"message":"Kontroller at elementet er blokkert som det skal"},"assistant_preview_end":{"message":"Avslutt forhåndsvisning"},"wot_unknown_description":{"message":"Rykte er ikke definert"},"wot_bad_description":{"message":"Denne nettsiden har et veldig dårlig rykte\\ni følge $1"},"wot_poor_description":{"message":"Denne nettsiden har et dårlig rykte\\ni følge $1"},"wot_unsatisfactory_description":{"message":"Denne nettsiden har et dårlig rykte\\ni følge $1"},"wot_good_description":{"message":"Denne nettsiden har et godt rykte\\ni følge $1"},"wot_excellent_description":{"message":"Denne nettsiden har et utmerket rykte\\ni følge $1"},"settings_choose_size_and_position":{"message":"Juster størrelsen og posisjonen til AdGuard-assistent"},"settings_icon_size":{"message":"Ikonstørrelse:"},"settings_small":{"message":"Liten"},"settings_big":{"message":"Stor"},"settings_position":{"message":"Posisjoner:"},"settings_left_top":{"message":"Øverst til venstre"},"settings_right_top":{"message":"Øverst til høyre"},"settings_left_bottom":{"message":"Nederst til venstre"},"settings_right_bottom":{"message":"Nederst til høyre"},"settings_cancel":{"message":"Avbryt"},"settings_save":{"message":"Lagre endringer"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Nettsider","settings_position_save_all":"Alle nettsider","settings_position_save_this":"Denne nettsiden","assistant_select_element_start":"Start","assistant_select_element_text":"Velg et element på siden som skal blokkeres. Oppdater siden for å avbryte elementblokkeringsmodusen.","menu_filtration_status":{"message":"Filtrering på denne nettsiden"},"menu_do_not_filter_30_sec":{"message":"Ikke filtrer i 30 sekunder"},"menu_block_ad_on_site":{"message":"Blokker annonse på denne nettsiden"},"menu_report_abuse":{"message":"Rapporter denne nettsiden"},"menu_site_report":{"message":"Nettsidens sikkerhetsrapport"},"menu_settings":{"message":"Assistentinnstillinger"},"menu_wot_reputation_indicator":{"message":"Nettsteds-rykteindikator"},"menu_wot_reputation_confidence_level":{"message":"Ryktepålitelighetsnivå"},"assistant_select_element":{"message":"Elementblokkering"},"assistant_select_element_ext":{"message":"Velg et element på siden som skal blokkeres"},"assistant_select_element_cancel":{"message":"Avbryt"},"assistant_block_element":{"message":"Elementblokkering"},"assistant_block_element_explain":{"message":"Juster elementblokkeringsregel"},"assistant_slider_explain":{"message":"Flytt glidebryteren for å endre størrelsen på rammen den nye regelen vil fungere for:"},"assistant_extended_settings":{"message":"Avanserte innstillinger"},"assistant_apply_rule_to_all_sites":{"message":"Bruk regelen for alle nettsider"},"assistant_block_by_reference":{"message":"Blokker med referanselenke"},"assistant_block_similar":{"message":"Blokker lignende"},"assistant_another_element":{"message":"Velg et annet element"},"assistant_preview":{"message":"Forhåndsvisning"},"assistant_block":{"message":"Blokker"},"assistant_settings":{"message":"Assistentinnstillinger"},"assistant_preview_header":{"message":"Elementblokkering - forhåndsvisning"},"assistant_preview_header_info":{"message":"Kontroller at elementet er blokkert som det skal"},"assistant_preview_end":{"message":"Avslutt forhåndsvisning"},"wot_unknown_description":{"message":"Rykte er ikke definert"},"wot_bad_description":{"message":"Denne nettsiden har et veldig dårlig rykte\\ni følge $1"},"wot_poor_description":{"message":"Denne nettsiden har et dårlig rykte\\ni følge $1"},"wot_unsatisfactory_description":{"message":"Denne nettsiden har et dårlig rykte\\ni følge $1"},"wot_good_description":{"message":"Denne nettsiden har et godt rykte\\ni følge $1"},"wot_excellent_description":{"message":"Denne nettsiden har et utmerket rykte\\ni følge $1"},"settings_choose_size_and_position":{"message":"Juster størrelsen og posisjonen til AdGuard-assistent"},"settings_icon_size":{"message":"Ikonstørrelse:"},"settings_small":{"message":"Liten"},"settings_big":{"message":"Stor"},"settings_position":{"message":"Posisjoner:"},"settings_left_top":{"message":"Øverst til venstre"},"settings_right_top":{"message":"Øverst til høyre"},"settings_left_bottom":{"message":"Nederst til venstre"},"settings_right_bottom":{"message":"Nederst til høyre"},"settings_cancel":{"message":"Avbryt"},"settings_save":{"message":"Lagre endringer"}}');
 
 /***/ }),
 
-/***/ 1549:
+/***/ 4067:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Strony internetowe","settings_position_save_all":"Wszystkie strony internetowe","settings_position_save_this":"Ta strona internetowa","assistant_select_element_start":"Rozpocznij","assistant_select_element_text":"Wybierz element na stronie do zablokowania. Odśwież stronę, aby anulować tryb blokowania elementu.","menu_filtration_status":{"message":"Filtrowanie na tej stronie internetowej"},"menu_do_not_filter_30_sec":{"message":"Nie filtruj przez 30 sekund"},"menu_block_ad_on_site":{"message":"Zablokuj reklamę na tej stronie internetowej"},"menu_report_abuse":{"message":"Raportuj stronę internetową"},"menu_site_report":{"message":"Raport bezpieczeństwa strony internetowej"},"menu_settings":{"message":"Ustawienia Asystenta"},"menu_wot_reputation_indicator":{"message":"Wskaźnik reputacji witryny"},"menu_wot_reputation_confidence_level":{"message":"Poziom zaufania do reputacji"},"assistant_select_element":{"message":"Blokowanie elementów"},"assistant_select_element_ext":{"message":"Wybierz element na stronie by zablokować"},"assistant_select_element_cancel":{"message":"Anuluj"},"assistant_block_element":{"message":"Blokowanie elementów"},"assistant_block_element_explain":{"message":"Dostosuj regułę blokowania elementów"},"assistant_slider_explain":{"message":"Przesuń suwak by zmienić rozmiar ramki, dla której będzie obowiązywać nowa reguła:"},"assistant_extended_settings":{"message":"Ustawienia zaawansowane"},"assistant_apply_rule_to_all_sites":{"message":"Zastosuj regułę dla wszystkich stron internetowych"},"assistant_block_by_reference":{"message":"Blokuj używając linka referencyjnego"},"assistant_block_similar":{"message":"Blokuj podobne"},"assistant_another_element":{"message":"Wybierz inny element"},"assistant_preview":{"message":"Podgląd"},"assistant_block":{"message":"Blokuj"},"assistant_settings":{"message":"Ustawienia Asystenta"},"assistant_preview_header":{"message":"Blokowanie elementów - podgląd"},"assistant_preview_header_info":{"message":"Upewnij się, że element jest blokowany jak zamierzono"},"assistant_preview_end":{"message":"Zamknij podgląd"},"wot_unknown_description":{"message":"Reputacja nie jest zdefiniowana"},"wot_bad_description":{"message":"Ta strona internetowa ma bardzo złą reputację zgodnie z $1"},"wot_poor_description":{"message":"Ta strona internetowa ma złą reputację zgodnie z $1"},"wot_unsatisfactory_description":{"message":"Ta strona internetowa ma słabą reputację zgodnie z $1"},"wot_good_description":{"message":"Ta strona internetowa ma dobrą reputację zgodnie z $1"},"wot_excellent_description":{"message":"Ta strona internetowa ma doskonałą reputację zgodnie z $1"},"settings_choose_size_and_position":{"message":"Dostosuj rozmiar i pozycję Asystenta AdGuarda"},"settings_icon_size":{"message":"Rozmiar ikony:"},"settings_small":{"message":"Mały"},"settings_big":{"message":"Duży"},"settings_position":{"message":"Pozycja:"},"settings_left_top":{"message":"Lewy górny"},"settings_right_top":{"message":"Prawy górny"},"settings_left_bottom":{"message":"Na dole po lewej"},"settings_right_bottom":{"message":"Na dole po prawej"},"settings_cancel":{"message":"Anuluj"},"settings_save":{"message":"Zapisz zmiany"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Strony internetowe","settings_position_save_all":"Wszystkie strony internetowe","settings_position_save_this":"Ta strona internetowa","assistant_select_element_start":"Rozpocznij","assistant_select_element_text":"Wybierz element na stronie do zablokowania. Odśwież stronę, aby anulować tryb blokowania elementu.","menu_filtration_status":{"message":"Filtrowanie na tej stronie internetowej"},"menu_do_not_filter_30_sec":{"message":"Nie filtruj przez 30 sekund"},"menu_block_ad_on_site":{"message":"Zablokuj reklamę na tej stronie internetowej"},"menu_report_abuse":{"message":"Raportuj stronę internetową"},"menu_site_report":{"message":"Raport bezpieczeństwa strony internetowej"},"menu_settings":{"message":"Ustawienia Asystenta"},"menu_wot_reputation_indicator":{"message":"Wskaźnik reputacji witryny"},"menu_wot_reputation_confidence_level":{"message":"Poziom zaufania do reputacji"},"assistant_select_element":{"message":"Blokowanie elementów"},"assistant_select_element_ext":{"message":"Wybierz element na stronie by zablokować"},"assistant_select_element_cancel":{"message":"Anuluj"},"assistant_block_element":{"message":"Blokowanie elementów"},"assistant_block_element_explain":{"message":"Dostosuj regułę blokowania elementów"},"assistant_slider_explain":{"message":"Przesuń suwak by zmienić rozmiar ramki, dla której będzie obowiązywać nowa reguła:"},"assistant_extended_settings":{"message":"Ustawienia zaawansowane"},"assistant_apply_rule_to_all_sites":{"message":"Zastosuj regułę dla wszystkich stron internetowych"},"assistant_block_by_reference":{"message":"Blokuj używając linka referencyjnego"},"assistant_block_similar":{"message":"Blokuj podobne"},"assistant_another_element":{"message":"Wybierz inny element"},"assistant_preview":{"message":"Podgląd"},"assistant_block":{"message":"Blokuj"},"assistant_settings":{"message":"Ustawienia Asystenta"},"assistant_preview_header":{"message":"Blokowanie elementów - podgląd"},"assistant_preview_header_info":{"message":"Upewnij się, że element jest blokowany jak zamierzono"},"assistant_preview_end":{"message":"Zamknij podgląd"},"wot_unknown_description":{"message":"Reputacja nie jest zdefiniowana"},"wot_bad_description":{"message":"Ta strona internetowa ma bardzo złą reputację zgodnie z $1"},"wot_poor_description":{"message":"Ta strona internetowa ma złą reputację zgodnie z $1"},"wot_unsatisfactory_description":{"message":"Ta strona internetowa ma słabą reputację zgodnie z $1"},"wot_good_description":{"message":"Ta strona internetowa ma dobrą reputację zgodnie z $1"},"wot_excellent_description":{"message":"Ta strona internetowa ma doskonałą reputację zgodnie z $1"},"settings_choose_size_and_position":{"message":"Dostosuj rozmiar i pozycję Asystenta AdGuarda"},"settings_icon_size":{"message":"Rozmiar ikony:"},"settings_small":{"message":"Mały"},"settings_big":{"message":"Duży"},"settings_position":{"message":"Pozycja:"},"settings_left_top":{"message":"Lewy górny"},"settings_right_top":{"message":"Prawy górny"},"settings_left_bottom":{"message":"Na dole po lewej"},"settings_right_bottom":{"message":"Na dole po prawej"},"settings_cancel":{"message":"Anuluj"},"settings_save":{"message":"Zapisz zmiany"}}');
 
 /***/ }),
 
-/***/ 1902:
+/***/ 6254:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Sítios","settings_position_save_all":"Todos os sítios","settings_position_save_this":"Este sítio","assistant_select_element_start":"Iniciar","assistant_select_element_text":"Escolha um elemento na página para bloquear. Atualize a página para cancelar o bloqueio do elemento.","menu_filtration_status":{"message":"A filtrar este sítio"},"menu_do_not_filter_30_sec":{"message":"Não filtrar durante 30 segundos"},"menu_block_ad_on_site":{"message":"Bloquear publicidade neste sítio"},"menu_report_abuse":{"message":"Denunciar o sítio"},"menu_site_report":{"message":"Relatório de segurança do sítio"},"menu_settings":{"message":"Configurações do assistente"},"menu_wot_reputation_indicator":{"message":"Indicador de reputação do sítio"},"menu_wot_reputation_confidence_level":{"message":"Nível de Confiança de Reputação"},"assistant_select_element":{"message":"Bloqueio de elemento"},"assistant_select_element_ext":{"message":"Escolha um elemento na página para bloquear"},"assistant_select_element_cancel":{"message":"Cancelar"},"assistant_block_element":{"message":"Bloqueio de elementos"},"assistant_block_element_explain":{"message":"Ajustar a regra de bloqueio do elemento"},"assistant_slider_explain":{"message":"Desloque o controlo deslizante para alterar o tamanho do quadro para o qual a nova regra irá funcionar:"},"assistant_extended_settings":{"message":"Definições avançadas"},"assistant_apply_rule_to_all_sites":{"message":"Aplicar a regra para todos os sítios"},"assistant_block_by_reference":{"message":"Bloquear por link de referência"},"assistant_block_similar":{"message":"Bloquear semelhante"},"assistant_another_element":{"message":"Selecionar um elemento diferente"},"assistant_preview":{"message":"Pré-visualização"},"assistant_block":{"message":"Bloquear"},"assistant_settings":{"message":"Configurações do assistente"},"assistant_preview_header":{"message":"Bloquear elemento - pré-visualização"},"assistant_preview_header_info":{"message":"Certifique-se de que o elemento está bloqueado como pretendido"},"assistant_preview_end":{"message":"Sair da previsualização"},"wot_unknown_description":{"message":"A reputação deste sítio não está definida por $1"},"wot_bad_description":{"message":"Este sítio tem uma péssima reputação\\nde acordo com $1"},"wot_poor_description":{"message":"Este sítio tem uma má reputação\\nde acordo com $1"},"wot_unsatisfactory_description":{"message":"Este sítio tem uma frágil reputação\\nde acordo com $1"},"wot_good_description":{"message":"Este sítio tem uma boa reputação\\nde acordo com $1"},"wot_excellent_description":{"message":"Este sítio tem uma excelente reputação\\nde acordo com $1"},"settings_choose_size_and_position":{"message":"Ajustar o tamanho e a posição do Assistente do AdGuard"},"settings_icon_size":{"message":"Tamanho do ícone:"},"settings_small":{"message":"Pequeno"},"settings_big":{"message":"Grande"},"settings_position":{"message":"Posição:"},"settings_left_top":{"message":"Canto superior esquerdo"},"settings_right_top":{"message":"Canto superior direito"},"settings_left_bottom":{"message":"Canto inferior esquerdo"},"settings_right_bottom":{"message":"Canto inferior direito"},"settings_cancel":{"message":"Cancelar"},"settings_save":{"message":"Guardar alterações"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Sítios","settings_position_save_all":"Todos os sítios","settings_position_save_this":"Este sítio","assistant_select_element_start":"Iniciar","assistant_select_element_text":"Escolha um elemento na página para bloquear. Atualize a página para cancelar o bloqueio do elemento.","menu_filtration_status":{"message":"A filtrar este sítio"},"menu_do_not_filter_30_sec":{"message":"Não filtrar durante 30 segundos"},"menu_block_ad_on_site":{"message":"Bloquear publicidade neste sítio"},"menu_report_abuse":{"message":"Denunciar o sítio"},"menu_site_report":{"message":"Relatório de segurança do sítio"},"menu_settings":{"message":"Configurações do assistente"},"menu_wot_reputation_indicator":{"message":"Indicador de reputação do sítio"},"menu_wot_reputation_confidence_level":{"message":"Nível de Confiança de Reputação"},"assistant_select_element":{"message":"Bloqueio de elemento"},"assistant_select_element_ext":{"message":"Escolha um elemento na página para bloquear"},"assistant_select_element_cancel":{"message":"Cancelar"},"assistant_block_element":{"message":"Bloqueio de elementos"},"assistant_block_element_explain":{"message":"Ajustar a regra de bloqueio do elemento"},"assistant_slider_explain":{"message":"Desloque o controlo deslizante para alterar o tamanho do quadro para o qual a nova regra irá funcionar:"},"assistant_extended_settings":{"message":"Definições avançadas"},"assistant_apply_rule_to_all_sites":{"message":"Aplicar a regra para todos os sítios"},"assistant_block_by_reference":{"message":"Bloquear por link de referência"},"assistant_block_similar":{"message":"Bloquear semelhante"},"assistant_another_element":{"message":"Selecionar um elemento diferente"},"assistant_preview":{"message":"Pré-visualização"},"assistant_block":{"message":"Bloquear"},"assistant_settings":{"message":"Configurações do assistente"},"assistant_preview_header":{"message":"Bloquear elemento - pré-visualização"},"assistant_preview_header_info":{"message":"Certifique-se de que o elemento está bloqueado como pretendido"},"assistant_preview_end":{"message":"Sair da previsualização"},"wot_unknown_description":{"message":"A reputação deste sítio não está definida por $1"},"wot_bad_description":{"message":"Este sítio tem uma péssima reputação\\nde acordo com $1"},"wot_poor_description":{"message":"Este sítio tem uma má reputação\\nde acordo com $1"},"wot_unsatisfactory_description":{"message":"Este sítio tem uma frágil reputação\\nde acordo com $1"},"wot_good_description":{"message":"Este sítio tem uma boa reputação\\nde acordo com $1"},"wot_excellent_description":{"message":"Este sítio tem uma excelente reputação\\nde acordo com $1"},"settings_choose_size_and_position":{"message":"Ajustar o tamanho e a posição do Assistente do AdGuard"},"settings_icon_size":{"message":"Tamanho do ícone:"},"settings_small":{"message":"Pequeno"},"settings_big":{"message":"Grande"},"settings_position":{"message":"Posição:"},"settings_left_top":{"message":"Canto superior esquerdo"},"settings_right_top":{"message":"Canto superior direito"},"settings_left_bottom":{"message":"Canto inferior esquerdo"},"settings_right_bottom":{"message":"Canto inferior direito"},"settings_cancel":{"message":"Cancelar"},"settings_save":{"message":"Guardar alterações"}}');
 
 /***/ }),
 
-/***/ 9274:
+/***/ 7435:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Sites","settings_position_save_all":"Todos os sites","settings_position_save_this":"Neste site","assistant_select_element_start":"Iniciar","assistant_select_element_text":"Escolha um elemento na página para bloquear. Atualize a página para cancelar o bloqueio do elemento.","menu_filtration_status":{"message":"Filtragem neste site"},"menu_do_not_filter_30_sec":{"message":"Não filtrar durante 30 segundos"},"menu_block_ad_on_site":{"message":"Bloquear anúncios neste site"},"menu_report_abuse":{"message":"Reportar o site"},"menu_site_report":{"message":"Relatório de segurança do site"},"menu_settings":{"message":"Configurações do assistente"},"menu_wot_reputation_indicator":{"message":"Indicador de reputação do site"},"menu_wot_reputation_confidence_level":{"message":"Nível de confiança de reputação"},"assistant_select_element":{"message":"Bloqueio de elemento"},"assistant_select_element_ext":{"message":"Escolha um elemento na página para bloquear"},"assistant_select_element_cancel":{"message":"Cancelar"},"assistant_block_element":{"message":"Bloqueio de elemento"},"assistant_block_element_explain":{"message":"Ajustar a regra de bloqueio de elemento"},"assistant_slider_explain":{"message":"Mova o controle deslizante para alterar o tamanho do quadro para o qual a nova regra funcionará:"},"assistant_extended_settings":{"message":"Configurações avançadas"},"assistant_apply_rule_to_all_sites":{"message":"Aplicar regra para todos os sites"},"assistant_block_by_reference":{"message":"Bloquear pelo link de referência"},"assistant_block_similar":{"message":"Bloquear semelhante"},"assistant_another_element":{"message":"Selecione um elemento diferente"},"assistant_preview":{"message":"Pré-visualização"},"assistant_block":{"message":"Bloquear"},"assistant_settings":{"message":"Configurações do assistente"},"assistant_preview_header":{"message":"Bloqueio de elemento - pré-visualização"},"assistant_preview_header_info":{"message":"Certifique-se de que o elemento esteja bloqueado como desejado"},"assistant_preview_end":{"message":"Sair da pré-visualização"},"wot_unknown_description":{"message":"A reputação deste site ainda não foi definida por $1"},"wot_bad_description":{"message":"Este site tem uma reputação muito ruim\\nde acordo com $1"},"wot_poor_description":{"message":"Este site tem uma má reputação\\nde acordo com $1"},"wot_unsatisfactory_description":{"message":"Este site tem uma reputação ruim\\nde acordo com $1"},"wot_good_description":{"message":"Este site tem uma boa reputação\\nde acordo com $1"},"wot_excellent_description":{"message":"Este site tem uma excelente reputação\\nde acordo com $1"},"settings_choose_size_and_position":{"message":"Ajuste o tamanho e posição do Assistente do AdGuard"},"settings_icon_size":{"message":"Tamanho do ícone:"},"settings_small":{"message":"Pequeno"},"settings_big":{"message":"Grande"},"settings_position":{"message":"Posição:"},"settings_left_top":{"message":"Canto superior esquerdo"},"settings_right_top":{"message":"Canto superior direito"},"settings_left_bottom":{"message":"Canto inferior esquerdo"},"settings_right_bottom":{"message":"Canto inferior direito"},"settings_cancel":{"message":"Cancelar"},"settings_save":{"message":"Salvar alterações"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Sites","settings_position_save_all":"Todos os sites","settings_position_save_this":"Neste site","assistant_select_element_start":"Iniciar","assistant_select_element_text":"Escolha um elemento na página para bloquear. Atualize a página para cancelar o bloqueio do elemento.","menu_filtration_status":{"message":"Filtragem neste site"},"menu_do_not_filter_30_sec":{"message":"Não filtrar durante 30 segundos"},"menu_block_ad_on_site":{"message":"Bloquear anúncios neste site"},"menu_report_abuse":{"message":"Reportar o site"},"menu_site_report":{"message":"Relatório de segurança do site"},"menu_settings":{"message":"Configurações do assistente"},"menu_wot_reputation_indicator":{"message":"Indicador de reputação do site"},"menu_wot_reputation_confidence_level":{"message":"Nível de confiança de reputação"},"assistant_select_element":{"message":"Bloqueio de elemento"},"assistant_select_element_ext":{"message":"Escolha um elemento na página para bloquear"},"assistant_select_element_cancel":{"message":"Cancelar"},"assistant_block_element":{"message":"Bloqueio de elemento"},"assistant_block_element_explain":{"message":"Ajustar a regra de bloqueio de elemento"},"assistant_slider_explain":{"message":"Mova o controle deslizante para alterar o tamanho do quadro para o qual a nova regra funcionará:"},"assistant_extended_settings":{"message":"Configurações avançadas"},"assistant_apply_rule_to_all_sites":{"message":"Aplicar regra para todos os sites"},"assistant_block_by_reference":{"message":"Bloquear pelo link de referência"},"assistant_block_similar":{"message":"Bloquear semelhante"},"assistant_another_element":{"message":"Selecione um elemento diferente"},"assistant_preview":{"message":"Pré-visualização"},"assistant_block":{"message":"Bloquear"},"assistant_settings":{"message":"Configurações do assistente"},"assistant_preview_header":{"message":"Bloqueio de elemento - pré-visualização"},"assistant_preview_header_info":{"message":"Certifique-se de que o elemento esteja bloqueado como desejado"},"assistant_preview_end":{"message":"Sair da pré-visualização"},"wot_unknown_description":{"message":"A reputação deste site ainda não foi definida por $1"},"wot_bad_description":{"message":"Este site tem uma reputação muito ruim\\nde acordo com $1"},"wot_poor_description":{"message":"Este site tem uma má reputação\\nde acordo com $1"},"wot_unsatisfactory_description":{"message":"Este site tem uma reputação ruim\\nde acordo com $1"},"wot_good_description":{"message":"Este site tem uma boa reputação\\nde acordo com $1"},"wot_excellent_description":{"message":"Este site tem uma excelente reputação\\nde acordo com $1"},"settings_choose_size_and_position":{"message":"Ajuste o tamanho e posição do Assistente do AdGuard"},"settings_icon_size":{"message":"Tamanho do ícone:"},"settings_small":{"message":"Pequeno"},"settings_big":{"message":"Grande"},"settings_position":{"message":"Posição:"},"settings_left_top":{"message":"Canto superior esquerdo"},"settings_right_top":{"message":"Canto superior direito"},"settings_left_bottom":{"message":"Canto inferior esquerdo"},"settings_right_bottom":{"message":"Canto inferior direito"},"settings_cancel":{"message":"Cancelar"},"settings_save":{"message":"Salvar alterações"}}');
 
 /***/ }),
 
-/***/ 6090:
+/***/ 7150:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Site web","settings_position_save_all":"Toate site-urile","settings_position_save_this":"Acest site","assistant_select_element_start":"Start","assistant_select_element_text":"Alegeți elementul de blocat pe pagină. Actualizați pagina ca să anulați modul de blocare a elementului.","menu_filtration_status":{"message":"Filtrare pe acest site web"},"menu_do_not_filter_30_sec":{"message":"Nu filtra pentru 30 secunde"},"menu_block_ad_on_site":{"message":"Blocare reclame pe acest site"},"menu_report_abuse":{"message":"Raportați site-ul"},"menu_site_report":{"message":"Raport de securitate site"},"menu_settings":{"message":"Setări asistent"},"menu_wot_reputation_indicator":{"message":"Indicator reputație site"},"menu_wot_reputation_confidence_level":{"message":"Nivel de încredere în reputație"},"assistant_select_element":{"message":"Element de blocat"},"assistant_select_element_ext":{"message":"Alegeți un element de blocat pe pagină"},"assistant_select_element_cancel":{"message":"Anulare"},"assistant_block_element":{"message":"Blocare de element"},"assistant_block_element_explain":{"message":"Ajustați regula de blocare element"},"assistant_slider_explain":{"message":"Mișcarea glisorului schimbă talia cadrului în care va funcționa noua regulă:"},"assistant_extended_settings":{"message":"Setări avansate"},"assistant_apply_rule_to_all_sites":{"message":"Aplică regula pe orice site"},"assistant_block_by_reference":{"message":"Blocare după link de referință"},"assistant_block_similar":{"message":"Blocare similare"},"assistant_another_element":{"message":"Alegeți un element diferit"},"assistant_preview":{"message":"Ecran"},"assistant_block":{"message":"Blocați"},"assistant_settings":{"message":"Setări asistent"},"assistant_preview_header":{"message":"Blocare element - previzualizare"},"assistant_preview_header_info":{"message":"Verificați blocarea elementului conform planului"},"assistant_preview_end":{"message":"Ieșire ecran"},"wot_unknown_description":{"message":"Reputația acestui site nu este definită de $1"},"wot_bad_description":{"message":"Acest site are o reputație foarte proastă\\nconform cu $1"},"wot_poor_description":{"message":"Acest site are o reputație proastă\\nconform cu $1"},"wot_unsatisfactory_description":{"message":"Acest site are o reputație slabă\\nconform cu $1"},"wot_good_description":{"message":"Acest site are o reputație bună\\nconform cu $1"},"wot_excellent_description":{"message":"Acest site are o reputație excelentă\\nconform cu $1"},"settings_choose_size_and_position":{"message":"Ajustați talia și poziția Asistentului AdGuard"},"settings_icon_size":{"message":"Talie icoană:"},"settings_small":{"message":"Mică"},"settings_big":{"message":"Mare"},"settings_position":{"message":"Poziție:"},"settings_left_top":{"message":"Stânga sus"},"settings_right_top":{"message":"Dreapta sus"},"settings_left_bottom":{"message":"Stânga jos"},"settings_right_bottom":{"message":"Dreapta jos"},"settings_cancel":{"message":"Anulare"},"settings_save":{"message":"Salvare alegeri"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Site web","settings_position_save_all":"Toate site-urile","settings_position_save_this":"Acest site","assistant_select_element_start":"Start","assistant_select_element_text":"Alegeți elementul de blocat pe pagină. Actualizați pagina ca să anulați modul de blocare a elementului.","menu_filtration_status":{"message":"Filtrare pe acest site web"},"menu_do_not_filter_30_sec":{"message":"Nu filtra pentru 30 secunde"},"menu_block_ad_on_site":{"message":"Blocare reclame pe acest site"},"menu_report_abuse":{"message":"Raportați site-ul"},"menu_site_report":{"message":"Raport de securitate site"},"menu_settings":{"message":"Setări asistent"},"menu_wot_reputation_indicator":{"message":"Indicator reputație site"},"menu_wot_reputation_confidence_level":{"message":"Nivel de încredere în reputație"},"assistant_select_element":{"message":"Element de blocat"},"assistant_select_element_ext":{"message":"Alegeți un element de blocat pe pagină"},"assistant_select_element_cancel":{"message":"Anulare"},"assistant_block_element":{"message":"Blocare de element"},"assistant_block_element_explain":{"message":"Ajustați regula de blocare element"},"assistant_slider_explain":{"message":"Mișcarea glisorului schimbă talia cadrului în care va funcționa noua regulă:"},"assistant_extended_settings":{"message":"Setări avansate"},"assistant_apply_rule_to_all_sites":{"message":"Aplică regula pe orice site"},"assistant_block_by_reference":{"message":"Blocare după link de referință"},"assistant_block_similar":{"message":"Blocare similare"},"assistant_another_element":{"message":"Alegeți un element diferit"},"assistant_preview":{"message":"Ecran"},"assistant_block":{"message":"Blocați"},"assistant_settings":{"message":"Setări asistent"},"assistant_preview_header":{"message":"Blocare element - previzualizare"},"assistant_preview_header_info":{"message":"Verificați blocarea elementului conform planului"},"assistant_preview_end":{"message":"Ieșire ecran"},"wot_unknown_description":{"message":"Reputația acestui site nu este definită de $1"},"wot_bad_description":{"message":"Acest site are o reputație foarte proastă\\nconform cu $1"},"wot_poor_description":{"message":"Acest site are o reputație proastă\\nconform cu $1"},"wot_unsatisfactory_description":{"message":"Acest site are o reputație slabă\\nconform cu $1"},"wot_good_description":{"message":"Acest site are o reputație bună\\nconform cu $1"},"wot_excellent_description":{"message":"Acest site are o reputație excelentă\\nconform cu $1"},"settings_choose_size_and_position":{"message":"Ajustați talia și poziția Asistentului AdGuard"},"settings_icon_size":{"message":"Talie icoană:"},"settings_small":{"message":"Mică"},"settings_big":{"message":"Mare"},"settings_position":{"message":"Poziție:"},"settings_left_top":{"message":"Stânga sus"},"settings_right_top":{"message":"Dreapta sus"},"settings_left_bottom":{"message":"Stânga jos"},"settings_right_bottom":{"message":"Dreapta jos"},"settings_cancel":{"message":"Anulare"},"settings_save":{"message":"Salvare alegeri"}}');
 
 /***/ }),
 
-/***/ 3999:
+/***/ 1468:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Сайты","settings_position_save_all":"На всех","settings_position_save_this":"Только на этом","assistant_select_element_start":"Начать","assistant_select_element_text":"Выберите на странице элемент для блокирования. Обновите страницу, чтобы отменить режим блокировки элементов.","menu_filtration_status":{"message":"Фильтрация на этом сайте"},"menu_do_not_filter_30_sec":{"message":"Не фильтровать 30 секунд"},"menu_block_ad_on_site":{"message":"Заблокировать рекламу на сайте"},"menu_report_abuse":{"message":"Пожаловаться на сайт"},"menu_site_report":{"message":"Отчёт о безопасности сайта"},"menu_settings":{"message":"Настроить помощник"},"menu_wot_reputation_indicator":{"message":"Индикатор репутации сайта"},"menu_wot_reputation_confidence_level":{"message":"Уровень доверия к репутации"},"assistant_select_element":{"message":" Блокировка элемента"},"assistant_select_element_ext":{"message":"Выберите на странице элемент, который надо заблокировать"},"assistant_select_element_cancel":{"message":"Отмена"},"assistant_block_element":{"message":"Блокировка элемента"},"assistant_block_element_explain":{"message":"Настройте правило блокирования элемента"},"assistant_slider_explain":{"message":"Перемещайте бегунок, чтобы изменить размер блока, для которого будет действовать правило:"},"assistant_extended_settings":{"message":"Расширенные настройки"},"assistant_apply_rule_to_all_sites":{"message":"Применить правило для всех сайтов"},"assistant_block_by_reference":{"message":"Блокировать по ссылке"},"assistant_block_similar":{"message":"Блокировать похожие"},"assistant_another_element":{"message":"Выбрать другой элемент"},"assistant_preview":{"message":"Предпросмотр"},"assistant_block":{"message":"Заблокировать"},"assistant_settings":{"message":"Настройка помощника"},"assistant_preview_header":{"message":"Блокировка элемента – предпросмотр"},"assistant_preview_header_info":{"message":"Убедитесь, что элемент заблокирован как задумано"},"assistant_preview_end":{"message":"Закончить предпросмотр"},"wot_unknown_description":{"message":"Репутация не определена расширением $1"},"wot_bad_description":{"message":"У сайта очень плохая репутация по данным $1"},"wot_poor_description":{"message":"У сайта плохая репутация по данным $1"},"wot_unsatisfactory_description":{"message":"У сайта неудовлетворительная репутация по данным $1"},"wot_good_description":{"message":"У сайта хорошая репутация по данным $1"},"wot_excellent_description":{"message":"У сайта отличная репутация по данным $1"},"settings_choose_size_and_position":{"message":"Настройте размер и положение помощника AdGuard"},"settings_icon_size":{"message":"Размер иконки:"},"settings_small":{"message":"Маленькая"},"settings_big":{"message":"Большая"},"settings_position":{"message":"Расположение:"},"settings_left_top":{"message":"Вверху слева"},"settings_right_top":{"message":"Вверху справа"},"settings_left_bottom":{"message":"Внизу слева"},"settings_right_bottom":{"message":"Внизу справа"},"settings_cancel":{"message":"Отмена"},"settings_save":{"message":"Сохранить настройки"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Сайты","settings_position_save_all":"На всех","settings_position_save_this":"Только на этом","assistant_select_element_start":"Начать","assistant_select_element_text":"Выберите на странице элемент для блокирования. Обновите страницу, чтобы отменить режим блокировки элементов.","menu_filtration_status":{"message":"Фильтрация на этом сайте"},"menu_do_not_filter_30_sec":{"message":"Не фильтровать 30 секунд"},"menu_block_ad_on_site":{"message":"Заблокировать рекламу на сайте"},"menu_report_abuse":{"message":"Пожаловаться на сайт"},"menu_site_report":{"message":"Отчёт о безопасности сайта"},"menu_settings":{"message":"Настроить помощник"},"menu_wot_reputation_indicator":{"message":"Индикатор репутации сайта"},"menu_wot_reputation_confidence_level":{"message":"Уровень доверия к репутации"},"assistant_select_element":{"message":" Блокировка элемента"},"assistant_select_element_ext":{"message":"Выберите на странице элемент, который надо заблокировать"},"assistant_select_element_cancel":{"message":"Отмена"},"assistant_block_element":{"message":"Блокировка элемента"},"assistant_block_element_explain":{"message":"Настройте правило блокирования элемента"},"assistant_slider_explain":{"message":"Перемещайте бегунок, чтобы изменить размер блока, для которого будет действовать правило:"},"assistant_extended_settings":{"message":"Расширенные настройки"},"assistant_apply_rule_to_all_sites":{"message":"Применить правило для всех сайтов"},"assistant_block_by_reference":{"message":"Блокировать по ссылке"},"assistant_block_similar":{"message":"Блокировать похожие"},"assistant_another_element":{"message":"Выбрать другой элемент"},"assistant_preview":{"message":"Предпросмотр"},"assistant_block":{"message":"Заблокировать"},"assistant_settings":{"message":"Настройка помощника"},"assistant_preview_header":{"message":"Блокировка элемента – предпросмотр"},"assistant_preview_header_info":{"message":"Убедитесь, что элемент заблокирован как задумано"},"assistant_preview_end":{"message":"Закончить предпросмотр"},"wot_unknown_description":{"message":"Репутация не определена расширением $1"},"wot_bad_description":{"message":"У сайта очень плохая репутация по данным $1"},"wot_poor_description":{"message":"У сайта плохая репутация по данным $1"},"wot_unsatisfactory_description":{"message":"У сайта неудовлетворительная репутация по данным $1"},"wot_good_description":{"message":"У сайта хорошая репутация по данным $1"},"wot_excellent_description":{"message":"У сайта отличная репутация по данным $1"},"settings_choose_size_and_position":{"message":"Настройте размер и положение помощника AdGuard"},"settings_icon_size":{"message":"Размер иконки:"},"settings_small":{"message":"Маленькая"},"settings_big":{"message":"Большая"},"settings_position":{"message":"Расположение:"},"settings_left_top":{"message":"Вверху слева"},"settings_right_top":{"message":"Вверху справа"},"settings_left_bottom":{"message":"Внизу слева"},"settings_right_bottom":{"message":"Внизу справа"},"settings_cancel":{"message":"Отмена"},"settings_save":{"message":"Сохранить настройки"}}');
 
 /***/ }),
 
-/***/ 89:
+/***/ 3377:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Webové stránky","settings_position_save_all":"Všetky stránky","settings_position_save_this":"Táto stránka","assistant_select_element_start":"Štart","assistant_select_element_text":"Vyberte prvok na stránke, ktorý chcete zablokovať. Obnovte stránku pre zrušenie režimu blokovania prvkov.","menu_filtration_status":{"message":"Filtrácia na tejto stránke"},"menu_do_not_filter_30_sec":{"message":"Nefiltrovať počas 30 sekúnd"},"menu_block_ad_on_site":{"message":"Blokovať reklamy na tejto stránke"},"menu_report_abuse":{"message":"Nahlásiť stránku"},"menu_site_report":{"message":"Bezpečnostná správa o stránke"},"menu_settings":{"message":"Nastavenia asistenta"},"menu_wot_reputation_indicator":{"message":"Indikátor reputácie stránok"},"menu_wot_reputation_confidence_level":{"message":"Úroveň spoľahlivosti reputácie"},"assistant_select_element":{"message":"Blokovanie prvku"},"assistant_select_element_ext":{"message":"Vyberte prvok stránky, ktorý sa má blokovať"},"assistant_select_element_cancel":{"message":"Zrušiť"},"assistant_block_element":{"message":"Blokovanie prvku"},"assistant_block_element_explain":{"message":"Upraviť pravidlo blokovania prvku"},"assistant_slider_explain":{"message":"Použite posuvník pre zmenu veľkosti rámu pre nové pravidlo, ktoré bude použité na:"},"assistant_extended_settings":{"message":"Pokročilé nastavenia"},"assistant_apply_rule_to_all_sites":{"message":"Použiť pravidlo na všetky stránky"},"assistant_block_by_reference":{"message":"Blokovať referenčným odkazom"},"assistant_block_similar":{"message":"Blokovať podobné"},"assistant_another_element":{"message":"Zvoliť iný prvok"},"assistant_preview":{"message":"Náhľad"},"assistant_block":{"message":"Blokovať"},"assistant_settings":{"message":"Nastavenia asistenta"},"assistant_preview_header":{"message":"Blokovanie prvku - náhľad"},"assistant_preview_header_info":{"message":"Uistite sa, že prvok je blokovaný podľa Vašich predstáv"},"assistant_preview_end":{"message":"Ukončenie náhľadu"},"wot_unknown_description":{"message":"Reputácia tejto webovej stránky nie je v $1 definovaná"},"wot_bad_description":{"message":"Táto stránka má podľa $1\\nveľmi zlú reputáciu"},"wot_poor_description":{"message":"Táto stránka má podľa $1\\nzlú reputáciu"},"wot_unsatisfactory_description":{"message":"Táto stránka má podľa $1\\nslabú reputáciu"},"wot_good_description":{"message":"Táto stránka má podľa $1\\ndobrú reputáciu"},"wot_excellent_description":{"message":"Táto stránka má podľa $1\\nvýbornú reputáciu"},"settings_choose_size_and_position":{"message":"Prispôsobiť veľkosť a polohu AdGuard asistenta"},"settings_icon_size":{"message":"Veľkosť ikony:"},"settings_small":{"message":"Malá"},"settings_big":{"message":"Veľká"},"settings_position":{"message":"Poloha:"},"settings_left_top":{"message":"Vľavo hore"},"settings_right_top":{"message":"Vpravo hore"},"settings_left_bottom":{"message":"Vľavo dole"},"settings_right_bottom":{"message":"Vpravo dole"},"settings_cancel":{"message":"Zrušiť"},"settings_save":{"message":"Uložiť zmeny"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Webové stránky","settings_position_save_all":"Všetky stránky","settings_position_save_this":"Táto stránka","assistant_select_element_start":"Štart","assistant_select_element_text":"Vyberte prvok na stránke, ktorý chcete zablokovať. Obnovte stránku pre zrušenie režimu blokovania prvkov.","menu_filtration_status":{"message":"Filtrácia na tejto stránke"},"menu_do_not_filter_30_sec":{"message":"Nefiltrovať počas 30 sekúnd"},"menu_block_ad_on_site":{"message":"Blokovať reklamy na tejto stránke"},"menu_report_abuse":{"message":"Nahlásiť stránku"},"menu_site_report":{"message":"Bezpečnostná správa o stránke"},"menu_settings":{"message":"Nastavenia asistenta"},"menu_wot_reputation_indicator":{"message":"Indikátor reputácie stránok"},"menu_wot_reputation_confidence_level":{"message":"Úroveň spoľahlivosti reputácie"},"assistant_select_element":{"message":"Blokovanie prvku"},"assistant_select_element_ext":{"message":"Vyberte prvok stránky, ktorý sa má blokovať"},"assistant_select_element_cancel":{"message":"Zrušiť"},"assistant_block_element":{"message":"Blokovanie prvku"},"assistant_block_element_explain":{"message":"Upraviť pravidlo blokovania prvku"},"assistant_slider_explain":{"message":"Použite posuvník pre zmenu veľkosti rámu pre nové pravidlo, ktoré bude použité na:"},"assistant_extended_settings":{"message":"Pokročilé nastavenia"},"assistant_apply_rule_to_all_sites":{"message":"Použiť pravidlo na všetky stránky"},"assistant_block_by_reference":{"message":"Blokovať referenčným odkazom"},"assistant_block_similar":{"message":"Blokovať podobné"},"assistant_another_element":{"message":"Zvoliť iný prvok"},"assistant_preview":{"message":"Náhľad"},"assistant_block":{"message":"Blokovať"},"assistant_settings":{"message":"Nastavenia asistenta"},"assistant_preview_header":{"message":"Blokovanie prvku - náhľad"},"assistant_preview_header_info":{"message":"Uistite sa, že prvok je blokovaný podľa Vašich predstáv"},"assistant_preview_end":{"message":"Ukončenie náhľadu"},"wot_unknown_description":{"message":"Reputácia tejto webovej stránky nie je v $1 definovaná"},"wot_bad_description":{"message":"Táto stránka má podľa $1\\nveľmi zlú reputáciu"},"wot_poor_description":{"message":"Táto stránka má podľa $1\\nzlú reputáciu"},"wot_unsatisfactory_description":{"message":"Táto stránka má podľa $1\\nslabú reputáciu"},"wot_good_description":{"message":"Táto stránka má podľa $1\\ndobrú reputáciu"},"wot_excellent_description":{"message":"Táto stránka má podľa $1\\nvýbornú reputáciu"},"settings_choose_size_and_position":{"message":"Prispôsobiť veľkosť a polohu AdGuard asistenta"},"settings_icon_size":{"message":"Veľkosť ikony:"},"settings_small":{"message":"Malá"},"settings_big":{"message":"Veľká"},"settings_position":{"message":"Poloha:"},"settings_left_top":{"message":"Vľavo hore"},"settings_right_top":{"message":"Vpravo hore"},"settings_left_bottom":{"message":"Vľavo dole"},"settings_right_bottom":{"message":"Vpravo dole"},"settings_cancel":{"message":"Zrušiť"},"settings_save":{"message":"Uložiť zmeny"}}');
 
 /***/ }),
 
-/***/ 6058:
+/***/ 9422:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Spletne strani","settings_position_save_all":"Vse pletne strani","settings_position_save_this":"To spletno stran","assistant_select_element_start":"Začni","assistant_select_element_text":"Izberite element na strani, ki jo želite onemogočiti. Osvežite stran, da prekličete način zaviranja elementa.","menu_filtration_status":{"message":"Filtriranje na tej spletni strani"},"menu_do_not_filter_30_sec":{"message":"Ne filtriraj 30 sekund"},"menu_block_ad_on_site":{"message":"Onemogoči oglas na tej spletni strani"},"menu_report_abuse":{"message":"Prijavi spletno stran"},"menu_site_report":{"message":"Poročilo o varnosti spletne strani"},"menu_settings":{"message":"Nastavitve Pomočnika"},"menu_wot_reputation_indicator":{"message":"Kazalnik ugleda spletnestrani"},"menu_wot_reputation_confidence_level":{"message":"Raven ugleda zaupanja"},"assistant_select_element":{"message":"Onemogočanje elementa"},"assistant_select_element_ext":{"message":"Izberite element na strani, ki ga želite onemogočiti"},"assistant_select_element_cancel":{"message":"Prekliči"},"assistant_block_element":{"message":"Onemogočanje elementa"},"assistant_block_element_explain":{"message":"Prilagodite pravilo za onemogočanje elementa"},"assistant_slider_explain":{"message":"Premaknite drsnik, da spremenite velikost okvirja, za katerega bo delovalo novo pravilo:"},"assistant_extended_settings":{"message":"Napredne nastavitve"},"assistant_apply_rule_to_all_sites":{"message":"Uporabi pravilo za vse spletne strani"},"assistant_block_by_reference":{"message":"Onemogočij z napotitveno povezavo"},"assistant_block_similar":{"message":"Onemogoči podobno"},"assistant_another_element":{"message":"Izberi drug element"},"assistant_preview":{"message":"Predogled"},"assistant_block":{"message":"Onemogoči"},"assistant_settings":{"message":"Nastavitve Pomočnika"},"assistant_preview_header":{"message":"Onemogočanje elementa - predogled"},"assistant_preview_header_info":{"message":"Prepričajte se, da je element bil onemogočen, kot je bilo predvideno"},"assistant_preview_end":{"message":"Zapusti predogled"},"wot_unknown_description":{"message":"Ugled te spletne strani ni opredeljen z $1"},"wot_bad_description":{"message":"Ta spletna stran ima zelo slab ugled\\nglede na $1"},"wot_poor_description":{"message":"Ta spletna stran ima slab ugled\\nglede na $1"},"wot_unsatisfactory_description":{"message":"Ta spletna stran ima zelo slab ugled\\nglede na $1"},"wot_good_description":{"message":"Ta spletna stran ima dober ugled\\nglede na $1"},"wot_excellent_description":{"message":"Ta spletna stran ima odličen ugled\\nglede na $1"},"settings_choose_size_and_position":{"message":"Prilagodi velikost in položaj AdGuard Pomočnika"},"settings_icon_size":{"message":"Velikost ikone:"},"settings_small":{"message":"Majhna"},"settings_big":{"message":"Velika"},"settings_position":{"message":"Položaj:"},"settings_left_top":{"message":"Zgoraj levo"},"settings_right_top":{"message":"Zgoraj desno"},"settings_left_bottom":{"message":"Spodaj levo"},"settings_right_bottom":{"message":"Spodaj desno"},"settings_cancel":{"message":"Prekliči"},"settings_save":{"message":"Shrani nastavitve"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Spletne strani","settings_position_save_all":"Vse pletne strani","settings_position_save_this":"To spletno stran","assistant_select_element_start":"Začni","assistant_select_element_text":"Izberite element na strani, ki jo želite onemogočiti. Osvežite stran, da prekličete način zaviranja elementa.","menu_filtration_status":{"message":"Filtriranje na tej spletni strani"},"menu_do_not_filter_30_sec":{"message":"Ne filtriraj 30 sekund"},"menu_block_ad_on_site":{"message":"Onemogoči oglas na tej spletni strani"},"menu_report_abuse":{"message":"Prijavi spletno stran"},"menu_site_report":{"message":"Poročilo o varnosti spletne strani"},"menu_settings":{"message":"Nastavitve Pomočnika"},"menu_wot_reputation_indicator":{"message":"Kazalnik ugleda spletnestrani"},"menu_wot_reputation_confidence_level":{"message":"Raven ugleda zaupanja"},"assistant_select_element":{"message":"Onemogočanje elementa"},"assistant_select_element_ext":{"message":"Izberite element na strani, ki ga želite onemogočiti"},"assistant_select_element_cancel":{"message":"Prekliči"},"assistant_block_element":{"message":"Onemogočanje elementa"},"assistant_block_element_explain":{"message":"Prilagodite pravilo za onemogočanje elementa"},"assistant_slider_explain":{"message":"Premaknite drsnik, da spremenite velikost okvirja, za katerega bo delovalo novo pravilo:"},"assistant_extended_settings":{"message":"Napredne nastavitve"},"assistant_apply_rule_to_all_sites":{"message":"Uporabi pravilo za vse spletne strani"},"assistant_block_by_reference":{"message":"Onemogočij z napotitveno povezavo"},"assistant_block_similar":{"message":"Onemogoči podobno"},"assistant_another_element":{"message":"Izberi drug element"},"assistant_preview":{"message":"Predogled"},"assistant_block":{"message":"Onemogoči"},"assistant_settings":{"message":"Nastavitve Pomočnika"},"assistant_preview_header":{"message":"Onemogočanje elementa - predogled"},"assistant_preview_header_info":{"message":"Prepričajte se, da je element bil onemogočen, kot je bilo predvideno"},"assistant_preview_end":{"message":"Zapusti predogled"},"wot_unknown_description":{"message":"Ugled te spletne strani ni opredeljen z $1"},"wot_bad_description":{"message":"Ta spletna stran ima zelo slab ugled\\nglede na $1"},"wot_poor_description":{"message":"Ta spletna stran ima slab ugled\\nglede na $1"},"wot_unsatisfactory_description":{"message":"Ta spletna stran ima zelo slab ugled\\nglede na $1"},"wot_good_description":{"message":"Ta spletna stran ima dober ugled\\nglede na $1"},"wot_excellent_description":{"message":"Ta spletna stran ima odličen ugled\\nglede na $1"},"settings_choose_size_and_position":{"message":"Prilagodi velikost in položaj AdGuard Pomočnika"},"settings_icon_size":{"message":"Velikost ikone:"},"settings_small":{"message":"Majhna"},"settings_big":{"message":"Velika"},"settings_position":{"message":"Položaj:"},"settings_left_top":{"message":"Zgoraj levo"},"settings_right_top":{"message":"Zgoraj desno"},"settings_left_bottom":{"message":"Spodaj levo"},"settings_right_bottom":{"message":"Spodaj desno"},"settings_cancel":{"message":"Prekliči"},"settings_save":{"message":"Shrani nastavitve"}}');
 
 /***/ }),
 
-/***/ 9177:
+/***/ 8896:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Sajtovi","settings_position_save_all":"Svi sajtovi","settings_position_save_this":"Ovaj sajt","assistant_select_element_start":"Započni","assistant_select_element_text":"Izaberite element na stranici koji želite da blokirate. Osvežite stranicu da otkažete blokiranje elemenata.","menu_filtration_status":{"message":"Filtriranje na ovom sajtu"},"menu_do_not_filter_30_sec":{"message":"Ne filtriraj u narednih 30 sekundi"},"menu_block_ad_on_site":{"message":"Blokiraj reklamu na ovom sajtu"},"menu_report_abuse":{"message":"Prijavi sajt"},"menu_site_report":{"message":"Bezbednosni izveštaj o sajtu"},"menu_settings":{"message":"Postavke pomoćnika"},"menu_wot_reputation_indicator":{"message":"Indikator reputacije sajta"},"menu_wot_reputation_confidence_level":{"message":"Nivo poverljivosti reputacije"},"assistant_select_element":{"message":"Blokiranje elementa"},"assistant_select_element_ext":{"message":"Izaberite element koji želite da blokirate na stranici"},"assistant_select_element_cancel":{"message":"Otkaži"},"assistant_block_element":{"message":"Blokiranje elementa"},"assistant_block_element_explain":{"message":"Podesite pravilo blokiranja elementa"},"assistant_slider_explain":{"message":"Pomerajte klizač kako bi ste promenili veličinu okvira po kom će pravilo raditi:"},"assistant_extended_settings":{"message":"Napredne postavke"},"assistant_apply_rule_to_all_sites":{"message":"Primeni pravilo na sve sajtove"},"assistant_block_by_reference":{"message":"Blokiraj po linku reference"},"assistant_block_similar":{"message":"Blokiraj slično"},"assistant_another_element":{"message":"Izaberite drugi element"},"assistant_preview":{"message":"Pregled"},"assistant_block":{"message":"Blokiraj"},"assistant_settings":{"message":"Postavke pomoćnika"},"assistant_preview_header":{"message":"Pregled blokiranja elementa"},"assistant_preview_header_info":{"message":"Uverite se da je element blokiran kako ste želeli"},"assistant_preview_end":{"message":"Napusti pregled"},"wot_unknown_description":{"message":"Reputacija nije definisana"},"wot_bad_description":{"message":"Ovaj sajt ima veoma lošu reputaciju\\nprema "},"wot_poor_description":{"message":"Ovaj sajt ima lošu reputaciju\\nprema "},"wot_unsatisfactory_description":{"message":"Ovaj sajt ima slabu reputaciju\\nprema "},"wot_good_description":{"message":"Ovaj sajt ima dobru reputaciju\\nprema "},"wot_excellent_description":{"message":"Ovaj sajt ima odličnu reputaciju\\nprema "},"settings_choose_size_and_position":{"message":"Podesite veličinu i poziciju AdGuard pomoćnika"},"settings_icon_size":{"message":"Veličina ikonice"},"settings_small":{"message":"Mala"},"settings_big":{"message":"Velika"},"settings_position":{"message":"Pozicija:"},"settings_left_top":{"message":"Gore levo"},"settings_right_top":{"message":"Gore desno"},"settings_left_bottom":{"message":"Dole levo"},"settings_right_bottom":{"message":"Dole desno"},"settings_cancel":{"message":"Otkaži"},"settings_save":{"message":"Sačuvaj promene"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Sajtovi","settings_position_save_all":"Svi sajtovi","settings_position_save_this":"Ovaj sajt","assistant_select_element_start":"Započni","assistant_select_element_text":"Izaberite element na stranici koji želite da blokirate. Osvežite stranicu da otkažete blokiranje elemenata.","menu_filtration_status":{"message":"Filtriranje na ovom sajtu"},"menu_do_not_filter_30_sec":{"message":"Ne filtriraj u narednih 30 sekundi"},"menu_block_ad_on_site":{"message":"Blokiraj reklamu na ovom sajtu"},"menu_report_abuse":{"message":"Prijavi sajt"},"menu_site_report":{"message":"Bezbednosni izveštaj o sajtu"},"menu_settings":{"message":"Postavke pomoćnika"},"menu_wot_reputation_indicator":{"message":"Indikator reputacije sajta"},"menu_wot_reputation_confidence_level":{"message":"Nivo poverljivosti reputacije"},"assistant_select_element":{"message":"Blokiranje elementa"},"assistant_select_element_ext":{"message":"Izaberite element koji želite da blokirate na stranici"},"assistant_select_element_cancel":{"message":"Otkaži"},"assistant_block_element":{"message":"Blokiranje elementa"},"assistant_block_element_explain":{"message":"Podesite pravilo blokiranja elementa"},"assistant_slider_explain":{"message":"Pomerajte klizač kako bi ste promenili veličinu okvira po kom će pravilo raditi:"},"assistant_extended_settings":{"message":"Napredne postavke"},"assistant_apply_rule_to_all_sites":{"message":"Primeni pravilo na sve sajtove"},"assistant_block_by_reference":{"message":"Blokiraj po linku reference"},"assistant_block_similar":{"message":"Blokiraj slično"},"assistant_another_element":{"message":"Izaberite drugi element"},"assistant_preview":{"message":"Pregled"},"assistant_block":{"message":"Blokiraj"},"assistant_settings":{"message":"Postavke pomoćnika"},"assistant_preview_header":{"message":"Pregled blokiranja elementa"},"assistant_preview_header_info":{"message":"Uverite se da je element blokiran kako ste želeli"},"assistant_preview_end":{"message":"Napusti pregled"},"wot_unknown_description":{"message":"Reputacija nije definisana"},"wot_bad_description":{"message":"Ovaj sajt ima veoma lošu reputaciju\\nprema "},"wot_poor_description":{"message":"Ovaj sajt ima lošu reputaciju\\nprema "},"wot_unsatisfactory_description":{"message":"Ovaj sajt ima slabu reputaciju\\nprema "},"wot_good_description":{"message":"Ovaj sajt ima dobru reputaciju\\nprema "},"wot_excellent_description":{"message":"Ovaj sajt ima odličnu reputaciju\\nprema "},"settings_choose_size_and_position":{"message":"Podesite veličinu i poziciju AdGuard pomoćnika"},"settings_icon_size":{"message":"Veličina ikonice"},"settings_small":{"message":"Mala"},"settings_big":{"message":"Velika"},"settings_position":{"message":"Pozicija:"},"settings_left_top":{"message":"Gore levo"},"settings_right_top":{"message":"Gore desno"},"settings_left_bottom":{"message":"Dole levo"},"settings_right_bottom":{"message":"Dole desno"},"settings_cancel":{"message":"Otkaži"},"settings_save":{"message":"Sačuvaj promene"}}');
 
 /***/ }),
 
-/***/ 6105:
+/***/ 6428:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Webbplatser","settings_position_save_all":"Alla webbplatser","settings_position_save_this":"Den här webbplatsen","assistant_select_element_text":"Välj ett element sidan att blockera. Återladda sidan för att återställa elementblockeringsläget.","menu_filtration_status":{"message":"Webbplatsens filtrering"},"menu_do_not_filter_30_sec":{"message":"Pausa filtrering 30 sekunder"},"menu_block_ad_on_site":{"message":"Blockera annons på den här webbplatsen"},"menu_report_abuse":{"message":"Rapportera webbplatsen"},"menu_site_report":{"message":"Säkerhetsrapport för webbplatsen"},"menu_settings":{"message":"Assistentinställningar"},"assistant_select_element":{"message":"Blockering av annonselement"},"assistant_select_element_ext":{"message":"Välj ett annonselement för blockering"},"assistant_select_element_cancel":{"message":"Avbryt"},"assistant_block_element":{"message":"Blockering av annonselement"},"assistant_block_element_explain":{"message":"Anpassa blockeringsregeln för annonselementet"},"assistant_slider_explain":{"message":"Justera storleken på annonselementet som den nya blockeringsregeln skall avse:"},"assistant_extended_settings":{"message":"Avancerade val"},"assistant_apply_rule_to_all_sites":{"message":"Tillämpa regelns på alla webbplatster"},"assistant_block_by_reference":{"message":"Blockera med referenslänk"},"assistant_block_similar":{"message":"Blockera liknande"},"assistant_another_element":{"message":"Markera ett annat annonselement"},"assistant_preview":{"message":"Förhandsgranska"},"assistant_block":{"message":"Blockera"},"assistant_settings":{"message":"Assistentval"},"assistant_preview_header":{"message":"Förhandsgranskning av elementblockeringen"},"assistant_preview_header_info":{"message":"Kontrollera att elementet blockerats som avsett"},"assistant_preview_end":{"message":"Avsluta förhandsgranskningen"},"wot_unknown_description":{"message":"Den här sajtens anseende är inte klarlagd av $1"},"wot_bad_description":{"message":"Webbplatsen har ett mycket dåligt anseende\\nenligt $1"},"wot_poor_description":{"message":"Webbplatsen har dåligt anseende\\nenligt $1"},"wot_unsatisfactory_description":{"message":"Webbplatsen har tveksamt anseende\\nenligt $1"},"wot_good_description":{"message":"Webbplatsen har gott anseende\\nenligt $1"},"wot_excellent_description":{"message":"Webbplatsen har ett mycket gott anseende\\nenligt $1"},"settings_choose_size_and_position":{"message":"Anpassas storlek och läge för AdGuardassistenten"},"settings_icon_size":{"message":"Ikonstorlek"},"settings_small":{"message":"Liten"},"settings_big":{"message":"Stor"},"settings_position":{"message":"Läge:"},"settings_left_top":{"message":"Ovan vänster"},"settings_right_top":{"message":"Ovan höger"},"settings_left_bottom":{"message":"Nedan vänster"},"settings_right_bottom":{"message":"Nedan höger"},"settings_cancel":{"message":"Avbryt"},"settings_save":{"message":"Spara ändringar"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Webbplatser","settings_position_save_all":"Alla webbplatser","settings_position_save_this":"Den här webbplatsen","assistant_select_element_text":"Välj ett element sidan att blockera. Återladda sidan för att återställa elementblockeringsläget.","menu_filtration_status":{"message":"Webbplatsens filtrering"},"menu_do_not_filter_30_sec":{"message":"Pausa filtrering 30 sekunder"},"menu_block_ad_on_site":{"message":"Blockera annons på den här webbplatsen"},"menu_report_abuse":{"message":"Rapportera webbplatsen"},"menu_site_report":{"message":"Säkerhetsrapport för webbplatsen"},"menu_settings":{"message":"Assistentinställningar"},"assistant_select_element":{"message":"Blockering av annonselement"},"assistant_select_element_ext":{"message":"Välj ett annonselement för blockering"},"assistant_select_element_cancel":{"message":"Avbryt"},"assistant_block_element":{"message":"Blockering av annonselement"},"assistant_block_element_explain":{"message":"Anpassa blockeringsregeln för annonselementet"},"assistant_slider_explain":{"message":"Justera storleken på annonselementet som den nya blockeringsregeln skall avse:"},"assistant_extended_settings":{"message":"Avancerade val"},"assistant_apply_rule_to_all_sites":{"message":"Tillämpa regelns på alla webbplatster"},"assistant_block_by_reference":{"message":"Blockera med referenslänk"},"assistant_block_similar":{"message":"Blockera liknande"},"assistant_another_element":{"message":"Markera ett annat annonselement"},"assistant_preview":{"message":"Förhandsgranska"},"assistant_block":{"message":"Blockera"},"assistant_settings":{"message":"Assistentval"},"assistant_preview_header":{"message":"Förhandsgranskning av elementblockeringen"},"assistant_preview_header_info":{"message":"Kontrollera att elementet blockerats som avsett"},"assistant_preview_end":{"message":"Avsluta förhandsgranskningen"},"wot_unknown_description":{"message":"Den här sajtens anseende är inte klarlagd av $1"},"wot_bad_description":{"message":"Webbplatsen har ett mycket dåligt anseende\\nenligt $1"},"wot_poor_description":{"message":"Webbplatsen har dåligt anseende\\nenligt $1"},"wot_unsatisfactory_description":{"message":"Webbplatsen har tveksamt anseende\\nenligt $1"},"wot_good_description":{"message":"Webbplatsen har gott anseende\\nenligt $1"},"wot_excellent_description":{"message":"Webbplatsen har ett mycket gott anseende\\nenligt $1"},"settings_choose_size_and_position":{"message":"Anpassas storlek och läge för AdGuardassistenten"},"settings_icon_size":{"message":"Ikonstorlek"},"settings_small":{"message":"Liten"},"settings_big":{"message":"Stor"},"settings_position":{"message":"Läge:"},"settings_left_top":{"message":"Ovan vänster"},"settings_right_top":{"message":"Ovan höger"},"settings_left_bottom":{"message":"Nedan vänster"},"settings_right_bottom":{"message":"Nedan höger"},"settings_cancel":{"message":"Avbryt"},"settings_save":{"message":"Spara ändringar"}}');
 
 /***/ }),
 
-/***/ 147:
+/***/ 1777:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Siteler","settings_position_save_all":"Tüm siteler","settings_position_save_this":"Bu site","assistant_select_element_start":"Başla","assistant_select_element_text":"Engellemek için sayfada bir öğe seçin. Öğe engelleme modunu iptal etmek için sayfayı yenileyin.","menu_filtration_status":{"message":"Bu sitedeki filtreleme"},"menu_do_not_filter_30_sec":{"message":"30 saniyeliğine filtreleme yapma"},"menu_block_ad_on_site":{"message":"Bu sitede reklam engelle"},"menu_report_abuse":{"message":"Siteyi bildir"},"menu_site_report":{"message":"Sitenin güvenlik raporu"},"menu_settings":{"message":"Asistan ayarları"},"menu_wot_reputation_indicator":{"message":"Site itibarı göstergesi"},"menu_wot_reputation_confidence_level":{"message":"İtibarın Güven Seviyesi"},"assistant_select_element":{"message":"Öğe engelleme"},"assistant_select_element_ext":{"message":"Sayfada engellenecek bir öğe seçin"},"assistant_select_element_cancel":{"message":"İptal"},"assistant_block_element":{"message":"Öğe engelleme"},"assistant_block_element_explain":{"message":"Öğe engelleme kuralını ayarla"},"assistant_slider_explain":{"message":"Yeni kuralın çalışacağı çerçevenin boyutunu değiştirmek için kayar düğmeyi hareket ettirin"},"assistant_extended_settings":{"message":"Gelişmiş ayarlar"},"assistant_apply_rule_to_all_sites":{"message":"Kuralı tüm sitelerde uygula"},"assistant_block_by_reference":{"message":"Referans bağlantı ile engelle"},"assistant_block_similar":{"message":"Benzerlerini engelle"},"assistant_another_element":{"message":"Farklı bir öğe seç"},"assistant_preview":{"message":"Önizleme"},"assistant_block":{"message":"Engelle"},"assistant_settings":{"message":"Asistan ayarları"},"assistant_preview_header":{"message":"Öğe engelleme - ön izleme"},"assistant_preview_header_info":{"message":"Öğenin istediğiniz gibi engellendiğinden emin olun"},"assistant_preview_end":{"message":"Önizlemeden çık"},"wot_unknown_description":{"message":"Bu sitenin itibarı $1 tarafından henüz belirlenmemiş"},"wot_bad_description":{"message":"1$\'a göre bu site çok kötü \\nbir itibara sahip"},"wot_poor_description":{"message":"1$\'a göre bu site kötü \\nbir itibara sahip"},"wot_unsatisfactory_description":{"message":"1$\'a göre bu site zayıf\\nbir itibara sahip"},"wot_good_description":{"message":"1$\'a göre bu site iyi\\nbir itibara sahip"},"wot_excellent_description":{"message":"1$\'a göre bu site mükemmel\\nbir itibara sahip"},"settings_choose_size_and_position":{"message":"AdGuard Asistanın boyutunu ve konumunu ayarlayın"},"settings_icon_size":{"message":"Simge boyutu:"},"settings_small":{"message":"Küçük"},"settings_big":{"message":"Büyük"},"settings_position":{"message":"Konum:"},"settings_left_top":{"message":"Sol üst"},"settings_right_top":{"message":"Sağ üst"},"settings_left_bottom":{"message":"Sol alt"},"settings_right_bottom":{"message":"Sağ alt"},"settings_cancel":{"message":"İptal"},"settings_save":{"message":"Değişiklikleri kaydet"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Siteler","settings_position_save_all":"Tüm siteler","settings_position_save_this":"Bu site","assistant_select_element_start":"Başla","assistant_select_element_text":"Engellemek için sayfada bir öğe seçin. Öğe engelleme modunu iptal etmek için sayfayı yenileyin.","menu_filtration_status":{"message":"Bu sitedeki filtreleme"},"menu_do_not_filter_30_sec":{"message":"30 saniyeliğine filtreleme yapma"},"menu_block_ad_on_site":{"message":"Bu sitede reklam engelle"},"menu_report_abuse":{"message":"Siteyi bildir"},"menu_site_report":{"message":"Sitenin güvenlik raporu"},"menu_settings":{"message":"Asistan ayarları"},"menu_wot_reputation_indicator":{"message":"Site itibarı göstergesi"},"menu_wot_reputation_confidence_level":{"message":"İtibarın Güven Seviyesi"},"assistant_select_element":{"message":"Öğe engelleme"},"assistant_select_element_ext":{"message":"Sayfada engellenecek bir öğe seçin"},"assistant_select_element_cancel":{"message":"İptal"},"assistant_block_element":{"message":"Öğe engelleme"},"assistant_block_element_explain":{"message":"Öğe engelleme kuralını ayarla"},"assistant_slider_explain":{"message":"Yeni kuralın çalışacağı çerçevenin boyutunu değiştirmek için kayar düğmeyi hareket ettirin"},"assistant_extended_settings":{"message":"Gelişmiş ayarlar"},"assistant_apply_rule_to_all_sites":{"message":"Kuralı tüm sitelerde uygula"},"assistant_block_by_reference":{"message":"Referans bağlantı ile engelle"},"assistant_block_similar":{"message":"Benzerlerini engelle"},"assistant_another_element":{"message":"Farklı bir öğe seç"},"assistant_preview":{"message":"Önizleme"},"assistant_block":{"message":"Engelle"},"assistant_settings":{"message":"Asistan ayarları"},"assistant_preview_header":{"message":"Öğe engelleme - ön izleme"},"assistant_preview_header_info":{"message":"Öğenin istediğiniz gibi engellendiğinden emin olun"},"assistant_preview_end":{"message":"Önizlemeden çık"},"wot_unknown_description":{"message":"Bu sitenin itibarı $1 tarafından henüz belirlenmemiş"},"wot_bad_description":{"message":"1$\'a göre bu site çok kötü \\nbir itibara sahip"},"wot_poor_description":{"message":"1$\'a göre bu site kötü \\nbir itibara sahip"},"wot_unsatisfactory_description":{"message":"1$\'a göre bu site zayıf\\nbir itibara sahip"},"wot_good_description":{"message":"1$\'a göre bu site iyi\\nbir itibara sahip"},"wot_excellent_description":{"message":"1$\'a göre bu site mükemmel\\nbir itibara sahip"},"settings_choose_size_and_position":{"message":"AdGuard Asistanın boyutunu ve konumunu ayarlayın"},"settings_icon_size":{"message":"Simge boyutu:"},"settings_small":{"message":"Küçük"},"settings_big":{"message":"Büyük"},"settings_position":{"message":"Konum:"},"settings_left_top":{"message":"Sol üst"},"settings_right_top":{"message":"Sağ üst"},"settings_left_bottom":{"message":"Sol alt"},"settings_right_bottom":{"message":"Sağ alt"},"settings_cancel":{"message":"İptal"},"settings_save":{"message":"Değişiklikleri kaydet"}}');
 
 /***/ }),
 
-/***/ 1249:
+/***/ 7415:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Сайти","settings_position_save_all":"На всіх","settings_position_save_this":"Тільки на даному","assistant_select_element_start":"Почати","assistant_select_element_text":"Виберіть елемент на сторінці, який треба заблокувати. Оновіть сторінку, щоб скасувати режим блокування.","menu_filtration_status":{"message":"Фільтрування на цьому сайті"},"menu_do_not_filter_30_sec":{"message":"Не фільтрувати 30 секунд"},"menu_block_ad_on_site":{"message":"Заблокувати рекламу на даному сайті"},"menu_report_abuse":{"message":"Повідомити про сайт"},"menu_site_report":{"message":"Звіт про безпеку сайту"},"menu_settings":{"message":"Налаштування помічника"},"menu_wot_reputation_indicator":{"message":"Індикатор репутації сайту"},"menu_wot_reputation_confidence_level":{"message":"Рівень надійності репутації"},"assistant_select_element":{"message":"Блокування елементу"},"assistant_select_element_ext":{"message":"Виберіть елемент на сторінці, який треба заблокувати"},"assistant_select_element_cancel":{"message":"Скасувати"},"assistant_block_element":{"message":"Блокування елементу"},"assistant_block_element_explain":{"message":"Налаштуйте правило блокування елементу"},"assistant_slider_explain":{"message":"Пересувайте повзунок, щоб змінити розмір блоку, для якого діятиме правило:"},"assistant_extended_settings":{"message":"Розширені налаштування"},"assistant_apply_rule_to_all_sites":{"message":"Застосувати правило для всіх сайтів"},"assistant_block_by_reference":{"message":"Блокувати за посиланням"},"assistant_block_similar":{"message":"Блокувати схожі елементи"},"assistant_another_element":{"message":"Вибрати інший елемент"},"assistant_preview":{"message":"Попередній перегляд"},"assistant_block":{"message":"Заблокувати"},"assistant_settings":{"message":"Налаштування помічника"},"assistant_preview_header":{"message":"Блокування елементу - попередній перегляд"},"assistant_preview_header_info":{"message":"Переконайтеся, що елемент заблокований як слід"},"assistant_preview_end":{"message":"Закінчити попередній перегляд"},"wot_unknown_description":{"message":"Репутація цього вебсайту не визначена"},"wot_bad_description":{"message":"Цей сайт має дуже погану репутацію\\nза версією $1"},"wot_poor_description":{"message":"Цей сайт має погану репутацію\\nза версією $1"},"wot_unsatisfactory_description":{"message":"Цей сайт має незадовільну репутацію\\nза версією $1"},"wot_good_description":{"message":"Цей сайт має добру репутацію\\nза версією $1"},"wot_excellent_description":{"message":"Цей сайт має дуже відмінну репутацію\\nза версією $1"},"settings_choose_size_and_position":{"message":"Налаштуйте розмір і положення помічника AdGuard"},"settings_icon_size":{"message":"Розмір іконки:"},"settings_small":{"message":"Маленька"},"settings_big":{"message":"Велика"},"settings_position":{"message":"Позиція:"},"settings_left_top":{"message":"Зверху зліва"},"settings_right_top":{"message":"Зверху справа"},"settings_left_bottom":{"message":"Внизу зліва"},"settings_right_bottom":{"message":"Внизу справа"},"settings_cancel":{"message":"Скасувати"},"settings_save":{"message":"Зберегти зміни"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Сайти","settings_position_save_all":"На всіх","settings_position_save_this":"Тільки на даному","assistant_select_element_start":"Почати","assistant_select_element_text":"Виберіть елемент на сторінці, який треба заблокувати. Оновіть сторінку, щоб скасувати режим блокування.","menu_filtration_status":{"message":"Фільтрування на цьому сайті"},"menu_do_not_filter_30_sec":{"message":"Не фільтрувати 30 секунд"},"menu_block_ad_on_site":{"message":"Заблокувати рекламу на даному сайті"},"menu_report_abuse":{"message":"Повідомити про сайт"},"menu_site_report":{"message":"Звіт про безпеку сайту"},"menu_settings":{"message":"Налаштування помічника"},"menu_wot_reputation_indicator":{"message":"Індикатор репутації сайту"},"menu_wot_reputation_confidence_level":{"message":"Рівень надійності репутації"},"assistant_select_element":{"message":"Блокування елементу"},"assistant_select_element_ext":{"message":"Виберіть елемент на сторінці, який треба заблокувати"},"assistant_select_element_cancel":{"message":"Скасувати"},"assistant_block_element":{"message":"Блокування елементу"},"assistant_block_element_explain":{"message":"Налаштуйте правило блокування елементу"},"assistant_slider_explain":{"message":"Пересувайте повзунок, щоб змінити розмір блоку, для якого діятиме правило:"},"assistant_extended_settings":{"message":"Розширені налаштування"},"assistant_apply_rule_to_all_sites":{"message":"Застосувати правило для всіх сайтів"},"assistant_block_by_reference":{"message":"Блокувати за посиланням"},"assistant_block_similar":{"message":"Блокувати схожі елементи"},"assistant_another_element":{"message":"Вибрати інший елемент"},"assistant_preview":{"message":"Попередній перегляд"},"assistant_block":{"message":"Заблокувати"},"assistant_settings":{"message":"Налаштування помічника"},"assistant_preview_header":{"message":"Блокування елементу - попередній перегляд"},"assistant_preview_header_info":{"message":"Переконайтеся, що елемент заблокований як слід"},"assistant_preview_end":{"message":"Закінчити попередній перегляд"},"wot_unknown_description":{"message":"Репутація цього вебсайту не визначена"},"wot_bad_description":{"message":"Цей сайт має дуже погану репутацію\\nза версією $1"},"wot_poor_description":{"message":"Цей сайт має погану репутацію\\nза версією $1"},"wot_unsatisfactory_description":{"message":"Цей сайт має незадовільну репутацію\\nза версією $1"},"wot_good_description":{"message":"Цей сайт має добру репутацію\\nза версією $1"},"wot_excellent_description":{"message":"Цей сайт має дуже відмінну репутацію\\nза версією $1"},"settings_choose_size_and_position":{"message":"Налаштуйте розмір і положення помічника AdGuard"},"settings_icon_size":{"message":"Розмір іконки:"},"settings_small":{"message":"Маленька"},"settings_big":{"message":"Велика"},"settings_position":{"message":"Позиція:"},"settings_left_top":{"message":"Зверху зліва"},"settings_right_top":{"message":"Зверху справа"},"settings_left_bottom":{"message":"Внизу зліва"},"settings_right_bottom":{"message":"Внизу справа"},"settings_cancel":{"message":"Скасувати"},"settings_save":{"message":"Зберегти зміни"}}');
 
 /***/ }),
 
-/***/ 4534:
+/***/ 9692:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"Trang Web","settings_position_save_all":"Tất cả trang web","settings_position_save_this":"Chỉ trang web này","assistant_select_element_start":"Bắt đầu","assistant_select_element_text":"Chọn một thành phần trên trang để chặn. Làm mới trang web để hủy bỏ chế độ chặn thành phần.","menu_filtration_status":{"message":"Lọc trên website này"},"menu_do_not_filter_30_sec":{"message":"Không lọc trong 30 giây"},"menu_block_ad_on_site":{"message":"Chặn quảng cáo đối với trang web này"},"menu_report_abuse":{"message":"Báo cáo trang web này"},"menu_site_report":{"message":"Báo cáo bảo mật website"},"menu_settings":{"message":"Cài đặt trợ lý"},"menu_wot_reputation_indicator":{"message":"Chỉ số danh tiếng của trang Web"},"menu_wot_reputation_confidence_level":{"message":"Mức độ đáng tin của danh tiếng"},"assistant_select_element":{"message":"Chặn thành phần"},"assistant_select_element_ext":{"message":"Chọn một thành phần trên trang để chặn"},"assistant_select_element_cancel":{"message":"Hủy bỏ"},"assistant_block_element":{"message":"Chặn thành phần"},"assistant_block_element_explain":{"message":"Điều chỉnh quy tắc chặn phần tử"},"assistant_slider_explain":{"message":"Di chuyển thanh trượt để thay đổi kích thước của khung, quy tắc mới sẽ hoạt động cho:"},"assistant_extended_settings":{"message":"Cài đặt nâng cao"},"assistant_apply_rule_to_all_sites":{"message":"Áp dụng tất cả các điều luật đối với mọi trang web"},"assistant_block_by_reference":{"message":"Chặn theo liên kết tham chiếu"},"assistant_block_similar":{"message":"Chặn tương tự"},"assistant_another_element":{"message":"Chọn một phần tử khác"},"assistant_preview":{"message":"Xem trước"},"assistant_block":{"message":"Chặn"},"assistant_settings":{"message":"Cài đặt trợ lý"},"assistant_preview_header":{"message":"Element blocking-xem trước"},"assistant_preview_header_info":{"message":"Đảm bảo rằng thành phần đó bị chặn như dự định"},"assistant_preview_end":{"message":"Thoát xem trước"},"wot_unknown_description":{"message":"Website này danh tiếng chưa được xác định bởi $1"},"wot_bad_description":{"message":"Website này có danh tiếng cực xấu dựa theo $1"},"wot_poor_description":{"message":"Website này có danh tiếng xấu dựa theo $1"},"wot_unsatisfactory_description":{"message":"Website này có danh tiếng không tốt dựa theo $1"},"wot_good_description":{"message":"Website này có danh tiếng tốt dựa theo $1"},"wot_excellent_description":{"message":"Website này có danh tiếng tuyệt vời dựa theo $1"},"settings_choose_size_and_position":{"message":"Điều chỉnh kích thước và vị trí của Trợ Lý AdGuard"},"settings_icon_size":{"message":"Kích thước biểu tượng:"},"settings_small":{"message":"Nhỏ"},"settings_big":{"message":"Lớn"},"settings_position":{"message":"Vị trí:"},"settings_left_top":{"message":"Trên cùng bên trái"},"settings_right_top":{"message":"Trên cùng bên phải"},"settings_left_bottom":{"message":"Dưới cùng bên trái"},"settings_right_bottom":{"message":"Dưới cùng bên phải"},"settings_cancel":{"message":"Hủy bỏ"},"settings_save":{"message":"Lưu các thay đổi"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"Trang Web","settings_position_save_all":"Tất cả trang web","settings_position_save_this":"Chỉ trang web này","assistant_select_element_start":"Bắt đầu","assistant_select_element_text":"Chọn một thành phần trên trang để chặn. Làm mới trang web để hủy bỏ chế độ chặn thành phần.","menu_filtration_status":{"message":"Lọc trên website này"},"menu_do_not_filter_30_sec":{"message":"Không lọc trong 30 giây"},"menu_block_ad_on_site":{"message":"Chặn quảng cáo đối với trang web này"},"menu_report_abuse":{"message":"Báo cáo trang web này"},"menu_site_report":{"message":"Báo cáo bảo mật website"},"menu_settings":{"message":"Cài đặt trợ lý"},"menu_wot_reputation_indicator":{"message":"Chỉ số danh tiếng của trang Web"},"menu_wot_reputation_confidence_level":{"message":"Mức độ đáng tin của danh tiếng"},"assistant_select_element":{"message":"Chặn thành phần"},"assistant_select_element_ext":{"message":"Chọn một thành phần trên trang để chặn"},"assistant_select_element_cancel":{"message":"Hủy bỏ"},"assistant_block_element":{"message":"Chặn thành phần"},"assistant_block_element_explain":{"message":"Điều chỉnh quy tắc chặn phần tử"},"assistant_slider_explain":{"message":"Di chuyển thanh trượt để thay đổi kích thước của khung, quy tắc mới sẽ hoạt động cho:"},"assistant_extended_settings":{"message":"Cài đặt nâng cao"},"assistant_apply_rule_to_all_sites":{"message":"Áp dụng tất cả các điều luật đối với mọi trang web"},"assistant_block_by_reference":{"message":"Chặn theo liên kết tham chiếu"},"assistant_block_similar":{"message":"Chặn tương tự"},"assistant_another_element":{"message":"Chọn một phần tử khác"},"assistant_preview":{"message":"Xem trước"},"assistant_block":{"message":"Chặn"},"assistant_settings":{"message":"Cài đặt trợ lý"},"assistant_preview_header":{"message":"Element blocking-xem trước"},"assistant_preview_header_info":{"message":"Đảm bảo rằng thành phần đó bị chặn như dự định"},"assistant_preview_end":{"message":"Thoát xem trước"},"wot_unknown_description":{"message":"Website này danh tiếng chưa được xác định bởi $1"},"wot_bad_description":{"message":"Website này có danh tiếng cực xấu dựa theo $1"},"wot_poor_description":{"message":"Website này có danh tiếng xấu dựa theo $1"},"wot_unsatisfactory_description":{"message":"Website này có danh tiếng không tốt dựa theo $1"},"wot_good_description":{"message":"Website này có danh tiếng tốt dựa theo $1"},"wot_excellent_description":{"message":"Website này có danh tiếng tuyệt vời dựa theo $1"},"settings_choose_size_and_position":{"message":"Điều chỉnh kích thước và vị trí của Trợ Lý AdGuard"},"settings_icon_size":{"message":"Kích thước biểu tượng:"},"settings_small":{"message":"Nhỏ"},"settings_big":{"message":"Lớn"},"settings_position":{"message":"Vị trí:"},"settings_left_top":{"message":"Trên cùng bên trái"},"settings_right_top":{"message":"Trên cùng bên phải"},"settings_left_bottom":{"message":"Dưới cùng bên trái"},"settings_right_bottom":{"message":"Dưới cùng bên phải"},"settings_cancel":{"message":"Hủy bỏ"},"settings_save":{"message":"Lưu các thay đổi"}}');
 
 /***/ }),
 
-/***/ 3476:
+/***/ 6359:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"網站","settings_position_save_all":"所有網站","settings_position_save_this":"此網站","assistant_select_element_start":"開始","assistant_select_element_text":"選擇網頁上的元素來阻擋。若要取消重新整理網頁即可。","menu_filtration_status":{"message":"過濾此網頁上的廣告"},"menu_do_not_filter_30_sec":{"message":"暫停過濾 30 秒"},"menu_block_ad_on_site":{"message":"封鎖此網頁上的廣告"},"menu_report_abuse":{"message":"回報此網站"},"menu_site_report":{"message":"網站安全性報告"},"menu_settings":{"message":"助手設定"},"menu_wot_reputation_indicator":{"message":"網頁名譽指標"},"menu_wot_reputation_confidence_level":{"message":"名譽可信程度"},"assistant_select_element":{"message":"封鎖網頁元素"},"assistant_select_element_ext":{"message":"選取網頁上的元素來封鎖"},"assistant_select_element_cancel":{"message":"取消"},"assistant_block_element":{"message":"阻擋網頁元素"},"assistant_block_element_explain":{"message":"調整網頁元素阻擋條件"},"assistant_slider_explain":{"message":"移動滑桿可以更改阻擋元素範圍："},"assistant_extended_settings":{"message":"進階設定"},"assistant_apply_rule_to_all_sites":{"message":"套用至所有網站"},"assistant_block_by_reference":{"message":"通過參考連結封鎖"},"assistant_block_similar":{"message":"封鎖相關或類似的"},"assistant_another_element":{"message":"選取其他網頁元素"},"assistant_preview":{"message":"預覽"},"assistant_block":{"message":"封鎖"},"assistant_settings":{"message":"助手設定"},"assistant_preview_header":{"message":"封鎖網頁元祖 - 預覽"},"assistant_preview_header_info":{"message":"確保網頁元素已被正確封鎖"},"assistant_preview_end":{"message":"關閉預覽"},"wot_unknown_description":{"message":"此網站名譽尚未被 $1 評定"},"wot_bad_description":{"message":"根據 $1\\n此網站名譽非常糟糕"},"wot_poor_description":{"message":"根據 $1\\n此網站擁有不良的名譽"},"wot_unsatisfactory_description":{"message":"根據 $1\\n此網站擁有不好的名譽"},"wot_good_description":{"message":"根據 $1\\n此網站擁有良好的名譽"},"wot_excellent_description":{"message":"根據 $1\\n此網站擁有非常優秀的名譽"},"settings_choose_size_and_position":{"message":"調整 AdGuard 小助手大小與位置"},"settings_icon_size":{"message":"圖示大小："},"settings_small":{"message":"小"},"settings_big":{"message":"大"},"settings_position":{"message":"位置："},"settings_left_top":{"message":"左上角"},"settings_right_top":{"message":"右上角"},"settings_left_bottom":{"message":"左下角"},"settings_right_bottom":{"message":"右下角"},"settings_cancel":{"message":"取消"},"settings_save":{"message":"儲存變更"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"網站","settings_position_save_all":"所有網站","settings_position_save_this":"此網站","assistant_select_element_start":"開始","assistant_select_element_text":"選擇網頁上的元素來阻擋。若要取消重新整理網頁即可。","menu_filtration_status":{"message":"過濾此網頁上的廣告"},"menu_do_not_filter_30_sec":{"message":"暫停過濾 30 秒"},"menu_block_ad_on_site":{"message":"封鎖此網頁上的廣告"},"menu_report_abuse":{"message":"回報此網站"},"menu_site_report":{"message":"網站安全性報告"},"menu_settings":{"message":"助手設定"},"menu_wot_reputation_indicator":{"message":"網頁名譽指標"},"menu_wot_reputation_confidence_level":{"message":"名譽可信程度"},"assistant_select_element":{"message":"封鎖網頁元素"},"assistant_select_element_ext":{"message":"選取網頁上的元素來封鎖"},"assistant_select_element_cancel":{"message":"取消"},"assistant_block_element":{"message":"阻擋網頁元素"},"assistant_block_element_explain":{"message":"調整網頁元素阻擋條件"},"assistant_slider_explain":{"message":"移動滑桿可以更改阻擋元素範圍："},"assistant_extended_settings":{"message":"進階設定"},"assistant_apply_rule_to_all_sites":{"message":"套用至所有網站"},"assistant_block_by_reference":{"message":"通過參考連結封鎖"},"assistant_block_similar":{"message":"封鎖相關或類似的"},"assistant_another_element":{"message":"選取其他網頁元素"},"assistant_preview":{"message":"預覽"},"assistant_block":{"message":"封鎖"},"assistant_settings":{"message":"助手設定"},"assistant_preview_header":{"message":"封鎖網頁元祖 - 預覽"},"assistant_preview_header_info":{"message":"確保網頁元素已被正確封鎖"},"assistant_preview_end":{"message":"關閉預覽"},"wot_unknown_description":{"message":"此網站名譽尚未被 $1 評定"},"wot_bad_description":{"message":"根據 $1\\n此網站名譽非常糟糕"},"wot_poor_description":{"message":"根據 $1\\n此網站擁有不良的名譽"},"wot_unsatisfactory_description":{"message":"根據 $1\\n此網站擁有不好的名譽"},"wot_good_description":{"message":"根據 $1\\n此網站擁有良好的名譽"},"wot_excellent_description":{"message":"根據 $1\\n此網站擁有非常優秀的名譽"},"settings_choose_size_and_position":{"message":"調整 AdGuard 小助手大小與位置"},"settings_icon_size":{"message":"圖示大小："},"settings_small":{"message":"小"},"settings_big":{"message":"大"},"settings_position":{"message":"位置："},"settings_left_top":{"message":"左上角"},"settings_right_top":{"message":"右上角"},"settings_left_bottom":{"message":"左下角"},"settings_right_bottom":{"message":"右下角"},"settings_cancel":{"message":"取消"},"settings_save":{"message":"儲存變更"}}');
 
 /***/ }),
 
-/***/ 5480:
+/***/ 6543:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"網站","settings_position_save_all":"所有的網站","settings_position_save_this":"此網站","assistant_select_element_start":"開始","assistant_select_element_text":"選擇於該頁面上之元件以封鎖。重新整理該頁面以取消元件封鎖模式。","menu_filtration_status":{"message":"對此網站之過濾"},"menu_do_not_filter_30_sec":{"message":"計 30 秒不過濾"},"menu_block_ad_on_site":{"message":"封鎖於此網站上之廣告"},"menu_report_abuse":{"message":"報告該網站"},"menu_site_report":{"message":"網站安全性報告"},"menu_settings":{"message":"助理設定"},"menu_wot_reputation_indicator":{"message":"網站信譽指標"},"menu_wot_reputation_confidence_level":{"message":"信譽信賴等級"},"assistant_select_element":{"message":"元件封鎖"},"assistant_select_element_ext":{"message":"選擇於該頁面上之元件以封鎖"},"assistant_select_element_cancel":{"message":"取消"},"assistant_block_element":{"message":"元件封鎖"},"assistant_block_element_explain":{"message":"調整元件封鎖規則"},"assistant_slider_explain":{"message":"移動該滑標以更改新的規則將作用於的框架之尺寸："},"assistant_extended_settings":{"message":"進階設定"},"assistant_apply_rule_to_all_sites":{"message":"對所有的網站套用該規則"},"assistant_block_by_reference":{"message":"按照參考連結封鎖"},"assistant_block_similar":{"message":"封鎖相似之物"},"assistant_another_element":{"message":"選擇不同的元件"},"assistant_preview":{"message":"預覽"},"assistant_block":{"message":"封鎖"},"assistant_settings":{"message":"助理設定"},"assistant_preview_header":{"message":"元件封鎖 - 預覽"},"assistant_preview_header_info":{"message":"確定元件如預期的被封鎖"},"assistant_preview_end":{"message":"離開預覽"},"wot_unknown_description":{"message":"此網站的信譽未被 $1 界定"},"wot_bad_description":{"message":"根據 $1，\\n此網站有非常壞的信譽"},"wot_poor_description":{"message":"根據 $1，\\n此網站有壞的信譽"},"wot_unsatisfactory_description":{"message":"根據 $1，\\n此網站有不好的信譽"},"wot_good_description":{"message":"根據 $1，\\n此網站有好的信譽"},"wot_excellent_description":{"message":"根據 $1，\\n此網站有極好的信譽"},"settings_choose_size_and_position":{"message":"調整 AdGuard 助理尺寸和位置"},"settings_icon_size":{"message":"圖示尺寸："},"settings_small":{"message":"小的"},"settings_big":{"message":"大的"},"settings_position":{"message":"位置："},"settings_left_top":{"message":"左上角"},"settings_right_top":{"message":"右上角"},"settings_left_bottom":{"message":"左下角"},"settings_right_bottom":{"message":"右下角"},"settings_cancel":{"message":"取消"},"settings_save":{"message":"儲存更改"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"網站","settings_position_save_all":"所有的網站","settings_position_save_this":"此網站","assistant_select_element_start":"開始","assistant_select_element_text":"選擇於該頁面上之元件以封鎖。重新整理該頁面以取消元件封鎖模式。","menu_filtration_status":{"message":"對此網站之過濾"},"menu_do_not_filter_30_sec":{"message":"計 30 秒不過濾"},"menu_block_ad_on_site":{"message":"封鎖於此網站上之廣告"},"menu_report_abuse":{"message":"報告該網站"},"menu_site_report":{"message":"網站安全性報告"},"menu_settings":{"message":"助理設定"},"menu_wot_reputation_indicator":{"message":"網站信譽指標"},"menu_wot_reputation_confidence_level":{"message":"信譽信賴等級"},"assistant_select_element":{"message":"元件封鎖"},"assistant_select_element_ext":{"message":"選擇於該頁面上之元件以封鎖"},"assistant_select_element_cancel":{"message":"取消"},"assistant_block_element":{"message":"元件封鎖"},"assistant_block_element_explain":{"message":"調整元件封鎖規則"},"assistant_slider_explain":{"message":"移動該滑標以更改新的規則將作用於的框架之尺寸："},"assistant_extended_settings":{"message":"進階設定"},"assistant_apply_rule_to_all_sites":{"message":"對所有的網站套用該規則"},"assistant_block_by_reference":{"message":"按照參考連結封鎖"},"assistant_block_similar":{"message":"封鎖相似之物"},"assistant_another_element":{"message":"選擇不同的元件"},"assistant_preview":{"message":"預覽"},"assistant_block":{"message":"封鎖"},"assistant_settings":{"message":"助理設定"},"assistant_preview_header":{"message":"元件封鎖 - 預覽"},"assistant_preview_header_info":{"message":"確定元件如預期的被封鎖"},"assistant_preview_end":{"message":"離開預覽"},"wot_unknown_description":{"message":"此網站的信譽未被 $1 界定"},"wot_bad_description":{"message":"根據 $1，\\n此網站有非常壞的信譽"},"wot_poor_description":{"message":"根據 $1，\\n此網站有壞的信譽"},"wot_unsatisfactory_description":{"message":"根據 $1，\\n此網站有不好的信譽"},"wot_good_description":{"message":"根據 $1，\\n此網站有好的信譽"},"wot_excellent_description":{"message":"根據 $1，\\n此網站有極好的信譽"},"settings_choose_size_and_position":{"message":"調整 AdGuard 助理尺寸和位置"},"settings_icon_size":{"message":"圖示尺寸："},"settings_small":{"message":"小的"},"settings_big":{"message":"大的"},"settings_position":{"message":"位置："},"settings_left_top":{"message":"左上角"},"settings_right_top":{"message":"右上角"},"settings_left_bottom":{"message":"左下角"},"settings_right_bottom":{"message":"右下角"},"settings_cancel":{"message":"取消"},"settings_save":{"message":"儲存更改"}}');
 
 /***/ }),
 
-/***/ 8868:
+/***/ 9161:
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"settings_position_save":"网站","settings_position_save_all":"所有网站","settings_position_save_this":"此网站","assistant_select_element_start":"开始","assistant_select_element_text":"选择要拦截的网页元素。要取消元素拦截模式，请刷新网页。","menu_filtration_status":{"message":"对此网站进行过滤"},"menu_do_not_filter_30_sec":{"message":"暂停过滤 30 秒"},"menu_block_ad_on_site":{"message":"拦截此网站上的广告"},"menu_report_abuse":{"message":"报告此网站"},"menu_site_report":{"message":"网站安全报告"},"menu_settings":{"message":"助手设置"},"menu_wot_reputation_indicator":{"message":"网站声誉指标"},"menu_wot_reputation_confidence_level":{"message":"声望置信度"},"assistant_select_element":{"message":"拦截元素"},"assistant_select_element_ext":{"message":"选择此页面上需要拦截的元素"},"assistant_select_element_cancel":{"message":"取消"},"assistant_block_element":{"message":"拦截元素"},"assistant_block_element_explain":{"message":"调整元素拦截规则"},"assistant_slider_explain":{"message":"使用滑块改变要由新规则将要拦截的框架大小："},"assistant_extended_settings":{"message":"高级设置"},"assistant_apply_rule_to_all_sites":{"message":"应用规则至所有网站"},"assistant_block_by_reference":{"message":"通过参考链接进行拦截"},"assistant_block_similar":{"message":"拦截类似元素"},"assistant_another_element":{"message":"选择其它元素"},"assistant_preview":{"message":"预览"},"assistant_block":{"message":"拦截"},"assistant_settings":{"message":"AdGuard 助手设置"},"assistant_preview_header":{"message":"元素拦截 - 预览"},"assistant_preview_header_info":{"message":"请确保元素拦截方式符合预期"},"assistant_preview_end":{"message":"退出预览"},"wot_unknown_description":{"message":"声望尚未定义"},"wot_bad_description":{"message":"此网站在以下数据库中声望极低"},"wot_poor_description":{"message":"此网站在以下数据库中声望低下 "},"wot_unsatisfactory_description":{"message":"此网站在以下数据库中声望不佳 "},"wot_good_description":{"message":"此网站在以下数据库中声望良好 "},"wot_excellent_description":{"message":"此网站在以下数据库中声望极佳 "},"settings_choose_size_and_position":{"message":"调整 AdGuard 助手的大小与位置"},"settings_icon_size":{"message":"图标大小："},"settings_small":{"message":"小"},"settings_big":{"message":"大"},"settings_position":{"message":"位置："},"settings_left_top":{"message":"左上角"},"settings_right_top":{"message":"右上角"},"settings_left_bottom":{"message":"左下角"},"settings_right_bottom":{"message":"右下角"},"settings_cancel":{"message":"取消"},"settings_save":{"message":"保存更改"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"settings_position_save":"网站","settings_position_save_all":"所有网站","settings_position_save_this":"此网站","assistant_select_element_start":"开始","assistant_select_element_text":"选择要拦截的网页元素。要取消元素拦截模式，请刷新网页。","menu_filtration_status":{"message":"对此网站进行过滤"},"menu_do_not_filter_30_sec":{"message":"暂停过滤 30 秒"},"menu_block_ad_on_site":{"message":"拦截此网站上的广告"},"menu_report_abuse":{"message":"报告此网站"},"menu_site_report":{"message":"网站安全报告"},"menu_settings":{"message":"助手设置"},"menu_wot_reputation_indicator":{"message":"网站声誉指标"},"menu_wot_reputation_confidence_level":{"message":"声望置信度"},"assistant_select_element":{"message":"拦截元素"},"assistant_select_element_ext":{"message":"选择此页面上需要拦截的元素"},"assistant_select_element_cancel":{"message":"取消"},"assistant_block_element":{"message":"拦截元素"},"assistant_block_element_explain":{"message":"调整元素拦截规则"},"assistant_slider_explain":{"message":"使用滑块改变要由新规则将要拦截的框架大小："},"assistant_extended_settings":{"message":"高级设置"},"assistant_apply_rule_to_all_sites":{"message":"应用规则至所有网站"},"assistant_block_by_reference":{"message":"通过参考链接进行拦截"},"assistant_block_similar":{"message":"拦截类似元素"},"assistant_another_element":{"message":"选择其它元素"},"assistant_preview":{"message":"预览"},"assistant_block":{"message":"拦截"},"assistant_settings":{"message":"AdGuard 助手设置"},"assistant_preview_header":{"message":"元素拦截 - 预览"},"assistant_preview_header_info":{"message":"请确保元素拦截方式符合预期"},"assistant_preview_end":{"message":"退出预览"},"wot_unknown_description":{"message":"声望尚未定义"},"wot_bad_description":{"message":"此网站在以下数据库中声望极低"},"wot_poor_description":{"message":"此网站在以下数据库中声望低下 "},"wot_unsatisfactory_description":{"message":"此网站在以下数据库中声望不佳 "},"wot_good_description":{"message":"此网站在以下数据库中声望良好 "},"wot_excellent_description":{"message":"此网站在以下数据库中声望极佳 "},"settings_choose_size_and_position":{"message":"调整 AdGuard 助手的大小与位置"},"settings_icon_size":{"message":"图标大小："},"settings_small":{"message":"小"},"settings_big":{"message":"大"},"settings_position":{"message":"位置："},"settings_left_top":{"message":"左上角"},"settings_right_top":{"message":"右上角"},"settings_left_bottom":{"message":"左下角"},"settings_right_bottom":{"message":"右下角"},"settings_cancel":{"message":"取消"},"settings_save":{"message":"保存更改"}}');
 
 /***/ })
 
@@ -1207,52 +1220,43 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "dsOneAssistant": () => (/* binding */ dsOneAssistant)
+  dsOneAssistant: () => (/* binding */ dsOneAssistant)
 });
 
 ;// CONCATENATED MODULE: ./src/ioc.js
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : String(i); }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 var getArguments = function getArguments(func) {
   // This regex is from require.js
   var FN_ARGS = /^function\s*[^(]*\(\s*([^)]*)\)/m;
   var args = func.toString().match(FN_ARGS)[1].split(',');
-
   if (args[0] === '') {
     return [];
   }
-
   return args;
 };
-
 var Ioc = /*#__PURE__*/function () {
   function Ioc() {
     _classCallCheck(this, Ioc);
-
     this.dependencies = {};
   }
-
   _createClass(Ioc, [{
     key: "resolveDependencies",
     value: function resolveDependencies(func) {
       var args = getArguments(func);
       var resolved = [];
-
       for (var i = 0; i < args.length; i += 1) {
         var depName = args[i].trim();
         var dep = this.dependencies[depName];
-
         if (!dep) {
           throw new Error("Can't find dependency: ".concat(depName));
         }
-
         resolved.push(this.dependencies[depName]);
       }
-
       return resolved;
     }
   }, {
@@ -1265,28 +1269,21 @@ var Ioc = /*#__PURE__*/function () {
     value: function get(func) {
       if (typeof func === 'string') {
         var resolved = this.dependencies[func];
-
         if (!resolved) {
           throw new Error("Can't resolve ".concat(func));
         }
-
         return resolved;
       }
-
       var resolvedDependencies = this.resolveDependencies(func);
-
       function FuncWrapper() {
         return func.apply(func, resolvedDependencies);
       }
-
       FuncWrapper.prototype = func.prototype;
       return new FuncWrapper();
     }
   }]);
-
   return Ioc;
 }();
-
 var ioc = new Ioc();
 /* harmony default export */ const src_ioc = (ioc);
 ;// CONCATENATED MODULE: ./src/protectedApi.js
@@ -1301,30 +1298,28 @@ function ProtectedApi() {
   var functionPType = Function.prototype;
   var originalGetOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
   var _document = document,
-      documentMode = _document.documentMode,
-      documentElement = _document.documentElement;
+    documentMode = _document.documentMode,
+    documentElement = _document.documentElement;
   var originalAppendChild = document.appendChild;
   var originalJSON = win.JSON;
   var functionApply = functionPType.apply;
   var functionBind = functionPType.bind;
   var COMPLETE = 'complete';
-  var originalAttachShadow = documentElement.attachShadow; // eslint-disable-next-line func-names
+  var originalAttachShadow = documentElement.attachShadow;
 
+  // eslint-disable-next-line func-names
   var apply = typeof Reflect !== 'undefined' ? Reflect.apply : function (target, _this, _arguments) {
     return functionApply.call(target, _this, _arguments);
   };
-
   var noop = function noop() {};
-
   var methodCallerFactory = function methodCallerFactory(owner, prop) {
     if (!owner) {
       return noop;
-    } // Keeps reference to the method, so that it is unaffected
+    }
+    // Keeps reference to the method, so that it is unaffected
     // when `owner` is mutated.
-
-
-    var method = owner[prop]; // eslint-disable-next-line consistent-return, func-names
-
+    var method = owner[prop];
+    // eslint-disable-next-line consistent-return, func-names
     return function () {
       if (method) {
         // eslint-disable-next-line prefer-rest-params
@@ -1332,48 +1327,41 @@ function ProtectedApi() {
       }
     };
   };
-
   var getReadyState = function getReadyState() {
     // We need to add this hook for tests, because a phantomjs
     // doesn't work with Object.getOwnPropertyDescriptor correctly
     if (typeof originalGetOwnPropertyDescriptor(Document.prototype, 'readyState') === 'undefined') {
       return COMPLETE;
     }
-
     var readyStateGetter = originalGetOwnPropertyDescriptor(Document.prototype, 'readyState').get;
     return apply(readyStateGetter, document, []);
   };
-
   var addListenerToWindow = methodCallerFactory(win, 'addEventListener');
   var removeListenerFromWindow = methodCallerFactory(win, 'removeEventListener');
   var querySelector = methodCallerFactory(document, 'querySelector');
-
   var appendChildToElement = function appendChildToElement(elem, child) {
     apply(originalAppendChild, elem, [child]);
   };
+
   /**
    * Creating element instead `document.createElement`
    * to prevented a custom `document.createElement`
    * see: https://github.com/AdguardTeam/AdguardAssistant/issues/165
    */
-
-
   var createElement = function createElement(markup) {
     var doc = document.implementation.createHTMLDocument('');
-
     if (markup && markup[0] !== '<') {
       // eslint-disable-next-line no-param-reassign
       markup = "<".concat(markup, "></").concat(markup, ">");
     }
-
     doc.body.innerHTML = markup;
     return doc.body.firstChild;
   };
-
   var json = {
     parse: methodCallerFactory(originalJSON, 'parse'),
     stringify: methodCallerFactory(originalJSON, 'stringify')
   };
+
   /**
    * Creating style element
    * @param {String} styles css styles in string
@@ -1382,42 +1370,34 @@ function ProtectedApi() {
    * @return {Object|false} style tag with styles or false
    * if the styles with transferred id is exist
    */
-
   var createStylesElement = function createStylesElement(styles, nonce, id) {
     if (id && querySelector("#".concat(id))) {
       return false;
     }
-
     var tagNode = createElement('style');
     tagNode.setAttribute('type', 'text/css');
-
     if (id) {
       tagNode.setAttribute('id', id);
     }
-
     tagNode.setAttribute('nonce', nonce);
-
     if (tagNode.styleSheet) {
       tagNode.styleSheet.cssText = styles;
     } else {
       appendChildToElement(tagNode, document.createTextNode(styles));
     }
-
     return tagNode;
   };
+
   /**
    * Check browser shadow dom support.
    * Safari crashes after adding style tag in attachShadow so exclude it
    * see: https://github.com/AdguardTeam/AdguardBrowserExtension/issues/974
    */
-
-
   var checkShadowDomSupport = function checkShadowDomSupport() {
     var SAFARI_UA_REGEX = /^((?!chrome|android).)*safari/i;
     var isSafari = window.safari !== undefined || SAFARI_UA_REGEX.test(navigator.userAgent);
     return typeof originalAttachShadow !== 'undefined' && !isSafari;
   };
-
   return {
     functionBind: functionBind,
     addListenerToWindow: addListenerToWindow,
@@ -1431,7 +1411,6 @@ function ProtectedApi() {
     checkShadowDomSupport: checkShadowDomSupport
   };
 }
-
 var protectedApi = new ProtectedApi();
 /* harmony default export */ const src_protectedApi = (protectedApi);
 ;// CONCATENATED MODULE: ./src/wot.js
@@ -1449,27 +1428,22 @@ function Wot() {
   var wotUrlScorecardTemplate = 'https://link.adtidy.org/forward.html?action=wot_scorecard&from=main_menu&app=assistant&domain=';
   var WOT_URL = 'https://link.adtidy.org/forward.html?action=wot&from=main_menu&app=assistant';
   var wotData = null;
-
   var registerWotEventHandler = function registerWotEventHandler() {
     var wotDataCb = function wotDataCb(data) {
       wotData = data;
     };
-
     if (window.WotData) {
       wotData = window.WotData;
     } else {
       window.WotData = wotDataCb;
     }
   };
-
   var getWotData = function getWotData() {
     return wotData;
   };
-
   var getWotScorecardUrl = function getWotScorecardUrl(url) {
     return "".concat(wotUrlScorecardTemplate).concat(url);
   };
-
   return {
     registerWotEventHandler: registerWotEventHandler,
     getWotData: getWotData,
@@ -1477,43 +1451,41 @@ function Wot() {
     WOT_URL: WOT_URL
   };
 }
-
 var wot = new Wot();
 /* harmony default export */ const src_wot = (wot);
 ;// CONCATENATED MODULE: ./src/utils/common-utils.js
 var cropDomain = function cropDomain(domain) {
   return domain.replace('www.', '').replace(/:\d+/, '');
 };
+
 /**
  * Force clear the page cache
  * see: https://stackoverflow.com/questions/10719505/force-a-reload-of-page-in-chrome-using-javascript-no-cache/27058362#27058362
  * @param callback
  */
-
 var bypassCache = function bypassCache(callback) {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', window.location.href, true);
   xhr.setRequestHeader('Pragma', 'no-cache');
   xhr.setRequestHeader('Expires', '-1');
   xhr.setRequestHeader('Cache-Control', 'no-cache');
-
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4 && callback) {
       callback();
     }
   };
-
   xhr.send();
 };
+
 /**
  * Reload page after bypassing cache
  */
-
 var reloadPageBypassCache = function reloadPageBypassCache() {
   bypassCache(function () {
     window.location.reload(true);
   });
 };
+
 /**
  * Multiple event handler helper.
  * @param {Object}  elements  element or nodeList.
@@ -1522,7 +1494,6 @@ var reloadPageBypassCache = function reloadPageBypassCache() {
  * @param {Boolean}  useCapture   capture.
  * @return {Function} add/remove.
  */
-
 var events = {
   add: function add(elements, es, eventHandler, useCapture) {
     this.addRemoveEvents(true, elements, es, eventHandler, useCapture);
@@ -1535,25 +1506,20 @@ var events = {
     if (!elements || !es || !eventHandler) {
       return false;
     }
-
     var eventList = es.split(' ');
-
     if (!eventList || eventList.length < 1) {
       return false;
     }
-
     if (!elements.length) {
       // eslint-disable-next-line no-param-reassign
       elements = new Array(elements);
     }
-
     for (var el = 0; el < elements.length; el += 1) {
       for (var evt = 0; evt < eventList.length; evt += 1) {
         if (!eventList[evt] || !eventList[evt].length) {
           // eslint-disable-next-line no-continue
           continue;
         }
-
         if (add) {
           elements[el].addEventListener(eventList[evt], eventHandler, !!useCapture);
         } else {
@@ -1563,6 +1529,7 @@ var events = {
     }
   }
 };
+
 /**
  * Common utils
  * @type {{
@@ -1572,7 +1539,6 @@ var events = {
  * events: Object
  * }}
  */
-
 var CommonUtils = {
   cropDomain: cropDomain,
   bypassCache: bypassCache,
@@ -1581,10 +1547,8 @@ var CommonUtils = {
 };
 /* harmony default export */ const common_utils = ((/* unused pure expression or super */ null && (CommonUtils)));
 ;// CONCATENATED MODULE: ./src/log.js
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
+function log_typeof(o) { "@babel/helpers - typeof"; return log_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, log_typeof(o); }
 /* global DEBUG */
-
 /**
  * Simple logger with log levels
  * @returns {{
@@ -1603,72 +1567,57 @@ function Log() {
     INFO: 3,
     DEBUG: 4
   };
-
   var print = function print(level, method, args) {
     // check log level
     if (LogLevels[currentLevel] < LogLevels[level]) {
       return;
     }
-
     if (!args || args.length === 0 || !args[0]) {
       return;
     }
-
     var formatted;
-
-    if (_typeof(args[0]) === 'object') {
+    if (log_typeof(args[0]) === 'object') {
       // eslint-disable-next-line prefer-destructuring
       formatted = args[0];
     } else {
-      var str = "".concat(args[0]); // eslint-disable-next-line no-param-reassign
-
+      var str = "".concat(args[0]);
+      // eslint-disable-next-line no-param-reassign
       args = Array.prototype.slice.call(args, 1);
       formatted = str.replace(/{(\d+)}/g, function (match, number) {
         return typeof args[number] !== 'undefined' ? args[number] : match;
       });
-
       if (LogLevels[level] >= LogLevels[currentLevel]) {
         var now = new Date();
         formatted = "".concat(now.toISOString(), ": ").concat(formatted);
       }
-    } // eslint-disable-next-line no-console
-
-
+    }
+    // eslint-disable-next-line no-console
     console[method](formatted);
   };
-
   var debug = function debug() {
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
     }
-
     print('DEBUG', 'log', args);
   };
-
   var info = function info() {
     for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
       args[_key2] = arguments[_key2];
     }
-
     print('INFO', 'info', args);
   };
-
   var warn = function warn() {
     for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {
       args[_key3] = arguments[_key3];
     }
-
     print('WARN', 'info', args);
   };
-
   var error = function error() {
     for (var _len4 = arguments.length, args = new Array(_len4), _key4 = 0; _key4 < _len4; _key4++) {
       args[_key4] = arguments[_key4];
     }
-
     print('ERROR', 'error', args);
   };
-
   return {
     debug: debug,
     info: info,
@@ -1676,45 +1625,39 @@ function Log() {
     error: error
   };
 }
-
 var log = new Log();
 /* harmony default export */ const src_log = (log);
 ;// CONCATENATED MODULE: ./src/upgradeHelper.js
+function upgradeHelper_typeof(o) { "@babel/helpers - typeof"; return upgradeHelper_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, upgradeHelper_typeof(o); }
 function upgradeHelper_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function upgradeHelper_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function upgradeHelper_createClass(Constructor, protoProps, staticProps) { if (protoProps) upgradeHelper_defineProperties(Constructor.prototype, protoProps); if (staticProps) upgradeHelper_defineProperties(Constructor, staticProps); return Constructor; }
+function upgradeHelper_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, upgradeHelper_toPropertyKey(descriptor.key), descriptor); } }
+function upgradeHelper_createClass(Constructor, protoProps, staticProps) { if (protoProps) upgradeHelper_defineProperties(Constructor.prototype, protoProps); if (staticProps) upgradeHelper_defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function upgradeHelper_toPropertyKey(t) { var i = upgradeHelper_toPrimitive(t, "string"); return "symbol" == upgradeHelper_typeof(i) ? i : String(i); }
+function upgradeHelper_toPrimitive(t, r) { if ("object" != upgradeHelper_typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != upgradeHelper_typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 
 
 
 /* eslint-disable no-param-reassign */
-
 /**
  * Helper for backward compatibility
  * @returns {{}}
  * @constructor
  */
-
 var UpgradeHelper = /*#__PURE__*/function () {
   function UpgradeHelper() {
     upgradeHelper_classCallCheck(this, UpgradeHelper);
-
     this.Constants = {
       BUTTON_POSITION_ITEM_NAME: '__adbpos'
     };
   }
-
   upgradeHelper_createClass(UpgradeHelper, [{
     key: "getButtonPositionData",
     value: function getButtonPositionData() {
       try {
         var userPosition = localStorage.getItem(this.Constants.BUTTON_POSITION_ITEM_NAME);
-
         if (userPosition) {
           return src_protectedApi.json.parse(userPosition);
         }
-
         return undefined;
       } catch (ex) {
         src_log.error(ex);
@@ -1729,8 +1672,9 @@ var UpgradeHelper = /*#__PURE__*/function () {
       } catch (ex) {
         src_log.error(ex);
       }
-    } // eslint-disable-next-line class-methods-use-this
+    }
 
+    // eslint-disable-next-line class-methods-use-this
   }, {
     key: "upgradeGmStorage",
     value: function upgradeGmStorage(settings, version) {
@@ -1738,36 +1682,32 @@ var UpgradeHelper = /*#__PURE__*/function () {
       settings.scriptVersion = version;
       settings.personalConfig = true;
       return settings;
-    } // Helper for assistant update from 4.1 to 4.2
+    }
 
+    // Helper for assistant update from 4.1 to 4.2
   }, {
     key: "upgradeLocalStorage",
     value: function upgradeLocalStorage(settings, sitename) {
       var position = this.getButtonPositionData();
-
       if (position) {
         if (!settings.personal[sitename]) {
           settings.personal[sitename] = {};
         }
-
         settings.personal[sitename].position = position;
         settings.personal[sitename].largeIcon = settings.largeIcon;
       }
-
       this.removeUserPositionForButton();
       return settings;
     }
   }]);
-
   return UpgradeHelper;
 }();
-
 var upgradeHelper = new UpgradeHelper();
 /* harmony default export */ const src_upgradeHelper = (upgradeHelper);
 ;// CONCATENATED MODULE: ./src/gm.js
 /* harmony default export */ const gm = ({});
 ;// CONCATENATED MODULE: ./src/settings.js
-function settings_typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { settings_typeof = function _typeof(obj) { return typeof obj; }; } else { settings_typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return settings_typeof(obj); }
+function settings_typeof(o) { "@babel/helpers - typeof"; return settings_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, settings_typeof(o); }
 
 
 
@@ -1803,7 +1743,6 @@ function settings_typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol ===
  * }}
  * @constructor
  */
-
 function Settings() {
   var Constants = {
     MINIMUM_IE_SUPPORTED_VERSION: 10,
@@ -1818,6 +1757,7 @@ function Settings() {
     BlockPreview: 'blockPreview.html',
     SettingsMenu: 'settingsMenu.html'
   };
+
   /**
    * Config data stored in GM storage
    * @typedef {Object} DefaultConfig
@@ -1830,7 +1770,6 @@ function Settings() {
    * @property {object} personal - Object config that may includes the same properties,
    * except `scriptVersion`, but for each site individually.
    */
-
   var DefaultConfig = {
     buttonPositionTop: false,
     buttonPositionLeft: false,
@@ -1843,7 +1782,6 @@ function Settings() {
   var Config = null;
   var adguardSettings = null;
   var SITENAME = window.location.host;
-
   var getSettings = function getSettings() {
     return gm.getValue('settings').then(function (config) {
       try {
@@ -1854,53 +1792,46 @@ function Settings() {
       }
     });
   };
-
   var validateSettings = function validateSettings(settings) {
     if (!settings) {
       src_log.error('Invalid settings object');
       return false;
-    } // eslint-disable-next-line no-restricted-syntax, prefer-const
-
-
+    }
+    // eslint-disable-next-line no-restricted-syntax, prefer-const
     for (var prop in settings) {
       // eslint-disable-next-line no-prototype-builtins
       if (!settings.hasOwnProperty(prop)) {
         // eslint-disable-next-line no-continue
         continue;
       }
-
       var property = DefaultConfig[prop];
-
       if (property && settings_typeof(property) !== settings_typeof(settings[prop])) {
         src_log.error('Invalid settings object');
         return false;
       }
     }
-
     if (settings.scriptVersion > DefaultConfig.scriptVersion) {
       src_log.error('Invalid settings object');
       return false;
     }
-
     if (settings.scriptVersion < DefaultConfig.scriptVersion) {
-      src_log.info('Settings object is outdated. Updating...'); // eslint-disable-next-line no-param-reassign
-
+      src_log.info('Settings object is outdated. Updating...');
+      // eslint-disable-next-line no-param-reassign
       settings = src_upgradeHelper.upgradeGmStorage(settings, DefaultConfig.scriptVersion);
-    } // save to gm store position data from localStorage
+    }
+
+    // save to gm store position data from localStorage
     // eslint-disable-next-line no-param-reassign
-
-
     settings = src_upgradeHelper.upgradeLocalStorage(settings, SITENAME);
     return settings;
   };
-
   var loadSettings = function loadSettings(showButton) {
-    src_log.debug('Trying to get settings'); // getting config from gm storage
+    src_log.debug('Trying to get settings');
 
+    // getting config from gm storage
     getSettings().then(function (config) {
       // check and validate config data for prevent errors and backward compatibility
       var checkedConfig = config && validateSettings(config);
-
       if (checkedConfig) {
         // saving existing settings to Config variable in the gm storage
         Config = checkedConfig;
@@ -1910,44 +1841,34 @@ function Settings() {
         Config = DefaultConfig;
         src_log.debug('No settings found');
       }
-
       showButton();
     });
   };
-
   var saveSettings = function saveSettings(config) {
     if (config) {
       Config = config;
     }
-
     src_log.debug('Update settings...');
     src_log.debug(Config);
     gm.setValue('settings', Config);
     bypassCache();
   };
-
   var getWotData = wotData;
-
   var setWotData = function setWotData(data) {
     wotData = data;
   };
-
   var setAdguardSettings = function setAdguardSettings(settings) {
     if (typeof settings === 'undefined') {
       src_log.info('No Adguard API Found');
       return;
     }
-
     adguardSettings = settings;
   };
-
   var getAdguardSettings = function getAdguardSettings() {
     return adguardSettings;
   };
-
   var getUserPositionForButton = function getUserPositionForButton() {
     var userPosition;
-
     if (Config.personalConfig) {
       if (Config.personal && Config.personal[SITENAME]) {
         userPosition = Config.personal[SITENAME].position;
@@ -1955,28 +1876,22 @@ function Settings() {
     } else {
       userPosition = Config.position;
     }
-
     if (userPosition) {
       return userPosition;
     }
-
     return null;
   };
-
   var setUserPositionForButton = function setUserPositionForButton(position) {
     if (Config.personalConfig) {
       if (!Config.personal[SITENAME]) {
         Config.personal[SITENAME] = {};
       }
-
       Config.personal[SITENAME].position = position;
     } else {
       Config.position = position;
     }
-
     saveSettings(Config);
   };
-
   var setIconSize = function setIconSize(smallIcon) {
     if (Config.personalConfig) {
       Config.personal[SITENAME].smallIcon = smallIcon;
@@ -1984,20 +1899,17 @@ function Settings() {
       Config.smallIcon = smallIcon;
     }
   };
-
   var getIconSize = function getIconSize() {
     if (Config.personalConfig && Config.personal && Config.personal[SITENAME]) {
       return Config.personal[SITENAME].smallIcon;
     }
-
     return Config.smallIcon;
   };
+
   /**
    * Set the parameters to which corner of the browser
    * window the button position is placed by option (not drag)
    */
-
-
   var setButtonSide = function setButtonSide(buttonSides) {
     if (Config.personalConfig) {
       delete Config.personal[SITENAME].position;
@@ -2009,58 +1921,49 @@ function Settings() {
       Config.buttonPositionLeft = buttonSides.left;
     }
   };
+
   /**
    * Save a setting that specifies how to save button settings: for all sites or only on this
    */
-
-
   var setPersonalParam = function setPersonalParam(personalConfig) {
     Config.personalConfig = personalConfig;
-
     if (Config.personalConfig && !Config.personal) {
       Config.personal = {};
     }
-
     if (Config.personalConfig && !Config.personal[SITENAME]) {
       Config.personal[SITENAME] = {};
       Config.personal[SITENAME].position = Config.position;
     }
-
     if (!Config.personalConfig && Config.personal) {
       Config.position = Config.personal[SITENAME] && Config.personal[SITENAME].position;
       delete Config.personal;
     }
   };
+
   /**
    * Get config that specifies how to save button settings: for all sites or only on this
    */
-
-
   var getPersonalConfig = function getPersonalConfig() {
     return Config.personalConfig;
   };
+
   /**
    * Get the option to which corner of the browser window the button position is placed
    * @return {Object}
    */
-
-
   var getButtonSide = function getButtonSide() {
     var config = Config;
-
     if (config.personalConfig && config.personal && config.personal[SITENAME]) {
       return {
         top: config.personal[SITENAME].buttonPositionTop,
         left: config.personal[SITENAME].buttonPositionLeft
       };
     }
-
     return {
       top: config.buttonPositionTop,
       left: config.buttonPositionLeft
     };
   };
-
   return {
     Constants: Constants,
     MenuItemsNames: MenuItemsNames,
@@ -2081,47 +1984,46 @@ function Settings() {
     getPersonalConfig: getPersonalConfig
   };
 }
-
 var settings = new Settings();
 /* harmony default export */ const src_settings = (settings);
 // EXTERNAL MODULE: ./src/templates/button.html
-var templates_button = __webpack_require__(6696);
+var templates_button = __webpack_require__(8968);
 var button_default = /*#__PURE__*/__webpack_require__.n(templates_button);
 // EXTERNAL MODULE: ./src/templates/mainMenu.html
-var mainMenu = __webpack_require__(3317);
+var mainMenu = __webpack_require__(8362);
 var mainMenu_default = /*#__PURE__*/__webpack_require__.n(mainMenu);
 // EXTERNAL MODULE: ./src/templates/selectorMenu.html
-var selectorMenu = __webpack_require__(8514);
+var selectorMenu = __webpack_require__(4494);
 var selectorMenu_default = /*#__PURE__*/__webpack_require__.n(selectorMenu);
 // EXTERNAL MODULE: ./src/templates/settingsMenu.html
-var settingsMenu = __webpack_require__(4693);
+var settingsMenu = __webpack_require__(8634);
 var settingsMenu_default = /*#__PURE__*/__webpack_require__.n(settingsMenu);
 // EXTERNAL MODULE: ./src/templates/sliderMenu.html
-var sliderMenu = __webpack_require__(7726);
+var sliderMenu = __webpack_require__(8638);
 var sliderMenu_default = /*#__PURE__*/__webpack_require__.n(sliderMenu);
 // EXTERNAL MODULE: ./src/templates/blockPreview.html
-var blockPreview = __webpack_require__(5688);
+var blockPreview = __webpack_require__(927);
 var blockPreview_default = /*#__PURE__*/__webpack_require__.n(blockPreview);
 // EXTERNAL MODULE: ./src/templates/mobilePopup.html
-var mobilePopup = __webpack_require__(2115);
+var mobilePopup = __webpack_require__(4674);
 var mobilePopup_default = /*#__PURE__*/__webpack_require__.n(mobilePopup);
 // EXTERNAL MODULE: ./src/templates/mobileMenu.html
-var mobileMenu = __webpack_require__(4825);
+var mobileMenu = __webpack_require__(9821);
 var mobileMenu_default = /*#__PURE__*/__webpack_require__.n(mobileMenu);
 // EXTERNAL MODULE: ./src/styles/base/base-common.less
-var base_common = __webpack_require__(1403);
+var base_common = __webpack_require__(3700);
 var base_common_default = /*#__PURE__*/__webpack_require__.n(base_common);
 // EXTERNAL MODULE: ./src/styles/button.less
-var styles_button = __webpack_require__(5487);
+var styles_button = __webpack_require__(643);
 var styles_button_default = /*#__PURE__*/__webpack_require__.n(styles_button);
 // EXTERNAL MODULE: ./src/styles/menu.less
-var menu = __webpack_require__(3228);
+var menu = __webpack_require__(7000);
 var menu_default = /*#__PURE__*/__webpack_require__.n(menu);
 // EXTERNAL MODULE: ./src/styles/selector.less
-var selector = __webpack_require__(5317);
+var selector = __webpack_require__(9870);
 var selector_default = /*#__PURE__*/__webpack_require__.n(selector);
 // EXTERNAL MODULE: ./src/styles/mobile-style.less
-var mobile_style = __webpack_require__(1953);
+var mobile_style = __webpack_require__(169);
 var mobile_style_default = /*#__PURE__*/__webpack_require__.n(mobile_style);
 ;// CONCATENATED MODULE: ./src/inline-resources.js
 
@@ -2163,17 +2065,14 @@ var HTML = {
 function CustomEvent() {
   // jshint ignore:line
   var listeners = [];
-
   var attach = function attach(listener) {
     listeners.push(listener);
   };
-
   var notify = function notify(args) {
     for (var i = 0; i < listeners.length; i += 1) {
       listeners[i](args);
     }
   };
-
   return {
     attach: attach,
     notify: notify
@@ -2181,25 +2080,15 @@ function CustomEvent() {
 }
 ;// CONCATENATED MODULE: ./src/utils/dom-utils.js
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
-
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
-function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
-
 function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
-
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
 function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
 /**
  * Returns tag name for passed element
  * @param {Element} element target element
@@ -2207,74 +2096,69 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 var getNodeName = function getNodeName(element) {
   return element && element.nodeName ? element.nodeName.toUpperCase() : '';
 };
+
 /**
  * Returns arrays of parents for passed element
  * @param {Element} element target element
  */
-
 var getParentsLevel = function getParentsLevel(element) {
   var parent = element;
-  var parentArr = []; // eslint-disable-next-line no-cond-assign
-
+  var parentArr = [];
+  // eslint-disable-next-line no-cond-assign
   while ((parent = parent.parentNode) && getNodeName(parent) !== 'BODY') {
     parentArr.push(parent);
   }
-
   return parentArr;
 };
+
 /**
  * Returns child element if it only one ELEMENT_NODE child
  * @param {Element} element target element
  */
 // eslint-disable-next-line consistent-return
-
 var getSingleChildren = function getSingleChildren(element) {
   var children = element.childNodes;
-
   if (children) {
     var count = 0;
     var child;
-
     for (var i = 0; i < children.length; i += 1) {
       if (children[i].nodeType === 1) {
         child = children[i];
         count += 1;
       }
     }
-
     return count === 1 ? child : null;
   }
 };
+
 /**
  * Returns all children for target element
  * @param {Element} element target element
  */
-
 var getAllChildren = function getAllChildren(element) {
   var childArray = [];
-  var child = element; // eslint-disable-next-line no-cond-assign
-
+  var child = element;
+  // eslint-disable-next-line no-cond-assign
   while (child = getSingleChildren(child)) {
     childArray.push(child);
   }
-
   return childArray;
 };
+
 /**
  * Converts passed argument to array
  * Usually used for transformatin NodeList to simple Array
  * @param {any} elems
  */
-
 var toArray = function toArray(elems) {
   return elems && elems.length !== undefined ? Array.prototype.slice.call(elems) : [elems];
 };
+
 /**
  * Adds passed classes to target element
  * @param {Element} elem target element
  * @param {string} className string where classess must be separeted with space
  */
-
 var addClass = function addClass(elem, className) {
   var elems = toArray(elem);
   elems.forEach(function (item) {
@@ -2282,12 +2166,12 @@ var addClass = function addClass(elem, className) {
     classList.add.apply(classList, _toConsumableArray(className.split(/\s/)));
   });
 };
+
 /**
  * Removes passed classes from target element
  * @param {Element} elem target element
  * @param {string} className string where classess must be separeted with space
  */
-
 var removeClass = function removeClass(elem, className) {
   var elems = toArray(elem);
   elems.forEach(function (item) {
@@ -2295,25 +2179,23 @@ var removeClass = function removeClass(elem, className) {
     classList.remove.apply(classList, _toConsumableArray(className.split(/\s/)));
   });
 };
+
 /**
  * Checks whether class in target element
  * @param {Element} elem target element
  * @param {string} className target classname
  */
-
 var hasClass = function hasClass(elem, className) {
   var elems = toArray(elem);
-
   var _elems = _slicedToArray(elems, 1),
-      target = _elems[0];
-
+    target = _elems[0];
   return !!(target.classList && target.classList.contains(className));
 };
+
 /**
  * Makes element visible via style.display = block
  * @param {Element} elem target element
  */
-
 var show = function show(elem) {
   var elems = toArray(elem);
   elems.forEach(function (item) {
@@ -2321,11 +2203,11 @@ var show = function show(elem) {
     item.style.display = 'block';
   });
 };
+
 /**
  * Makes element invisible via style.display = none
  * @param {Element} elem target element
  */
-
 var hide = function hide(elem) {
   var elems = toArray(elem);
   elems.forEach(function (item) {
@@ -2333,13 +2215,13 @@ var hide = function hide(elem) {
     item.style.display = 'none';
   });
 };
+
 /**
  * Inlines css styles to target element
  * @param {Element} elem target element
  * @param {string} attr css name
  * @param {string} value css value
  */
-
 var addStyle = function addStyle(elem, attr, value) {
   var elems = toArray(elem);
   elems.forEach(function (item) {
@@ -2348,57 +2230,48 @@ var addStyle = function addStyle(elem, attr, value) {
   });
 };
 ;// CONCATENATED MODULE: ./locales/index.js
-var _require = __webpack_require__(14),
-    LOCALES_EQUIVALENTS_MAP = _require.LOCALES_EQUIVALENTS_MAP,
-    LANGUAGES = _require.LANGUAGES;
-
+var _require = __webpack_require__(5079),
+  LOCALES_EQUIVALENTS_MAP = _require.LOCALES_EQUIVALENTS_MAP,
+  LANGUAGES = _require.LANGUAGES;
 var locales = Object.keys(LANGUAGES).reduce(function (acc, language) {
-  var resultLocale = LOCALES_EQUIVALENTS_MAP[language] || language; // eslint-disable-next-line global-require,import/no-dynamic-require
-
-  var dictionary = __webpack_require__(1503)("./".concat(resultLocale, "/messages.json"));
-
+  var resultLocale = LOCALES_EQUIVALENTS_MAP[language] || language;
+  // eslint-disable-next-line global-require,import/no-dynamic-require
+  var dictionary = __webpack_require__(6822)("./".concat(resultLocale, "/messages.json"));
   acc[resultLocale] = dictionary;
   return acc;
 }, {});
 /* harmony default export */ const locales_0 = (locales);
 ;// CONCATENATED MODULE: ./src/localization.js
-function localization_typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { localization_typeof = function _typeof(obj) { return typeof obj; }; } else { localization_typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return localization_typeof(obj); }
-
+function localization_typeof(o) { "@babel/helpers - typeof"; return localization_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, localization_typeof(o); }
 function localization_slicedToArray(arr, i) { return localization_arrayWithHoles(arr) || localization_iterableToArrayLimit(arr, i) || localization_unsupportedIterableToArray(arr, i) || localization_nonIterableRest(); }
-
 function localization_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
 function localization_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return localization_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return localization_arrayLikeToArray(o, minLen); }
-
-function localization_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-function localization_iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
+function localization_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function localization_iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function localization_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
 /* global AdguardSettings */
 
 
+var localization_require = __webpack_require__(6539),
+  _require2 = localization_slicedToArray(localization_require, 1),
+  BASE_LOCALE = _require2[0].base_locale;
 
-var localization_require = __webpack_require__(897),
-    _require2 = localization_slicedToArray(localization_require, 1),
-    BASE_LOCALE = _require2[0].base_locale;
 /**
  * Object that manages localizations
  * @returns {{getMessage: Function, translateElement: Function}}
  * @constructor
  */
-
-
 function Localization() {
   var currentLocale = null;
-  var locale; // convert locales keys to lower case
+  var locale;
 
+  // convert locales keys to lower case
   var supportedLocales = Object.keys(locales_0).reduce(function (acc, key) {
     var lowerCasedKey = key.toLowerCase();
     acc[lowerCasedKey] = locales_0[key];
     return acc;
   }, {});
+
   /*
    * In Edge, there is undocumented behavior. When you run the script
    * through `executeScript`, the Edge browser blocks access to the
@@ -2409,7 +2282,6 @@ function Localization() {
    * it is necessary to check `typeof navigator.languages !== 'undefined'`.
    * issue: https://github.com/AdguardTeam/AdguardBrowserExtension/issues/983
    */
-
   if (typeof AdguardSettings !== 'undefined') {
     // eslint-disable-next-line prefer-destructuring
     locale = AdguardSettings.locale;
@@ -2423,70 +2295,54 @@ function Localization() {
   } else {
     locale = BASE_LOCALE;
   }
-
   if (supportedLocales[locale]) {
     currentLocale = locale;
   } else if (supportedLocales[locale.toLowerCase()]) {
     currentLocale = locale.toLowerCase();
   } else {
     var langSplit = locale.split('-')[0];
-
     if (supportedLocales[langSplit]) {
       currentLocale = langSplit;
     } else {
       currentLocale = BASE_LOCALE;
     }
   }
-
   var getMessage = function getMessage(messageId) {
     var message = supportedLocales[currentLocale][messageId];
-
     if (!message) {
       return localization_typeof(supportedLocales[BASE_LOCALE][messageId]) === 'object' ? supportedLocales[BASE_LOCALE][messageId].message : supportedLocales[BASE_LOCALE][messageId] || '';
     }
-
     return supportedLocales[currentLocale][messageId].message || supportedLocales[currentLocale][messageId];
   };
-
   var createElement = function createElement(tagName, attributes) {
     var el = src_protectedApi.createElement(tagName);
-
     if (!attributes) {
       return el;
     }
-
     var attrs = attributes.split(/([a-z]+='[^']+')/);
-
     for (var i = 0; i < attrs.length; i += 1) {
       var attr = attrs[i].trim();
-
       if (!attr) {
         // eslint-disable-next-line no-continue
         continue;
       }
-
       var index = attr.indexOf('=');
       var attrName = void 0;
       var attrValue = void 0;
-
       if (index > 0) {
         attrName = attr.substring(0, index);
         attrValue = attr.substring(index + 2, attr.length - 1);
       }
-
       if (attrName && attrValue) {
         el.setAttribute(attrName, attrValue);
       }
     }
-
     return el;
   };
-
   var processString = function processString(str, element) {
     var el;
     var match1 = /^([^]*?)<(a|strong|span|i)([^>]*)>(.*?)<\/\2>([^]*)$/m.exec(str);
     var match2 = /^([^]*?)<(br|input)([^>]*)\/?>([^]*)$/m.exec(str);
-
     if (match1) {
       processString(match1[1], element);
       el = createElement(match1[2], match1[3]);
@@ -2502,27 +2358,25 @@ function Localization() {
       element.appendChild(document.createTextNode(str.replace(/&nbsp;/g, "\xA0")));
     }
   };
-
   var translateElement = function translateElement(element, message) {
     try {
       while (element.lastChild) {
         element.removeChild(element.lastChild);
       }
-
       processString(message, element);
-    } catch (ex) {// Ignore exceptions
+    } catch (ex) {
+      // Ignore exceptions
     }
   };
-
   return {
     getMessage: getMessage,
     translateElement: translateElement
   };
 }
-
 var localization = new Localization();
 /* harmony default export */ const src_localization = (localization);
 ;// CONCATENATED MODULE: ./src/controllers/mainMenuController.js
+
 
 
 
@@ -2537,7 +2391,6 @@ var localization = new Localization();
  * @returns {{init: init}}
  * @constructor
  */
-
 function DetailedMenuController(iframe) {
   var contentDocument = null;
   var iframeCtrl = iframe;
@@ -2569,26 +2422,21 @@ function DetailedMenuController(iframe) {
       to: Infinity
     }
   };
-
   var setDomain = function setDomain() {
     domain = decodeURIComponent(window.location.hostname);
     contentDocument.getElementsByClassName('menu-head_name')[0].textContent = domain || 'unknown';
   };
-
   var truncateDecimals = function truncateDecimals(number) {
     return Math[number < 0 ? 'ceil' : 'floor'](number);
   };
-
   var getWotReputationSettings = function getWotReputationSettings(wotData) {
     if (!wotData) {
       return null;
     }
-
     var prefix = 'adg-wot-';
     var averageWot = wotData.reputation;
     var wotRatingText = null;
     var wotRating = null;
-
     if (averageWot === 0) {
       wotRatingText = src_localization.getMessage('wot_unknown_description');
       wotRating = "".concat(prefix, "unknown");
@@ -2597,7 +2445,6 @@ function DetailedMenuController(iframe) {
         "class": wotRating
       };
     }
-
     var wotSettings = {
       0: {
         color: 'red',
@@ -2632,55 +2479,41 @@ function DetailedMenuController(iframe) {
       "class": wotRating
     };
   };
-
   var getWotConfidenceClass = function getWotConfidenceClass(wotData) {
     if (!wotData) {
       return null;
     }
-
     var prefix = 'adg-wot-confidence-';
-
     var isThisLevel = function isThisLevel(num, level) {
       return num >= level.from && num <= level.to;
     };
-
     var confidenceWot = wotData.confidence;
-
     if (isThisLevel(confidenceWot, CONFIDENCE_LEVEL.ZERO)) {
       return "".concat(prefix, "0");
     }
-
     if (isThisLevel(confidenceWot, CONFIDENCE_LEVEL.ONE)) {
       return "".concat(prefix, "1");
     }
-
     if (isThisLevel(confidenceWot, CONFIDENCE_LEVEL.TWO)) {
       return "".concat(prefix, "2");
     }
-
     if (isThisLevel(confidenceWot, CONFIDENCE_LEVEL.THREE)) {
       return "".concat(prefix, "3");
     }
-
     if (isThisLevel(confidenceWot, CONFIDENCE_LEVEL.FOUR)) {
       return "".concat(prefix, "4");
     }
-
     if (isThisLevel(confidenceWot, CONFIDENCE_LEVEL.FIVE)) {
       return "".concat(prefix, "5");
     }
-
     return undefined;
   };
-
   var setWotData = function setWotData() {
     var wotData = src_wot.getWotData();
     var wotReputationSettings = getWotReputationSettings(wotData);
-
     if (!wotReputationSettings) {
       return;
     }
-
     var wotIndication = contentDocument.querySelector('#WotIndication');
     addClass(wotIndication, wotReputationSettings["class"]);
     wotIndication.dataset.title = src_localization.getMessage('menu_wot_reputation_indicator');
@@ -2695,51 +2528,42 @@ function DetailedMenuController(iframe) {
     wotLinkElem.href = src_wot.getWotScorecardUrl(domain);
     removeClass(contentDocument.querySelectorAll('.wot-hide'), 'wot-hide');
   };
-
   var startAdSelector = function startAdSelector() {
     iframeCtrl.showSelectorMenu();
   };
-
   var goToWotUrl = function goToWotUrl() {
     window.open(src_wot.WOT_URL, '_blank');
   };
-
   var doNotBlock = function doNotBlock() {
     gm.ADG_temporaryDontBlock(30, function () {
       reloadPageBypassCache();
     });
   };
-
   var reportAbuse = function reportAbuse() {
     gm.ADG_sendAbuse(function () {
       iframeCtrl.removeIframe();
     });
   };
-
   var goToSiteReport = function goToSiteReport() {
     var url = src_settings.Constants.REPORT_URL.replace('{0}', domain);
     window.open(url, '_blank');
   };
-
   var showHideBlockAdButton = function showHideBlockAdButton(isFilter) {
     var blockAd = contentDocument.querySelector('#block-ad');
-
     if (isFilter) {
       removeClass(blockAd, 'hidden');
     } else {
       addClass(blockAd, 'hidden');
     }
-
     iframeCtrl.resizeIframe();
   };
+
   /**
    * Storing the filtering state for quick initialization
    *
    * @param {Boolean} state  on/off filtering state
    */
   // eslint-disable-next-line consistent-return
-
-
   var setFilteringStateToStore = function setFilteringStateToStore(state) {
     try {
       localStorage.setItem(FILTERING_STATE_LS_PROPERTY, src_protectedApi.json.stringify({
@@ -2750,10 +2574,10 @@ function DetailedMenuController(iframe) {
       return null;
     }
   };
-
   var onIsFilterChange = function onIsFilterChange() {
-    var isFilter = contentDocument.getElementById('is-filter').checked; // animate class for prevent animation while the state from the application is determined
+    var isFilter = contentDocument.getElementById('is-filter').checked;
 
+    // animate class for prevent animation while the state from the application is determined
     addClass(contentDocument.querySelectorAll('.menu-filter_label'), 'animate');
     showHideBlockAdButton(isFilter);
     setFilteringStateToStore(isFilter);
@@ -2761,7 +2585,6 @@ function DetailedMenuController(iframe) {
       reloadPageBypassCache();
     });
   };
-
   var bindEvents = function bindEvents() {
     var menuEvents = {
       '.close': iframeCtrl.removeIframe,
@@ -2780,29 +2603,25 @@ function DetailedMenuController(iframe) {
       });
     });
   };
+
   /**
    * Getting the filtering state for quick initialization from the localStorage,
    * while the state from the application is determined
    *
    * @returns {Boolean} on/off filtering state
    */
-
-
   var getFilteringStateFromStore = function getFilteringStateFromStore() {
     try {
       var state = localStorage.getItem(FILTERING_STATE_LS_PROPERTY);
-
       if (state) {
         return src_protectedApi.json.parse(state).state;
       }
-
       return false;
     } catch (ex) {
       src_log.error(ex);
       return false;
     }
   };
-
   var setInitFilteringState = function setInitFilteringState() {
     var input = contentDocument.getElementById('is-filter');
     input.checked = getFilteringStateFromStore();
@@ -2812,12 +2631,11 @@ function DetailedMenuController(iframe) {
       showHideBlockAdButton(isFiltered);
     });
   };
+
   /*
    Called from IframeController._showMenuItem to initialize view
    */
   // eslint-disable-next-line no-shadow
-
-
   var init = function init(iframe) {
     // eslint-disable-next-line prefer-destructuring
     contentDocument = iframe.contentDocument;
@@ -2826,22 +2644,20 @@ function DetailedMenuController(iframe) {
     bindEvents();
     setInitFilteringState();
   };
-
   return {
     init: init
   };
 }
 ;// CONCATENATED MODULE: ./src/adguard-selector.js
-function adguard_selector_typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { adguard_selector_typeof = function _typeof(obj) { return typeof obj; }; } else { adguard_selector_typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return adguard_selector_typeof(obj); }
-
+function adguard_selector_typeof(o) { "@babel/helpers - typeof"; return adguard_selector_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, adguard_selector_typeof(o); }
 /* eslint-disable no-param-reassign, func-names */
+
 
 
 /**
  * Adguard selector
  * @type {Function}
  */
-
 function AdguardSelector() {
   var api = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
   var PLACEHOLDER_PREFIX = 'adguard-placeholder';
@@ -2854,19 +2670,20 @@ function AdguardSelector() {
   var unbound = true;
   var onElementSelectedHandler = null;
   var ignoreTouchEvent = 0;
-  var selectionRenderer; // PRIVATE METHODS
+  var selectionRenderer;
+
+  // PRIVATE METHODS
 
   var removeClassName = function removeClassName(className) {
     var elem = document.querySelectorAll(".".concat(className));
     removeClass(elem, className);
   };
-
   var firstSelectedOrSuggestedParent = function firstSelectedOrSuggestedParent(element) {
     if (hasClass(element, SELECTED_CLASS)) {
       return element;
-    } // eslint-disable-next-line no-cond-assign, no-param-reassign
+    }
 
-
+    // eslint-disable-next-line no-cond-assign, no-param-reassign
     while (element.parentNode && (element = element.parentNode)) {
       if (restrictedElements.indexOf(element) === -1) {
         if (hasClass(element, SELECTED_CLASS)) {
@@ -2874,95 +2691,75 @@ function AdguardSelector() {
         }
       }
     }
-
     return null;
   };
-
   var px = function px(p) {
     return "".concat(p, "px");
   };
-
   var getTagPath = function getTagPath(element) {
     if (element.parentNode) {
       return "".concat(element.parentNode.tagName.toLowerCase(), " ").concat(element.tagName.toLowerCase());
     }
-
     return element.tagName.toLowerCase();
   };
+
   /** ******** Events ************** */
-
-
   var sgMouseoverHandler = function sgMouseoverHandler(e) {
     e.stopPropagation();
-
     if (unbound) {
       return true;
     }
-
     if (this === document.documentElement || this === document.documentElement.parentNode) {
       return false;
     }
-
     var parent = firstSelectedOrSuggestedParent(this);
-
     if (parent !== null && parent !== this) {
       selectionRenderer.add(parent);
     } else {
       selectionRenderer.add(this);
     }
-
     return false;
-  }; // e.isTrusted checking for prevent programmatically events
+  };
+
+  // e.isTrusted checking for prevent programmatically events
   // see: https://github.com/AdguardTeam/AdguardAssistant/issues/134
-
-
   var sgMousedownHandler = function sgMousedownHandler(e) {
     if (e && e.isTrusted === false) {
       return false;
     }
-
     if (hasClass(e.target, IGNORED_CLASS)) {
       return false;
     }
-
     e.preventDefault();
     e.stopImmediatePropagation();
-
     if (unbound) {
       return true;
     }
-
     var elem = e.target;
     var borders = elem === selectionRenderer.borderTop || elem === selectionRenderer.borderLeft || elem === selectionRenderer.borderRight || elem === selectionRenderer.borderBottom;
-
     if (borders) {
       // Clicked on one of our floating borders, target the element that we are bordering.
       elem = elem.target_elem || elem;
     }
-
     if (elem === document.documentElement || elem === document.documentElement.parentNode) {
       return undefined;
     }
-
     selectionRenderer.remove();
     onElementSelectedHandler(elem);
     return false;
   };
+
   /** ******** Touch event handlers ************** */
-
-
   var touchElementSelectHandler = function touchElementSelectHandler(e) {
     e.preventDefault();
     e.stopImmediatePropagation();
     sgMouseoverHandler.call(this, e);
     sgMousedownHandler.call(this, e);
   };
-
   var removeElementToPreventEvents = function removeElementToPreventEvents() {
     if (!transparentPlaceholdedElement) {
       return false;
     }
-
     transparentPlaceholdedElement.removeEventListener('click', touchElementSelectHandler);
     transparentPlaceholdedElement.removeEventListener('touchstart', touchElementSelectHandler);
     transparentPlaceholdedElement.removeEventListener('pointerdown', touchElementSelectHandler);
@@ -2970,21 +2767,19 @@ function AdguardSelector() {
     transparentPlaceholdedElement = null;
     return undefined;
   };
-
   var clearSelected = function clearSelected() {
     removeElementToPreventEvents();
     removeClassName(SELECTED_CLASS);
     removeClassName(REJECTED_CLASS);
     selectionRenderer.remove();
   };
+
   /**
    * Returns element offset coordinates extended with width and height values.
    *
    * @param elem
    * @returns {{top: number, left: number, outerWidth: number, outerHeight: number}}
    */
-
-
   var getOffsetExtended = function getOffsetExtended(elem) {
     var bodyRect = document.documentElement.getBoundingClientRect();
     var elemRect = elem.getBoundingClientRect();
@@ -2997,6 +2792,7 @@ function AdguardSelector() {
       outerHeight: elem.offsetHeight
     };
   };
+
   /**
    * Adds borders to selected element.
    *
@@ -3007,8 +2803,6 @@ function AdguardSelector() {
    * @private
    */
   // eslint-disable-next-line no-shadow
-
-
   var BorderSelectionRenderer = function (api) {
     var BORDER_WIDTH = 5;
     var BORDER_PADDING = 2;
@@ -3047,7 +2841,6 @@ function AdguardSelector() {
     var borderLeft = null;
     var borderRight = null;
     var borderBottom = null;
-
     var showBorders = function showBorders() {
       if (borderTop && borderBottom && borderLeft && borderRight) {
         show(borderTop);
@@ -3056,14 +2849,12 @@ function AdguardSelector() {
         show(borderRight);
       }
     };
-
     var addBorderToDom = function addBorderToDom() {
       document.documentElement.appendChild(borderTop);
       document.documentElement.appendChild(borderBottom);
       document.documentElement.appendChild(borderLeft);
       document.documentElement.appendChild(borderRight);
     };
-
     var addBorderCSS = function addBorderCSS() {
       Object.keys(BORDER_CSS).forEach(function (item) {
         borderTop.style[item] = BORDER_CSS[item];
@@ -3075,11 +2866,9 @@ function AdguardSelector() {
         borderBottom.style[item] = BORDER_BOTTOM_CSS[item];
       });
     };
-
     var removeBorderFromDom = function removeBorderFromDom() {
       if (borderTop) {
         var parent = borderTop.parentNode;
-
         if (parent) {
           parent.removeChild(borderTop);
           parent.removeChild(borderBottom);
@@ -3087,17 +2876,15 @@ function AdguardSelector() {
           parent.removeChild(borderRight);
         }
       }
-
       borderTop = null;
       borderBottom = null;
       borderRight = null;
       borderLeft = null;
     };
+
     /**
      * Preparing renderer.
      */
-
-
     api.init = function () {
       if (!borderTop) {
         var width = px(BORDER_WIDTH);
@@ -3117,41 +2904,38 @@ function AdguardSelector() {
         hide(borderTop);
         hide(borderBottom);
         hide(borderLeft);
-        hide(borderRight); // eslint-disable-next-line prefer-destructuring
+        hide(borderRight);
 
-        api.borderTop = borderTop; // eslint-disable-next-line prefer-destructuring
-
-        api.borderBottom = borderBottom; // eslint-disable-next-line prefer-destructuring
-
-        api.borderLeft = borderLeft; // eslint-disable-next-line prefer-destructuring
-
+        // eslint-disable-next-line prefer-destructuring
+        api.borderTop = borderTop;
+        // eslint-disable-next-line prefer-destructuring
+        api.borderBottom = borderBottom;
+        // eslint-disable-next-line prefer-destructuring
+        api.borderLeft = borderLeft;
+        // eslint-disable-next-line prefer-destructuring
         api.borderRight = borderRight;
         addBorderCSS();
         addBorderToDom();
       }
     };
+
     /**
      * Clearing DOM and so on.
      */
-
-
     api.finalize = function () {
       removeBorderFromDom();
     };
+
     /**
      * Adds borders to specified element
      *
      * @param element
      */
-
-
     api.add = function (element) {
       api.remove();
-
       if (!element) {
         return;
       }
-
       var p = getOffsetExtended(element);
       var top = p.top;
       var left = p.left;
@@ -3180,11 +2964,10 @@ function AdguardSelector() {
       borderBottom.target_elem = element;
       showBorders();
     };
+
     /**
      * Removes borders
      */
-
-
     api.remove = function () {
       if (borderTop && borderBottom && borderLeft && borderRight) {
         hide(borderTop);
@@ -3193,21 +2976,17 @@ function AdguardSelector() {
         hide(borderRight);
       }
     };
-
-    return api; // eslint-disable-next-line no-use-before-define
+    return api;
+    // eslint-disable-next-line no-use-before-define
   }(BorderSelectionRenderer || {});
-
   var linkHelper = src_protectedApi.createElement('a');
-
   var getHost = function getHost(url) {
     if (!url) {
       return '';
     }
-
     linkHelper.href = url;
     return linkHelper.hostname;
   };
-
   var makePlaceholderImage = function makePlaceholderImage(element) {
     var placeHolder = src_protectedApi.createElement('div');
     var style = window.getComputedStyle(element);
@@ -3228,46 +3007,37 @@ function AdguardSelector() {
     placeHolder.appendChild(icon);
     return placeHolder;
   };
-
   var removePlaceholders = function removePlaceholders() {
     removeElementToPreventEvents();
-
     if (!placeholdedElements) {
       return;
     }
-
     var elements = placeholdedElements;
-
     for (var i = 0; i < elements.length; i += 1) {
       var current = elements[i];
       var id = PLACEHOLDER_PREFIX + i;
       var placeHolder = document.querySelector("#".concat(id));
-
       if (placeHolder) {
         var parent = placeHolder.parentNode;
-
         if (parent) {
           parent.replaceChild(current, placeHolder);
         }
       }
     }
-
     placeholdedElements = null;
   };
-
   var placeholderClick = function placeholderClick(element) {
     selectionRenderer.remove();
     removePlaceholders();
     onElementSelectedHandler(element);
   };
+
   /**
    * Making top level transparent layer to prevented events on emerging ad.
    * see: https://github.com/AdguardTeam/AdguardAssistant/issues/220
    *
    * @param element element where ad is added
    */
-
-
   var preventEvents = function preventEvents(element) {
     var placeHolder = src_protectedApi.createElement('div');
     var style = getOffsetExtended(element);
@@ -3287,26 +3057,21 @@ function AdguardSelector() {
     placeHolder.addEventListener('pointerdown', touchElementSelectHandler);
     document.documentElement.appendChild(placeHolder);
   };
-
   var gestureEndHandler = function gestureEndHandler() {
     ignoreTouchEvent = 2;
     return true;
   };
-
   var touchMoveHandler = function touchMoveHandler() {
     ignoreTouchEvent = 1;
     return true;
   };
-
   var needIgnoreTouchEvent = function needIgnoreTouchEvent() {
     if (ignoreTouchEvent > 0) {
       ignoreTouchEvent -= 1;
       return true;
     }
-
     return false;
   };
-
   var makeIFrameAndEmbeddedSelector = function makeIFrameAndEmbeddedSelector() {
     placeholdedElements = document.querySelectorAll("iframe:not(.".concat(IGNORED_CLASS, "),embed,object"));
     toArray(placeholdedElements).filter(function (elem) {
@@ -3315,28 +3080,24 @@ function AdguardSelector() {
       return isVisible && isHaveSize;
     });
     var elements = placeholdedElements;
-
     var _loop = function _loop(i) {
-      var current = elements[i]; // eslint-disable-next-line no-shadow
-
+      var current = elements[i];
+      // eslint-disable-next-line no-shadow
       (function (current) {
         var placeHolder = makePlaceholderImage(current);
         var id = PLACEHOLDER_PREFIX + i;
         placeHolder.setAttribute('id', id);
         var parent = current.parentNode;
-
         if (parent) {
           parent.replaceChild(placeHolder, current);
           placeHolder.addEventListener('gestureend', gestureEndHandler);
-          placeHolder.addEventListener('touchmove', touchMoveHandler); // eslint-disable-next-line consistent-return
-
+          placeHolder.addEventListener('touchmove', touchMoveHandler);
+          // eslint-disable-next-line consistent-return
           placeHolder.addEventListener('touchend', function (e) {
             e.preventDefault();
-
             if (needIgnoreTouchEvent()) {
               return true;
             }
-
             placeholderClick(current);
           });
           var elems = document.querySelectorAll("#".concat(id));
@@ -3349,45 +3110,35 @@ function AdguardSelector() {
         }
       })(current);
     };
-
     for (var i = 0; i < elements.length; i += 1) {
       _loop(i);
     }
   };
-
   var sgMouseoutHandler = function sgMouseoutHandler() {
     if (unbound) {
       return true;
     }
-
     if (this === document.documentElement || this === document.documentElement.parentNode) {
       return false;
     }
-
     selectionRenderer.remove();
     return false;
   };
-
   var elementTouchendHandler = function elementTouchendHandler(e) {
     if (hasClass(e.target, IGNORED_CLASS)) {
       return false;
     }
-
     e.stopPropagation();
-
     if (needIgnoreTouchEvent()) {
       return true;
     }
-
     touchElementSelectHandler.call(this, e);
     return false;
   };
-
   var emptyEventHandler = function emptyEventHandler(e) {
     e.stopPropagation();
     return false;
   };
-
   var setupEventHandlers = function setupEventHandlers() {
     makeIFrameAndEmbeddedSelector();
     var elements = document.querySelectorAll("body *:not(.".concat(IGNORED_CLASS, ")"));
@@ -3401,7 +3152,6 @@ function AdguardSelector() {
       el.addEventListener('click', sgMousedownHandler, true);
     });
   };
-
   var deleteEventHandlers = function deleteEventHandlers() {
     removePlaceholders();
     var elements = document.querySelectorAll('body *');
@@ -3414,10 +3164,12 @@ function AdguardSelector() {
       el.removeEventListener('mouseout', sgMouseoutHandler);
       el.removeEventListener('click', sgMousedownHandler, true);
     });
-  }; // Define default implementation of selection renderer.
+  };
 
+  // Define default implementation of selection renderer.
+  selectionRenderer = BorderSelectionRenderer;
 
-  selectionRenderer = BorderSelectionRenderer; // PUBLIC API
+  // PUBLIC API
 
   /**
    * Starts selector module.
@@ -3425,14 +3177,11 @@ function AdguardSelector() {
    * @param onElementSelected callback function
    * @param selectionRenderImpl optional object contains selection presentation implementation
    */
-
   api.init = function (onElementSelected, selectionRenderImpl) {
     onElementSelectedHandler = onElementSelected;
-
     if (selectionRenderImpl && adguard_selector_typeof(selectionRenderImpl) === 'object') {
       selectionRenderer = selectionRenderImpl;
     }
-
     restrictedElements = ['html', 'body', 'head', 'base'].map(function (selector) {
       return document.querySelector(selector);
     });
@@ -3440,57 +3189,52 @@ function AdguardSelector() {
     setupEventHandlers();
     unbound = false;
   };
+
   /**
    * Resets state of selector.
    * Clears current selection.
    */
-
-
   api.reset = function () {
     clearSelected();
   };
+
   /**
    * Destroys selector module.
    * Removes all selector elements and unbinds event handlers.
    */
-
-
   api.close = function () {
     unbound = true;
     selectionRenderer.finalize();
     deleteEventHandlers();
   };
+
   /**
    * Selects specified element.
    * Marks element as selected and holds selection on it.
    *
    * @param element
    */
-
-
   api.selectElement = function (element) {
     selectionRenderer.add(element);
     removePlaceholders();
     unbound = true;
     preventEvents(element);
   };
+
   /**
    Returns css class name.
    If this class assigns to HTML element, then Adguard Selector ignores it.
    */
   // eslint-disable-next-line func-names
-
-
   api.ignoreClassName = function () {
     return IGNORED_CLASS;
   };
-
   return api;
 }
-
 var adguard_selector_selector = new AdguardSelector();
 /* harmony default export */ const adguard_selector = (adguard_selector_selector);
 ;// CONCATENATED MODULE: ./src/controllers/selectorMenuController.js
+
 
 
 /**
@@ -3498,15 +3242,12 @@ var adguard_selector_selector = new AdguardSelector();
  * @returns {{init: init}}
  * @constructor
  */
-
 function SelectorMenuController(iframe) {
   var contentDocument = null;
   var iframeCtrl = iframe;
-
   var close = function close() {
     iframeCtrl.removeIframe();
   };
-
   var bindEvents = function bindEvents() {
     var menuEvents = {
       '.close': close,
@@ -3519,28 +3260,24 @@ function SelectorMenuController(iframe) {
       });
     });
   };
-
   var onElementSelected = function onElementSelected(element) {
     iframeCtrl.showSliderMenu(element);
   };
-
   var startSelector = function startSelector() {
     adguard_selector.reset();
     adguard_selector.init(onElementSelected);
   };
+
   /*
    Called from IframeController._showMenuItem to initialize view
    */
   // eslint-disable-next-line no-shadow
-
-
   var init = function init(iframe) {
     // eslint-disable-next-line prefer-destructuring
     contentDocument = iframe.contentDocument;
     bindEvents();
     startSelector();
   };
-
   iframeCtrl.onCloseMenu.attach(adguard_selector.close);
   return {
     init: init,
@@ -3553,11 +3290,11 @@ function SelectorMenuController(iframe) {
 var BASIC_GREEN_COLOR = '#0781da';
 var DARK_GREEN_COLOR = '#006ebf';
 var TICK_RIGHT_COLOR = '#d0d0d0';
+
 /**
  * Slider widget
  * @type {Function}
  */
-
 function SliderWidget() {
   var api = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
   var PLACEHOLDER_CLASS = 'adg-slide ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all';
@@ -3572,16 +3309,13 @@ function SliderWidget() {
   var value = 0;
   var sliderArea = null;
   var onValueChanged = null;
-
   if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     tickLeftColor = DARK_GREEN_COLOR;
   }
-
   var refresh = function refresh() {
     var handle = placeholder.querySelectorAll(".".concat(HANDLE_CLASS));
     addStyle(handle, 'left', "".concat((value - 1) * 100 / (max - min), "%"));
     var ticks = placeholder.querySelectorAll(".".concat(TICK_CLASS));
-
     for (var i = 0; i < ticks.length; i += 1) {
       if (i + 1 < value) {
         addStyle(ticks[i], 'background-color', tickLeftColor);
@@ -3590,14 +3324,12 @@ function SliderWidget() {
       }
     }
   };
-
   var render = function render() {
     addClass(placeholder, PLACEHOLDER_CLASS);
     var handle = src_protectedApi.createElement('span');
     handle.setAttribute('class', HANDLE_FULL_CLASS);
     placeholder.appendChild(handle);
     var count = max - min;
-
     var prepare = function prepare(i) {
       var tick = src_protectedApi.createElement('div');
       tick.setAttribute('class', TICK_FULL_CLASS);
@@ -3605,14 +3337,11 @@ function SliderWidget() {
       tick.style.width = "".concat(100 / count, "%");
       placeholder.appendChild(tick);
     };
-
     for (var i = 0; i < count; i += 1) {
       prepare(i);
     }
-
     refresh();
   };
-
   var setValue = function setValue(v) {
     if (v < min) {
       value = min;
@@ -3621,32 +3350,26 @@ function SliderWidget() {
     } else {
       value = v;
     }
-
     refresh();
     onValueChanged(value);
   };
-
   var bindEvents = function bindEvents() {
     var rect = placeholder.getBoundingClientRect();
     var sliderWidth = rect.width;
     var offsetLeft = rect.left + document.body.scrollLeft;
-
     var getSliderValue = function getSliderValue(pageX) {
       return Math.round((max - min) / sliderWidth * (pageX - offsetLeft) + min);
     };
-
     var onMouseMove = function onMouseMove(e) {
       // calculate the correct position of the slider set the value
       var val = getSliderValue(e.pageX);
       setValue(val);
     };
-
     var onClick = function onClick(e) {
       // calculate the correct position of the slider set the value
       var val = getSliderValue(e.pageX);
       setValue(val);
     };
-
     var onMouseDown = function onMouseDown(e) {
       e.stopPropagation();
       e.preventDefault();
@@ -3656,13 +3379,11 @@ function SliderWidget() {
       sliderArea.addEventListener('touchmove', onMouseMove);
       sliderArea.addEventListener('pointermove', onMouseMove);
     };
-
     var sliderAreaRemoveListeners = function sliderAreaRemoveListeners() {
       sliderArea.removeEventListener('mousemove', onMouseMove);
       sliderArea.removeEventListener('touchmove', onMouseMove);
       sliderArea.removeEventListener('pointermove', onMouseMove);
     };
-
     document.addEventListener('mouseup', sliderAreaRemoveListeners);
     document.addEventListener('touchend', sliderAreaRemoveListeners);
     document.addEventListener('pointerup', sliderAreaRemoveListeners);
@@ -3674,136 +3395,138 @@ function SliderWidget() {
     sliderArea.addEventListener('pointerup', sliderAreaRemoveListeners);
     sliderArea.addEventListener('mouseleave', sliderAreaRemoveListeners);
   };
+
   /**
    * @param placeholderElement
    * @param options
    */
   // eslint-disable-next-line no-param-reassign
-
-
   api.init = function (placeholderElement, options) {
-    placeholder = placeholderElement; // eslint-disable-next-line prefer-destructuring
-
-    min = options.min; // eslint-disable-next-line prefer-destructuring
-
-    max = options.max; // eslint-disable-next-line prefer-destructuring
-
-    value = options.value; // eslint-disable-next-line prefer-destructuring
-
-    onValueChanged = options.onValueChanged; // eslint-disable-next-line prefer-destructuring
-
+    placeholder = placeholderElement;
+    // eslint-disable-next-line prefer-destructuring
+    min = options.min;
+    // eslint-disable-next-line prefer-destructuring
+    max = options.max;
+    // eslint-disable-next-line prefer-destructuring
+    value = options.value;
+    // eslint-disable-next-line prefer-destructuring
+    onValueChanged = options.onValueChanged;
+    // eslint-disable-next-line prefer-destructuring
     sliderArea = options.sliderArea;
     render();
     bindEvents();
   };
-
   return api;
 }
-
 var sliderWidget = new SliderWidget();
 /* harmony default export */ const slider_widget = (sliderWidget);
 ;// CONCATENATED MODULE: ./src/libs/css.escape.js
 /*! https://mths.be/cssescape v1.5.1 by @mathias | MIT license */
+
 // https://drafts.csswg.org/cssom/#serialize-an-identifier
 function cssEscape(value) {
   if (arguments.length === 0) {
     throw new TypeError('`CSS.escape` requires an argument.');
   }
-
   var string = String(value);
   var length = string.length;
   var index = -1;
   var codeUnit;
   var result = '';
-  var firstCodeUnit = string.charCodeAt(0); // eslint-disable-next-line no-plusplus
-
+  var firstCodeUnit = string.charCodeAt(0);
+  // eslint-disable-next-line no-plusplus
   while (++index < length) {
-    codeUnit = string.charCodeAt(index); // Note: there’s no need to special-case astral symbols, surrogate
+    codeUnit = string.charCodeAt(index);
+    // Note: there’s no need to special-case astral symbols, surrogate
     // pairs, or lone surrogates.
+
     // If the character is NULL (U+0000), then the REPLACEMENT CHARACTER
     // (U+FFFD).
-
     if (codeUnit === 0x0000) {
-      result += "\uFFFD"; // eslint-disable-next-line no-continue
-
+      result += "\uFFFD";
+      // eslint-disable-next-line no-continue
       continue;
     }
-
-    if ( // If the character is in the range [\1-\1F] (U+0001 to U+001F) or is
+    if (
+    // If the character is in the range [\1-\1F] (U+0001 to U+001F) or is
     // U+007F, […]
     // eslint-disable-next-line eqeqeq
-    codeUnit >= 0x0001 && codeUnit <= 0x001F || codeUnit == 0x007F // If the character is the first character and is in the range [0-9]
+    codeUnit >= 0x0001 && codeUnit <= 0x001F || codeUnit == 0x007F
+    // If the character is the first character and is in the range [0-9]
     // (U+0030 to U+0039), […]
-    || index === 0 && codeUnit >= 0x0030 && codeUnit <= 0x0039 // If the character is the second character and is in the range [0-9]
+    || index === 0 && codeUnit >= 0x0030 && codeUnit <= 0x0039
+    // If the character is the second character and is in the range [0-9]
     // (U+0030 to U+0039) and the first character is a `-` (U+002D), […]
-    || index === 1 && codeUnit >= 0x0030 && codeUnit <= 0x0039 // eslint-disable-next-line eqeqeq
+    || index === 1 && codeUnit >= 0x0030 && codeUnit <= 0x0039
+    // eslint-disable-next-line eqeqeq
     && firstCodeUnit == 0x002D) {
       // https://drafts.csswg.org/cssom/#escape-a-character-as-code-point
-      result += "\\".concat(codeUnit.toString(16), " "); // eslint-disable-next-line no-continue
-
+      result += "\\".concat(codeUnit.toString(16), " ");
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+    if (
+    // If the character is the first character and is a `-` (U+002D), and
+    // there is no second character, […]
+    index === 0 && length === 1
+    // eslint-disable-next-line eqeqeq
+    && codeUnit == 0x002D) {
+      result += "\\".concat(string.charAt(index));
+      // eslint-disable-next-line no-continue
       continue;
     }
 
-    if ( // If the character is the first character and is a `-` (U+002D), and
-    // there is no second character, […]
-    index === 0 && length === 1 // eslint-disable-next-line eqeqeq
-    && codeUnit == 0x002D) {
-      result += "\\".concat(string.charAt(index)); // eslint-disable-next-line no-continue
-
-      continue;
-    } // If the character is not handled by one of the above rules and is
+    // If the character is not handled by one of the above rules and is
     // greater than or equal to U+0080, is `-` (U+002D) or `_` (U+005F), or
     // is in one of the ranges [0-9] (U+0030 to U+0039), [A-Z] (U+0041 to
     // U+005A), or [a-z] (U+0061 to U+007A), […]
-
-
-    if (codeUnit >= 0x0080 // eslint-disable-next-line eqeqeq
-    || codeUnit == 0x002D // eslint-disable-next-line eqeqeq
+    if (codeUnit >= 0x0080
+    // eslint-disable-next-line eqeqeq
+    || codeUnit == 0x002D
+    // eslint-disable-next-line eqeqeq
     || codeUnit == 0x005F || codeUnit >= 0x0030 && codeUnit <= 0x0039 || codeUnit >= 0x0041 && codeUnit <= 0x005A || codeUnit >= 0x0061 && codeUnit <= 0x007A) {
       // the character itself
-      result += string.charAt(index); // eslint-disable-next-line no-continue
-
+      result += string.charAt(index);
+      // eslint-disable-next-line no-continue
       continue;
-    } // Otherwise, the escaped character.
+    }
+
+    // Otherwise, the escaped character.
     // https://drafts.csswg.org/cssom/#escape-a-character
-
-
     result += "\\".concat(string.charAt(index));
   }
-
   return result;
 }
 ;// CONCATENATED MODULE: ./src/adguard-rules-constructor.js
+
 
 
 /**
  * Adguard rules constructor
  * @type {Function}
  */
-
 function AdguardRulesConstructorLib() {
   var api = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
   var CSS_RULE_MARK = '##';
   var RULE_OPTIONS_MARK = '$';
   var URLBLOCK_ATTRIBUTES = ['src', 'data'];
   var linkHelper = src_protectedApi.createElement('a');
+
   /**
    * Constructs css selector by combining classes by AND
    * @param classList
    * @returns {string}
    */
-
   var constructClassCssSelectorByAND = function constructClassCssSelectorByAND(classList) {
     var selectors = [];
-
     if (classList) {
       for (var i = 0; i < classList.length; i += 1) {
         selectors.push(".".concat(cssEscape(classList[i])));
       }
     }
-
     return selectors.join('');
   };
+
   /**
    * Constructs css selector for element using tag name,
    * id and classed, like: tagName#id.class1.class2
@@ -3815,18 +3538,15 @@ function AdguardRulesConstructorLib() {
    * @param excludeId Omit element id in selector
    * @returns {string}
    */
-
-
   var makeDefaultCssFilter = function makeDefaultCssFilter(element, classList, excludeTagName, excludeId) {
     var cssSelector = excludeTagName ? '' : element.tagName.toLowerCase();
-
     if (element.id && !excludeId) {
       cssSelector += "#".concat(cssEscape(element.id));
     }
-
     cssSelector += constructClassCssSelectorByAND(classList || element.classList);
     return cssSelector;
   };
+
   /**
    * Constructs css selector for element using parent elements
    * and nth-child (first-child, last-child) pseudo classes.
@@ -3836,59 +3556,47 @@ function AdguardRulesConstructorLib() {
    * For example: {excludeTagName: false, excludeId: false, classList: []}
    * @returns {string}
    */
-
-
   var makeCssNthChildFilter = function makeCssNthChildFilter(element, options) {
     // eslint-disable-next-line no-param-reassign
     options = options || {};
     var _options = options,
-        classList = _options.classList,
-        excludeTagName = _options.excludeTagName,
-        excludeId = _options.excludeId;
+      classList = _options.classList,
+      excludeTagName = _options.excludeTagName,
+      excludeId = _options.excludeId;
     var excludeTagNameOverride = ('excludeTagName' in options);
     var excludeIdOverride = ('excludeId' in options);
     var path = [];
     var el = element;
-
     while (el.parentNode) {
       var nodeName = el && el.nodeName ? el.nodeName.toUpperCase() : '';
-
       if (nodeName === 'BODY') {
         break;
       }
-
       if (el.id) {
         /**
          * Be default we don't include tag name and classes
          * to selector for element with id attribute
          */
         var cssSelector = '';
-
         if (el === element) {
           cssSelector = makeDefaultCssFilter(el, classList || [], excludeTagNameOverride ? excludeTagName : true, excludeIdOverride ? excludeId : false);
         } else {
           cssSelector = makeDefaultCssFilter(el, [], true, false);
         }
-
         path.unshift(cssSelector);
         break;
       } else {
         var c = 1;
-
         for (var e = el; e.previousSibling; e = e.previousSibling) {
           if (e.previousSibling.nodeType === 1) {
             c += 1;
           }
         }
-
         var cldCount = 0;
-
         for (var i = 0; el.parentNode && i < el.parentNode.childNodes.length; i += 1) {
           cldCount += el.parentNode.childNodes[i].nodeType === 1 ? 1 : 0;
         }
-
         var ch = void 0;
-
         if (cldCount === 0 || cldCount === 1) {
           ch = '';
         } else if (c === 1) {
@@ -3898,12 +3606,11 @@ function AdguardRulesConstructorLib() {
         } else {
           ch = ":nth-child(".concat(c, ")");
         }
+
         /**
          * By default we include tag name and
          * element classes to selector for element without id attribute
          */
-
-
         if (el === element) {
           var p = makeDefaultCssFilter(el, classList, excludeId, excludeTagNameOverride ? excludeTagName : false);
           p += ch;
@@ -3911,31 +3618,27 @@ function AdguardRulesConstructorLib() {
         } else {
           path.unshift(makeDefaultCssFilter(el, el.classList, false, false) + ch);
         }
-
         el = el.parentNode;
       }
     }
-
     return path.join(' > ');
   };
+
   /**
    * Constructs css selector by combining classes by OR
    * @param classList
    * @returns {string}
    */
-
-
   var constructClassCssSelectorByOR = function constructClassCssSelectorByOR(classList) {
     var selectors = [];
-
     if (classList) {
       for (var i = 0; i < classList.length; i += 1) {
         selectors.push(".".concat(cssEscape(classList[i])));
       }
     }
-
     return selectors.join(', ');
   };
+
   /**
    * Constructs element selector for matching elements
    * that contain any of classes in original element.
@@ -3946,11 +3649,10 @@ function AdguardRulesConstructorLib() {
    * (If classList is null, element classes will be used)
    * @returns {string}
    */
-
-
   var makeSimilarCssFilter = function makeSimilarCssFilter(element, classList) {
     return constructClassCssSelectorByOR(classList || element.classList);
   };
+
   /**
    * Creates css rule text
    * @param element Element
@@ -3962,99 +3664,77 @@ function AdguardRulesConstructorLib() {
    * }
    * @returns {string}
    */
-
-
   var constructCssRuleText = function constructCssRuleText(element, options) {
     if (!element) {
       return;
-    } // eslint-disable-next-line no-param-reassign
+    }
 
-
+    // eslint-disable-next-line no-param-reassign
     options = options || {};
     var cssSelectorType = options.cssSelectorType || 'STRICT_FULL';
     var selector;
-
     switch (cssSelectorType) {
       case 'STRICT_FULL':
         selector = makeCssNthChildFilter(element, options);
         break;
-
       case 'STRICT':
         selector = makeDefaultCssFilter(element, options.classList, options.excludeTagName, options.excludeId);
         break;
-
       case 'SIMILAR':
         selector = makeSimilarCssFilter(element, options.classList, true);
         break;
-
       default:
         break;
-    } // eslint-disable-next-line consistent-return
+    }
 
-
+    // eslint-disable-next-line consistent-return
     return selector ? CSS_RULE_MARK + selector : '';
   };
-
   var constructUrlBlockRuleText = function constructUrlBlockRuleText(element, urlBlockAttribute, oneDomain, domain) {
     if (!urlBlockAttribute) {
       return null;
     }
-
     var blockUrlRuleText = urlBlockAttribute.replace(/^http:\/\/(www\.)?/, '||');
-
     if (blockUrlRuleText.indexOf('.') === 0) {
       blockUrlRuleText = blockUrlRuleText.substring(1);
     }
-
     if (!oneDomain) {
       blockUrlRuleText = "".concat(blockUrlRuleText).concat(RULE_OPTIONS_MARK, "domain=").concat(domain);
     }
-
     return blockUrlRuleText;
   };
-
   var isValidUrl = function isValidUrl(value) {
     if (value) {
       linkHelper.href = value;
-
       if (linkHelper.hostname) {
         return true;
       }
     }
-
     return false;
   };
-
   var getUrlBlockAttribute = function getUrlBlockAttribute(element) {
     if (!element || !element.getAttribute) {
       return null;
     }
-
     for (var i = 0; i < URLBLOCK_ATTRIBUTES.length; i += 1) {
       var attr = URLBLOCK_ATTRIBUTES[i];
       var value = element.getAttribute(attr);
-
       if (isValidUrl(value)) {
         return value;
       }
     }
-
     return null;
   };
-
   var haveUrlBlockParameter = function haveUrlBlockParameter(element) {
     var value = getUrlBlockAttribute(element);
     return value && value !== '';
   };
-
   var haveClassAttribute = function haveClassAttribute(element) {
     return element.classList && element.classList.length > 0;
   };
-
   var haveIdAttribute = function haveIdAttribute(element) {
     return element.id && element.id.trim() !== '';
   };
-
   var getUrl = function getUrl(url) {
     var pattern = '^(([^:/\\?#]+):)?(//(([^:/\\?#]*)(?::([^/\\?#]*))?))?([^\\?#]*)(\\?([^#]*))?(#(.*))?$';
     var rx = new RegExp(pattern);
@@ -4064,11 +3744,11 @@ function AdguardRulesConstructorLib() {
       path: parts[7] || ''
     };
   };
-
   var cropDomain = function cropDomain(url) {
     var domain = getUrl(url).host;
     return domain.replace('www.', '').replace(/:\d+/, '');
   };
+
   /**
    * Utility method
    *
@@ -4076,21 +3756,18 @@ function AdguardRulesConstructorLib() {
    * @returns {string}
    */
   // eslint-disable-next-line no-param-reassign
-
-
   api.makeCssNthChildFilter = makeCssNthChildFilter;
+
   /**
    * Returns detailed element info
    *
    * @param element
    */
   // eslint-disable-next-line no-param-reassign
-
   api.getElementInfo = function (element) {
     // Convert attributes to array
     var attributes = [];
     var elementAttributes = element.attributes;
-
     if (elementAttributes) {
       for (var i = 0; i < elementAttributes.length; i += 1) {
         var attr = elementAttributes[i];
@@ -4100,7 +3777,6 @@ function AdguardRulesConstructorLib() {
         });
       }
     }
-
     return {
       tagName: element.tagName,
       attributes: attributes,
@@ -4110,6 +3786,7 @@ function AdguardRulesConstructorLib() {
       haveIdAttribute: haveIdAttribute(element)
     };
   };
+
   /**
    * Constructs css selector for specified rule
    *
@@ -4117,29 +3794,23 @@ function AdguardRulesConstructorLib() {
    * @returns {string} css style selector
    */
   // eslint-disable-next-line no-param-reassign
-
-
   api.constructRuleCssSelector = function (ruleText) {
     if (!ruleText) {
       return null;
     }
-
     var index = ruleText.indexOf(CSS_RULE_MARK);
     var optionsIndex = ruleText.indexOf(RULE_OPTIONS_MARK);
-
     if (index >= 0) {
       return ruleText.substring(index + CSS_RULE_MARK.length, optionsIndex >= 0 ? optionsIndex : ruleText.length);
     }
-
     var s = ruleText.substring(0, optionsIndex);
     s = s.replace(/[|]|[\^]/g, '');
-
     if (isValidUrl(s)) {
       return "[src*=\"".concat(s, "\"]");
     }
-
     return null;
   };
+
   /**
    * Constructs adguard rule text from element node and specified options
    *
@@ -4161,43 +3832,35 @@ function AdguardRulesConstructorLib() {
    * @returns {*}
    */
   // eslint-disable-next-line no-param-reassign
-
-
   api.constructRuleText = function (element, options) {
     var croppedDomain = cropDomain(options.url);
     var ruleType = options.ruleType;
-
     if (ruleType === 'URL') {
       var blockUrlRuleText = constructUrlBlockRuleText(element, options.urlMask, options.isBlockOneDomain, croppedDomain);
-
       if (blockUrlRuleText) {
         return blockUrlRuleText;
       }
     }
-
     var result;
-
     if (ruleType === 'CSS') {
-      result = constructCssRuleText(element, options); // Append html attributes to css selector
+      result = constructCssRuleText(element, options);
 
+      // Append html attributes to css selector
       if (options.attributes) {
         result = (result || CSS_RULE_MARK + result) + options.attributes;
       }
     }
-
     if (!options.isBlockOneDomain) {
       result = croppedDomain + result;
     }
-
     return result;
   };
-
   return api;
 }
-
 var adguardRulesConstructor = new AdguardRulesConstructorLib();
 /* harmony default export */ const adguard_rules_constructor = (adguardRulesConstructor);
 ;// CONCATENATED MODULE: ./src/controllers/sliderMenuController.js
+
 
 
 
@@ -4209,27 +3872,22 @@ var adguardRulesConstructor = new AdguardRulesConstructorLib();
  * @returns {{init: init}}
  * @constructor
  */
-
 function SliderMenuController(addRule, iframe) {
   var contentDocument = null;
   var selectedElement = null;
   var startElement = null;
   var currentElement = null;
   var iframeCtrl = iframe;
-
   var getFilterRuleInputText = function getFilterRuleInputText() {
     return contentDocument.getElementById('filter-rule').value;
   };
-
   var close = function close() {
     iframeCtrl.removeIframe();
   };
-
   var expandAdvanced = function expandAdvanced() {
     var advancedSettings = contentDocument.querySelector('#advanced-settings');
     var extendedSettingsText = contentDocument.querySelector('#ExtendedSettingsText');
     var hidden = !hasClass(advancedSettings, 'open');
-
     if (hidden) {
       addClass(advancedSettings, 'open');
       addClass(extendedSettingsText, 'active');
@@ -4240,7 +3898,6 @@ function SliderMenuController(addRule, iframe) {
       iframeCtrl.resizeSliderMenuToNormal();
     }
   };
-
   var showPreview = function showPreview() {
     var options = {
       isBlockByUrl: contentDocument.getElementById('block-by-url-checkbox').checked,
@@ -4249,23 +3906,19 @@ function SliderMenuController(addRule, iframe) {
     };
     iframeCtrl.showBlockPreview(selectedElement, getFilterRuleInputText(), startElement, options);
   };
-
   var blockElement = function blockElement() {
     var path = getFilterRuleInputText();
     iframeCtrl.blockElement(path, addRule);
   };
-
   var handleShowBlockSettings = function handleShowBlockSettings(showBlockByUrl, showBlockSimilar) {
     var blockByUrlBlock = contentDocument.querySelector('#block-by-url-checkbox-block');
     var blockSimilarBlock = contentDocument.querySelector('#block-similar-checkbox-block');
-
     if (showBlockByUrl) {
       show(blockByUrlBlock);
     } else {
       contentDocument.getElementById('block-by-url-checkbox').checked = false;
       hide(blockByUrlBlock);
     }
-
     if (showBlockSimilar) {
       show(blockSimilarBlock);
     } else {
@@ -4273,36 +3926,28 @@ function SliderMenuController(addRule, iframe) {
       hide(blockSimilarBlock);
     }
   };
-
   var getUrlBlockAttribute = function getUrlBlockAttribute(element) {
     var urlBlockAttributes = ['src', 'data'];
-
     for (var i = 0; i < urlBlockAttributes.length; i += 1) {
       var attr = urlBlockAttributes[i];
       var value = element.getAttribute(attr);
-
       if (value) {
         return value;
       }
     }
-
     return null;
   };
-
   var haveUrlBlockParameter = function haveUrlBlockParameter(element) {
     var value = getUrlBlockAttribute(element);
     return value && value !== '';
   };
-
   var haveClassAttribute = function haveClassAttribute(element) {
     var className = element.className;
     return className && typeof className === 'string' && className.trim() !== '';
   };
-
   var setFilterRuleInputText = function setFilterRuleInputText(ruleText) {
     contentDocument.getElementById('filter-rule').value = ruleText;
   };
-
   var onScopeChange = function onScopeChange() {
     var isBlockByUrl = contentDocument.getElementById('block-by-url-checkbox').checked;
     var isBlockSimilar = contentDocument.getElementById('block-similar-checkbox').checked;
@@ -4319,7 +3964,6 @@ function SliderMenuController(addRule, iframe) {
     setFilterRuleInputText(ruleText);
     iframeCtrl.resizeIframe();
   };
-
   var bindEvents = function bindEvents() {
     var menuEvents = {
       '.close': close,
@@ -4338,17 +3982,14 @@ function SliderMenuController(addRule, iframe) {
       });
     });
   };
-
   var makeDefaultCheckboxesForDetailedMenu = function makeDefaultCheckboxesForDetailedMenu(options) {
     contentDocument.getElementById('block-by-url-checkbox').checked = options && options.isBlockByUrl;
     contentDocument.getElementById('block-similar-checkbox').checked = options && options.isBlockSimilar;
     contentDocument.getElementById('one-domain-checkbox').checked = options && options.isBlockOneDomain;
-
     if (options && (options.isBlockByUrl || options.isBlockSimilar)) {
       handleShowBlockSettings(options.isBlockByUrl, options.isBlockSimilar);
     }
   };
-
   var onSliderMove = function onSliderMove(element) {
     selectedElement = element;
     adguard_selector.selectElement(element);
@@ -4356,7 +3997,6 @@ function SliderMenuController(addRule, iframe) {
     onScopeChange();
     handleShowBlockSettings(haveUrlBlockParameter(element), haveClassAttribute(element));
   };
-
   var createSlider = function createSlider(setElement) {
     var parents = getParentsLevel(selectedElement);
     var children = getAllChildren(selectedElement);
@@ -4370,39 +4010,32 @@ function SliderMenuController(addRule, iframe) {
     };
     var slider = contentDocument.querySelector('#slider');
     var sliderArea = contentDocument.querySelector('#slider-area');
-
     if (min === max) {
       // hide slider text
       hide(slider);
       hide(contentDocument.querySelectorAll('.element-rule_text'));
       expandAdvanced();
     }
-
     options.onSliderMove = function (delta) {
       var elem;
-
       if (delta > 0) {
         elem = parents[delta - 1];
       }
-
       if (delta === 0) {
         elem = startElement;
       }
-
       if (delta < 0) {
         elem = children[Math.abs(delta + 1)];
       }
-
       onSliderMove(elem);
     };
+    var currentVal = options.value;
 
-    var currentVal = options.value; // set slider position on current element after returning from preview mode
-
+    // set slider position on current element after returning from preview mode
     if (setElement) {
       var setElementparents = getParentsLevel(setElement);
       currentVal = setElementparents.length + 1;
     }
-
     slider_widget.init(slider, {
       min: options.min,
       max: options.max,
@@ -4415,48 +4048,46 @@ function SliderMenuController(addRule, iframe) {
       sliderArea: sliderArea
     });
   };
+
   /*
    Called from IframeController._showMenuItem to initialize view
    */
   // eslint-disable-next-line no-shadow
-
-
   var init = function init(iframe, options) {
     selectedElement = options.element;
-    startElement = selectedElement; // eslint-disable-next-line prefer-destructuring
-
-    contentDocument = iframe.contentDocument; // eslint-disable-next-line prefer-destructuring
-
+    startElement = selectedElement;
+    // eslint-disable-next-line prefer-destructuring
+    contentDocument = iframe.contentDocument;
+    // eslint-disable-next-line prefer-destructuring
     currentElement = options.currentElement;
     bindEvents();
     createSlider(currentElement);
     onScopeChange();
-    adguard_selector.selectElement(selectedElement); // select current element after returning from preview mode
+    adguard_selector.selectElement(selectedElement);
 
+    // select current element after returning from preview mode
     if (currentElement) {
       onSliderMove(currentElement);
-    } // make input clickable with right mouse button for text editing
+    }
 
-
+    // make input clickable with right mouse button for text editing
     events.add(contentDocument.getElementById('filter-rule'), 'contextmenu', function (e) {
       e.stopPropagation();
     });
-
     if (options.path) {
       setFilterRuleInputText(options.path);
       expandAdvanced();
     }
-
     if (options.options) {
       makeDefaultCheckboxesForDetailedMenu(options.options);
     }
   };
-
   return {
     init: init
   };
 }
 ;// CONCATENATED MODULE: ./src/controllers/blockPreviewController.js
+
 
 
 
@@ -4467,7 +4098,6 @@ function SliderMenuController(addRule, iframe) {
  * @returns {{init: init}}
  * @constructor
  */
-
 function BlockPreviewController(addRule, iframe) {
   var contentDocument = null;
   var currentElement = null;
@@ -4476,31 +4106,25 @@ function BlockPreviewController(addRule, iframe) {
   var optionsState = null;
   var iframeCtrl = iframe;
   var previewStyleID = 'ag-preview-style-id';
-
   var showElement = function showElement() {
     iframeCtrl.showHiddenElements(previewStyleID);
   };
-
   var close = function close() {
     showElement();
     iframeCtrl.removeIframe();
   };
-
   var selectAnotherElement = function selectAnotherElement() {
     showElement();
     iframeCtrl.showSelectorMenu();
   };
-
   var blockElement = function blockElement(e) {
     e.stopPropagation();
     iframeCtrl.blockElement(selectedPath, addRule);
   };
-
   var showDetailedMenu = function showDetailedMenu() {
     showElement();
     iframeCtrl.showSliderMenu(currentElement, selectedElement, selectedPath, optionsState);
   };
-
   var bindEvents = function bindEvents() {
     var menuEvents = {
       '.close': close,
@@ -4515,39 +4139,36 @@ function BlockPreviewController(addRule, iframe) {
       });
     });
   };
-
   var hideElement = function hideElement() {
     if (!selectedPath) {
       src_log.error('Can`t block element: `selector` path is empty');
       return;
     }
-
     iframeCtrl.hideElementsByPath(selectedPath, previewStyleID);
   };
+
   /*
    Called from IframeController.showMenuItem to initialize view
    */
   // eslint-disable-next-line no-shadow
-
-
   var init = function init(iframe, options) {
     selectedElement = options.element;
-    selectedPath = options.path; // eslint-disable-next-line prefer-destructuring
-
-    currentElement = options.currentElement; // eslint-disable-next-line prefer-destructuring
-
+    selectedPath = options.path;
+    // eslint-disable-next-line prefer-destructuring
+    currentElement = options.currentElement;
+    // eslint-disable-next-line prefer-destructuring
     contentDocument = iframe.contentDocument;
     optionsState = options.options;
     adguard_selector.reset();
     bindEvents();
     hideElement();
   };
-
   return {
     init: init
   };
 }
 ;// CONCATENATED MODULE: ./src/utils/ui-validation-utils.js
+
 
 
 /**
@@ -4560,11 +4181,9 @@ function BlockPreviewController(addRule, iframe) {
  * }}
  * @constructor
  */
-
 function UIValidationUtils() {
   var _window = window,
-      document = _window.document;
-
+    document = _window.document;
   var getViewPort = function getViewPort() {
     var width = window.innerWidth;
     var height = window.innerHeight;
@@ -4573,52 +4192,43 @@ function UIValidationUtils() {
       height: height
     };
   };
+
   /**
    * Check if visible area are enough to show menu.
    * @returns boolean. True if area enough
    */
-
-
   var checkVisibleAreaSize = function checkVisibleAreaSize() {
-    var viewPort = getViewPort(); // eslint-disable-next-line max-len
-
+    var viewPort = getViewPort();
+    // eslint-disable-next-line max-len
     var visibleAreaSize = viewPort.height > src_settings.Constants.MINIMUM_VISIBLE_HEIGHT_TO_SHOW_BUTTON;
-
     if (!visibleAreaSize) {
       src_log.error("Viewport height is too small: ".concat(viewPort.height));
     }
-
     return visibleAreaSize;
   };
+
   /**
    * Checks if browser is valid for Adguard assistant
    * @returns boolean. True if browser valid
    */
-
-
   var validateBrowser = function validateBrowser() {
     var valid = !document.documentMode || document.documentMode > src_settings.Constants.MINIMUM_IE_SUPPORTED_VERSION;
-
     if (!valid) {
       src_log.error("IE version is ".concat(document.documentMode));
     }
-
     return valid;
   };
+
   /**
    * Checks if page is valid for Adguard assistant to work here.
    */
-
-
   var validatePage = function validatePage() {
     // Assistant do not work in iframes
     if (window.window !== window.top) {
       return false;
     }
-
     return true;
   };
-
   return {
     checkVisibleAreaSize: checkVisibleAreaSize,
     validateBrowser: validateBrowser,
@@ -4626,10 +4236,10 @@ function UIValidationUtils() {
     getViewPort: getViewPort
   };
 }
-
 var uiValidationUtils = new UIValidationUtils();
 /* harmony default export */ const ui_validation_utils = (uiValidationUtils);
 ;// CONCATENATED MODULE: ./src/utils/ui-utils.js
+
 
 
 
@@ -4644,25 +4254,24 @@ var uiValidationUtils = new UIValidationUtils();
  * }}
  * @constructor
  */
-
 function UIUtils() {
   var elWidth;
   var elHeight;
   var windowWidth;
-  var windowHeight; // Stored button anchor position
+  var windowHeight;
 
+  // Stored button anchor position
   var storedAnchor = {};
+
   /**
    * Get original event object for touch
    * devices to getting current coordinates
    * @param {Object}
    * @returns {Object}
    */
-
   var getOriginalEvent = function getOriginalEvent(e) {
     return e.targetTouches ? e.targetTouches[0] : e;
   };
-
   var outsidePosition = {
     top: function top(pos) {
       return storedAnchor.top && (pos.y + elHeight > windowHeight || pos.y < 0);
@@ -4677,45 +4286,43 @@ function UIUtils() {
       return !storedAnchor.left && (Math.abs(pos.x) + elWidth > windowWidth || pos.x > 0);
     }
   };
+
   /**
    * Set transition css property for drag
    * translate3d is for better rendering performance
    * see: https://www.html5rocks.com/en/tutorials/speed/layers/
    */
-
   var moveElementTo = function moveElementTo(el, x, y) {
-    var transform = "translate3d(".concat(x, "px,").concat(y, "px, 0px)"); // eslint-disable-next-line no-param-reassign
-
-    el.style.webkitTransform = transform; // eslint-disable-next-line no-param-reassign
-
-    el.style.mozTransform = transform; // eslint-disable-next-line no-param-reassign
-
-    el.style.msTransform = transform; // eslint-disable-next-line no-param-reassign
-
-    el.style.oTransform = transform; // eslint-disable-next-line no-param-reassign
-
+    var transform = "translate3d(".concat(x, "px,").concat(y, "px, 0px)");
+    // eslint-disable-next-line no-param-reassign
+    el.style.webkitTransform = transform;
+    // eslint-disable-next-line no-param-reassign
+    el.style.mozTransform = transform;
+    // eslint-disable-next-line no-param-reassign
+    el.style.msTransform = transform;
+    // eslint-disable-next-line no-param-reassign
+    el.style.oTransform = transform;
+    // eslint-disable-next-line no-param-reassign
     el.style.transform = transform;
-  }; // getting screen width and height without scroll bars
+  };
 
-
+  // getting screen width and height without scroll bars
   var getWindowSize = function getWindowSize() {
     return {
       width: Math.min(document.documentElement.clientWidth, window.innerWidth || window.screen.width),
       height: Math.min(document.documentElement.clientHeight, window.innerHeight || window.screen.height)
     };
   };
+
   /**
    * Functions for saving left/top anchors and setting class position
    *
    * @param {Object} element  button element
    * @param {Boolean} anchor  anchors positions `true` for top/left or `false` for bottom/right
    */
-
-
   var setAnchorPosition = {
     positionY: function positionY(element, anchor) {
       storedAnchor.top = anchor;
-
       if (storedAnchor.top) {
         addClass(element, 'adguard-assistant-button-top');
         removeClass(element, 'adguard-assistant-button-bottom');
@@ -4726,7 +4333,6 @@ function UIUtils() {
     },
     positionX: function positionX(element, anchor) {
       storedAnchor.left = anchor;
-
       if (storedAnchor.left) {
         addClass(element, 'adguard-assistant-button-left');
         removeClass(element, 'adguard-assistant-button-right');
@@ -4736,22 +4342,22 @@ function UIUtils() {
       }
     }
   };
+
   /**
    * Make element draggable
    * @param element
    * @param onDragEnd
    * @param onClick
    */
-
   function makeElementDraggable(element, onDragEnd, onClick) {
     var coords;
     var shiftX;
     var shiftY;
+
     /**
      * Prevent text selection
      * With cursor drag
      */
-
     var pauseEvent = function pauseEvent(e) {
       e.stopPropagation();
       e.preventDefault();
@@ -4759,17 +4365,14 @@ function UIUtils() {
       e.returnValue = false;
       return false;
     };
-
     var onMouseMove = function onMouseMove(e) {
-      pauseEvent(e); // eslint-disable-next-line no-use-before-define
-
+      pauseEvent(e);
+      // eslint-disable-next-line no-use-before-define
       moveAt(e);
     };
-
     var preventedEvent = function preventedEvent(e) {
       e.preventDefault();
     };
-
     var getCoords = function getCoords(elem) {
       var box = elem.getBoundingClientRect();
       return {
@@ -4779,21 +4382,22 @@ function UIUtils() {
         right: box.right
       };
     };
+
     /**
      * On mouse up event
      * @param {Object} e  event object
      * @param {Boolean|undefined} doNotOpenIframe do not open the iframe if true.
      * This is necessary when the cursor is out of bounds
      */
-
-
     var onMouseUp = function onMouseUp(e, doNotOpenIframe) {
-      e.stopPropagation(); // make scroll availalbe
+      e.stopPropagation();
 
-      events.remove(document.documentElement, 'wheel mousewheel', preventedEvent); // When a user finishes dragging icon, we set icon anchor
+      // make scroll availalbe
+      events.remove(document.documentElement, 'wheel mousewheel', preventedEvent);
+
+      // When a user finishes dragging icon, we set icon anchor
       // depending on the icon position, i.e. which quarter
       // of the screen it belongs.
-
       var lastX;
       var lastY;
       var lastCoords = getCoords(element);
@@ -4801,21 +4405,19 @@ function UIUtils() {
       var leftHalf = lastCoords.left < windowWidth / 2;
       setAnchorPosition.positionY(element, topHalf);
       setAnchorPosition.positionX(element, leftHalf);
-
       if (topHalf) {
         lastY = lastCoords.top;
       } else {
         lastY = lastCoords.bottom - windowHeight;
       }
-
       if (leftHalf) {
         lastX = lastCoords.left;
       } else {
         lastX = lastCoords.right - windowWidth;
       }
+      moveElementTo(element, lastX, lastY);
 
-      moveElementTo(element, lastX, lastY); // Open the frame if the button has been shifted by no more than 5 pixels
-
+      // Open the frame if the button has been shifted by no more than 5 pixels
       if (Math.abs(coords.left - lastCoords.left) > 5 || Math.abs(coords.top - lastCoords.top) > 5) {
         if (onDragEnd) {
           var store = {
@@ -4828,97 +4430,88 @@ function UIUtils() {
       } else if (onClick && !doNotOpenIframe) {
         onClick(e);
       }
-
       events.remove(document.documentElement, 'mouseup touchend pointerup', onMouseUp);
       events.remove(document.documentElement, 'mousemove touchmove pointermove', onMouseMove);
     };
-
     var moveAt = function moveAt(e) {
       var position = {
         x: getOriginalEvent(e).pageX - shiftX,
         y: getOriginalEvent(e).pageY - shiftY
-      }; // disable mousemove if button element outside the screen
+      };
 
+      // disable mousemove if button element outside the screen
       var out = outsidePosition.top(position) || outsidePosition.left(position) || outsidePosition.bottom(position) || outsidePosition.right(position);
-
       if (out) {
         onMouseUp(e, true);
       } else {
         moveElementTo(element, position.x, position.y);
       }
     };
-
     var mouseDown = function mouseDown(e) {
-      pauseEvent(e); // prevent browser scroll
+      pauseEvent(e);
 
-      events.add(document.documentElement, 'wheel mousewheel', preventedEvent); // prevent right button mousedown
+      // prevent browser scroll
+      events.add(document.documentElement, 'wheel mousewheel', preventedEvent);
 
+      // prevent right button mousedown
       if (e.button > 0) return;
       elWidth = element.clientWidth;
       elHeight = element.clientWidth;
       windowWidth = getWindowSize().width;
       windowHeight = getWindowSize().height;
       coords = getCoords(element);
-
       if (storedAnchor.top) {
         shiftY = getOriginalEvent(e).pageY - coords.top;
       } else {
         shiftY = windowHeight - (coords.bottom - getOriginalEvent(e).pageY);
       }
-
       if (storedAnchor.left) {
         shiftX = getOriginalEvent(e).pageX - coords.left;
       } else {
         shiftX = windowWidth - (coords.right - getOriginalEvent(e).pageX);
       }
+
       /**
        * binding both mouse and touch/pointer events simultaneously
        * see: http://www.html5rocks.com/en/mobile/touchandmouse/
        */
-
-
       events.add(document.documentElement, 'mouseup touchend pointerup', onMouseUp);
       events.add(document.documentElement, 'mousemove touchmove pointermove', onMouseMove);
     };
-
     events.add(element, 'mousedown touchstart', src_protectedApi.functionBind.call(mouseDown, this));
     events.add(element, 'dragstart', function () {});
   }
+
   /**
    * Makes iframe draggable
    *
    * @param iframe
    * @param handleElement
    */
-
-
   var makeIframeDraggable = function makeIframeDraggable(iframe, handleElement) {
     var iframeDoc = iframe.contentDocument;
     var offset = Object.create(null);
+
     /**
      * Function that does actual "dragging"
      *
      * @param x
      * @param y
      */
-
     var drag = function drag(x, y) {
       // eslint-disable-next-line no-param-reassign
-      iframe.style.left = "".concat(x, "px"); // eslint-disable-next-line no-param-reassign
-
+      iframe.style.left = "".concat(x, "px");
+      // eslint-disable-next-line no-param-reassign
       iframe.style.top = "".concat(y, "px");
     };
-
     var cancelIFrameSelection = function cancelIFrameSelection(e) {
       e.preventDefault();
       e.stopPropagation();
     };
-
     var onMouseMove = function onMouseMove(e) {
       var eventPosition = getOriginalEvent(e);
       drag(eventPosition.screenX + offset.x, eventPosition.screenY + offset.y);
     };
-
     var onMouseDown = function onMouseDown(e) {
       var eventPosition = getOriginalEvent(e);
       var rect = iframe.getBoundingClientRect();
@@ -4927,13 +4520,12 @@ function UIUtils() {
       events.add(iframeDoc, 'mousemove touchmove pointermove', onMouseMove);
       events.add(iframeDoc, 'selectstart', cancelIFrameSelection);
     };
-
     var onMouseUp = function onMouseUp() {
       events.remove(iframeDoc, 'mousemove touchmove pointermove', onMouseMove);
       events.remove(iframeDoc, 'selectstart', cancelIFrameSelection);
-    }; // prevent iframe dragging while browser tabs is switching
+    };
 
-
+    // prevent iframe dragging while browser tabs is switching
     document.addEventListener('visibilitychange', onMouseUp);
     events.add(handleElement, 'mousedown touchstart', onMouseDown);
     events.add(iframeDoc, 'mouseup touchend pointerup', onMouseUp);
@@ -4942,7 +4534,6 @@ function UIUtils() {
       return false;
     });
   };
-
   var checkElementPosition = function checkElementPosition(element, pos) {
     var position = pos;
     windowWidth = getWindowSize().width;
@@ -4955,7 +4546,6 @@ function UIUtils() {
     if (outsidePosition.right(position)) position.x = -windowWidth + 60;
     moveElementTo(element, position.x, position.y);
   };
-
   return {
     makeElementDraggable: makeElementDraggable,
     makeIframeDraggable: makeIframeDraggable,
@@ -4964,10 +4554,10 @@ function UIUtils() {
     checkElementPosition: checkElementPosition
   };
 }
-
 var uiUtils = new UIUtils();
 /* harmony default export */ const ui_utils = (uiUtils);
 ;// CONCATENATED MODULE: ./src/button.js
+
 
 
 
@@ -4981,117 +4571,98 @@ var uiUtils = new UIUtils();
  * @returns {{show: show, remove: remove}}
  * @constructor
  */
-
 function UIButton() {
   var button = null;
   var buttonElement = null;
   var isFullScreenEventsRegistered = false;
-  var iframeController = null; // Important attribute for all inline stylesheets.
-  // It needs for Content-Security-Policy.
+  var iframeController = null;
 
+  // Important attribute for all inline stylesheets.
+  // It needs for Content-Security-Policy.
   var getStyleNonce = function getStyleNonce() {
     var adgSettings = src_settings.getAdguardSettings();
-
     if (adgSettings === null) {
       return '';
     }
-
     return adgSettings.nonce;
   };
-
   var isButtonAlreadyInDOM = function isButtonAlreadyInDOM() {
     var alert = document.querySelector('.adguard-alert');
-
     if (alert) {
       src_log.error('Assistant button is already in DOM');
       return true;
     }
-
     return false;
   };
+
   /**
    * Checking browser and other requirements.
    * @private
    */
-
-
   var checkRequirements = function checkRequirements() {
     if (!ui_validation_utils.validateBrowser()) {
       return false;
     }
-
     if (!ui_validation_utils.validatePage()) {
       return false;
     }
-
     if (!ui_validation_utils.checkVisibleAreaSize()) {
       return false;
     }
-
     if (isButtonAlreadyInDOM()) {
       return false;
     }
-
     return true;
   };
+
   /**
    * Set a special classes for the pages on which
    * under the button there are important elements
    * issue: https://github.com/AdguardTeam/AdguardAssistant/issues/32
    */
-
-
   var respectPageElements = function respectPageElements(btn) {
     var buttonInRightBottom = hasClass(btn, 'adguard-assistant-button-bottom') && hasClass(btn, 'adguard-assistant-button-right');
-
     if (buttonInRightBottom && document.location.hostname.indexOf('vk.com') >= 0) {
       addClass(btn, 'adguard-assistant-button-respect adguard-assistant-button-respect-vk');
     }
-
     if (buttonInRightBottom && document.location.hostname.indexOf('facebook.com') >= 0) {
       addClass(btn, 'adguard-assistant-button-respect adguard-assistant-button-respect-fb');
     }
-
     return false;
   };
-
   var setPositionSettingsToButton = function setPositionSettingsToButton(btn) {
     var position = src_settings.getUserPositionForButton();
-
     if (src_settings.getIconSize()) {
       addClass(btn, 'logo-small');
-    } // The anchor determines from which side of the
+    }
+
+    // The anchor determines from which side of the
     // browser the positions of `position.x`, `position.y`.
     // If `position` parameter is not defined,
     // so the position of the button is set in the corners of the browser
-
-
     if (position && position.storedAnchor) {
       ui_utils.setAnchorPosition.positionY(btn, position.storedAnchor.top);
       ui_utils.setAnchorPosition.positionX(btn, position.storedAnchor.left);
       ui_utils.moveElementTo(btn, position.x, position.y);
       ui_utils.checkElementPosition(btn, position);
       return false;
-    } // Getting the corner of the browser where the button is placed
+    }
 
-
+    // Getting the corner of the browser where the button is placed
     var side = src_settings.getButtonSide();
-
     if (side) {
       ui_utils.setAnchorPosition.positionY(btn, side.top);
       ui_utils.setAnchorPosition.positionX(btn, side.left);
       respectPageElements(btn);
     }
-
     return undefined;
   };
+
   /**
    * Get center button position
    * @returns {{left: *, top: *}}
    * @private
    */
-
-
   var getButtonPosition = function getButtonPosition(btn) {
     var box = btn.getBoundingClientRect();
     return {
@@ -5099,30 +4670,23 @@ function UIButton() {
       left: box.left + btn.offsetWidth / 2
     };
   };
-
   var hideButton = function hideButton() {
     if (!button) {
       return;
     }
-
     button.style.setProperty('display', 'none', 'important');
   };
-
   var showButton = function showButton() {
     if (!button) {
       return;
     }
-
     button.style.setProperty('display', 'block', 'important');
   };
-
   var hideRestoreOnFullScreen = function hideRestoreOnFullScreen() {
     if (isFullScreenEventsRegistered) {
       return;
     }
-
     var isFullScreen = false;
-
     var onFullScreen = function onFullScreen() {
       if (!isFullScreen) {
         hideButton();
@@ -5132,52 +4696,43 @@ function UIButton() {
         isFullScreen = false;
       }
     };
-
     document.addEventListener('webkitfullscreenchange', onFullScreen);
     document.addEventListener('mozfullscreenchange', onFullScreen);
     document.addEventListener('fullscreenchange', onFullScreen);
     isFullScreenEventsRegistered = true;
   };
-
   var registerEvents = function registerEvents(btn) {
     var onDragEnd = function onDragEnd(data) {
       src_settings.setUserPositionForButton(data);
     };
-
     var openMenu = function openMenu() {
       iframeController.setButtonPosition(getButtonPosition(btn));
       iframeController.showDetailedMenu();
     };
-
     ui_utils.makeElementDraggable(btn, onDragEnd, openMenu);
     hideRestoreOnFullScreen();
   };
+
   /**
    * Shows Adguard initial button
    */
-
-
   var show = function show() {
     // TODO: get rid of it
     iframeController = src_ioc.get('iframeController');
     iframeController.onCloseMenu.attach(showButton);
     iframeController.onShowMenuItem.attach(hideButton);
-
     if (!checkRequirements()) {
       src_log.info('Environment doesn\'t satisfy requirements, so don\'t show Adguard');
       return;
     }
-
     if (button) {
       return;
     }
-
     src_log.debug('Requirements checked, all ok');
     buttonElement = src_protectedApi.createElement('div');
     buttonElement.innerHTML = HTML.button;
     button = buttonElement.firstChild;
     var adgStylesButton;
-
     if (src_protectedApi.checkShadowDomSupport()) {
       var shadowbuttonElement = buttonElement.attachShadow({
         mode: 'open'
@@ -5188,37 +4743,31 @@ function UIButton() {
       document.documentElement.appendChild(buttonElement);
     } else {
       adgStylesButton = src_protectedApi.createStylesElement(CSS.button, getStyleNonce(), 'adg-styles-button');
-
       if (adgStylesButton) {
         document.documentElement.appendChild(adgStylesButton);
       }
-
       document.documentElement.appendChild(button);
       buttonElement = button;
     }
-
     setPositionSettingsToButton(button);
     registerEvents(button);
   };
-
   var removeButton = function removeButton() {
     if (!button) {
       return;
     }
-
     document.documentElement.removeChild(buttonElement);
     button = null;
   };
-
   return {
     show: show,
     remove: removeButton
   };
 }
-
 var button_button = new UIButton();
 /* harmony default export */ const src_button = (button_button);
 ;// CONCATENATED MODULE: ./src/controllers/settingsMenuController.js
+
 
 
 
@@ -5227,7 +4776,6 @@ var button_button = new UIButton();
  * @returns {{init: init}}
  * @constructor
  */
-
 function SettingsMenuController(iframe) {
   var contentDocument = null;
   var iframeCtrl = iframe;
@@ -5249,21 +4797,17 @@ function SettingsMenuController(iframe) {
       left: true
     }
   };
-
   var close = function close() {
     iframeCtrl.removeIframe();
   };
-
   var setIconSize = function setIconSize() {
     var smallIcon = contentDocument.getElementById('size-small').checked;
     src_settings.setIconSize(smallIcon);
   };
-
   var setPersonalParam = function setPersonalParam() {
     var personalConfig = contentDocument.getElementById('this-site').checked;
     src_settings.setPersonalParam(personalConfig);
   };
-
   var setButtonSide = function setButtonSide() {
     var sideItem = null;
     Object.keys(buttonSides).forEach(function (item) {
@@ -5271,41 +4815,33 @@ function SettingsMenuController(iframe) {
         sideItem = item;
       }
     });
-
     if (sideItem) {
       src_settings.setButtonSide(buttonSides[sideItem]);
     }
   };
-
   var setDefaultSettings = function setDefaultSettings() {
     if (src_settings.getIconSize()) {
       contentDocument.getElementById('size-small').checked = true;
     } else {
       contentDocument.getElementById('size-big').checked = true;
     }
-
     if (src_settings.getPersonalConfig()) {
       contentDocument.getElementById('this-site').checked = true;
     } else {
       contentDocument.getElementById('all-site').checked = true;
     }
-
     var position = src_settings.getUserPositionForButton();
-
     if (position) {
       return;
     }
-
     var sideFromSettings = src_settings.getButtonSide();
     Object.keys(buttonSides).forEach(function (item) {
       var sideItem = buttonSides[item];
-
       if (sideItem.left === sideFromSettings.left && sideItem.top === sideFromSettings.top) {
         contentDocument.getElementById(item).checked = true;
       }
     });
   };
-
   var saveSettings = function saveSettings() {
     setPersonalParam();
     setIconSize();
@@ -5315,7 +4851,6 @@ function SettingsMenuController(iframe) {
     src_button.remove();
     src_button.show();
   };
-
   var bindEvents = function bindEvents() {
     var menuEvents = {
       '.close': close,
@@ -5329,24 +4864,23 @@ function SettingsMenuController(iframe) {
       });
     });
   };
+
   /*
    Called from IframeController._showMenuItem to initialize view
    */
   // eslint-disable-next-line no-shadow
-
-
   var init = function init(iframe) {
     // eslint-disable-next-line prefer-destructuring
     contentDocument = iframe.contentDocument;
     bindEvents();
     setDefaultSettings();
   };
-
   return {
     init: init
   };
 }
 ;// CONCATENATED MODULE: ./src/iframe.js
+
 
 
 
@@ -5381,7 +4915,6 @@ function SettingsMenuController(iframe) {
  * }}
  * @constructor
  */
-
 function IframeController() {
   var iframe = null;
   var iframeAnchor = null;
@@ -5402,19 +4935,17 @@ function IframeController() {
   if (window.innerWidth < menuMaxWidth) menuMaxWidth = window.innerWidth;
   if (window.innerWidth < settingsMaxWidth) settingsMaxWidth = window.innerWidth;
   var onCloseMenu = new CustomEvent();
-  var onShowMenuItem = new CustomEvent(); // Important attribute for all inline stylesheets.
-  // It needs for Content-Security-Policy.
+  var onShowMenuItem = new CustomEvent();
 
+  // Important attribute for all inline stylesheets.
+  // It needs for Content-Security-Policy.
   var getStyleNonce = function getStyleNonce() {
     var adgSettings = src_settings.getAdguardSettings();
-
     if (adgSettings === null) {
       return '';
     }
-
     return adgSettings.nonce;
   };
-
   var createShadowRootElement = function createShadowRootElement(iframeAnc) {
     var shadowiframeAnchor = iframeAnc.attachShadow({
       mode: 'open'
@@ -5423,16 +4954,15 @@ function IframeController() {
     shadowiframeAnchor.appendChild(stylesElement);
     return shadowiframeAnchor;
   };
-
   var createIframe = function createIframe(onIframeLoadCallback) {
     src_log.debug('Creating iframe');
-    iframe = src_protectedApi.createElement('iframe'); // IE hack for prevent access denied error
-    // see: https://stackoverflow.com/questions/1886547/access-is-denied-javascript-error-when-trying-to-access-the-document-object-of
+    iframe = src_protectedApi.createElement('iframe');
 
+    // IE hack for prevent access denied error
+    // see: https://stackoverflow.com/questions/1886547/access-is-denied-javascript-error-when-trying-to-access-the-document-object-of
     if (navigator.userAgent.match(/msie/i)) {
       iframe.src = "javascript:'<script>window.onload=function(){document.write(\\'<script>document.domain=\\\"".concat(document.domain, "\\\";<\\\\/script>\\');document.close();};</script>'");
     }
-
     var attributes = {
       id: src_settings.Constants.IFRAME_ID,
       "class": adguard_selector.ignoreClassName(),
@@ -5448,31 +4978,25 @@ function IframeController() {
         // IE calls load each time when we use document.close
         return;
       }
-
       iframeAlreadyLoaded = true;
       onIframeLoadCallback();
     });
-
     if (src_protectedApi.checkShadowDomSupport()) {
       iframeAnchor = src_protectedApi.createElement('div');
       createShadowRootElement(iframeAnchor).appendChild(iframe);
     } else {
       iframeAnchor = iframe;
     }
-
     document.documentElement.appendChild(iframeAnchor);
   };
-
   var getIframePosition = function getIframePosition() {
     var viewPort = ui_validation_utils.getViewPort();
-
     if (!buttonPosition) {
       return {
         left: iframe.offsetLeft <= 0 ? window.innerWidth : iframe.offsetLeft,
         top: parseInt(iframe.style.top, 10) || iframePositionOffset
       };
     }
-
     var defaultPosition = {
       left: buttonPosition.left,
       top: buttonPosition.top
@@ -5498,93 +5022,73 @@ function IframeController() {
       checkTop: buttonPosition.top + iframeMaxHeight + iframePositionOffset,
       top: buttonPosition.top + iframePositionOffset
     }];
-
     for (var i = 0; i < sides.length; i += 1) {
       var currentSide = sides[i];
       var left = currentSide.checkLeft ? currentSide.checkLeft : currentSide.left;
       var top = currentSide.checkTop ? currentSide.checkTop : currentSide.top;
-
       if (left < 0 || left > viewPort.width) {
         // eslint-disable-next-line no-continue
         continue;
       }
-
       if (top < 0 || top > viewPort.height) {
         // eslint-disable-next-line no-continue
         continue;
       }
-
       return currentSide;
     }
-
     return defaultPosition;
   };
-
   var specifyIframePosition = function specifyIframePosition() {
     var viewPort = ui_validation_utils.getViewPort();
-
     if (iframe.offsetLeft + iframe.offsetWidth > viewPort.width) {
       iframe.style.left = "".concat(Math.max(0, viewPort.width - iframe.offsetWidth - iframePositionOffset), "px");
     }
-
     if (iframe.offsetLeft < 0) {
       iframe.style.left = "".concat(iframePositionOffset, "px");
     }
-
     if (iframe.offsetTop + iframe.offsetHeight > viewPort.height) {
       iframe.style.top = "".concat(Math.max(0, viewPort.height - iframe.offsetHeight - iframePositionOffset), "px");
     }
-
     if (iframe.offsetHeight < 0) {
       iframe.style.top = "".concat(iframePositionOffset, "px");
     }
   };
-
   var appendContent = function appendContent(view) {
     var body = iframe.contentDocument.body;
-
     for (var i = 0; i < body.children.length; i += 1) {
       body.removeChild(body.children[i]);
     }
-
     body.appendChild(view);
   };
-
   var localize = function localize() {
     var elements = iframe.contentDocument.querySelectorAll('[i18n]');
-
     for (var i = 0; i < elements.length; i += 1) {
       var message = src_localization.getMessage(elements[i].getAttribute('i18n'));
       src_localization.translateElement(elements[i], message);
     }
   };
-
   var resizeIframe = function resizeIframe(width, height) {
-    var frame = iframe; // setting iframe height dynamically based on inner content
+    var frame = iframe;
 
+    // setting iframe height dynamically based on inner content
     if (height === 'auto' || !height) {
       // eslint-disable-next-line no-param-reassign
       height = frame.contentWindow.document.body.querySelector('.main').clientHeight || iframeMaxHeight;
     }
-
     if (width) {
       frame.width = width;
       frame.style.setProperty('width', "".concat(width, "px"), 'important');
     }
-
     if (height) {
       frame.height = height;
       frame.style.setProperty('height', "".concat(height, "px"), 'important');
     }
   };
-
   var showMenuItem = function showMenuItem(viewName, controller, width, height, options) {
     src_log.debug("Showing menu item: ".concat(viewName));
-
     if (currentItem === viewName) {
       return;
     }
-
     var onIframeLoad = function onIframeLoad() {
       var frameElement = iframe;
       var view = src_protectedApi.createElement(views[viewName]);
@@ -5592,60 +5096,51 @@ function IframeController() {
       view.appendChild(stylesElement);
       appendContent(view);
       localize();
-
       if (!options) {
         // eslint-disable-next-line no-param-reassign
         options = {};
-      } // eslint-disable-next-line no-param-reassign
-
-
+      }
+      // eslint-disable-next-line no-param-reassign
       options.iframeAnchor = iframeAnchor;
       controller.init(frameElement, options);
       currentItem = viewName;
       onShowMenuItem.notify();
-
       if (options.dragElement) {
         ui_utils.makeIframeDraggable(iframe, iframe.contentDocument.querySelector(options.dragElement));
-      } // make iframe size as like internal content size
+      }
 
-
+      // make iframe size as like internal content size
       resizeIframe(width, height);
       var iframePosition = getIframePosition();
       iframe.style.left = "".concat(iframePosition.left, "px");
-      iframe.style.top = "".concat(iframePosition.top, "px"); // fixing iframe position after resize, to avoid iframe outside of the viewport
+      iframe.style.top = "".concat(iframePosition.top, "px");
 
+      // fixing iframe position after resize, to avoid iframe outside of the viewport
       specifyIframePosition();
     };
-
     if (!iframe) {
       var adgStylesSelector = src_protectedApi.createStylesElement(CSS.selector, getStyleNonce(), 'adg-styles-selector');
-
       if (adgStylesSelector) {
         document.documentElement.appendChild(adgStylesSelector);
       }
-
       createIframe(onIframeLoad);
       return;
     }
-
     onIframeLoad();
   };
-
   var setButtonPosition = function setButtonPosition(coords) {
     buttonPosition = coords;
-  }; // e.isTrusted checking for prevent programmatically events
+  };
+
+  // e.isTrusted checking for prevent programmatically events
   // see: https://github.com/AdguardTeam/AdguardAssistant/issues/134
-
-
   var removeIframe = function removeIframe(e) {
     if (e && e.isTrusted === false) {
       return false;
     }
-
     if (!iframeAnchor) {
       return false;
     }
-
     document.removeEventListener('click', removeIframe);
     document.documentElement.removeChild(iframeAnchor);
     iframe = null;
@@ -5655,17 +5150,14 @@ function IframeController() {
     onCloseMenu.notify();
     return undefined;
   };
-
   var setCloseEventIfNotHitIframe = function setCloseEventIfNotHitIframe(setEvent) {
     document.removeEventListener('click', removeIframe);
-
     if (setEvent) {
       window.setTimeout(function () {
         document.addEventListener('click', removeIframe);
       }, 150);
     }
   };
-
   var showDetailedMenu = function showDetailedMenu() {
     var controller = new DetailedMenuController(src_ioc.get('iframeController'));
     var options = {
@@ -5674,7 +5166,6 @@ function IframeController() {
     showMenuItem(src_settings.MenuItemsNames.DetailedMenu, controller, iframeMaxWidth, 'auto', options);
     setCloseEventIfNotHitIframe(true);
   };
-
   var showSelectorMenu = function showSelectorMenu() {
     var controller = new SelectorMenuController(src_ioc.get('iframeController'));
     var options = {
@@ -5683,7 +5174,6 @@ function IframeController() {
     showMenuItem(src_settings.MenuItemsNames.SelectorMenu, controller, menuMaxWidth, 160, options);
     setCloseEventIfNotHitIframe(false);
   };
-
   var showSliderMenu = function showSliderMenu(initElement, currentElement, path, optionsState) {
     var controller = new SliderMenuController(src_ioc.get('addRule'), src_ioc.get('iframeController'));
     var options = {
@@ -5696,7 +5186,6 @@ function IframeController() {
     showMenuItem(src_settings.MenuItemsNames.SliderMenu, controller, menuMaxWidth, 'auto', options);
     setCloseEventIfNotHitIframe(true);
   };
-
   var showBlockPreview = function showBlockPreview(initElement, path, currentElement, optionsState) {
     var controller = new BlockPreviewController(src_ioc.get('addRule'), src_ioc.get('iframeController'));
     var options = {
@@ -5709,7 +5198,6 @@ function IframeController() {
     showMenuItem(src_settings.MenuItemsNames.BlockPreview, controller, menuMaxWidth, 'auto', options);
     setCloseEventIfNotHitIframe(true);
   };
-
   var showSettingsMenu = function showSettingsMenu() {
     var controller = new SettingsMenuController(src_ioc.get('iframeController'));
     var options = {
@@ -5718,23 +5206,18 @@ function IframeController() {
     showMenuItem(src_settings.MenuItemsNames.SettingsMenu, controller, 400, 468, options);
     setCloseEventIfNotHitIframe(true);
   };
-
   var resizeSliderMenuToAdvanced = function resizeSliderMenuToAdvanced() {
     resizeIframe(null, null);
   };
-
   var resizeSliderMenuToNormal = function resizeSliderMenuToNormal() {
     resizeIframe(null, null);
   };
-
   var hideElementsByPath = function hideElementsByPath(selectedPath, styleID) {
     if (!selectedPath) {
       return false;
     }
-
     var slctr;
     var style;
-
     if (selectedPath.indexOf('://') > 0) {
       // all images by src
       slctr = "[src*=\"".concat(selectedPath.split('$domain=')[0], "\"]");
@@ -5742,50 +5225,42 @@ function IframeController() {
       // eslint-disable-next-line prefer-destructuring
       slctr = selectedPath.split('##')[1];
     }
-
     if (slctr) {
       style = "".concat(slctr, "{display:none!important}");
     } else {
       src_log.error('Can`t block element: `selector` path is empty');
       return false;
     }
-
     if (!styleID) {
       // eslint-disable-next-line no-param-reassign
       styleID = blockedElementsStyleID;
     }
-
     var stylesElement = document.documentElement.querySelector("#".concat(styleID));
-
     if (stylesElement) {
       stylesElement.innerHTML = "".concat(stylesElement.innerHTML, " ").concat(style);
     } else {
       document.documentElement.appendChild(src_protectedApi.createStylesElement(style, getStyleNonce(), styleID));
-    } // do not hide assistant div if the user wrote a rule
+    }
+
+    // do not hide assistant div if the user wrote a rule
     // that blocks all div or iframe elements
-
-
     if (iframeAnchor) {
       iframeAnchor.style.setProperty('display', 'block', 'important');
     }
-
     return undefined;
-  }; // show elements hidden by `hideElementsByPath` function
+  };
 
-
+  // show elements hidden by `hideElementsByPath` function
   var showHiddenElements = function showHiddenElements(styleID) {
     if (!styleID) {
       // eslint-disable-next-line no-param-reassign
       styleID = blockedElementsStyleID;
     }
-
     var stylesElement = document.documentElement.querySelector("#".concat(styleID));
-
     if (stylesElement) {
       stylesElement.parentNode.removeChild(stylesElement);
     }
   };
-
   var blockElement = function blockElement(path, addRule) {
     if (gm.ADG_addRule) {
       gm.ADG_addRule(path, function () {
@@ -5797,14 +5272,12 @@ function IframeController() {
       if (!addRule) {
         src_log.error('Callback function `addRule` can\'t be undefined!');
       }
-
       addRule(path);
       removeIframe();
       hideElementsByPath(path);
       bypassCache();
     }
   };
-
   return {
     showDetailedMenu: showDetailedMenu,
     showSelectorMenu: showSelectorMenu,
@@ -5823,9 +5296,9 @@ function IframeController() {
     blockElement: blockElement
   };
 }
-
 /* harmony default export */ const iframe = (IframeController);
 ;// CONCATENATED MODULE: ./src/controllers/sliderMenuControllerMobile.js
+
 
 
 
@@ -5836,7 +5309,6 @@ function IframeController() {
  * @returns {{init: init}}
  * @constructor
  */
-
 function SliderMenuControllerMobile(addRule, iframe) {
   var contentDocument = null;
   var selectedElement = null;
@@ -5846,10 +5318,8 @@ function SliderMenuControllerMobile(addRule, iframe) {
   var parents;
   var children;
   var nodeNumber = 0;
-
   function showPreview() {
     adguard_selector.reset();
-
     if (this.classList.contains('active')) {
       removeClass(selectedElement, 'sg_hide_element');
       removeClass(this, 'active');
@@ -5865,22 +5335,17 @@ function SliderMenuControllerMobile(addRule, iframe) {
       contentDocument.querySelector('.adg-close').setAttribute('disabled', 'disabled');
     }
   }
-
   var getUrlBlockAttribute = function getUrlBlockAttribute(element) {
     var urlBlockAttributes = ['src', 'data'];
-
     for (var i = 0; i < urlBlockAttributes.length; i += 1) {
       var attr = urlBlockAttributes[i];
       var value = element.getAttribute(attr);
-
       if (value) {
         return value;
       }
     }
-
     return null;
   };
-
   var getFilterText = function getFilterText() {
     var options = {
       urlMask: getUrlBlockAttribute(selectedElement),
@@ -5891,37 +5356,32 @@ function SliderMenuControllerMobile(addRule, iframe) {
     };
     return adguard_rules_constructor.constructRuleText(selectedElement, options);
   };
-
   var blockElement = function blockElement() {
     selectedElement.classList.remove('sg_hide_element');
     selectedElement.style.display = 'none';
     addRule(getFilterText());
     iframeCtrl.removeIframe();
   };
-
   var onSliderMove = function onSliderMove(element) {
     selectedElement = element;
     adguard_selector.selectElement(element);
   };
-
   var plus = function plus() {
     nodeNumber = nodeNumber + 1 > nodeParentsCount ? nodeNumber : nodeNumber + 1;
-
     if (nodeNumber >= 0) {
-      if (parents[nodeNumber]) onSliderMove(parents[nodeNumber]); // eslint-disable-next-line no-bitwise
+      if (parents[nodeNumber]) onSliderMove(parents[nodeNumber]);
+      // eslint-disable-next-line no-bitwise
     } else if (children[~nodeNumber]) onSliderMove(children[~nodeNumber]);
   };
-
   var minus = function minus() {
     // TODO: rewrite this
     // eslint-disable-next-line no-unused-expressions, no-self-assign
     nodeNumber <= -nodeChildsCount ? nodeNumber = nodeNumber : nodeNumber -= 1;
-
     if (nodeNumber >= 0) {
-      if (parents[nodeNumber]) onSliderMove(parents[nodeNumber]); // eslint-disable-next-line no-bitwise
+      if (parents[nodeNumber]) onSliderMove(parents[nodeNumber]);
+      // eslint-disable-next-line no-bitwise
     } else if (children[~nodeNumber]) onSliderMove(children[~nodeNumber]);
   };
-
   var bindEvents = function bindEvents() {
     var menuEvents = {
       '.adg-close': iframeCtrl.showSelectorMenu,
@@ -5938,15 +5398,14 @@ function SliderMenuControllerMobile(addRule, iframe) {
     });
     window.addEventListener('orientationchange', iframeCtrl.showSelectorMenu);
   };
+
   /*
    Called from IframeController._showMenuItem to initialize view
    */
   // eslint-disable-next-line no-shadow
-
-
   var init = function init(iframe, options) {
-    selectedElement = options.element; // eslint-disable-next-line prefer-destructuring
-
+    selectedElement = options.element;
+    // eslint-disable-next-line prefer-destructuring
     contentDocument = iframe.contentDocument;
     bindEvents();
     adguard_selector.selectElement(selectedElement);
@@ -5956,19 +5415,19 @@ function SliderMenuControllerMobile(addRule, iframe) {
     nodeParentsCount = parents.length;
     nodeChildsCount = children.length;
   };
-
   return {
     init: init
   };
 }
 ;// CONCATENATED MODULE: ./package.json
-const package_namespaceObject = {"i8":"1.0.2"};
+const package_namespaceObject = {"rE":"1.0.3"};
 ;// CONCATENATED MODULE: ./src/iframe.mobile.js
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function iframe_mobile_typeof(o) { "@babel/helpers - typeof"; return iframe_mobile_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, iframe_mobile_typeof(o); }
+function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
+function _objectSpread(e) { for (var r = 1; r < arguments.length; r++) { var t = null != arguments[r] ? arguments[r] : {}; r % 2 ? ownKeys(Object(t), !0).forEach(function (r) { _defineProperty(e, r, t[r]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function (r) { Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r)); }); } return e; }
+function _defineProperty(obj, key, value) { key = iframe_mobile_toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+function iframe_mobile_toPropertyKey(t) { var i = iframe_mobile_toPrimitive(t, "string"); return "symbol" == iframe_mobile_typeof(i) ? i : String(i); }
+function iframe_mobile_toPrimitive(t, r) { if ("object" != iframe_mobile_typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != iframe_mobile_typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
 
 
 
@@ -5992,7 +5451,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
  * }}
  * @constructor
  */
-
 function IframeControllerMobile() {
   var iframe = null;
   var iframeElement = null;
@@ -6012,34 +5470,26 @@ function IframeControllerMobile() {
     allowTransparency: 'true',
     id: 'iframe-x2eRYVVQRsG9'
   };
-
   var updateIframeAttrs = function updateIframeAttrs(attrs) {
     iframe.removeAttribute('style');
     iframe.removeAttribute('height');
-
     var attributes = _objectSpread(_objectSpread({}, defaultAttributes), attrs);
-
     Object.keys(attributes).forEach(function (item) {
       iframe.setAttribute(item, attributes[item]);
     });
   };
-
   var updateIframeStyles = function updateIframeStyles(styles) {
     var css = _objectSpread(_objectSpread({}, defaultCSS), styles);
-
     Object.keys(css).forEach(function (item) {
       iframe.style[item] = css[item];
     });
   };
-
   var createIframe = function createIframe(onIframeLoadCallback, styles, attrs) {
     src_log.debug('Creating iframe');
-
     if (document.querySelector("#".concat(defaultAttributes.id))) {
       src_log.error('Iframe already added');
       return;
     }
-
     iframe = src_protectedApi.createElement('iframe');
     iframe.addEventListener('load', function () {
       onIframeLoadCallback();
@@ -6048,57 +5498,44 @@ function IframeControllerMobile() {
     });
     iframeElement = iframe;
     var adgStylesSelector = src_protectedApi.createStylesElement(CSS.selector, 'adg-styles-selector');
-
     if (adgStylesSelector) {
       document.documentElement.appendChild(adgStylesSelector);
     }
-
     document.documentElement.appendChild(iframeElement);
   };
-
   var appendContent = function appendContent(view) {
     var body = iframe.contentDocument.body;
-
     for (var i = 0; i < body.children.length; i += 1) {
       body.removeChild(body.children[i]);
     }
-
     body.appendChild(view);
   };
-
   var localize = function localize() {
     var elements = iframe.contentDocument.querySelectorAll('[i18n]');
-
     for (var i = 0; i < elements.length; i += 1) {
       var message = src_localization.getMessage(elements[i].getAttribute('i18n'));
       src_localization.translateElement(elements[i], message);
     }
-
     var elementsWithTitle = iframe.contentDocument.querySelectorAll('[i18n-title]');
-
     for (var j = 0; j < elementsWithTitle.length; j += 1) {
       var title = src_localization.getMessage(elementsWithTitle[j].getAttribute('i18n-title'));
       elementsWithTitle[j].setAttribute('title', title);
     }
   };
-
   var hideIframe = function hideIframe() {
     if (iframe) {
       iframe.style.display = 'none';
     }
   };
-
   var showIframe = function showIframe() {
     if (iframe) {
       iframe.style.display = 'block';
     }
   };
-
   var showMenuItem = function showMenuItem(viewName, controller, options, styles, attrs) {
     if (currentItem === viewName) {
       return;
     }
-
     var onIframeLoad = function onIframeLoad() {
       var frameElement = iframe;
       var view = src_protectedApi.createElement(views[viewName]);
@@ -6106,43 +5543,34 @@ function IframeControllerMobile() {
       view.appendChild(src_protectedApi.createStylesElement(iframeStyles));
       appendContent(view);
       localize();
-
       if (!options) {
         // eslint-disable-next-line no-param-reassign
         options = {};
       }
-
       if (controller) {
         controller.init(frameElement, options);
       }
-
       updateIframeAttrs(attrs);
       updateIframeStyles(styles);
       currentItem = viewName;
       onShowMenuItem.notify();
       showIframe();
     };
-
     if (!iframe) {
       var adgStylesSelector = src_protectedApi.createStylesElement(CSS.selector, 'adg-styles-selector');
-
       if (adgStylesSelector) {
         document.documentElement.appendChild(adgStylesSelector);
       }
-
       createIframe(onIframeLoad, styles, attrs);
       return;
     }
-
     onIframeLoad();
   };
-
   var startSelect = function startSelect() {
     hideIframe();
     var controller = new SelectorMenuController(src_ioc.get('iframeController'));
     controller.startSelector();
   };
-
   var showSelectorMenu = function showSelectorMenu() {
     hideIframe();
     adguard_selector.close();
@@ -6157,22 +5585,21 @@ function IframeControllerMobile() {
       background: 'transparent',
       width: '40vmax',
       height: '40vmax'
-    }; // eslint-disable-next-line no-use-before-define
+    };
 
+    // eslint-disable-next-line no-use-before-define
     showMenuItem('mobilePopup.html', mobilePopupButtonsInit(), null, styles);
-  }; // e.isTrusted checking for prevent programmatically events
+  };
+
+  // e.isTrusted checking for prevent programmatically events
   // see: https://github.com/AdguardTeam/AdguardAssistant/issues/134
-
-
   var removeIframe = function removeIframe(e) {
     if (e && e.isTrusted === false) {
       return false;
     }
-
     if (!iframeElement) {
       return false;
     }
-
     document.removeEventListener('click', removeIframe);
     window.removeEventListener('orientationchange', showSelectorMenu);
     document.documentElement.removeChild(iframeElement);
@@ -6183,7 +5610,6 @@ function IframeControllerMobile() {
     onCloseMenu.notify();
     return undefined;
   };
-
   var mobilePopupButtonsInit = function mobilePopupButtonsInit() {
     return {
       init: function init() {
@@ -6192,11 +5618,10 @@ function IframeControllerMobile() {
         var appVersionElem = iframe.contentDocument.querySelector('#appVersion');
         startSelectMode.addEventListener('click', startSelect);
         cancelSelectMode.addEventListener('click', removeIframe);
-        appVersionElem.innerText = "v".concat(package_namespaceObject.i8);
+        appVersionElem.innerText = "v".concat(package_namespaceObject.rE);
       }
     };
   };
-
   var showSliderMenu = function showSliderMenu(element) {
     var controller = new SliderMenuControllerMobile(src_ioc.get('addRule'), src_ioc.get('iframeController'));
     var options = {
@@ -6212,7 +5637,6 @@ function IframeControllerMobile() {
     };
     showMenuItem('mobileMenu.html', controller, options, styles);
   };
-
   return {
     showSelectorMenu: showSelectorMenu,
     showSliderMenu: showSliderMenu,
@@ -6230,12 +5654,12 @@ function IframeControllerMobile() {
 
 
 
-/* embedded script for extensions */
 
+
+/* embedded script for extensions */
 /*
  * adguardAssistantExtended main function is for desktop browsers
  */
-
 function adguardAssistantExtended() {
   var adguardSettings = typeof AdguardSettings === 'undefined' ? null : AdguardSettings;
   src_wot.registerWotEventHandler();
@@ -6245,7 +5669,6 @@ function adguardAssistantExtended() {
   return {
     start: function start(element, callback) {
       src_ioc.register('addRule', src_protectedApi.functionBind.call(callback, this));
-
       if (element) {
         iframeController.showSelectorMenu();
         iframeController.showSliderMenu(element);
@@ -6258,17 +5681,16 @@ function adguardAssistantExtended() {
     }
   };
 }
+
 /*
  * adguardAssistantMini function is for mobile browsers
  */
-
 function adguardAssistantMini() {
   var iframeController = new IframeControllerMobile();
   src_ioc.register('iframeController', iframeController);
   return {
     start: function start(element, callback) {
       src_ioc.register('addRule', src_protectedApi.functionBind.call(callback, this));
-
       if (element) {
         iframeController.showSelectorMenu();
         iframeController.showSliderMenu(element);

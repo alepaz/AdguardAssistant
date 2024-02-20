@@ -1,4 +1,4 @@
-declare module "@adguard/assistant" {
+declare module "asurvio-assistant-fork" {
     interface Callback {
         (ruleText: string): void
     }
