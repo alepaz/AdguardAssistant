@@ -8,5 +8,5 @@ declare module "@adguard/assistant" {
         close: () => void,
     }
 
-    export function adguardAssistant(): Assistant;
+    export function dsOneAssistant(): Assistant;
 }

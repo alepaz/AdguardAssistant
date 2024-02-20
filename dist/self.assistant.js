@@ -1,5 +1,5 @@
 /*!
- * AdGuard Assistant - v1.0.0 - Mon Feb 19 2024
+ * AdGuard Assistant - v1.0.1 - Mon Feb 19 2024
  *
  * Copyright (c) 2024 asurvio. Licensed GPL-3.0
  */
@@ -1197,7 +1197,7 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "adguardAssistant": () => (/* binding */ adguardAssistant)
+  "dsOneAssistant": () => (/* binding */ dsOneAssistant)
 });
 
 ;// CONCATENATED MODULE: ./src/ioc.js
@@ -5952,7 +5952,7 @@ function SliderMenuControllerMobile(addRule, iframe) {
   };
 }
 ;// CONCATENATED MODULE: ./package.json
-const package_namespaceObject = {"i8":"1.0.0"};
+const package_namespaceObject = {"i8":"1.0.1"};
 ;// CONCATENATED MODULE: ./src/iframe.mobile.js
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
@@ -6279,7 +6279,7 @@ var isMobile = function isMobile(ua) {
 ;// CONCATENATED MODULE: ./src/index.js
 
 
-var adguardAssistant = isMobile(navigator.userAgent) ? adguardAssistantMini : adguardAssistantExtended;
+var dsOneAssistant = isMobile(navigator.userAgent) ? adguardAssistantMini : adguardAssistantExtended;
 })();
 
 var __webpack_export_target__ = self;
