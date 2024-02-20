@@ -1,5 +1,5 @@
 /*!
- * AdGuard Assistant - v1.0.1 - Mon Feb 19 2024
+ * AdGuard Assistant - v1.0.2 - Mon Feb 19 2024
  *
  * Copyright (c) 2024 asurvio. Licensed GPL-3.0
  */
@@ -5962,7 +5962,7 @@ function SliderMenuControllerMobile(addRule, iframe) {
   };
 }
 ;// CONCATENATED MODULE: ./package.json
-const package_namespaceObject = {"i8":"1.0.1"};
+const package_namespaceObject = {"i8":"1.0.2"};
 ;// CONCATENATED MODULE: ./src/iframe.mobile.js
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
