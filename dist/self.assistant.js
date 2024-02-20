@@ -1,5 +1,5 @@
 /*!
- * AdGuard Assistant - v1.0.3 - Mon Feb 19 2024
+ * AdGuard Assistant - v1.0.5 - Mon Feb 19 2024
  *
  * Copyright (c) 2024 asurvio. Licensed GPL-3.0
  */
@@ -382,7 +382,7 @@ module.exports = function (url, options) {
 /***/ ((module) => {
 
 // Module
-var code = "<div class=\"main\"> <div class=\"close\"></div> <div class=\"head\"> <div i18n=\"assistant_preview_header\" class=\"head_title\"> </div> <div i18n=\"assistant_preview_header_info\" class=\"head_text\"> </div> </div> <div class=\"foot\"> <button i18n=\"assistant_another_element\" class=\"btn btn-default\" id=\"select-another-element\" type=\"button\"></button> <div class=\"foot_action\"> <div class=\"foot_action_btn\"> <button i18n=\"assistant_preview_end\" class=\"btn btn-primary\" id=\"end-preview\" type=\"button\"></button> <button i18n=\"assistant_block\" class=\"btn btn-cancel\" id=\"block-element\" type=\"button\"></button> </div> </div> </div> </div>";
+var code = "<div class=\"main\"> <div class=\"close\"></div> <div class=\"head\"> <div i18n=\"assistant_preview_header\" class=\"head_title\"> </div> <div i18n=\"assistant_preview_header_info\" class=\"body_text\"> </div> </div> <div class=\"foot\"> <button i18n=\"assistant_another_element\" class=\"btn btn-default\" id=\"select-another-element\" type=\"button\"></button> <div class=\"foot_action\"> <div class=\"foot_action_btn\"> <button i18n=\"assistant_preview_end\" class=\"btn btn-primary\" id=\"end-preview\" type=\"button\"></button> <button i18n=\"assistant_block\" class=\"btn btn-cancel\" id=\"block-element\" type=\"button\"></button> </div> </div> </div> </div>";
 // Exports
 module.exports = code;
 
@@ -5410,7 +5410,7 @@ function SliderMenuControllerMobile(addRule, iframe) {
   };
 }
 ;// CONCATENATED MODULE: ./package.json
-const package_namespaceObject = {"rE":"1.0.3"};
+const package_namespaceObject = {"rE":"1.0.5"};
 ;// CONCATENATED MODULE: ./src/iframe.mobile.js
 function iframe_mobile_typeof(o) { "@babel/helpers - typeof"; return iframe_mobile_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, iframe_mobile_typeof(o); }
 function ownKeys(e, r) { var t = Object.keys(e); if (Object.getOwnPropertySymbols) { var o = Object.getOwnPropertySymbols(e); r && (o = o.filter(function (r) { return Object.getOwnPropertyDescriptor(e, r).enumerable; })), t.push.apply(t, o); } return t; }
